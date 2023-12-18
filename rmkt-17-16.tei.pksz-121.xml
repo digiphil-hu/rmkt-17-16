@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">121.</title>
+                <title type="main">(Oh élet, mért mégy el azoktul...)</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-121</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-121.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">MTAK
+                            Kézirattár K 97.</hi> 22a.</bibl> – A <ref
+                        target="rmkt-17-16.tei.pksz-120">120.</ref> és 121. versek között egy levél
+                    hiányzik, így lehet, hogy a 121. vers nem ezzel a strófával kezdődött, ámbár
+                    jelen formájában kerek egészet alkot. Kiad.: <bibl><abbr><hi rend="smallcaps"
+                                >Thaly</hi></abbr>, 192.</bibl> (4 vsz.); <bibl><abbr><hi
+                                rend="smallcaps">Harsányi–Gulyás</hi></abbr>, 320–321.
+                    </bibl></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 121.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Oh élet, mért mégy el azoktul,</l>
+                    <l n="2" xml:id="l.2">Az kik űressek illyen kintul,</l>
+                    <l n="3" xml:id="l.3">S nehezen válnak ez világtul,</l>
+                    <l n="4" xml:id="l.4">Nem emesztődvén ily sok butul?</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Mért gjőtresz igy, kérlek, engemet?</l>
+                    <l n="6" xml:id="l.6">S várakozással bus szivemet,</l>
+                    <l n="7" xml:id="l.7">Mért nyuityák az párkák éltemet,</l>
+                    <l n="8" xml:id="l.8">Hogy felejthetném győtrelmimet?</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Oh világ, mely szőrnyű vagy nékem!</l>
+                    <l n="10" xml:id="l.10">Igy gondolkodván nö inségem,</l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Oh, ha<note type="critic" xml:id="note.1"
+                                    >vajon; mikor</note> lészen vég buczu vétem</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">bucz<del corresp="copyist" instant="true"
+                                    >a</del><add corresp="copyist">u</add></rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Tőled s vigan el
+                                kőltőzése<corr>m</corr>?</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">kőltőzésen</rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Óh, szőrnyű kesédelmes halál,</l>
+                    <l n="14" xml:id="l.14">Ki kezébe meg nyugvásom ál,</l>
+                    <l n="15" xml:id="l.15"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Óhajtva várlak, s Fajdalommal</lem>
+                            <rdg wit="#W1" xml:id="rdg.3"><del corresp="corrector">Óhaitva</del><add
+                                    corresp="corrector">Óhajtva</add>; <del corresp="corrector"
+                                    >Faidalommal</del><add corresp="corrector"
+                                >Fajdalommal</add></rdg>
+                        </app></l>
+                    <l n="16" xml:id="l.16">Várlak; mért kesel? jöj el, halál!</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Ne késsél, óh halál, már kérlek,</l>
+                    <l n="18" xml:id="l.18">Ha rut vagy is, tőled nem félek,</l>
+                    <l n="19" xml:id="l.19">Hilak téged, mert buba élek,</l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Mert tudom, te nalad nyugvást lelek.<note
+                                    type="critic" xml:id="note.2"><p xml:id="note.21">13–20 A
+                                        halálhívogató versszakokhoz l. a <title><hi rend="italic"
+                                                >Chariclia</hi></title> II. részének 15. és 17.
+                                        strófáját: „Ó, te útálatos, halhatatlan halál”; „Mit késel
+                                        de halál, hogy nem jössz ezennel? / Avagy, ti istenek, mit
+                                        múlattok evvel! / Hozzá, kemény Pluto, hol vagy? Mondok:
+                                        Jöjj el […]” <bibl>(<hi rend="smallcaps"><unclear>Czobor
+                                                  Mihály</unclear></hi>: <title>Theagenes és
+                                                Chariclia</title>. Kiad. <hi rend="smallcaps"
+                                                >Kőszeghy Péter</hi>. Bp. 1996. [RMKT XVI/10.]
+                                            127.</bibl>) L. még a <title>Ferendum et
+                                            sperandum</title> e sorát: „Ellyeké nem tudom mert késik
+                                        halálom …” (<bibl><abbr>RMKT XVII/1.</abbr> 80. sz. 9. vsz.
+                                            355.</bibl>) Ennek leszármazottja <persName>Dobai
+                                                István<idno type="ITIdata">Q167004</idno></persName>
+                                        következő sora: „Elek é, nem tudom; / Ha késik halálom …”
+                                                (<bibl><abbr>RMKT XVII/14.</abbr> 186. sz. 3. vsz.
+                                            665.</bibl>)</p><p xml:id="note.22">A sor jelen
+                                        formájában egy szótaggal hosszabb a többinél; de mivel az
+                                        egyébként aprólékosan dolgozó javító kéz ezt nem javította,
+                                        mi sem módosítottuk.</p></note></lem>
+                            <rdg wit="#W1" xml:id="rdg.4">nal<del corresp="copyist" instant="true"
+                                    >d</del><add corresp="copyist">a</add>d</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

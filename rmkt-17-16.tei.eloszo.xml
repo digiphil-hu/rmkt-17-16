@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Előszó</title>
+                <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                            type="ITIdata">Q147413</idno></persName><persName><surname>S.
+                            Sárdi</surname><forename>Margit</forename><idno type="ITIdata"
+                            >Q59946</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.eloszo</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.eloszo.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <p xml:id="p.1">ELŐSZÓ</p>
+                <p xml:id="p.2">Négy költő verseit adjuk közre kötetünkben a 17. század végéről;
+                    életük utolsó szakasza a 18. század elejére is átnyúlik. Két főúri és két
+                    köznemesi származású költő, de négy különböző világ. Társadalmi, vallási,
+                    politikai különbözéseik ellenére valamennyien az érett barokk
+                    gondolatrendszerében, formai és stíluskészletével fejezik ki költői
+                    szándékaikat. A feltörekvő székely nemesi családban született <persName>Rozsnyai
+                            Dávid<idno type="ITIdata">Q60007</idno></persName><persName>I. Apafi
+                            Mihály<idno type="ITIdata">Q140180</idno></persName> török deákja,
+                    tolmácsa. Elvetélt történetírói terveinek, ugyanakkor rendkívüli jelentőségű
+                    forrásközléseinek hozadéka az a kevéske vers is, amely tőle fönnmaradt, s amely
+                    a 17. századi Erdély romlásának folyamatát érzékelteti. <persName>Koháry
+                            István<idno type="ITIdata">Q46344</idno></persName> előkelő, gazdag
+                    főúri családok rokona, családjának több tagja esett el a törökellenes harcokban,
+                    ő maga (akárcsak öccse) <persName>Thököly<idno corresp="Thököly Imre"
+                            type="ITIdata">Q160737</idno></persName> fogságában raboskodik, s
+                            <placeName>Eger<idno type="ITIdata">Q277</idno></placeName> alatt
+                    harcolva kap majdan bénaságot okozó sebet. Nagylélegzetű életmüve híven tükrözi
+                    föltétlen császárhüségét, bigottságig menő katolikus vallásosságát.
+                        <persName>Petrőczy Kata Szidónia<idno type="ITIdata"
+                        >Q149557</idno></persName> a kuruckodó, protestáns felvidéki föúri családok
+                    leszármazottja, <persName>Thököly Imre</persName> unokatestvére, a kuruc vezér
+                        <persName>Petrőczy István<idno type="ITIdata">Q53473</idno></persName> húga;
+                    maga is csaknem egy évet tölt el a császári hadvezér, <persName>Rabutin<idno
+                            corresp="Rabutin, Jean"/></persName> fogságában, s két versben is
+                    fölemeli szavát a Habsburg-hatalommal összeforrott erőszakos katolizálás ellen.
+                    Emellett – bűnbánó protestáns versein túl – páratlanul nyílt, őszinte,
+                    önvallomásos lírát teremt egy olyan évszázadban, amelyben a férfi költőknek erre
+                    nem volt a társadalom által tolerált hangjuk. <persName>Kőszeghy Pál<idno
+                            type="ITIdata">Q54288</idno></persName> ugyanilyen politikai
+                    irányultságú, friss nemességű családból származó értelmiségi familiáris, akinek
+                    egész családja a Bercsényi-udvar szolgálatában töltötte életét. Egyetlen
+                    fönnmaradt hosszú müve is <persName>Bercsényi Miklós<idno type="ITIdata"
+                            >Q142311</idno></persName> házasságát énekli meg. A kötetben közölt
+                    életművek legnagyobbrészt csak töredékes közlésekből ismertek. Csupán Koháry
+                    István gondoskodott arról, hogy versei, legalább részben, nyomtatásban
+                    megjelenjenek, de ő is már csak a 18. század elején. Rozsnyai, Petrőczy Kata és
+                    Kőszeghy Pál versei a múlt századforduló körüli évtizedekben jelentek meg
+                    teljességükben, Koháry versei pedig összegyűjtve még soha. Így a kötetben
+                    föltáruló négy életmű remélhetőleg jelentősen gazdagítani fogja a 17. század
+                    negyedik negyedének irodalmáról alkotott képet.</p>
+                <p xml:id="p.3">Kiadványunk előkészítésében, Koháry István verseinek sajtó alá
+                    rendezésében részt vett sajnálatosan korán elhunyt mesterünk és barátunk,
+                        <persName>Komlovszki Tibor</persName> is, akinek hiányát a kötet befejező
+                    munkálataiban fájdalmasan éreztük. Tőle származik Koháry kinyomtatott verseinek
+                    sajtó alá rendezése. Rövidre szabott idejéből sajnos már csak az életrajz egy
+                    részének megírására futotta. Az elkészült részeket kurziválással jelölve
+                    maradéktalanul beépítettük a megfelelő helyekre.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

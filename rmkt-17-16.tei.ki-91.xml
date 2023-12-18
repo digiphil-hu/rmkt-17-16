@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">91.</title>
+                <title type="main">Devs vbiqve conservator protector mevs</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-91</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-91.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott
+                        kiadásai:</p><p xml:id="crit.1.p.2">I. <bibl><hi rend="smallcaps"
+                            >Thaly</hi>: I. m. <abbr>Száz</abbr> 1871. 58–59.</bibl> (a
+                                <placeName>szentantali<idno type="ITIdata">Q6921</idno></placeName>
+                        kastély falán tölgyfa rámában függő, díszes példányról);</p><p
+                        xml:id="crit.1.p.3">II. <bibl><hi rend="smallcaps">Borovszky Samu</hi>:
+                                <title>Gömör-Kishont vármegye községei.</title> Bp. é. n. 46.</bibl>
+                        (a <placeName>balogi<idno type="ITIdata">Q22383</idno></placeName> kastély
+                        kápolnájának 4 bibliai képet ábrázoló festményéről, mintegy azokat
+                        illusztrálják);</p><p xml:id="crit.1.p.4">III.<bibl><hi rend="smallcaps"
+                                >Benedek</hi>: <title>Adatok a garamszentbenedeki Múzeum
+                                létesítéséhez.</title> Esztergom 1911. 13.</bibl> (ugyanazon képeket
+                        tartalmazó bibliai festményt ír le a <placeName>garamszentbenedeki<idno
+                                type="ITIdata">Q23217</idno></placeName> apátságból, amely eszerint
+                        két, egymáshoz igen hasonló példányban létezett);</p><p xml:id="crit.1.p.5"
+                        >IV. <bibl><hi rend="smallcaps">Haiczl Kálmán</hi>: <title>A
+                                garamszentbenedeki apátság története.</title> Bp. 1913.
+                            147–148.</bibl> (ugyanazon festményről; közleménye <hi rend="smallcaps"
+                            >Benedek</hi> szövegének átvétele).</p><p xml:id="crit.1.p.6">A vers az
+                            <date from="1723" to="1726">1723–1726</date> között folytatólag íródott
+                            <ref target="rmkt-17-16.tei.ki-90">90. vers</ref> első hat strófájának
+                        kiemelése.</p><p xml:id="crit.1.p.7">A bibliai festmény címe (Deus ubique
+                        conservator…) és latin feliratai (Ionas In Ventre CetI ILLæsVs In portVM
+                        eVaDIt; Insontes Vero IVVenes In fornaCe arDentI ILLæsI ManserVnt) <date
+                            when="1726">1726</date>-ot adnak; a Gömör-Kishont vármegye községei egy
+                        helyütt kissé eltérő szöveget (arDent ILLæsI perManerUnt) és <date
+                            when="1725">1725</date>-ös évszámot közöl.</p><p xml:id="crit.1.p.8"
+                                ><persName><hi rend="smallcaps">Csanda Sándor</hi><idno
+                                type="ITIdata">Q143169</idno></persName> értesülése szerint „a kép
+                        már nincs meg a kastélyban”. (<bibl><title>Koháry István füleki kapitány
+                                börtönverseinek keletkezése.</title> In: Uő: <title>Szülőföldünk
+                                régebbi irodalmi hagyományai.</title> Pozsony 1986.
+                        131.</bibl>)</p><p xml:id="crit.1.p.9">Hogy a képeket
+                            <persName>Koháry</persName> maga festette volna (<persName><hi
+                                rend="smallcaps">Borovszky Samu</hi><idno type="ITIdata"
+                                >Q41888</idno></persName>; <persName><hi rend="smallcaps"
+                                >Benedek</hi><idno corresp="Haiczl Kálmán"/></persName>;
+                                <persName><hi rend="smallcaps">Haiczl Kálmán</hi><idno
+                                type="ITIdata">Q153434</idno></persName> már kérdőjellel), teljesen
+                        légből kapott állítás. L. még a <ref target="rmkt-17-16.tei.ki-90">90.
+                            sz.</ref> vers jegyzeteit.</p><p xml:id="crit.1.p.10">E vers esetében
+                        három egyenértékű előfordulásról van szó; közülük a III. számút tekintjük
+                        főváltozatnak, mert nyelvihelyesírási tekintetben <persName>Benedek<idno
+                                corresp="Haiczl Kálmán"/></persName> közlése látszik a
+                        leghívebbnek.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1"><hi rend="smallcaps">Thaly</hi>: I. m. Száz 1871.
+                        58–59.</witness>
+                    <witness xml:id="W2"><hi rend="smallcaps">Borovszky Samu</hi>: Gömör-Kishont
+                        vármegye községei. Bp. é. n. 46.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 91.</fw>
+                <head type="title">DEVS VBIQVE CONSERVATOR PROTECTOR MEVS</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Szent Péter vas láncon sinlet
+                                tömlöczében,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">sínlett</rdg>
+                        </app></l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Vettetet Dániel oroszlány vermében,</lem>
+                            <rdg wit="#W2" xml:id="rdg.2">Oroszlán</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3">Az három iffijú égő kemenczében,</l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">És Jónás Propheta tenger örvényében.</lem>
+                            <rdg wit="#W2" xml:id="rdg.3"><note type="critic" xml:id="note.1">a 2–4
+                                    sorok 4–2–3 sorrendben</note></rdg>
+                            <rdg wit="#W3" xml:id="rdg.4"><note type="critic" xml:id="note.2">a 2–4
+                                    sorok 2–4–3 sorrendben; eredeti sorrendjük, mint az I-ben,
+                                    bizonyára a 2. strófa sorainak sorrendjével egyezett
+                                meg</note></rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Megszabadult Péter maga tömlöczébül,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">Megszabadúlt</rdg>
+                        </app></l>
+                    <l n="6" xml:id="l.6">Dániel Próféta Oroszlány vermébül,</l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Az három iffiú égő kemenczébül,</lem>
+                            <rdg wit="#W1" xml:id="rdg.6">kemenczébül</rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Jónás Próféta is tenger örvényébül.</lem>
+                            <rdg wit="#W2" xml:id="rdg.7">Iónás proféta tenger</rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Engemet is Isten Munkács kővárábul,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">kővárábúl</rdg>
+                        </app></l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Lábaimnak nehéz, felvert, nagy
+                                vasábul,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">vasábúl</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Hoszszú rabságomnak nyomorúságábul</lem>
+                            <rdg wit="#W1" xml:id="rdg.10">nyomorúságábúl</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">Szabaditot, mintegy cethalnak
+                                gyomrábul.</lem>
+                            <rdg wit="#W1" xml:id="rdg.11">Szabadított; gyomrábúl</rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Mellyért adok hálát az élő Istennek,</l>
+                    <l n="14" xml:id="l.14"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11">Igaz, tiszta szivbül eö szent
+                                felségének,</lem>
+                            <rdg wit="#W1" xml:id="rdg.12">szívbűl</rdg>
+                        </app></l>
+                    <l n="15" xml:id="l.15">Hozzám megmutatot, ingyen kegyelmének,</l>
+                    <l n="16" xml:id="l.16"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12">Áldás és dicsősség legyen szent
+                                nevének.</lem>
+                            <rdg wit="#W1" xml:id="rdg.13">dücsősség légyen</rdg>
+                            <rdg wit="#W2" xml:id="rdg.14">Dütsőség légyen</rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17"><app xml:id="app.13">
+                            <lem wit="#KK" xml:id="lem.13">Volt, van is reményem Isten
+                                irgalmában</lem>
+                            <rdg wit="#W1" xml:id="rdg.15">Vólt</rdg>
+                        </app></l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.14">
+                            <lem wit="#KK" xml:id="lem.14">Mindenüt, mindenkor mostoha
+                                sorsomban,</lem>
+                            <rdg wit="#W1" xml:id="rdg.16">s mindenkor</rdg>
+                        </app></l>
+                    <l n="19" xml:id="l.19"><app xml:id="app.15">
+                            <lem wit="#KK" xml:id="lem.15">Leszen gondviselőm minden
+                                nyavalyámban,</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.17">Lészen</rdg>
+                        </app></l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.16">
+                            <lem wit="#KK" xml:id="lem.16">Megtart halálomig kegyes
+                                oltalmában.</lem>
+                            <rdg wit="#W2" xml:id="rdg.18">óltalmában</rdg>
+                        </app></l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Életemnek pedig elfolyván órája,</l>
+                    <l n="22" xml:id="l.22">Engemet emésztő testem nyavalyája,</l>
+                    <l n="23" xml:id="l.23">Hogy megszünjék továb fejem galibája,</l>
+                    <l n="24" xml:id="l.24"><app xml:id="app.17">
+                            <lem wit="#KK" xml:id="lem.17">Irgalma Istennek leszen nyugtatója.</lem>
+                            <rdg wit="#W1" xml:id="rdg.19">lészen</rdg>
+                            <rdg wit="#W2" xml:id="rdg.20">Irgalmas; lészen</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

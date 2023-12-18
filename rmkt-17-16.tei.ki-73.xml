@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">73.</title>
+                <title type="main">Bús elmének le csendesitése</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-73</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-73.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Quart. Hung.
+                            981.</hi> 3a–4b. Itt címként a füzetcím áll.</p><p xml:id="crit.1.p.3"
+                        >II. <hi rend="bold">Sok féLe kereszteL EL-kesereDet eMbernek kI-kohoLt
+                            Verse.</hi> 1–3.</p><p xml:id="crit.1.p.4">Latin fordítása: <title>Pia
+                            DoLorIferI AnIMI ConsoLatIo.</title><bibl><title>Salictum
+                                Heliconis</title>. <placeName>Buda</placeName><date when="1725"
+                                >1725</date>. G3b–G4b.</bibl> A cím mellett kézzel: <hi
+                            rend="italic">1706</hi>. A kronosztichon értéke is ennyi.</p><p
+                        xml:id="crit.1.p.5">A záróstrófa szerint <date when="1706">1706</date>.
+                        böjtmás havának első napján keletkezett.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Quart. Hung. 981. 3a–4b.</witness>
+                    <witness xml:id="W2">Sok féLe kereszteL EL-kesereDet eMbernek kI-kohoLt Verse.
+                        1–3.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 73.</fw>
+                <head type="title">B<hi rend="bold">Ú</hi>S E<hi rend="bold">LM</hi>ÉNEK <hi
+                        rend="bold">L</hi>E <hi rend="bold">C</hi>SEN<hi rend="bold">D</hi>ES<hi
+                        rend="bold">I</hi>TÉSE</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">A’Rad, s-nevelkedik keserve ügyemnek,</l>
+                    <l n="2" xml:id="l.2">szaporodik száma viselt keresztemnek,</l>
+                    <l n="3" xml:id="l.3">irgalmát ösmérvén melyben Istenemnek</l>
+                    <l n="4" xml:id="l.4">el szenvedem súllyát öregbült terhemnek.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Külömb féle kereszt jóllehet szivemet,</l>
+                    <l n="6" xml:id="l.6">el nyomja terhével világon éltemet,</l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">tellyes reménséggel hiszem
+                                Istenemet,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">reménységgel</rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8">terhének súllyátúl szabadit engemet.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Ámbár most szivemnek légyen kesergése,</l>
+                    <l n="10" xml:id="l.10">minden jovaimnak prædára kelése,</l>
+                    <l n="11" xml:id="l.11">vigaztalást vészen kereszt viselése,</l>
+                    <l n="12" xml:id="l.12">vallott káraimnak türö szenvedése.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Kedves légyen nálam minden féle kereszt,</l>
+                    <l n="14" xml:id="l.14">mellyet az jó Isten én szivemre ereszt,</l>
+                    <l n="15" xml:id="l.15"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">szállittya lelkemben kegyelmét à
+                                kereszt,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">az</rdg>
+                        </app></l>
+                    <l n="16" xml:id="l.16">szivemben malasztya vigasztalást ereszt.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Hozza szep virágát tövis köszt rósa fa,</l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">menti veszélyektül gállyákat
+                                árboczfa,</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">veszélyektől</rdg>
+                        </app></l>
+                    <l n="19" xml:id="l.19">türö szenvedéssel virágzik keresztfa,</l>
+                    <l n="20" xml:id="l.20">jól tudom szivemben, böcsös, drága Násfa.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Isten ajándéka tehát én keresztem,</l>
+                    <l n="22" xml:id="l.22">törödött szivemre örömest éresztem,</l>
+                    <l n="23" xml:id="l.23">töredelmes szivel magamat ébresztem,</l>
+                    <l n="24" xml:id="l.24">ügyemet Istennek elêiben terjesztem.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Búban merült fejem majd csak meg nem öszül,</l>
+                    <l n="26" xml:id="l.26">mert edgyik nyavalyám mást váratlanúl szül,</l>
+                    <l n="27" xml:id="l.27">mellyek miatt szivem hól hevül, s-hol elhül,</l>
+                    <l n="28" xml:id="l.28">abban noha mostis az jó reménség ül.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29"> Viseli keresztét à világon kiki,</l>
+                    <l n="30" xml:id="l.30">el hidgyed, hogy nincsen kereszt nélkül senki,</l>
+                    <l n="31" xml:id="l.31">akár hogy s-akár mint titkollya valaki,</l>
+                    <l n="32" xml:id="l.32">vagy egyszer, vagy mászor, elhiszi akárki.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Nincsen ez világnak tellyes bóldogsága,</l>
+                    <l n="34" xml:id="l.34">öröme hivságos, el fogy vigassága,</l>
+                    <l n="35" xml:id="l.35">képzet jovainak nincs állandósága,</l>
+                    <l n="36" xml:id="l.36">bizonyos mindenben múlandó hivsága.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Ki Földön nyomorgok, nem egyedül
+                                vagyok,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">nyomorogh</rdg>
+                        </app></l>
+                    <l n="38" xml:id="l.38">sürü kereszteim, meg vallom, hogy nagyok,</l>
+                    <l n="39" xml:id="l.39">némelykor hevülök, s-olykor majd meg fagyok,</l>
+                    <l n="40" xml:id="l.40">de panaszszaimnak mostan békét hagyok.</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41">Keresztemnek terhét viselem békével,</l>
+                    <l n="42" xml:id="l.42"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">biztatván magamat könnyebülésével,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">magamot</rdg>
+                        </app></l>
+                    <l n="43" xml:id="l.43">mivelhogy reménlem, Isten kegyelmével</l>
+                    <l n="44" xml:id="l.44">meg vigaztalásom lesz nem sok üdövel,</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Terhe keresztemnek könnyebülést vészen,</l>
+                    <l n="46" xml:id="l.46">saját hajlékomban jutatt, s-viszsza tészen,</l>
+                    <l n="47" xml:id="l.47">ha ottan semmit sem találokis készen,</l>
+                    <l n="48" xml:id="l.48">csendes nyugodalmom magaméban lészen.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Akkor szenvedésem fog örömet hozni,</l>
+                    <l n="50" xml:id="l.50"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">keresztem tövisse rósává változni,</lem>
+                            <rdg wit="#W1" xml:id="rdg.6">tővise</rdg>
+                        </app></l>
+                    <l n="51" xml:id="l.51">virága Nás fámnak szépen illatozni,</l>
+                    <l n="52" xml:id="l.52">be tölt reményemmel Istennek áldozni,</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="53" xml:id="l.53"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Midön gondolkodnám keresztem
+                                súllyárúl,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">súllyáról</rdg>
+                        </app></l>
+                    <l n="54" xml:id="l.54"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">mostani ügyemnek súlyos mivoltárúl,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">súllyos mi vóltáról</rdg>
+                        </app></l>
+                    <l n="55" xml:id="l.55"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">nem lévén kétségem Isten irgalmarúl,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">irgalmáról</rdg>
+                        </app></l>
+                    <l n="56" xml:id="l.56"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">meg térö bünöshöz örök jó voltárúl.</lem>
+                            <rdg wit="#W1" xml:id="rdg.10">vóltáról</rdg>
+                        </app></l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="57" xml:id="l.57">Meg irt verseimet javaim vesztében,</l>
+                    <l n="58" xml:id="l.58">à keresztet látván holdnak meg töltében,</l>
+                    <l n="59" xml:id="l.59">szerzettem szenvedve magam keresztében,</l>
+                    <l n="60" xml:id="l.60">könnyebedésemet várván viseltében,</l>
+                </lg>
+                <lg n="16" xml:id="lg.16">
+                    <l n="61" xml:id="l.61">Ezer hét szaz és hat esztendö számának,</l>
+                    <l n="62" xml:id="l.62">elsö napján s-estén à böjt más havának</l>
+                    <l n="63" xml:id="l.63">láttatván az égen Pest felöl Budának</l>
+                    <l n="64" xml:id="l.64">Hóld ellenben jele három kereszt-fának.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

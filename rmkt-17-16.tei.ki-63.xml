@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">63.</title>
+                <title type="main">Rövid versekben vett aiánló levele sovány verseimnek </title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-63</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-63.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A vers kéziratai és
+                        nyomtatott kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Quart.
+                            Hung. 4159.</hi> 1b. (A vers végi kronosztichon-sorok is.)</p><p
+                        xml:id="crit.1.p.3">II. <hi rend="bold">OSZK Quart. Hung. 193.</hi> 27a.
+                        Mellette ceruzával: <hi rend="italic">1685</hi>, alatta: <hi rend="italic"
+                            >1684</hi>. Végén: <hi rend="italic">kér erre CZEKELY VERSEI ÁLTAL
+                            TEGEDET TISZTELŐ s-bőCsŰLLö, sanYarV s-nagY hoszV rabságot VIseLő
+                            ALAZATOS SZOLgáD</hi>. E kronosztichon értéke <date when="1681"
+                            >1681</date>.</p><p xml:id="crit.1.p.4">III. <hi rend="bold">KesereDet
+                            rabnak bÚban ÚszVa, s-annak terhét hÚzVa ébren aLVVa Látót áLma.</hi>
+                        A2a. Az áLma szó M-je nincs kiemelve, így kronosztichon itt hibás.</p><p
+                        xml:id="crit.1.p.5">A verscím kronosztichonja: <date when="1685"
+                        >1685</date>.</p><p xml:id="crit.1.p.6">A hosszú vers 4. és 5. részét az
+                            <bibl>OSZK Quart. Hung. 981.</bibl> jelzetű kézirat is tartalmazza
+                        (13a–15b., l. a kéziratok leírását).</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">RMKT </witness>
+                    <witness xml:id="KI-1">OSZK Quart. Hung. 4159. 1 b. </witness>
+                    <witness xml:id="W2">OSZK Quart. Hung. 193. 27a.</witness>
+                    <witness xml:id="W3">KesereDet rabnak bÚban Úszva, s-annak terhét hÚzVa ébren
+                        aLVVa Látot áLma. A2a.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <head type="title"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">KESERE<hi rend="bold">D</hi>ET RABNAK B<hi
+                                rend="bold">Ú</hi>BAN <hi rend="bold">Ú</hi>SZ<hi rend="bold"
+                            >V</hi>A S-ANNAK TERHÉT H<hi rend="bold">Ú</hi>Z<hi rend="bold">V</hi>A,
+                            ÉBREN A<hi rend="bold">L</hi><hi rend="bold">VV</hi>A <hi rend="bold"
+                                >L</hi>ÁTOT Á<hi rend="bold">LM</hi>A, <note type="critic"
+                                xml:id="note.1">A füzetcím kronosztichonjai: <date when="1685"
+                                    >[1]685</date>; <date when="1694">1694</date>. Az <hi
+                                    rend="italic">álma</hi> szó M-je a nyomtatványban nincs
+                                kiemelve, így ott a kronosztichon hibás.</note></lem>
+                        <rdg wit="#W2" xml:id="rdg.1">EG<hi rend="bold">Y</hi> KESERGŐ <note
+                                type="critic" xml:id="note.2">[mellette más kézzel, kurzív írással:
+                                    <hi rend="italic">egy kesergő</hi>] </note><sic>SESEREG<hi
+                                    rend="bold">V</hi>E</sic>, <hi rend="bold">V</hi>NT<hi
+                                rend="bold">I</hi>G ÉS FARATT<hi rend="bold">I</hi>G HEN<hi
+                                rend="bold">Y</hi>E<hi rend="bold">L</hi>Ö S-HEN<hi rend="bold"
+                                >Y</hi>É<hi rend="bold">L</hi><hi rend="bold">V</hi>E REGT<hi
+                                rend="bold">ŰL</hi> FOG<hi rend="bold">V</hi>ÁST S<hi rend="bold"
+                                >I</hi>N<hi rend="bold">L</hi>Ö, SOK B<hi rend="bold">VV</hi>A<hi
+                                rend="bold">L</hi> S-NAG<hi rend="bold">Y</hi> BÁNATTA<hi
+                                rend="bold">L</hi> Keser<hi rend="bold">V</hi>essen
+                                <supplied>sin</supplied><hi rend="bold">L</hi>ö, A'<hi rend="bold"
+                                >V</hi>AG<hi rend="bold">Y</hi><hi rend="bold">V</hi>G<hi
+                                rend="bold">Y</hi>AN <hi rend="bold">I</hi>NKÁB EPPEN E<hi
+                                rend="bold">L</hi>HO<hi rend="bold">L</hi>t, <hi rend="bold"
+                                >Ü</hi>G<hi rend="bold">Y</hi>E FOG<hi rend="bold">Y</hi>OT RABNAK
+                            ÉBREN ALVVA LATOT ÁLMA,</rdg>
+                        <rdg wit="#W3" xml:id="rdg.2">áLma</rdg>
+                    </app></head>
+                <head type="subtitle"><app xml:id="app.2">
+                        <lem wit="#KK" xml:id="lem.2">MeLLYet heVertében rabságos ÜgYében szVnn
+                            YaDozása közben Lelra Versekben annak szIVes Ióakaróla</lem>
+                        <rdg wit="#W2" xml:id="rdg.3"><hi rend="bold">M</hi>E<hi rend="bold"
+                                >LLY</hi>ET HE<hi rend="bold">V</hi>ERTEBEN ÉS SZ<hi rend="bold"
+                                >V</hi>NN<hi rend="bold">Y</hi>A<hi rend="bold">D</hi>OZASÁ Közben
+                            RABSÁGOS <hi rend="bold">Ű</hi>G<hi rend="bold">Y</hi>EBEN <hi
+                                rend="bold">L</hi>E <note type="critic" xml:id="note.3">[más kézzel
+                                a margón jellel beszúrva: <hi rend="italic">is Ugyan</hi>]
+                                </note><hi rend="bold">I</hi>RA <hi rend="bold">V</hi>ERSEKben
+                                    <del>KOHAR<hi rend="bold">Y</hi><hi rend="bold">I</hi>ST<hi
+                                    rend="bold">V</hi>ÁN</del><note type="critic" xml:id="note.4"
+                                >Ceruzával áthúzva.</note> A KESER<hi rend="bold">V</hi>ES ÉS SAN<hi
+                                rend="bold">Y</hi>AR<hi rend="bold">V</hi> RABSÁGNAK E<hi
+                                rend="bold">YI</hi>E<hi rend="bold">L</hi> NAPPA<hi rend="bold"
+                                >L</hi> BEZÁRT FOGHAZABAN, B<hi rend="bold">V</hi>banatnak <hi
+                                rend="bold">V</hi>ntaLan fent forgó HoLnapIaban, KESER<hi
+                                rend="bold">Ű</hi>SÉGNEK heVerVe s-henYéLVe fárasztó s-bagYaszto, Io
+                            keDVet eLbonto s-eLrontó, szŰnteLenŰL foLYó napIan, NagY HoszÚ Inségnek
+                            szIVet eLkeser<del>e</del><add type="corr">I</add><note type="critic"
+                                xml:id="note.5">Ceruzával javítva.</note>tö s-elepesztö ESZTEN<hi
+                                rend="bold">D</hi>E<hi rend="bold">I</hi>EBEN.<note type="critic"
+                                xml:id="note.6">E cím kronosztichonjai a hibák javításától függően:
+                                    <date when="1677">1677</date> vagy <date when="1678"
+                                >1678</date>; <date when="1681">1681</date>; <date when="1678"
+                                    >1678</date> vagy <date when="1679">1679</date></note></rdg>
+                    </app></head>
+            </div>
+            <div type="poem" xml:id="d.2" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 63.</fw>
+                <head type="title">RÖ<hi rend="bold">VID</hi><hi rend="bold">V</hi>ERSEKBEN <hi
+                        rend="bold">V</hi>ETT A<hi rend="bold">I</hi>ÁN<hi rend="bold">L</hi>Ó <hi
+                        rend="bold">L</hi>E<hi rend="bold">V</hi>E<hi rend="bold">L</hi>E SO<hi
+                        rend="bold">V</hi>ÁN<hi rend="bold">Y</hi><hi rend="bold">V</hi>ERSE<hi
+                        rend="bold">IM</hi>NEK</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">BÓldog szűz Mária el jedzett férjének,</l>
+                    <l n="2" xml:id="l.2">Kegyes, áldot Jesus fel nevelöjének,</l>
+                    <l n="3" xml:id="l.3">Jésus és Mária gondviselöjének,</l>
+                    <l n="4" xml:id="l.4">ajánlom tenéked, szentséges Jósephnek.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Csekély verseimben tett fáratságomat,</l>
+                    <l n="6" xml:id="l.6"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">gonddal, búsúlással el-kezdett
+                                munkámat,</lem>
+                            <rdg wit="#W2" xml:id="rdg.4"> gondal búval kezdett, s-véghben</rdg>
+                        </app></l>
+                    <l n="7" xml:id="l.7">Vedd jó néven tülem kis ajándékomat</l>
+                    <l n="8" xml:id="l.8">s-néked kedveskedö én jó szándékomat.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Könyörögj érettem az élö Istennek,</l>
+                    <l n="10" xml:id="l.10">nyerhessem kegyelmét ö szent fölségének,</l>
+                    <l n="11" xml:id="l.11">Ohaitott örömét keserült szivemnek</l>
+                    <l n="12" xml:id="l.12">s-kivánt szabadságát az én rab fejemnek.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Miként Jóseph értvén álmát Faraónak</l>
+                    <l n="14" xml:id="l.14">szerzé jó folyását minden dolgainak,</l>
+                    <l n="15" xml:id="l.15">úgy teis meg értvén mivóltát álmomnak,</l>
+                    <l n="16" xml:id="l.16"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">szerezd, kérjed, s-nyerjed jóvóltát
+                                sorsomnak.</lem>
+                            <rdg wit="#W2" xml:id="rdg.5">s-nyerhetd, jo folytát vitt
+                                munkamott</rdg>
+                        </app></l>
+                </lg>
+                <p xml:id="p.1">Erre kér tégeDet, </p>
+                <p xml:id="p.2">s-ezt szIVessen kéVánnYa tŰLeD </p>
+                <p xml:id="p.3">szentséges VóLtoDnak </p>
+                <p xml:id="p.4">búban keseregVe tlszteLöIe.<note type="critic" xml:id="note.7"> E
+                        kronosztichon <date when="1684">1684</date>-et ad. Az <bibl>OSZK Quart.
+                            Hung. 4159.</bibl> jelzetű kéziratban, valamint a <bibl>Quart. Hung.
+                            981.</bibl> 28a. lapján e vers végi kronosztichon után kézzel
+                        bejegyezve: <hi rend="italic">1685</hi>. </note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

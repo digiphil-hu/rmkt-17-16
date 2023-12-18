@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">10.</title>
+                <title type="main">(Hired vala nagyobb Világon, mint eröd...)</title>
+                <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                            type="ITIdata">Q60007</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.rd-10</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.rd-10.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Utólag ráragasztott
+                        zöld és rózsaszín papíron, alatta nincs szöveg.</p><p xml:id="crit.1.p.2"
+                        >Kiad.: <bibl><hi rend="smallcaps">Szilágyi Sándor</hi>: I. m. 173.</bibl>;
+                                <bibl><hi rend="smallcaps">Elekes Mihály</hi>: I. m.
+                        102–103.</bibl>; <bibl><hi rend="smallcaps">Dézsi Lajos</hi>: I. m.
+                            249–250.</bibl><persName><hi rend="smallcaps">Imre
+                            Sándoré</hi></persName><title>A néphumor a magyar irodalomban</title> c.
+                        kötetében említi a verset. (<bibl>Bp. 1890. 94.</bibl>) – A vers hőse
+                            <persName>II. Rákóczi György<idno type="ITIdata"
+                            >Q249882</idno></persName>.</p><p xml:id="crit.1.p.3">A 10. sz. alatt
+                        ismertetett, <persName>Kornis Zsigmondnak<idno corresp="Kornis Zsigmond"
+                                type="ITIdata">Q62721</idno></persName> ajánlott autográf kéziratban
+                        a vers utolsó strófája hatsorosra bővített változatban, önálló versként
+                        szerepel (98/b.): „Meg kinála Isten tégedet háromszor, / Szelepcs s Homonn
+                        által első indulatkor, / Az után khán által haza szaladáskor, / Végre Vezér
+                        által Váradon létedkor. / Igazán mondgya azt a’ Törők, hogy mikor / Arczul
+                        csap az Isten, szemet bé kőt akkor.” Ezt a hatsoros változatot kiadta
+                                <persName><hi rend="smallcaps">Perényi József</hi></persName>.
+                            (<bibl>I. m. 108.</bibl>)</p><p xml:id="crit.1.p.4"><persName>II.
+                            Rákóczi György</persName> uralmát és bukását Rozsnyai minden
+                        kéziratváltozatban hasonló szövegezésben összegezte, az 5/a. sz. alatt
+                        ismertetett, <persName>Bethlen Miklósnak<idno corresp="Bethlen Miklós"
+                                type="ITIdata">Q239823</idno></persName> ajánlott példányban
+                        így:</p><p xml:id="crit.1.p.5">„Bizonyos Hallomással had Concludályam e
+                        szegény igaz Magyarnak dolgát. Hogy a többit el halgassam, mikor ez a
+                        szegény Fejedelmi Vitéz Ember, mind a két Császártol szó fogadatlanságért
+                        egyszer ’s mind üldöztetnek, ’s Váradon commorálna, akkor a nagy fogu Fö
+                        Vezér Boros Jenöt vitattya vala, e Casusba e két nagy és egymás ellen
+                        halaloson ellenkezö, de egymástol csak hat mély földnyire lévö erös és
+                        erötelen Emberek nem tudva egymásfelöl külömbözö képpen gondolkodnak vala,
+                        Rákóczi György azon, hogy erötlen erövel, igéreti szerént, maga
+                        koczkáltatásával is a Török Táboron magát vagy valami jo válagatot hadát
+                        által vágvais Jenönek, hogy már succurályon, ’s a már réá haraguvó Császárt
+                        annális inkább gerjeszsze. A nagy fogu Vezér ellembe azon
+                            <supplied>haereal</supplied>, hogy a vétett Fejedelmet Urával
+                        Császárjával, mint gratiáztathassa meg, e végre Rákoczi Györgyöt Jenö alá
+                        Táborra hivattya obsequiumra. Ezt a hust sok féle Levél fözik Váradon, ’s
+                        Patakon, de senki nem vetet jobb borsot belé, mint ama Extraneus Barkoczi
+                        Lászlo, ki tanácsa melle életét igérve javallya vala a szegény Fejedelemnek
+                        a Gratiáért a Török Császár köntöséhez való personalis adhesiot, de a Pataki
+                        Annyai, es a Váradi Fiui mutua relatio meg nyomván a hasznos Tanácsot a jo
+                        alkalmatosságnak Váradon el mulatását, a fületlen, es Farkatlan
+                        reluctantiának Continuátioja ugyan Váradon veres viaszszal petsétlé bé; erre
+                        minthogy sokan vagy erzik vagy tudgyák nem kel Tanu.</p><p
+                        xml:id="crit.1.p.6">De minthogy erröl a nagy birodalmok közöttis sok szo
+                        volt, ide kel tennem, a mit énis az Orientalis Plágán ott laktomban tulajdon
+                        Fülemmel hallottam, ’s szemeimmel néztem a beszéllö szájokbol felöle; Mikor
+                        az akkori Portai Fö Talmács Zolfigár Aga nevö Török Déákja a Császárnak (ki
+                        hazája szerént Pécsi Fiu vala) Betlen Gábornak leg kedvessebb, és igen meg
+                        hitt a két Rákocziaknak is qualitercunque baráttyok vala, ugyan ezen II.
+                        Rákoczi György miá suspitiora Luppuj Vajdával edgyütt, amaz híres Jediculai
+                        Tömlöczben raboskodnék, ezen Fö Talmácsnak Fiai attyokhoz bé járván, Luppuj
+                        Vajdával való beszélgetések közben, illyeneket hallottak Attyoktúl, melyeket
+                        Nekemis a Portán laktomban, kivált képpen a Nagyobbik Fia Mehemed Aga igy
+                        referált.</p><p xml:id="crit.1.p.7">Hallottam az Attyámtol Luppuj Vajdának
+                        beszélli vala, hogy ö néki a Nagy Fogu Vezér mondotta Jenö alatt, hogy ha
+                        Rákoczi György magát meg alázván; Jenö alá hivattatasakor, oda ment volna;
+                        ’s Hatalmas Császár szárnyai alá önként hajlott volna, a Lengyel országi szo
+                        fogadatlan siralmas expeditiois el felejtödött volna, ’s a Fejedelemségh is
+                        recondáltatott volna, melyet igy akart moderálni, hogy Rákoczi Györgyöt
+                        fogja, magával egyűt Portára vigye, és ott Urával a Császárral leg nagyobb
+                        frequentiáju solennitással szembe jutatván, azt mutassa meg szegénynek, a
+                        mit az elöt Ura felöl csak hallot, ’s nem hitt, és midön meg láttya hogy az
+                        Ura csak vadászni is többed magával megyen, mint <supplied>ő</supplied> a
+                        hadban, becsüllye nagyobbra azután azt, a mit látott, annál a mit az elöt a
+                        susurans hazugoktol csak hallot. Ez igy <supplied>meglévén</supplied>
+                        szegényt ujjabb Confirmátioval haza késérték volna a Fejedelemségre, ha vagy
+                        a sok féle tanács, vagy az Annyai relatio nagyobban meg
+                            <supplied>ne</supplied> ejtette volna annál, a mitől feltették. Ez elött
+                        hüti szerént igy beszéllette az az akkori Fö Talmácsa a Császárnak mellyeket
+                        akár hidgyünk, akár ne, el hittük a keserves consequentiát.</p><p
+                        xml:id="crit.1.p.8">Így jár az a szegény Fejedelem a kitül el vivén Isten,
+                        nincsen elég fontya a sok féle Censurának fel serpenyőzésére.</p><p
+                        xml:id="crit.1.p.9">Ez a szegény jo de fösvény Magyar, nem ada a kérönek a
+                        Fejedelemségért, még az uton vala, harminc ezer Tallért, az üdö után a
+                        nyujto száz ezereknek kínálásával sem huzhatta viszszá a mit el
+                        mulatta.</p><p xml:id="crit.1.p.10">A Lengyel Országbol haza szaladás után
+                        ottan, mingyárt Szamos Ujvárra érkezvén Tatár követ meg magyarázza ezt a
+                        misteriumot a ki fel keresi.” (103b–104b.)</p><p xml:id="crit.1.p.11">A 10.
+                        sz. alatt ismertetett, <persName>Kornis Zsigmondnak<idno
+                                corresp="Kornis Zsigmond"/></persName> ajánlott autográf kézirat
+                        egyetlen magyar nyelvű prózaszövege ugyanezt az összegzést tartalmazza, de
+                        az összes többi kézirattól eltérő szövegezésben:</p><p xml:id="crit.1.p.12"
+                        >„Itt füllel hallott illyen dolgot mondok: Constancinapolyban laktomban, a’
+                        Bethlen Gábor idejebéli, fellyebb emlitett Fő Tolmács Fia Mehemmed Aga,
+                        nékem azt beszélli vala: hogy mikor az ő Apja Zőlfikár Aga és amaz régi
+                        Moldovai hires Luppuj Vajda Rákoczi György miá, amaz hires Jedikulai
+                        Tőmlőczbe tartattak volna; Eő, mint Fia, Apjához minden nap bé járván, a’
+                        többi között edgyszer, ebéd felett szomoru sorsokról beszélgetvén, azt
+                        beszélli volt azon Fő Tolmács Luppuj Vajdának, hogy mikor Boros Jenő alatt
+                        volt, s akkor meg is vőtte a’ Fő Vezér, hogy alázza meg magát s hajcson
+                        fejet Uranak a’ Tőrők Császárnak, és jol lészen dolga. Itt Barkoczi László,
+                        ott lévén akkor Rákoczi Győrgjel, eléggé sarkantyuzá a’ Fejedelmet, hogy
+                        mennyenek el, s proballyanak edgj Isten atta szerencsét a’ Tőrők hűtire, ha
+                        Pogan is, megbecsűlli magát csak szégyenletibe is; lám ő nem Erdélyi ember s
+                        mégis melléje áll in omnem eventum a’ Fejedelemnek. Itt a’ katona ember,
+                        melléje áll vala a’ katona Tanácsnak, ha Patakrol mást ne izennyen Anyánk,
+                        mellyet megis bánánk Gyalunál. Ugy mondgja volt osztán a’ Fő Vezér, Istenre
+                        s Vallására eskűvén, hogy ha akkor Rákoczy György szót fogadgjon, magával a’
+                        Portára bé vivén, a’ leg nagyobb dicsösségü fényességes pompával juttatta
+                        volna szembe a’ Tőrők Császárral, hogy látta volna ki az Ura, melyet az
+                        előtt csak hallott s nem hitt. Ez ezek meg lévén, fenyessebben űltesse bé az
+                        Erdélyi Székbe, maga akarván crealni, de nem magáért Rákoczi Györgyért,
+                        hanem hogy az hamar kővetkezett Német ellen valo hadi Expeditioban a’ Tőrők,
+                        ezen Fejedelemnek elöl járásával és Censurájával éllyen, mint élt volt az
+                        Apjájéval is az előtt. Melly dolognak noha hasznossab vége a’ Tőrőkre
+                        laczott ugjan, de bizony Erdélynek s a’ Tiszáig való Plagának is nagy két
+                        haszna forog vala benne, mert a’ már ekkor Tatár kézben lévő, huszonkét
+                        Ezerből állo szineis a’ Magyarsagnak, kőnyebben szabadul vala, az utánis
+                        száz Ezeret nem visznek vala el. Melly számot a’ Portán fűlemmel hallottam
+                        a’ Conscriptorok szájokbol. Ezért mondgyák volt a’ Váradiak, hogy Angyali
+                        lélekreis, sok volna edgjre.” (99a.)</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="K1">OSZK Fol. Hung. 91. 70b. </witness>
+                    <witness xml:id="K2"> Tiszáninneni Ref. Egyházkerület Tudományos Gyűjteményei.
+                        Sárospatak. Kézirattár 108. 103.</witness>
+                    <witness xml:id="K3"> OL Forgách cs. lt. (P 1890) Vegyes iratok 1. cs. 6. tétel.
+                        60b.</witness>
+                    <witness xml:id="K4a">Kalocsai Főszékesegyházi Könyvtár. Ms. 350. 125. </witness>
+                    <witness xml:id="K4b"> Esztergomi Főszékesegyházi Könyvtár. Mss. IV. 2.
+                        72a–72b.</witness>
+                    <witness xml:id="K5a"> MTAK Kézirattár Tört. 2-r. 101. 104b–105a.</witness>
+                    <witness xml:id="K6aI"> OSZK Fol. Hung. 86. 88b.</witness>
+                    <witness xml:id="K6aII"> OSZK Fol. Hung. 86. 109a.</witness>
+                    <witness xml:id="K7a"> OL Károlyi cs. lt. (P 1512) Vegyes iratok 3. cs. (1544–
+                        1648)58b.</witness>
+                    <witness xml:id="K7b"> OSZK Quart. Hung. 1054. 168.</witness>
+                    <witness xml:id="K10j"> MTAK Kézirattár Tört. 2-r. 150. 99a–99b.</witness>
+                    <witness xml:id="K-I"> MTAK Kézirattár Tört. 4-r. 106. 60a–60b.</witness>
+                    <witness xml:id="K-Ia">Ráday-Gyűjtemény K. 1.8. 271. </witness>
+                    <witness xml:id="K-Ib">OSZK Fol. Hung. 89. 105a. </witness>
+                    <witness xml:id="K-Id">OSZK Fol. Hung. 2214. 63b–64a. </witness>
+                    <witness xml:id="K-II"> OSZK Fol. Hung. 1130. 51b.</witness>
+                    <witness xml:id="K-IIa"> Esztergomi Főszékesegyházi Könyvtár,
+                        Batthyány-gyűjtemény. Sine categoria et titulo 414a. 186.</witness>
+                    <witness xml:id="K-IIc"> Egri Főegyházmegyei Könyvtár Qq. VIII. 14.
+                        83.</witness>
+                    <witness xml:id="K-III"> Szlovák Központi lt. Zayugróci lt. Baloghov elenchus
+                        II. 136. 47b.</witness>
+                    <witness xml:id="K-IIIa"> OSZK Fol. Hung. 90. 35a.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 10.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Hired vala nagyobb Világon, mint
+                                eröd,</lem>
+                            <rdg wit="#K2" xml:id="rdg.1">Nagyubb</rdg>
+                            <rdg wit="#K3" xml:id="rdg.2">nagyubb</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.3"><del>mn</del><add type="corr"
+                                    >mint</add></rdg>
+                        </app></l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">De mást monda Sebes s Boros,<note
+                                    type="critic" xml:id="note.1"><persName>Sebesi Miklós</persName>
+                                        (†<date when="1662">1662</date>), Zaránd vármegyéből
+                                    származó székely nemes, gyalogkapitány; <persName>Boros
+                                        János</persName> (†<date when="1656">1656</date>), Bihar
+                                    vármegyéből származó, <persName>Kornis Zsigmond<idno
+                                            type="ITIdata">Q62721</idno></persName> udvarában hadi
+                                    tapasztalatokat gyűjtő közrendű katona. Mindketten közismerten
+                                        <persName>II. Rákóczi György<idno type="ITIdata"
+                                            >Q249882</idno></persName> bizalmas emberei.</note> két
+                                jo hösöd,</lem>
+                            <rdg wit="#K1" xml:id="rdg.4">Negálá ezt Boros s Sebes, hizelkedőd</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.5">hözöd </rdg>
+                            <rdg wit="#K6aII" xml:id="rdg.6">hőződ</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.7"><note type="critic" xml:id="note.2">az
+                                    első négy strófa hiányzik</note></rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.8">Sebess Boros</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.9">Hűsőd</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.10">jo két</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.11">most monda Sebes Boros jó ket</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.12">mond a’ <del>sebes</del><add
+                                    type="corr">Sebes</add>; hüssöd</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Nap kelet s nyugat fél tölled, töllök bé
+                                vöd,</lem>
+                            <rdg wit="#K1" xml:id="rdg.13">Nap-kelet s Napnyugot tőlled hogy fél, bé
+                                vőd</rdg>
+                            <rdg wit="#K2" xml:id="rdg.14">nyugot; tűllök</rdg>
+                            <rdg wit="#K3" xml:id="rdg.15">nyugot; tűlled; tűllők</rdg>
+                            <rdg wit="#K4a" xml:id="rdg.16">fel nap kelet s nyugutt</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.17">Fél nap kelet s nyúgat</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.18">Fél Napkelet s Nyugot</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.19">nyugot</rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.20">Nyugot</rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.21">Napp kelet, napp Nyugot fél tolled,
+                                tőllők be vőd</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.22">Fél napkelet ’s nyugot tőllők ’s
+                                tőlled</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.23">Fél nap kelet s nyugot tőllők s
+                                tőlled</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.24">Fél Nap kelet s Nyugott s töllök s
+                                tolled</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.25">Fél Nap kelet s njugot tőllők s
+                                tőlled</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.26">Fél nap kelet s nyugot töllök s
+                                tölled</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.27">fél napkelet s nyugot töllök s
+                                töled</rdg>
+                            <rdg wit="#K-II" xml:id="rdg.28">Fél nap kelet s nyugat tölled s
+                                töllök</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.29">Fél nap kelet ’s nyugadt töled ’s
+                                töllök</rdg>
+                        </app></l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">De contrát fuva ki Váradon agy velöd.<note
+                                    type="critic" xml:id="note.3">Célzás <persName>II. Rákóczi
+                                            György<idno type="ITIdata">Q249882</idno></persName>
+                                    gyalui elvesztett csatájára és halálos
+                                sebesülésére.</note></lem>
+                            <rdg wit="#K1" xml:id="rdg.30">fuva ki meg szakatt agy-velőd</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.31">Váradan</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.32">fuva Varadon</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.33">de a contrát fúvá</rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Ha Hector voltális, sok vólt két
+                                Hercules,</lem>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.34">Valál bátor szivü,
+                                ollyan, mint Hercules</rdg>
+                        </app></l>
+                    <l n="6" xml:id="l.6"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Fél csapás két Császárt nem vág le, mert
+                                feles,</lem>
+                            <rdg wit="#K6aI" xml:id="rdg.35">két csapás</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.36">Ez egész világon szerte széllyel
+                                hires</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.37">az egész világon szerte széllyel
+                                hires</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.38"><del> ne?..?</del><add type="corr"
+                                    >mert</add></rdg>
+                        </app></l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Annyit keresett vólt néked csak a’
+                                kőles,</lem>
+                            <rdg wit="#K1" xml:id="rdg.39">Olly rakás volt nállad csak két x x
+                                köles</rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Ha ne szánd, lész vala másodszor
+                                Achilles.</lem>
+                            <rdg wit="#K1" xml:id="rdg.40">Lehecz vala vélle másodszor</rdg>
+                            <rdg wit="#K2" xml:id="rdg.41">maszodszor</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.42">Másadszor</rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Jenö alol Vezér tenéked Váradra</lem>
+                            <rdg wit="#K1" xml:id="rdg.43"><note type="critic" xml:id="note.4">a 3.,
+                                    4. és 5. strófa hiányzik</note></rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.44">Várodra</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.45">Varódra</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.46"><note type="critic"
+                                    xml:id="note.5">a 3. és 4. strófa fölcserélve</note>; Az nagy
+                                fogu Vezér</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.47"><note type="critic" xml:id="note.6">a
+                                    3. és 4. strófa fölcserélve</note>; Az nagy fogú Vezér
+                                teneked</rdg>
+                        </app></l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">Meg izente vala, meny hozzá
+                                Táborba,</lem>
+                            <rdg wit="#K2" xml:id="rdg.48">Nagy jot izent vala; Taborban</rdg>
+                            <rdg wit="#K3" xml:id="rdg.49">Nagy jot izent vala</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.50">Meg üzente; Táborra</rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.51">táborra</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.52">Tábórra</rdg>
+                            <rdg wit="#K-IIa #K-IIc" xml:id="rdg.53">Taborra</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11">Ismérd meg alázva, hógy ki Urad s
+                                Ura,</lem>
+                            <rdg wit="#K5a" xml:id="rdg.54"><del>Ismered</del><add type="corr"
+                                    >Ismérd</add></rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.55">meg alázott</rdg>
+                            <rdg wit="#K-I #K-Ia #K-Ib #K-Id #K-II #K-IIa #K-IIc" xml:id="rdg.56"
+                                >Urad Ura</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12">Meg lészen bizonnyal Uraságód adva.</lem>
+                            <rdg wit="#K7b" xml:id="rdg.57">odua <note type="critic" xml:id="note.7"
+                                        ><hi rend="italic">adva</hi> helyett</note></rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13"><app xml:id="app.13">
+                            <lem wit="#KK" xml:id="lem.13">De potiorb<note type="critic"
+                                    xml:id="note.8">hatásosabb</note> lön itt a’ ko<corr>nty</corr>
+                                a’ kalpagnál,<note type="critic" xml:id="note.9">Ez esetben a konty
+                                    az anyai tanácsot, a kalpag <persName>Barkóczi László</persName>
+                                    javaslatát jelképezi.</note></lem>
+                            <rdg wit="#K3" xml:id="rdg.58"><del>kalpognal</del><add type="corr"
+                                    >kalpagnál</add></rdg>
+                            <rdg wit="#K4a" xml:id="rdg.59">kalpognál</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.60">Kalapnál</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.61">kalapnál</rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.62">Kalpognál</rdg>
+                            <rdg wit="#K7a #K7b #K-I" xml:id="rdg.63">konyt</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.64">kalapnál</rdg>
+                            <rdg wit="#K-II #K-IIa #K-IIc #K-IIIa" xml:id="rdg.65">konyt</rdg>
+                        </app></l>
+                    <l n="14" xml:id="l.14"><app xml:id="app.14">
+                            <lem wit="#KK" xml:id="lem.14">S A’ Pataki tanács Barkoczi
+                                Lászlonál,</lem>
+                            <rdg wit="#K6aI #K-II #K-IIa #K-IIc" xml:id="rdg.66">
+                                <note type="critic" xml:id="note.10"><hi rend="italic">S
+                                    </hi>hiányzik</note></rdg>
+                        </app></l>
+                    <l n="15" xml:id="l.15"><app xml:id="app.15">
+                            <lem wit="#KK" xml:id="lem.15">Kész veled elmenni, életével kinál,</lem>
+                            <rdg wit="#K2 #K3" xml:id="rdg.67"> életivel</rdg>
+                        </app></l>
+                    <l n="16" xml:id="l.16"><app xml:id="app.16">
+                            <lem wit="#KK" xml:id="lem.16">De nem kelle a’ jo, s ám veszénk
+                                Gyalunál.</lem>
+                            <rdg wit="#K6aI" xml:id="rdg.68">Gyulanál</rdg>
+                            <rdg wit="#K7b #K-Id" xml:id="rdg.69">Gyulánál</rdg>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.70">az jó</rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17"><app xml:id="app.17">
+                            <lem wit="#KK" xml:id="lem.17">Meg kinála Isten tégedet hárómszor,</lem>
+                            <rdg wit="#K5a" xml:id="rdg.71">Meg kina</rdg>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.72">Meg inte az Isten</rdg>
+                        </app></l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.18">
+                            <lem wit="#KK" xml:id="lem.18">Szelepcs: s Homonn<note type="critic"
+                                    xml:id="note.11">A lengyelországi hadjárat előtt a császár
+                                        <persName>Szelepcsényi György<idno type="ITIdata"
+                                            >Q246310</idno></persName> és homonnai <persName>Drugeth
+                                            György<idno type="ITIdata">Q195198</idno></persName>
+                                    által próbálta rávenni a fejedelmet, hogy álljon el
+                                    szándékától.</note> által elsö indulatkor,</lem>
+                            <rdg wit="#K2 #K3" xml:id="rdg.73">induláskor</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.74"> Selepts s Homonn</rdg>
+                            <rdg wit="#K-I #K-Ia" xml:id="rdg.75">Homon kőzőtt</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.76">Homon kőzött</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.77">Szepelts</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.78">Hommon között</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.79">Hommon kőzőtt</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.80">Selepcs ’s Homonn. alsó elsö</rdg>
+                        </app></l>
+                    <l n="19" xml:id="l.19"><app xml:id="app.19">
+                            <lem wit="#KK" xml:id="lem.19">Mászszor Tatár által haza
+                                szaladáskor,</lem>
+                            <rdg wit="#K2" xml:id="rdg.81">Maszszor a’ Chám</rdg>
+                            <rdg wit="#K3" xml:id="rdg.82">Masszor a’ Cham</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.83">haza szaladatkor</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.84">Mászszor a Chám</rdg>
+                            <rdg wit="#K6aI" xml:id="rdg.85">mászar a Chám</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.86">Az után khán</rdg>
+                            <rdg wit="#K-Ia #K-Ib" xml:id="rdg.87">Mászszar</rdg>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.88"><note type="critic"
+                                    xml:id="note.12">a 19. és 20. sor fölcserélve</note>; Tatár
+                                által való haza szaladáskor</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.89"><del>Mászszor Tatár által Varadon
+                                    létedkor</del><add type="corr">Mászszor Tatár által haza
+                                    szaladáskor</add></rdg>
+                        </app></l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.20">
+                            <lem wit="#KK" xml:id="lem.20">Végre Vezér által Váradon létedkor,</lem>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.90">Az után Váradon másodszor
+                                létedkor</rdg>
+                        </app></l>
+                    <l n="21" xml:id="l.21"><app xml:id="app.21">
+                            <lem wit="#KK" xml:id="lem.21">De vak Isten nélkül akár ki
+                                mindenkor.</lem>
+                            <rdg wit="#K2 #K3 #K5a" xml:id="rdg.91">Isten ellen</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.92">Igazán mondgya azt a’ Tőrők, hogy mikor
+                                / Arczul csap az Isten, szemet bé kőt akkor</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.93">Isten nékűnk</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

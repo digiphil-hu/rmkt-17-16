@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">4.</title>
+                <title type="main">(Másik Polycrates valál szerencsével...)</title>
+                <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                            type="ITIdata">Q60007</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.rd-4</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.rd-4.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Utólag ráragasztott
+                        rózsaszín, zöld és sárga papíron, alatta prózai szöveg.</p><p
+                        xml:id="crit.1.p.2">Kiad.: <bibl><title>Erdélyi történelmi adatok.</title>
+                            Szerk. <hi rend="smallcaps">Mikó Imre</hi>. II. Kolozsvár 1856.
+                            320–321.</bibl> (ismeretlen szerzőnek tulajdonítva); <bibl><hi
+                                rend="smallcaps">Dézsi Lajos</hi>: I. m. 246.</bibl> – A vers hőse
+                            <persName>Báthori Zsigmond<idno type="ITIdata">Q40740</idno></persName>
+                            (<date from="1572" to="1613">1572–1613</date>) fejedelem.</p><p
+                        xml:id="crit.1.p.3">Az erdélyi fejedelmekről szóló versek s az erdélyi
+                        emlékíró-irodalom összefüggéseiről l. <bibl><hi rend="smallcaps">S. Sárdi
+                                Margit</hi>: <title> Történelem lírában. Rozsnyai Dávid
+                                fejedelemportréi.</title> In: <title>Tarnai
+                                Andor-emlékkönyv.</title> Szerk. <hi rend="smallcaps">Kecskeméti
+                                Gábor</hi>. Bp. 1996. 223–236.</bibl></p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="K1">OSZK Fol. Hung. 91. 98b </witness>
+                    <witness xml:id="K2"> Tiszáninneni Ref. Egyházkerület Tudományos Gyűjteményei.
+                        Sárospatak. Kézirattár 108. 130.</witness>
+                    <witness xml:id="K3"> OL Forgách cs. lt. (P 1890) Vegyes iratok 1. cs. 6. tétel.
+                        75a.</witness>
+                    <witness xml:id="K4a">Kalocsai Főszékesegyházi Könyvtár. Ms. 350. 186. </witness>
+                    <witness xml:id="K4b"> Esztergomi Főszékesegyházi Könyvtár. Mss. IV. 2.
+                        73a.</witness>
+                    <witness xml:id="K5a"> MTAK Kézirattár Tört. 2-r. 101. 28b.</witness>
+                    <witness xml:id="K6a"> OSZK Fol. Hung. 86. 108a.</witness>
+                    <witness xml:id="K7a"> OL Károlyi cs. lt. (P 1512) Vegyes iratok 3. cs. (1544–
+                        1648) 73a.</witness>
+                    <witness xml:id="K7b"> OSZK Quart. Hung. 1054. 218.</witness>
+                    <witness xml:id="K9a">Esztergomi Főszékesegyházi Könyvtár. Kézirat XVIII. sz.
+                        Tit. III. d. 268. </witness>
+                    <witness xml:id="K10j"> MTAK Kézirattár Tört. 2-r. 150. 100a.</witness>
+                    <witness xml:id="K-I"> MTAK Kézirattár Tört. 4-r. 106. 92b.</witness>
+                    <witness xml:id="K-Ia">Ráday-Gyűjtemény K. 1.8. 422. </witness>
+                    <witness xml:id="K-Ib">OSZK Fol. Hung. 89. 149b. </witness>
+                    <witness xml:id="K-Id">OSZK Fol. Hung. 2214. 99a. </witness>
+                    <witness xml:id="K-II"> OSZK Fol. Hung. 1130. 68a.</witness>
+                    <witness xml:id="K-IIa"> Esztergomi Főszékesegyházi Könyvtár,
+                        Batthyány-gyűjtemény. Sine categoria et titulo 414a. 257–258.</witness>
+                    <witness xml:id="K-IIc"> Egri Főegyházmegyei Könyvtár Qq. VIII. 14.
+                        148.</witness>
+                    <witness xml:id="K-III"> Szlovák Központi lt. Zayugróci lt. Baloghov elenchus
+                        II. 136. 71b.</witness>
+                    <witness xml:id="K-IIIa"> OSZK Fol. Hung. 90. 51a.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 4.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Másik Polycrates<note type="critic" xml:id="note.1"
+                                    ><persName>Polükratész<idno type="VIAF"
+                                >VIAF:72547982</idno></persName>, i. e. 537–522 között
+                                    <placeName>Szamosz<idno type="VIAF"
+                                >VIAF:129071418</idno></placeName> türannosza. A hagyomány hírhedett
+                            szerencséjéről s az elkerülhetetlen sorsfordulásról szóló példázatot fűz
+                            a nevéhez.</note> valál szerencsével,</l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">De nem tudál élni vélle s az idövel,</lem>
+                            <rdg wit="#K3" xml:id="rdg.1">űdővel</rdg>
+                            <rdg wit="#K4b #K5a" xml:id="rdg.2">véle élni </rdg>
+                            <rdg wit="#K-I" xml:id="rdg.3">vélle, az Idövel</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.4">vélle, az Idővel</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.5">vele, az idövel</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.6">vélle az idővel</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.7">tudtál</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.8">tudtál; űdővel</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Addig fözéd étked hopp itt, hopp ott
+                                lével,</lem>
+                            <rdg wit="#K2 #K3 #K7a #K7b" xml:id="rdg.9">s hopp ott </rdg>
+                            <rdg wit="#K-I" xml:id="rdg.10">’s hopp ott</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.11">főződ</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.12"><note type="critic" xml:id="note.2">a
+                                    3–4. és 5–6. sorpárok fölcserélve</note>; s hop att</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.13">főződ; s hop ott</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.14">s hópp ott</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.15">s hopp ott</rdg>
+                        </app></l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Két hel<corr>y</corr>t halál belé, hol
+                                testel, s hol szivel.</lem>
+                            <rdg wit="#K1" xml:id="rdg.16">ott Testel s itt szivel </rdg>
+                            <rdg wit="#K2" xml:id="rdg.17">helt; ott testel s itt szivel</rdg>
+                            <rdg wit="#K3" xml:id="rdg.18">ott testel s itt szivel</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.19">helt; testel, hol</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.20">helt</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.21">ott testel, itt szivel </rdg>
+                            <rdg wit="#K7a #K7b #K9a #K-II #K-IIa #K-IIc #K-III" xml:id="rdg.22">
+                                helt </rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.23"> helt; testel, hol szével</rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Lesz vala határunk, ha tudgy vélle élni,</l>
+                    <l n="6" xml:id="l.6"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Mons Haemus,Balkán-hegység. A célzás
+                                bizonyára a <persName>Szinán pasa<idno type="VIAF"
+                                        >VIAF:54187848</idno></persName> seregei fölött <date
+                                    when="1595-10-18">1595. okt.
+                                        18-án</date><placeName>Gyurgyevónál<idno type="VIAF"
+                                        >VIAF:22972</idno></placeName> aratott győzelemre, a „Dunán
+                                túl” kifejezés talán <persName>Szinán pasa</persName><date
+                                    when="1594">1594-es</date> dunántúli hadjáratára vonatkozik,
+                                amelyhez <persName>Báthori Zsigmond<idno type="ITIdata"
+                                        >Q40740</idno></persName> is kényszerült támogatást adni.
+                                Dunán tul tudna erröl szolni,</lem>
+                            <rdg wit="#K10j" xml:id="rdg.24">Dunátul</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.25">dunán töl</rdg>
+                        </app></l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">De már veled edgyütt azt mérjük
+                                mondani,</lem>
+                            <rdg wit="#K-IIIa" xml:id="rdg.26">merjök</rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">A mitt elmulattál, nem fógjuk el
+                                érni.</lem>
+                            <rdg wit="#K1 #K4a" xml:id="rdg.27">el mulatál</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.28">elmulatál </rdg>
+                            <rdg wit="#K6a" xml:id="rdg.29">Az mit</rdg>
+                            <rdg wit="#K9a" xml:id="rdg.30">él mulatal</rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">De nagyobbat mondok, s ezzel rekesztem
+                                bé,</lem>
+                            <rdg wit="#K2 #K3" xml:id="rdg.31">nagyubbat</rdg>
+                            <rdg wit="#K6a" xml:id="rdg.32">mondak </rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.33">mondak</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.34">nyagyobbat; mondok, ezzel</rdg>
+                        </app></l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Még sok tüzes had is nem hathata ugy
+                                bé,</lem>
+                            <rdg wit="#K1" xml:id="rdg.35">Nyolczad fü Ármada nem hathata ugy
+                                bé</rdg>
+                            <rdg wit="#K2" xml:id="rdg.36"> nem lőtt vala ugy bé</rdg>
+                            <rdg wit="#K3" xml:id="rdg.37">nem lőtt vala ugy be</rdg>
+                            <rdg wit="#K4a" xml:id="rdg.38">Még feles Armáda sem hadhata</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.39">Még feles Armada sem</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.40">Még feles Ármáda sem</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.41">Még nagy Tüzes hadis nem lött vala ugy
+                                bé</rdg>
+                            <rdg wit="#K6a" xml:id="rdg.42">meg sok tűz és hadis nem hathatta ugy
+                                bé</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.43">Még feles Armádá sem</rdg>
+                            <rdg wit="#K-Ia #K-Ib" xml:id="rdg.44">Még feles Armada sem</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.45">Még feles Ármáda sem</rdg>
+                            <rdg wit="#K-II" xml:id="rdg.46">Még feles Armada sem hadhata</rdg>
+                            <rdg wit="#K-IIa" xml:id="rdg.47">Még feles Armada sem halhata </rdg>
+                            <rdg wit="#K-IIc #K-III" xml:id="rdg.48">Még feles Armada sem
+                                hadhata</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.49">Még feles Armada sem hadha</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Mint te egy száll kardal vágtál vala jol
+                                bé,</lem>
+                            <rdg wit="#K6a" xml:id="rdg.50">vágtal jol</rdg>
+                            <rdg wit="#K-II #K-IIa" xml:id="rdg.51">te száll</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.52">te száll kar<add type="insert"
+                                    >dod</add>dal </rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">De addig löl ki s bé, más füte néked
+                                bé.</lem>
+                            <rdg wit="#K1" xml:id="rdg.53">más csapa </rdg>
+                            <rdg wit="#K3" xml:id="rdg.54">fűjte </rdg>
+                            <rdg wit="#K-I" xml:id="rdg.55">De addig ki ’s bé</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.56">De addig kisbe</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.57">De addig kisbé</rdg>
+                            <rdg wit="#K-Id #K-II #K-IIa" xml:id="rdg.58">De addig járál ki s
+                                bé</rdg>
+                            <rdg wit="#K-IIc" xml:id="rdg.59">de adig járal ki s be </rdg>
+                            <rdg wit="#K-III" xml:id="rdg.60">De addig ki s be </rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.61">De addig ki ’s be</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

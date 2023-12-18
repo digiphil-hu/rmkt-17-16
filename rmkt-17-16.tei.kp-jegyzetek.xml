@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Kőszeghy Pál</title>
+                <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                            type="ITIdata">Q147413</idno></persName><persName><surname>S.
+                            Sárdi</surname><forename>Margit</forename><idno type="ITIdata"
+                            >Q59946</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.kp-jegyzetek</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.kp-jegyzetek.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">ÉLETE</head>
+                <p xml:id="p.1"><persName>Kőszeghy Pált<idno type="ITIdata"
+                            >Q54288</idno></persName><persName><hi rend="smallcaps">Thaly
+                            Kálmán</hi><idno type="ITIdata">Q49735</idno></persName> fedezte föl az
+                    irodalom számára mint <persName>Bercsényi Miklós<idno type="ITIdata"
+                            >Q142311</idno></persName> familiárisát és életének megéneklőjét.
+                            (<bibl><title>A székesi gróf Bercsényi-család. I–III</title>. Bp.
+                        1885–1892. II. 95–96., 102.</bibl>; <bibl><title>Rákóczi-emlékek
+                            Törökországban</title>. Bp. 1893. 102–111.</bibl>;
+                            <bibl><title>Bercsényi házassága. Történeti ének 1695-ből</title>.
+                            <abbr>TT</abbr> 1894. II. 193–219.</bibl> Önállóan: <bibl>Bp. 1894.
+                        7–26.</bibl>) Az általa összegyűjtött kevéske adatnál több az azóta eltelt
+                    évszázad alatt sem bukkant föl a költőről.</p>
+                <p xml:id="p.2">Származása, családja s kapcsolatai szerint Kőszeghy a felvidéki,
+                    familiárisi szerepköréből épp e generációtól kezdve lassan kiszabaduló,
+                    kuruckodó köznemesség képviselője. Apja, <persName>Kőszeghy György</persName>
+                        (<date from="1640" to="1711">1640 k.–1711</date>) nógrádi származású; <date
+                        when="1678">1678-ban</date> kapott nemességet a karánsebesi Bobik (Dobik?)
+                    családból származó feleségével együtt. (Az okirat <date when="1678-02-01"
+                        >február 1-jén</date> kelt, s <date when="1678-07-04">július 4-én</date>
+                    hirdették ki <placeName>Füleken<idno type="ITIdata">Q16717</idno></placeName>.)
+                    Ekkortájt homonnai <persName>Drugeth Zsigmond<idno type="ITIdata"
+                        >Q66633</idno></persName> vagy id. <persName>Bercsényi Miklós</persName>
+                    szolgálatában állt. (<persName><hi rend="smallcaps">Thaly</hi><idno
+                            corresp="Thaly Kálmán"/></persName><date when="1893">1893-ban</date>
+                    mindkét változatot lehetségesnek tartotta; <date when="1894">1894-es</date>
+                    kiadványaiban már csak a Bercsényi családhoz való tartozásáról beszél. Az
+                    azonban, hogy a Drugethek kihalta előtt egyik Kőszeghy neve sem bukkan föl a
+                    Bercsényiek mellett, valamelyest valószínűbbé teszi, hogy korábban a Drugethek
+                    familiárisai voltak.) Működése <date from="1691">1691-től</date> kezdve ismert;
+                    a Drugethek férfiágának kihalása (<persName>Zsigmond<idno
+                            corresp="Drugeth Zsigmond"/></persName> †<date when="1684">1684</date>,
+                            <persName>Bálint<idno corresp="Drugeth Bálint"/></persName> †<date
+                        when="1691">1691</date>) után ugyanis ifj. <persName>Bercsényi Miklós<idno
+                            type="ITIdata">Q142311</idno></persName>, aki <persName>Drugeth
+                            Krisztinától<idno corresp="Drugeth Krisztina"/></persName> született
+                    fia, <persName>László<idno corresp="Bercsényi László"/></persName> nevében jogot
+                    formált az <placeName>ungvári</placeName> uradalomra, őt tette meg ungvári
+                    tiszttartójává. Az ekkor már özvegy <persName>Kőszeghy György</persName> itt,
+                            <placeName>Ungvárt<idno type="ITIdata">Q10453</idno></placeName> kapott
+                            <persName>Bercsényitől<idno corresp="Bercsényi Miklós"/></persName>
+                    házat és szőlőt, s itt vette feleségül a <placeName>Máramarosból<idno
+                            type="ITIdata">Q13549</idno></placeName> származó <persName>Nagy-Iday
+                            Zsuzsannát<idno corresp="Nagy-Iday Zsuzsanna"/></persName>. Vagyonát
+                    ezután is gyarapítgatta. <date when="1695">1695-ben</date> uradalmi pénztárnok
+                    lett, <date from="1703">1703</date> után az ungvári vár és helyőrség éléstárnoka
+                    is. <date when="1711-01-12">1711. január 12-én</date> már nem élt. Mindkét fia
+                            <persName>Bercsényi<idno corresp="Bercsényi Miklós"/></persName> mellett
+                    futotta pályáját: <persName>Imre<idno corresp="Kőszeghy Imre"/></persName>
+                    katonatisztként (adatok <date from="1704" to="1710">1704-től 1710-ig</date>),
+                            <persName>Pál<idno corresp="Kőszeghy Pál"/></persName> titkárként. Ifj.
+                        <persName>Bercsényi Miklós</persName> (<date from="1665" to="1725"
+                        >1665–1725</date>) már ekkor Észak-Magyarország egyik legnagyobb méltósága:
+                    ezredes, bányavidéki helyettes tábornok, <placeName>Szeged<idno type="ITIdata"
+                            >Q129</idno></placeName> főkapitánya, Ung vármegye főispánja, a
+                    tizenhárom vármegye főkövete, királyi kamarás és tanácsos, a hétszemélyes tábla
+                    bírája. Vagyonát tovább gyarapította <date when="1688">1688-ban</date> kötött
+                    házassága <persName>Drugeth Krisztinával<idno corresp="Drugeth Krisztina"
+                        /></persName> (<date from="1655" to="1691">1655–1691</date>), aki már két
+                    férjet temetett el: gr. <persName>Forgách Andrást</persName> és gr.
+                        <persName>Pálffy Ferencet</persName>.</p>
+                <p xml:id="p.3"><persName>Kőszeghy Pál<idno type="ITIdata">Q54288</idno></persName>
+                    neve először <date when="1693">1693-ban</date> tűnik föl
+                            <persName>Bercsényié<idno corresp="Bercsényi Miklós" type="ITIdata"
+                            >Q142311</idno></persName> mellett: <date when="1693-08-12">augusztus
+                        12-én</date><placeName>Körmöcbányán<idno type="ITIdata"
+                        >Q9958</idno></placeName> előttemezi <persName>Bercsényi<idno
+                            corresp="Bercsényi Miklós"/></persName> egy iratát. Ekkor már jogi
+                    tanultsággal és (mint művéből kitűnik) meglehetősen jó klasszikus latin
+                    műveltséggel rendelkezett, valószínű tehát, hogy <date when="1665">1665</date>
+                    körül született, s jogi tanulmányokat végzett. Ettől kezdve rendre ismétlődik a
+                    neve <persName>Bercsényi<idno corresp="Bercsényi Miklós"/></persName> iratain,
+                    de minden személyes vonatkozás nélkül. Vele együtt megfordul
+                            <placeName>Pozsonyban<idno type="ITIdata">Q468</idno></placeName>,
+                            <placeName>Nagyszombatban<idno type="ITIdata">Q14207</idno></placeName>,
+                            <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>; <date
+                        from="1694-12" to="1695-02">1694–1695</date> telén ura megbízásából kétszer
+                    is jár <placeName>Vépen<idno type="ITIdata">Q9792</idno></placeName> a szintén
+                    kétszeres özvegy <persName>Csáky Krisztinánál<idno corresp="Csáky Krisztina"
+                            type="ITIdata">Q42357</idno></persName>, aki <date from="1694-10">1694
+                        októberétől</date><persName>Bercsényi<idno corresp="Bercsényi Miklós"
+                        /></persName> jegyese. <date when="1695">1695-ben</date>, Harmadik könyve
+                    megírásakor már nős, családos. <date when="1698">1698-ban</date><persName>Csáky
+                        Krisztina</persName> megbízásából 4000 forintnyi pénzt és drágaságot visz
+                            <placeName>Temetvényből<idno type="ITIdata"
+                            >Q16625</idno></placeName><placeName>Ungvárra<idno type="ITIdata"
+                            >Q10453</idno></placeName>. Életéről az utolsó adat <date when="1703"
+                        >1703-ból</date> való. (<persName><hi rend="smallcaps">Thaly</hi><idno
+                            corresp="Thaly Kálmán"/></persName> a Bercsényi-monográfia megírásakor
+                    még úgy vélte, Kőszeghy Pál is elkísérte <persName>Bercsényit<idno
+                            corresp="Bercsényi Miklós"/></persName> a bujdosásba, l. <bibl>i. m. II.
+                        95.</bibl>, későbbi művei ben azonban ezt az elképzelést föladta.) Ez idő
+                    tájt a felesége is meghalhatott, mert két gyermekük a Bercsényi-udvarban
+                    nevelkedett, <persName>János<idno corresp="Kőszeghy János"/></persName> (<date
+                        from="1693" to="1752">1693 k.–1752 e.</date>) apródként, utóbb étekfogóként,
+                            <persName>Zsuzsi<idno corresp="Kőszeghy Zsuzsanna"/></persName> (<date
+                        from="1700" to="1750">1700 k.–1750</date>) <persName>Csáky
+                        Krisztina</persName> udvarhölgyeként. A házaspárral együtt mindketten
+                            <placeName>Rodostóba<idno type="ITIdata">Q16767</idno></placeName>
+                    kerültek. Itteni életüket <persName>Mikes<idno corresp="Mikes Kelemen"
+                            type="ITIdata">Q56677</idno></persName><title><hi rend="italic"
+                            >Törökországi levelei</hi></title>ből ismerjük. <persName>Csáky
+                        Krisztina</persName><date when="1723">1723</date> tavaszán meghalt.
+                            <persName>Zsuzsi<idno corresp="Kőszeghy Zsuzsanna"/></persName><date
+                        when="1723-10">októberben</date> feleségül ment az ekkor már beteges
+                            <persName>Bercsényihez<idno corresp="Bercsényi Miklós"/></persName>.
+                            <persName>Bercsényi<idno corresp="Bercsényi Miklós"/></persName><date
+                        when="1725-10">1725 októberében</date> hunyt el. <persName>Zsuzsi<idno
+                            corresp="Kőszeghy Zsuzsanna"/></persName> ekkor <persName>Csáky
+                        Krisztina</persName> másik udvarhölgyével, <persName>Kajdacsi
+                        Péternével</persName> együtt vagy negyvenedmagával Lengyelországba
+                    költözött. (<bibl><hi rend="smallcaps">Hopp Lajos</hi>: <title>A
+                            Rákóczi-emigráció Lengyelországban</title>. Bp. 1973. 179.</bibl>)
+                    Bátyja, <persName>János<idno corresp="Kőszeghy János"
+                            /></persName><persName>Rákóczi<idno corresp="II. Rákóczi Ferenc"
+                            type="ITIdata">Q155499</idno></persName> fegyverhordozója lett;
+                            <persName>Mikes<idno corresp="Mikes Kelemen" type="ITIdata"
+                            >Q56677</idno></persName> leveleiben békétlenségével jegyeztette meg
+                    magát. Népes családja leszármazottai ma is élnek Törökországban.
+                            (<bibl><title>Mikes Kelemen összes művei</title>. Kiad. <hi
+                            rend="smallcaps">Hopp Lajos</hi>. I. <title>Törökországi levelek és
+                            missilis levelek</title>. Bp. 1966. 729.</bibl>)</p>
+            </div>
+            <div xml:id="d.2">
+                <head type="title">MŰVEI</head>
+                <p xml:id="p.4"><persName>Kőszeghy Pál<idno type="ITIdata">Q54288</idno></persName>
+                    költői életművét jelenlegi ismereteink szerint az a verses trilógia képezte,
+                    amelyet pártfogójáról, <persName>Bercsényi Miklósról<idno type="ITIdata"
+                            >Q142311</idno></persName> írt, s amelynek csak a harmadik része maradt
+                    fenn. Ennek <persName>Csáky Krisztinának<idno corresp="Csáky Krisztina"
+                            type="ITIdata">Q42357</idno></persName> szóló ajánlását az alábbiakban
+                    közöljük, minthogy belőle értesülünk az első két könyv tartalmáról és sorsáról.
+                    (A szövegközlés elveit l. a Jegyzetek a vershez alfejezetben.)</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.5">Méltóságos grófné asszonyom!</p>
+                <p xml:id="p.6">Olvasom az régiek írásiban Sosipatra nevű asszonyállatot oly mély
+                    tudománnyal és az következendő dolgoknak valóságos megjövendőlésével bírónak
+                    löttnek lenni, hogy azt az Istenektűl származottnak és azok által
+                    felneveltetettnek ítélnék s mondanák mindenek, el nem hitethetvén magokkal, hogy
+                    földi embertűl származottban s születtetettben – bár tudós Plátó és Aristoteles,
+                    bölcs Demosthenes és Isocrates praeceptorsága alatt is – olyan bölcsesség és
+                    tudomány találtathassék. Hasonlóan tartották s tartják az poéták Minerváról is,
+                    az Istenasszonyok köriben és az azoknak érdemes lajstromában nem egyébért
+                    vétetettnek s irattatottnak lenni, hanem hogy nagy mélységes tudománnyal,
+                    mindennémű szép és jó, hasznos és tisztességes mesterségeknek túdója volna és
+                    mesterasszonya. Ezek ugyan, Méltóságos Asszonyom, csak amaz találmányos régi
+                    görög poétáknak találmányi s fabulái; de szabad legyen énnékem az deákok
+                    mondásaként azokból affabulálnom és azokat nemcsak meséző s fabulázó, de már
+                    ugyan valóságos értelemmel Nagyságod méltóságos személyére fordítanom. Mert
+                    ugyanis kinek azelőtt dicséretes jó hírét-nevét sok méltóságos emberektűl, főbb
+                    és alacsonyabb rendektűl csak hírrel hallottam, mindennémű jó erkölcsökkel
+                    teljes virtusit csak távolrúl csudáltam: most már azokat az jó Istennek
+                    kegyelméből szemeimmel láthatom s tapasztalhatom kezeimmel. Látván ugyanis
+                    bölcsességét, tudományát, olvasván asszonyemberek elméjét felmúló írását
+                    Nagyságodnak: hízelkedés nélkül mondhatom Nagyságod felűl azt, hogy ha amaz
+                    Semiramis özvegy királyné sok esztendőkig bírta és igazgatta az persákat
+                    eszességével, Nagyságod az, a ki azt s annál nagyobbakat is fogyatkozás és vétek
+                    nélkül végben vihetné. Látom ezeket szemmel s tapasztalom kezemmel híres Arachne
+                    mívét felmúló mesterséges munkáit, gyenge kezeinek ékes varrogatásit és egyéb
+                    sok úriasszonyokhoz illendő tisztességes s mesterséges csinálmányit; ugyan
+                    annyira, hogy Nagyságod felül mondhatnák méltábban az régiek, s mondhatják a
+                    mostaniak is, hogy már nem Sosipatrát nevelték s tartották az Istenek, hanem
+                    Nagyságodat; nem Minervát iratták magok isteni lajstromában, hanem az Nagyságod
+                    Méltóságát; mellyeket is tudni és mívelni ugyanis az jó Isten adta
+                    Nagyságodnak.</p>
+                <p xml:id="p.7">De mind ezek között is vettem észre az magyar rythmusokban való
+                    gyönyörűséges tudományát Nagyságodnak, melyben amaz versszerző híres Erinna s
+                    Corinna poéta-asszonyokat is fölmúlja; s megösmérem abbúl, hogy ha azokban nem
+                    gyönyörködnék Nagyságod: az rendes szóknak utolsó, megegyező betűinek, mint
+                    annyi levelei között elrejtőzött tavaszi, illatos violácskáknak, keresgetésében
+                    s öszveszedegetésében kegyes elméjét nem fárasztaná. Ez indíta azért engemet is,
+                    hogy ezen csekély munkámhoz kezdenék, és együgyű verseimmel – mint Isten által
+                    már jó Kegyelmes Asszonyomnak – Nagyságodnak kedveskedném. Melyekben is vígságos
+                    és örvendetes dolgokról akarván verseskednem: hogy a szomorú halálról kezdem
+                    írásomat, nem kell csudálni; mert az deákok mondása szerint: post nubila
+                        Phoebus<note type="critic" xml:id="note.1">A mondás eredeti alakja: Post
+                        maxima nubila Phoebus (Alanus ab Insulis, 12. sz.), értelme: borúra
+                        derű.</note> – az ködök után szép napfény szokott következni; úgy verseimnek
+                    szomorú kezdetit is vígságos öröm követi. Okozta egy részént ez is, hogy azon
+                    senkinek sem kedvező halál Nagyságod virágzó életének fiatal súgári
+                    fényeskedését is már két ízben behomályozta, s úgy mostani szerelmestársát is
+                    első kedves párjától hamar megfosztván, már egyszer az szomorú gyásznak
+                    fölhőivel elburítván, megszomorította; de most újonnan Nagyságodat az ő Nagysága
+                    szerencséjére, úgy ő Nagyságát az Nagyságod gyönyörűségére az mennyei kertész
+                    öszveplántálván, régi, köddel homályosúlt s szomorú felhőkkel borúlt egét
+                    vígságos súgárral tündöklő napokkal megfényesítette.</p>
+                <p xml:id="p.8">Írtam vala az előttiben is egy első könyvemet (az mennyire csekély
+                    elmémmel fölérhettem) Méltóságos Uramnak ő Nagyságának ifjúságában tett vitézi
+                    magaviselésérűl, s azután következett istenes házasságárúl Méltóságos Gróf
+                    Homonnai Drugeth Krisztinával – kinek lelke nyúgodjék az örök életben! Azután
+                    szedegettem öszve azon boldogemlékezetű Asszonyommal való istenes életéről, és
+                    ugyanannak istenes haláláról második könyvemet. Kit, mint azelőttit, elkéretvén
+                    tűlem Méltóságos győri Generálisné Asszonyom, Méltóságos Gróf Milith Mária
+                    Asszony ő Nagysága – lévén nagy gyönyörűsége ő Nagyságának is az versek
+                    olvasásában –, sok kérésemmel is kezemhez nem keríthettem; már most pedig ő
+                    Nagysága is azon kegyetlen halál hálójában akadván, annál is inkább nem bizom
+                    hozzájutásomhoz. Mivel pedig azon második könyvemet a szomorító halállal
+                    végzettem vala, akarván ezen harmadikat is azzal öszvefoglalnom: úgy kölleték az
+                    következendő vígságot az szomorú halálról való versekkel kezdenem. Kérem azért
+                    mint jó Kegyelmes Asszonyomat Nagyságodat, ha hol mi hibát és vétket tanál
+                    csekély munkámban, és ha mind úgy nem történtének volna is az dolgok, az mint
+                    mit magokban foglalnak verseim: azért meg ne ítélje balgatag szolgáját, hanem
+                    tulajdonítsa együgyűségemnek! Elég, ha bár mind másként lett is az dolog, hogy
+                    Nagyságodat Isten az én Méltóságos jó Urammal ő Nagyságával öszveplántálta;
+                    kivel is hosszú, egészséges, szerencsés, boldog, dücsőséges s világ példájára
+                    való életét kívánván ajánlja Nagyságod úriasszonyi kegyelmességében magát hozzá
+                    tartozandóival együtt, Nagyságodnak mint Kegyelmes Asszonyomnak legkisebbik
+                    alázatos szolgája Kőszeghy Pál, m. k.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.9"><persName>Kőszeghy Pál<idno type="ITIdata">Q54288</idno></persName>
+                    trilógiája tehát a következő művekből állt: </p>
+                <p xml:id="p.10">1. [Első könyv] – ez tartalmazta <persName>Bercsényi<idno
+                            corresp="Bercsényi Miklós" type="ITIdata">Q142311</idno></persName>
+                    élete eseményeit ifjúkori haditetteitől <persName>Drugeth Krisztinával<idno
+                            corresp="Drugeth Krisztina"/></persName> kötött házasságáig; </p>
+                <p xml:id="p.11">2. [Második könyv] – ez tartalmazta <persName>Bercsényi<idno
+                            corresp="Bercsényi Miklós"/></persName> első házassága történetét
+                        <persName>Drugeth Krisztina</persName> haláláig; </p>
+                <p xml:id="p.12">3. Harmadik könyv – ez tartalmazza <persName>Bercsényi<idno
+                            corresp="Bercsényi Miklós"/></persName> özvegysége eseményeit
+                        <persName>Csáky Krisztinával<idno corresp="Csáky Krisztina" type="ITIdata"
+                            >Q42357</idno></persName> kötött házasságáig. Sajnos,
+                            <persName>Bercsényi<idno corresp="Bercsényi Miklós"/></persName>
+                    incuriosus lévén a személyének szóló dicsőítés iránt, nem gondoskodott a
+                    trilógia megőrzéséről, netán kinyomtatásáról. A Harmadik könyv is kalandos úton,
+                    a véletlennek s a Bercsényi-feleségeknek köszönhetően őrződött meg. (A
+                    kéziratban talált selyemszálak, selyem és hímzésdarabok női olvasókra utalnak,
+                    l. Jegyzetek.) Az ajánlás címzettje, <persName>Csáky Krisztina</persName> minden
+                    bizonnyal magával vitte a kéziratot bujdosásába, amely
+                            <placeName>Jarosławból<idno type="ITIdata"
+                            >Q13333</idno></placeName><placeName>Brezánon<idno type="ITIdata"
+                            >Q17795</idno></placeName> és <placeName>Lvovon<idno type="ITIdata"
+                            >Q9180</idno></placeName> át vezette őt <placeName>Rodostóba<idno
+                            type="ITIdata">Q16767</idno></placeName>. Innen a költő leánya,
+                        <persName>Kőszeghy Zsuzsi<idno corresp="Kőszeghy Zsuzsanna"/></persName>
+                    vitte vissza <placeName>Jarosławba</placeName>. Halála után ingóságait bizonyára
+                    barátnője, <persName>Kajdacsi Péterné</persName> örökölte, aki az egész
+                    jarosławi emigrációból utolsóként halt meg. (<bibl><hi rend="smallcaps">Thaly
+                            Kálmán</hi>: <title>Kosztolányi Jávorka Ádám ezredes s a gr. Forgách- és
+                            Rákóczi-levéltár</title>. Bp. 1888. 81–94.</bibl>) Holmija (a kézirat
+                    bejegyzése szerint) a lvovi ószeres zsidóhoz került. Innen <date when="1816"
+                        >1816-ban</date> vásárlás útján jutott a Krasiński-könyvtárba. (L. <bibl><hi
+                            rend="smallcaps">Divéky Adorján</hi>: <title>A lengyelországi könyv- és
+                            levéltárak magyar vonatkozású kézirati anyaga</title>. Ltári Közi 1927.
+                        27–58.</bibl> A Krasiński-könyvtárról: 45–47. A mű kéziratáról: 46.) A
+                    kézirat a Krasiński-könyvtár jelentős részével együtt a második világháborúban
+                    megsemmisült. (<bibl><hi rend="smallcaps">Hopp Lajos</hi><title>Tanulmányútja
+                            Lengyelországban</title>. <abbr>ItK</abbr> 1962. 267.</bibl>)</p>
+                <p xml:id="p.13">A mű létezésére elsőként <persName>Rómer Flóris<idno type="ITIdata"
+                            >Q245552</idno></persName> hívta föl <persName><hi rend="smallcaps"
+                            >Thaly</hi><idno corresp="Thaly Kálmán" type="ITIdata"
+                        >Q49735</idno></persName> figyelmét. (<bibl><title>Nevezetes kéziratok
+                            Varsóban</title>. <abbr>Száz</abbr> 1874. 591.</bibl><persName>Rómer
+                        Flóris</persName> az <hi rend="italic">Epilog</hi> versformájából arra
+                    következtetett, hogy az egész mű Balassi-strófában íródott; e tévedés először
+                            <persName>Thalynál<idno corresp="Thaly Kálmán"/></persName> is
+                    megjelenik a Bercsényi-monográfiában. L. <bibl>i. m. II. 96.</bibl>)
+                            <persName>Thalynak<idno corresp="Thaly Kálmán"/></persName> hosszú, majd
+                    két évtizedes diplomáciai erőfeszítés után, <date when="1890">1890-ben</date>
+                    sikerült másolót küldenie <placeName>Varsóba<idno type="ITIdata"
+                        >Q23641</idno></placeName>. (Kilétét nem ismerjük.) A mü szövege ma már csak
+                    az ő kiadásában hozzáférhető. (<bibl><abbr>TT</abbr> 1894. II. 220–308.</bibl>;
+                    Bp. 1894. 27–140.) <persName>Thaly<idno corresp="Thaly Kálmán"/></persName>
+                    megpróbálta fölkutatni a <persName>Zichy Istvánné Melith Mária</persName> kezén
+                    elkallódott első két könyvet is, ám az oroszvári, zsélyi, ciferi, vedrődi,
+                    palotai stb. Zichy-kastélyokban folytatott nyomozása eredménytelen maradt. A mű
+                    megítélése <persName>Gyöngyösi<idno corresp="Gyöngyösi István" type="ITIdata"
+                            >Q152929</idno></persName> értékelésének hullámveréseként változott.
+                    Miután <persName>Gyöngyösinek<idno corresp="Gyöngyösi István"/></persName>
+                    Kőszeghyre tett hatását már <persName>Thaly<idno corresp="Thaly Kálmán"
+                        /></persName> fölfedezte, az első ismertetések hajlottak rá, hogy a művet
+                    kevésbé értékes Gyöngyösi-utánzatként fogják föl. (<bibl><hi rend="smallcaps"
+                            >Váczy János</hi>: <title>Bercsényi házassága</title>. <abbr>Száz</abbr>
+                        1894. 350–354.</bibl>; <bibl><hi rend="smallcaps">Gagyhy Dénes</hi>:
+                            <title>A Rákóczi-kor elbeszélő költészete</title>. Bp. 1904.
+                        50–59.</bibl>; <bibl><hi rend="smallcaps">Bajza József</hi>: <title>A kuruc
+                            elbeszélő-költészet ismertetése</title>. Bp. 1906. 18–23.</bibl>)
+                            <persName><hi rend="smallcaps">Schöner Ferenc</hi></persName>, aki
+                    elsőként alkalmazott elemző és összehasonlító módszereket a mű értékelésére,
+                    tanulmányában azt bizonyította, hogy a Harmadik könyv
+                            <persName>Gyöngyösitől<idno corresp="Gyöngyösi István"/></persName> való
+                    függése korántsem annyira szoros, mint korábbi ismertetői látták; eltéréseit
+                            <persName>Gyöngyösitől<idno corresp="Gyöngyösi István"/></persName> mint
+                    mintától (pl. lineárisabb szerkesztés, kevesebb kitérő, kisebb mitológiai
+                    apparátus, kevésbé túlzó jellemzés, valószerűbb cselekmény és hősök), némi
+                    tagadhatatlan elfogultsággal, mindig pozitívan értelmezte.
+                            (<bibl><title>Kőszeghy Pál</title>. A bp.-i X. kér. áll. főgimnázium
+                        értesítője 1911/12. 3– 34.</bibl> Klny. is.) Értékelését a kritika
+                            <persName>Gyöngyösi<idno corresp="Gyöngyösi István"/></persName>
+                    védelmében gyorsan és kissé gorombán visszautasította. (<bibl><hi
+                            rend="smallcaps">Király György</hi>: <title>Schöner Ferenc: Kőszeghy
+                            Pál</title>. EPhK 1913. 779.</bibl>; <bibl><hi rend="smallcaps"
+                            >Jankovits János</hi>: <title>Gyöngyösi hatása Kőszeghy Pálra</title>. A
+                        jászberényi reálgimnázium értesítője 1927/28. 3–19.</bibl> Klny. is.)
+                    Munkájában <persName>Jankovits</persName> számos egyezést sorol föl
+                        <persName>Kőszeghy</persName> és <persName>Gyöngyösi<idno
+                            corresp="Gyöngyösi István"/></persName> művei között (egyebek közt azt,
+                    hogy mindketten uruk házasságáról írnak, s mindkettejük hőse özvegy), a
+                    szövegszerű egybeesések száma azonban valójában csekély, az egyezések elsősorban
+                    epikus természetűek.</p>
+            </div>
+            <div xml:id="d.3">
+                <head type="title"> JEGYZETEK A VERSHEZ</head>
+                <p xml:id="p.14">A kézirat (lemásolója följegyzése szerint) 4° (19×16 cm) papírkötet
+                    volt, egykorú barna bőrkötésben. A kötéstábla belső oldalán: „29. Maja 1816.
+                    Lvow, od Zsida, 120 gr. 3 1/3.” Eredetileg a címlappal együtt 106 számozott
+                    levél alkotta; a 104. és a 106. levél hiányzott. Élvágása a szöveg beírása után
+                    készült, emiatt egyes betűk a sorok végéről hiányoztak. Tartalma: címlap (1a.),
+                    a Bercsényi és a Csáky családok címerei szív alakú rajzba befoglalva, fölötte:
+                        „<hi rend="smallcaps">az méltóságos, tekintetes és nagyságos keresztszegi
+                        gróf csáki krisztina asszonynak ő nagyságának, az igaz szíveket vezérlő
+                        istentűl, szerelmestársával együtt szerencsés és boldog, hosszú
+                    életet!</hi>” (1b.), ajánlás (2a–4b.), a vers szövege (5a–105a.). A 105. levél
+                    aljából egy darab levágva, a szöveg azonban itt sértetlen. A kéziratban 9 helyen
+                    selyemszálak, hímzés- és selyemdarabok, színes selyempapír feküdtek.</p>
+                <p xml:id="p.15">Végig egy kéz (valószínűleg a költő) írása. Láthatóan nagy gonddal
+                    készült, díszes munka, bizonyos helyeken azonban másolási hibákkal (ezek utólag
+                    javítva, ill. pótolva). Két helyütt (1132., 1203.) a sor újabb, javított
+                    változata külön papírcsíkon mellékelve. E papírcsíkok egyike a másolás idején
+                    rossz helyre volt becsúsztatva, a rím alapján azonban a rendelt hely
+                    megállapítható.</p>
+                <p xml:id="p.16"><persName>Thaly<idno corresp="Thaly Kálmán" type="ITIdata"
+                            >Q49735</idno></persName> a versszöveget a maga kora nyelvi normáihoz
+                    igazítva adta ki, így Kőszeghy Pál nyelvjárásáról és helyesírásáról kevés
+                    megállapítást kockáztathatunk meg. Valószínűleg jellemző volt rá az <hi
+                        rend="italic">í</hi>-zés (<hi rend="italic">fínylik, ígír, ítíl, enyím,
+                        szegíny</hi>) és talán a magánhangzók megnyúlása az első szótagban
+                    (csinosság, nyúgovás, múlatság, súgár), valamint l előtt (<hi rend="italic"
+                        >körűl, közűl, fólt, borúl, szűnetlenűl</hi>). A diftongusokat a szótagszám
+                    igényeinek megfelelően hol egy, hol két szótagként értelmezte (Eolus 2 vagy 3
+                    szótagként, Laodamia 4 vagy 5 szótagként, Eudoxia 4 szótagként).</p>
+                <p xml:id="p.17">Kiadásunkban az eredeti hiányában <persName>Thaly<idno
+                            corresp="Thaly Kálmán" type="ITIdata">Q49735</idno></persName> idézett
+                    kiadását követjük (<bibl>Bp. 1894</bibl>), beleértve a szókezdő nagybetűk
+                    használatát. A központozást azonban modernizáltuk; nem őriztük meg a
+                            <persName>Thaly<idno corresp="Thaly Kálmán"/></persName> által használt
+                    kettős hosszú mássalhangzókat (<hi rend="italic">nyny, gygy, lyly</hi> stb.),
+                    valamint a <hi rend="italic">cz</hi> alakban írott <hi rend="italic">c</hi>-t.
+                    Nem tartottuk meg az ÿ betű használatát sem, minthogy nem fonéma értékű:
+                    egyaránt előfordul az <hi rend="italic">y</hi> jelzésére (Bercsénÿ, Bercsénÿt,
+                    Bercsénÿnek olyan helyzetben, ahol <hi rend="italic">n</hi>+<hi rend="italic"
+                        >i</hi> szótagszámromlás volna), valamint <hi rend="italic">i</hi>
+                    hangértékben (Cÿrus, Nÿmphák, Satÿrus, Ulÿsses). Minthogy teljes biztonsággal
+                    nem tudjuk megállapítani, hogy a sajtóhibának látszó betűeltérések az
+                    eredetiből, a másolatból vagy csak a nyomdász tévedéséből erednek-e, ezeket is
+                    fölvettük jegyzeteinkbe. <persName>Thaly<idno corresp="Thaly Kálmán"
+                        /></persName> kiadásának kurziválásait – mivel azok valószínűleg nem a
+                    költőtől, hanem a kiadótól származnak – nem vettük át. A szövegmagyarázatokban
+                    fölhasználtuk <persName>Thaly<idno corresp="Thaly Kálmán"/></persName>
+                    jegyzeteit.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

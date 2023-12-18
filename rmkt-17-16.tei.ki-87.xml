@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">87.</title>
+                <title type="main">(Tiz esztendős korban hogy ha kedves nem vagy...)</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-87</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-87.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <hi
+                            rend="bold">OSZK Quart. Hung. 4159.</hi> 238b–239a. Előtte: „X nisi sis
+                        gratus, bis pulcher temeque fortis, / Quat sapiens, quin dis, sex sanctus,
+                        postea nil fis.” Kiad. <bibl><hi rend="smallcaps">Thaly Kálmán</hi>:
+                                <title>Koháry-műemlékek a szent-antali
+                                kastélyban.</title><abbr>Száz</abbr> 1871. 58.</bibl>; <bibl><hi
+                                rend="smallcaps">Illésy János</hi>: <title>Gróf Koháry István élete
+                                és munkái.</title> Karcag 1885. 74.</bibl> (<persName><hi
+                                rend="smallcaps">Thaly</hi><idno corresp="Thaly Kálmán"
+                                type="ITIdata">Q49735</idno></persName> közlése nyomán).</p><p
+                        xml:id="crit.1.p.2">Vö. <persName>Foktövi János<idno type="ITIdata"
+                                >Q41503</idno></persName> Az embör életének ideje részeiről írott
+                        prédikációjának szövegével: „Valaki húsz esztendős koráig meg nem nőhet,
+                        harminc esztendős koráig meg nem eszösödik, negyven esztendős koráig meg nem
+                        gazdagodik, arról azután kevés reménség vagyon, hogy nőjön, eszös és gazdag
+                        legyen.” (<bibl>OSZK Oct. Hung. 380.</bibl>) <persName>Foktövi<idno
+                                corresp="Foktövi János"/></persName> itt <persName>Musculusra<idno
+                                corresp="Wolfgang Müslin"/></persName> hivatkozik. Musculus
+                            (<persName>Wolfgang Müslin<idno type="ITIdata"
+                        >Q265326</idno></persName>, <date from="1497" to="1563">1497–1563</date>)
+                            <date when="1599">1599-ben</date> jelentette meg Loci
+                        communes-gyűjteményét.</p><p xml:id="crit.1.p.3">A vers a <date>17.
+                            század</date> végén, a századfordulón másutt is fölbukkan. Fölhasználta
+                            <persName>Técsi S. János<idno type="ITIdata">Q160638</idno></persName> a
+                            <persName>Bocskai István<idno type="ITIdata">Q152467</idno></persName>
+                        zempléni főispán (†<date when="1673">1673</date>) temetésén elmondott
+                        beszédben:</p><l>„Decennis tu sis gratus, bis pulcher, ter quoque
+                        fortis</l><l>Quot sapiens, quin dis, sex sanctus, postea non sis.</l><p
+                        xml:id="crit.1.p.4">Magyarul így esik:</p><l>Tiz esztendös korban ki nem
+                        lött kedvessé</l><l>Vagy husz esztendöre nem lehetett széppé,</l><l>Harmincz
+                        esztendöre, hogy ha nem erössé</l><l>Vagy negyven keresztre nem lett volt
+                        még böltsé.</l><l>Ötven esztendöre kinek pénze nem bü</l><l>Hatvan
+                        esztendöre, ki nem szent életü</l><l>Reménségtül bár ott el-bucsuzzék a’
+                        szü</l><l>Mert ebben csak edgy-is oda viszszá nem jü.”</l><p
+                        xml:id="crit.1.p.5">(<bibl><abbr>RMKT XVII/11.</abbr> 71. sz.
+                        201.</bibl>)</p><p xml:id="crit.1.p.6"><persName>Bethlen Miklós<idno
+                                type="ITIdata">Q239823</idno></persName> is utal rá egy levelében:
+                        „amaz Vers gjakran jut eszembe Sex Sanctus…” (1702) (<bibl><title>Bethlen
+                                Miklós levelei.</title> Kiad., bev. és jegyz. <hi rend="smallcaps"
+                                >Jankovics József</hi>. Bp. 1987. II. [RMPE 6.] 916–917.</bibl>) A
+                        szöveghely értelmezése körül támadt vita érveit <persName><hi
+                                rend="smallcaps">Kecskeméti Gábor</hi><idno type="ITIdata"
+                                >Q52092</idno></persName> rendezte, kapcsolatot teremtve a
+                        Bethlen-levélrészlet és a Técsi-vers között (<bibl><title>Quin dis.</title>
+                            In: <title>Jankovics József 50. születésnapjára.</title> Bp. 1999.
+                            3–4.</bibl>).</p><p xml:id="crit.1.p.7">Anélkül, hogy az eredetit
+                        (legyen az <persName>Musculus<idno corresp=" Müslin, Wolfgang"/></persName>é
+                        vagy sem) föl tudnám mutatni, jelzem, hogy a Kohárynál följegyzett latin
+                        kétsoros – ellentétben Técsiével – szabályos hexameter, csak a sorkezdő X
+                        egy szótagként, ix-nek olvasandó.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Quart. Hung. 4159.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 87.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Tiz esztendős korban hogy ha kedves nem vagy,</l>
+                    <l n="2" xml:id="l.2">Húsz esztendős korban ha pedig szép nem vagy,</l>
+                    <l n="3" xml:id="l.3">Harmincz esztendőkor fris, erős ha nem vagy,</l>
+                    <l n="4" xml:id="l.4">Negyven esztendőben elmédben bőlcs nem vagy,</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Ötven esztendőkor ha értékes nem vagy,</l>
+                    <l n="6" xml:id="l.6">Hatvan esztendőben Istenes ha nem vagy,</l>
+                    <l n="7" xml:id="l.7">Világnak búcsút adgy, mindennek békét hagy,</l>
+                    <l n="8" xml:id="l.8">Számadásod lesz nagy, noha por s-hamu vagy.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

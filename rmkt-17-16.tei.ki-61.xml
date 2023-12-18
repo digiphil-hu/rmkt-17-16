@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">61.</title>
+                <title type="main">Dücsösséges Pádvai Szent Antalnak tisztességére nézve és ötet
+                    Istent könyörgö kévánt esedezésére kérve szerzet versek</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-61</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-61.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Quart. Hung.
+                            193.</hi> 22a–24a.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">[Némely
+                            Istenes könyörgések.]</hi> 8–10.</p><p xml:id="crit.1.p.4">A verscím
+                        kronosztichonja: <date when="1683">1683</date>.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Quart. Hung. 193. 22a–24a</witness>
+                    <witness xml:id="W2">[Némely Istenes könyörgések.] 8–10.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 61.</fw>
+                <head type="title"><hi rend="bold">DÜC</hi>SÖSSÉGES PÁ<hi rend="bold">DV</hi>A<hi
+                        rend="bold">I</hi> SZENT ANTA<hi rend="bold">L</hi>NAK T<hi rend="bold"
+                        >I</hi>SZTESSÉGÉRE NÉZ<hi rend="bold">V</hi>E ÉS ÖTET <hi rend="bold"
+                    >I</hi>STENT KÖN<hi rend="bold">Y</hi>ÖRGÖ KÉ<hi rend="bold">V</hi>ÁNT
+                    ESEDEZÉSÉRE KÉR<hi rend="bold">V</hi>E SZERZET <hi rend="bold"
+                    >V</hi>ERSEK</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Jésus szerelmében és kedvében élö</l>
+                    <l n="2" xml:id="l.2">s-annak malasztyával nagy ékessen fénlö,</l>
+                    <l n="3" xml:id="l.3">nagy sok és világos csúdákkal tündöklö</l>
+                    <l n="4" xml:id="l.4">s-Istennek hatalmát azokkal hirlelö</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Dücsöséges nagy szent, Pádvai<note type="critic"
+                            xml:id="note.1">Itt s alább mindenütt <hi rend="italic">v</hi>-vel
+                            olvasandó, tehát <hi rend="italic">Pádvai</hi> 3 szótag, <hi
+                                rend="italic">Pádvaiak</hi> 4 szótag.</note> szent Antal,</l>
+                    <l n="6" xml:id="l.6">tellyes vagy mennyei, bövséges malasztal,</l>
+                    <l n="7" xml:id="l.7">s-ereiét az Isten sok csudáid által</l>
+                    <l n="8" xml:id="l.8">nagy fent ki mutatta sokizben, sokúttal.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Vizben, tüzben, földön és levegö égben,</l>
+                    <l n="10" xml:id="l.10">halálban és abbúl támadot életben,</l>
+                    <l n="11" xml:id="l.11">joszág el vesztésben, veszet szerencsében,</l>
+                    <l n="12" xml:id="l.12">nagy sok nyavolyában, vasban és tömlöczben.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Ezt mondgyák, beszéllik, s-érzik Pádvaiak</l>
+                    <l n="14" xml:id="l.14">és ö vélek edgyüt mind az Romaiak,</l>
+                    <l n="15" xml:id="l.15">mind meg öszült vének, mind pedig iffiak,</l>
+                    <l n="16" xml:id="l.16">szerzetes férfiak s-mind az világiak,</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Haióknak törését tengeren szenvedök,</l>
+                    <l n="18" xml:id="l.18">föld hátán jártokban veszélyben sillyedök,</l>
+                    <l n="19" xml:id="l.19">sebes tüzben esve az lángban epedök,</l>
+                    <l n="20" xml:id="l.20">dögleletes égben betegen sinlödök,</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Söt még halálnakis keservét kóstolók,</l>
+                    <l n="22" xml:id="l.22">el vesztet s-el veszet jószágon búsúlók,</l>
+                    <l n="23" xml:id="l.23">mostoha sorsokban sok féle kárt vallók,</l>
+                    <l n="24" xml:id="l.24">sinlö betegségben s-rabságban el halók,</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Háború elmével magokban tévelygök,</l>
+                    <l n="26" xml:id="l.26">szomorú bánatban aggódva fetrengök,</l>
+                    <l n="27" xml:id="l.27">sanyarú inségben epedve kesergök</l>
+                    <l n="28" xml:id="l.28">s-keserves életben vaiúdva enyelgök</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Az élö Istennek, nyilván meg ösmérték,</l>
+                    <l n="30" xml:id="l.30">könyörgésed által hogy kegyelmét nyerték,</l>
+                    <l n="31" xml:id="l.31">s-à midön szivessen szentségedet kérték,</l>
+                    <l n="32" xml:id="l.32">magok veszélyének sokszor végét érték.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Mert meg szabadúltak földi veszélyekbül,</l>
+                    <l n="34" xml:id="l.34">jutottanak partra tengeri örvénybül,</l>
+                    <l n="35" xml:id="l.35">ki menekettenek à lobogó tüzbül,</l>
+                    <l n="36" xml:id="l.36">mérget sem szittanak dögleletes égbül.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37">Söt halottaibúl megint fel-támattak,</l>
+                    <l n="38" xml:id="l.38">vesztet jószágokra könnyen rêa találtak,</l>
+                    <l n="39" xml:id="l.39">sinlö nyavalyákbúl szépen ki-gyógyúltak,</l>
+                    <l n="40" xml:id="l.40">40 rabságbúl, tömlöczbül s-vasbúl szabadúltak.</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41">Tértenek ió útra bolygó tévelygésrül,</l>
+                    <l n="42" xml:id="l.42">indúltak ió kedvre á bús fetrengésrül,</l>
+                    <l n="43" xml:id="l.43">értenek örömre nagy sok kesergésrül,</l>
+                    <l n="44" xml:id="l.44">léptek fris életre sinlö enyelgésrül.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Te sok csudáidat ezek mind hirlelik,</l>
+                    <l n="46" xml:id="l.46">mellyekkel szentséged mivelhogy tündöklik,</l>
+                    <l n="47" xml:id="l.47">szentséges voltodat tisztelik s-böcsüllik,</l>
+                    <l n="48" xml:id="l.48">s-Istennek irgalmát általad reménlik.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Ezek közöt énis az áldot Jésusnak,</l>
+                    <l n="50" xml:id="l.50">reménlem kegyelmét nagy böv irgalmának,</l>
+                    <l n="51" xml:id="l.51">könyörgésed által bünös szolgáiának,</l>
+                    <l n="52" xml:id="l.52">hogy meg adgya nékem, szegény nyomorúltnak.</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="53" xml:id="l.53">Kérlek azért téged, könyörögi érettem,</l>
+                    <l n="54" xml:id="l.54">én sok inségimet, mellyekben kerültem,</l>
+                    <l n="55" xml:id="l.55">s-keserves ügyemet, jól tudod, el hittem,</l>
+                    <l n="56" xml:id="l.56">éppen hoszszú halál én rövid életem.</l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="57" xml:id="l.57">El-vesze szolgádnak ö kedves Jószága,</l>
+                    <l n="58" xml:id="l.58">mivelhogy el-vesze feie szabadsága,</l>
+                    <l n="59" xml:id="l.59">s-vagyon régtül fogvást sanyarú rabsága</l>
+                    <l n="60" xml:id="l.60">s-rabságos éltében boldogtalansága.</l>
+                </lg>
+                <lg n="16" xml:id="lg.16">
+                    <l n="61" xml:id="l.61">Sürü sok insége szerzi teprengését,</l>
+                    <l n="62" xml:id="l.62">nagy sanyarúsága búban tévelygését,</l>
+                    <l n="63" xml:id="l.63">sok nyomorúsága szive kesergését</l>
+                    <l n="64" xml:id="l.64">s-nyavalyás élete sinlö enyelgését,</l>
+                </lg>
+                <lg n="17" xml:id="lg.17">
+                    <l n="65" xml:id="l.65">Mert bé-zárt fogháza dögleletessége,</l>
+                    <l n="66" xml:id="l.66">földi veszélyeknek minden féle mérge,</l>
+                    <l n="67" xml:id="l.67">szüntelen emésztö tüznek sebessége,</l>
+                    <l n="68" xml:id="l.68">sillyesztö s-el-vesztö Tengernek mélysége,</l>
+                </lg>
+                <lg n="18" xml:id="lg.18">
+                    <l n="69" xml:id="l.69">Mely ötet, mint az tüz, naponként emészti,</l>
+                    <l n="70" xml:id="l.70">s-mint tengeri örvény, à búban sillyeszti,</l>
+                    <l n="71" xml:id="l.71">mint dögleletesség, életét epeszti,</l>
+                    <l n="72" xml:id="l.72">s-mint földi nagy veszély, maid éppen el-veszti.</l>
+                </lg>
+                <lg n="19" xml:id="lg.19">
+                    <l n="73" xml:id="l.73">De ha az úr Jésus te Könyörgésedre</l>
+                    <l n="74" xml:id="l.74">feie szabadságát meg adgya el-végre,</l>
+                    <l n="75" xml:id="l.75">rêa talál el-veszett, drága, szép kincsére,</l>
+                    <l n="76" xml:id="l.76">s-jutni fog azonnal szive örömére.</l>
+                </lg>
+                <lg n="20" xml:id="lg.20">
+                    <l n="77" xml:id="l.77">Könyörgésed által Jésus irgalmábúl,</l>
+                    <l n="78" xml:id="l.78">hogy ha meg szabadúl maga rabságábúl,</l>
+                    <l n="79" xml:id="l.79">s-fellyeb elöl számlált nyomorúságábúl,</l>
+                    <l n="80" xml:id="l.80">fel-támasztod ötet éppen az halálbúl,</l>
+                </lg>
+                <lg n="21" xml:id="lg.21">
+                    <l n="81" xml:id="l.81">A’mellyel magamon énis tapasztalni</l>
+                    <l n="82" xml:id="l.82">fogom csudáidat, s-másnakis hirdetni,</l>
+                    <l n="83" xml:id="l.83">s-tégedet tisztelve à Jésust áldani,</l>
+                    <l n="84" xml:id="l.84">s-nagy hálákat adva vigan magasztalni.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

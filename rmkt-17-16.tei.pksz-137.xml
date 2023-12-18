@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">137.</title>
+                <title type="main">Uj enek (Oh Irgalmas Isten, ki vagy te népednek...)</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-137</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-137.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi
+                                rend="bold">MTAK Kézirattár K 97.</hi> 36b–38a.</bibl> – Végén:
+                        Amen. Kiad.: <bibl><abbr><hi rend="smallcaps">Thaly</hi></abbr>,
+                            203–204.</bibl> (8 vsz.); <bibl><abbr><hi rend="smallcaps"
+                                    >Harsányi–Gulyás</hi></abbr>, 451.</bibl>; <bibl><abbr>Magyar
+                                költők. XVII. század.</abbr> 356–358.</bibl>; <bibl><hi
+                                rend="smallcaps">Varga Imre</hi>: <title>A kuruc küzdelmek
+                                költészete.</title> Bp. 1977. 164–166.</bibl> (Petrőczy Kata
+                        szerzőségét valószínűtlennek tartja).</p><p xml:id="crit.1.p.2"> A
+                        nótajelzés a <title><hi rend="italic">Cantus catholici</hi></title> egyik
+                        énekéből való. (<bibl>[<placeName>Lőcse<idno type="ITIdata"
+                                >Q8066</idno></placeName>] <date when="1651">1651</date>.
+                            248–249.</bibl>) Megjelent a szlovákok számára szerkesztett <title><hi
+                                rend="italic">Cantus catholici</hi></title>-kiadásokban is, ott
+                        latin nyelven. (<bibl>[<placeName>Lőcse<idno type="ITIdata"
+                                >Q8066</idno></placeName>] <date when="1655">1655</date>.
+                            312.</bibl> és <bibl><placeName>Nagyszombat<idno type="ITIdata"
+                                    >Q14207</idno></placeName><date when="1700">1700</date>.
+                            318.</bibl>) L. még <bibl><abbr>RMDT I.</abbr> 188/I.</bibl>;
+                                <bibl><abbr>II.</abbr> 134–135.</bibl></p><p xml:id="crit.1.p.3">A
+                        vers gondolatait és szövegezését tekintve hasonlóságot mutat
+                            <persName>Szegedi Gergelynek<idno type="ITIdata"
+                            >Q160224</idno></persName> a 71. zsoltárból készített parafrázisával
+                                (<bibl><abbr>RMKT XVI/6.</abbr> 230–233.</bibl>), valamint
+                            <persName>B. Almási Péternek<idno type="ITIdata"
+                            >Q38941</idno></persName> a sárospataki kollégium kiűzettetéséről írt
+                        versének 8–10. strófájával. (<bibl><abbr>RMKT XVII/14.</abbr> 76. sz.</bibl>
+                        232.)</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 137.</fw>
+                <head type="title">UJ ENEK.</head>
+                <head type="notation">Nota: Mit bizik evilág</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Oh Irgalmas Isten, ki vagy te népednek,</l>
+                    <l n="2" xml:id="l.2">óltalmazo atya igaz hiveidnek,</l>
+                    <l n="3" xml:id="l.3">látod, minden felöl ellenünk mint Jönek</l>
+                    <l n="4" xml:id="l.4">szörnyü ragadozó, Juh ruhába járo</l>
+                    <l n="5" xml:id="l.5">Farkasok, s el nyelnek.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="6" xml:id="l.6">Ha te nem segétesz, mi meg nem álhatunk,</l>
+                    <l n="7" xml:id="l.7">az lelki vakságra szörnyen tántorodunk,</l>
+                    <l n="8" xml:id="l.8">reánk agyarkodó fogoktul rettegünk,</l>
+                    <l n="9" xml:id="l.9">jaj, ne hagy el vesznünk, és kétségbe esnünk,</l>
+                    <l n="10" xml:id="l.10">jövel, segétségünk!</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="11" xml:id="l.11">Föl tötték magokba, hogy el töröllyenek</l>
+                    <l n="12" xml:id="l.12">ez földnek szinérül, semmivé tegyenek,</l>
+                    <l n="13" xml:id="l.13">lelkünk isméretén is Urak legyenek,</l>
+                    <l n="14" xml:id="l.14">emberi találmánt, kit szent lelked utált,</l>
+                    <l n="15" xml:id="l.15">velünk hitessenek.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="16" xml:id="l.16">Tiltyák és Csufollyák a te szent igidet,</l>
+                    <l n="17" xml:id="l.17">utallnak, kik tisztán tisztellyük nevedet,</l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">véred hullásával nyer<corr>t</corr> szent
+                                érdemedet</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">nyerd</rdg>
+                        </app></l>
+                    <l n="19" xml:id="l.19">meg vetvén üldözik, s arra kinszeritik</l>
+                    <l n="20" xml:id="l.20">az te hiveidet.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="21" xml:id="l.21">Más közbe járokat keresnek magoknak,</l>
+                    <l n="22" xml:id="l.22">jo téteményekbe igen bizakodnak,</l>
+                    <l n="23" xml:id="l.23">szerelmes Jesusom, veled nem gondolnak,</l>
+                    <l n="24" xml:id="l.24">kezek munkájának, az könek és fának</l>
+                    <l n="25" xml:id="l.25">térdet, fejet hajtnak.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="26" xml:id="l.26">Népednek Pásztori a te házaidbul,</l>
+                    <l n="27" xml:id="l.27">ki üzetettenek te szent templomidbul,</l>
+                    <l n="28" xml:id="l.28">Jay, nénts maradások, üzetnek egy helybül</l>
+                    <l n="29" xml:id="l.29"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">másra, s meg ölettek, sok vért ki
+                                öntöttek</lem>
+                            <rdg wit="#W1" xml:id="rdg.2"><del corresp="Petrőczy Kata Szidónia"
+                                    >öletnek</del><add corresp="Petrőczy Kata Szidónia" type="corr"
+                                    >ölettek</add></rdg>
+                        </app></l>
+                    <l n="30" xml:id="l.30">az te hiveidböl.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="31" xml:id="l.31">Tapsólván örülnek az mi siralminkon,</l>
+                    <l n="32" xml:id="l.32">keményül kö szivek nyomoruságinkon,</l>
+                    <l n="33" xml:id="l.33">és hatalmaskodnak minden javainkon,</l>
+                    <l n="34" xml:id="l.34">meg szünt az Enek szó, hallatik czak jaj s oh</l>
+                    <l n="35" xml:id="l.35">az mi uczainkon.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="36" xml:id="l.36">Sohol nem maradhat te néped békével,</l>
+                    <l n="37" xml:id="l.37">akár hová menyen, de ök sietségel</l>
+                    <l n="38" xml:id="l.38">ottan fel talallyák, s nagy veszedelmével</l>
+                    <l n="39" xml:id="l.39"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">ujab practikákal, ki gond <corr>o</corr>lt
+                                czudákal</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">ki gondalt</rdg>
+                        </app></l>
+                    <l n="40" xml:id="l.40">fogyatyák s fegyverrel.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="41" xml:id="l.41">El czallyák, czabityák az gyenge hitüket,</l>
+                    <l n="42" xml:id="l.42">rabság alá vetik azoknak lelkeket,</l>
+                    <l n="43" xml:id="l.43">uj találmányokra hajtyák szeginyeket,</l>
+                    <l n="44" xml:id="l.44">az czak kivánságok, hogy gyölljon Joszágok,</l>
+                    <l n="45" xml:id="l.45">töltik szekrinyeket.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="46" xml:id="l.46">Te szent igéd helyet mikint kereskednek,</l>
+                    <l n="47" xml:id="l.47">jövendö bünöket pénzért el engednek,</l>
+                    <l n="48" xml:id="l.48">tiltyák az szent irást, kiböl mint higyenek,</l>
+                    <l n="49" xml:id="l.49">meg netanulhassák, s végét ne szakaszak</l>
+                    <l n="50" xml:id="l.50"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">ö <corr>j</corr>övedelmeknek.</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">lövedelmeknek</rdg>
+                        </app></l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="51" xml:id="l.51"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Tiszta élet széne alat, im, mint
+                                élnek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5"><del corresp="Petrőczy Kata Szidónia"
+                                    >alat</del><add corresp="Petrőczy Kata Szidónia" type="corr"
+                                    >széne</add></rdg>
+                        </app></l>
+                    <l n="52" xml:id="l.52">fajtalan tobzodók, Istentöl nem félnek,</l>
+                    <l n="53" xml:id="l.53">az szent házasságot tartyák nagy véteknek,</l>
+                    <l n="54" xml:id="l.54">s tiltyák, példát adnak ők az halgatóknak,</l>
+                    <l n="55" xml:id="l.55">s nints tilalma ennek.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="56" xml:id="l.56">Oh, szerelmes Atyánk, essék meg te szived,</l>
+                    <l n="57" xml:id="l.57">látod ez Inséget, kit szenved te néped,</l>
+                    <l n="58" xml:id="l.58">és jusson eszedbe igaz igireted,</l>
+                    <l n="59" xml:id="l.59">mondván, nefély, népem, Pokol kapuja sem</l>
+                    <l n="60" xml:id="l.60">alhat meg ellened.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="61" xml:id="l.61">Hivunk segétségül, az mint parantsoltad,</l>
+                    <l n="62" xml:id="l.62">oh, ne hagy el esnünk, s hitünket támaszad,</l>
+                    <l n="63" xml:id="l.63">eröséczed, kérlek, hogy az mint meg hattad,</l>
+                    <l n="64" xml:id="l.64">te benned reménlyünk, s azoktul ne féllyünk,</l>
+                    <l n="65" xml:id="l.65">az kik nem árthatnak.</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="66" xml:id="l.66">Mert nem ölik meg az halhatatlan lelket,</l>
+                    <l n="67" xml:id="l.67">ha kinzások által próbállyák az testet,</l>
+                    <l n="68" xml:id="l.68">fel támasztya Isten, s ád örök életet,</l>
+                    <l n="69" xml:id="l.69">az sok jai szó után üdvösségnek utyán</l>
+                    <l n="70" xml:id="l.70">meg vigasztal ménket.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

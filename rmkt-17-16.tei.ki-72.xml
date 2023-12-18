@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">72.</title>
+                <title type="main">A' kegyes olvasóhoz</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-72</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-72.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A füzetcím
+                        kronosztichonja: <date when="1706">1706</date>. Az <bibl>OSZK Quart. Hung.
+                            981.</bibl> jelzetű kézirat e füzetcím (3a.) után a <ref
+                            target="rmkt-17-16.tei.ki-73">73. sz. vers</ref>et közli.</p><p
+                        xml:id="crit.1.p.2">Nyomtatott kiadása: <hi rend="bold">Sok féLe kereszteL
+                            EL-kesereDet eMbernek kI-kohoLt Verse.</hi> H. n. é. n. A1b. Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Thaly</hi>: Adalékok. II.
+                            </abbr>111–112.</bibl> (4 strófa); <bibl><abbr>A kuruc küzdelmek
+                                költészete.</abbr> 566.</bibl>; <bibl><abbr>Magyar költők. 17.
+                                század. I.</abbr> 613.</bibl></p><p xml:id="crit.1.p.3">Latin
+                        fordítása: <bibl><title>Salictum
+                                Heliconis.</title><placeName>Buda</placeName><date when="1725"
+                                >1725</date>. G3a</bibl> , külön cím nélkül a <hi rend="bold"
+                        >M</hi>ENS PON<hi rend="bold">D</hi>ERE PRESSA <hi rend="bold">C</hi>R<hi
+                            rend="bold">VCI</hi>S cím alatt. A cím mellett kézzel: <hi rend="italic"
+                            >1706</hi>. A kronosztichon értéke is ennyi.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">Sok féLe kereszteL EL-kesereDet eMbernek kI-kohoLt Verse.
+                        H. n. é. n.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="title">SOK FÉ<hi rend="bold">L</hi>E KERESZTE<hi rend="bold"
+                    >L</hi><milestone unit="p"/>E<hi rend="bold">L</hi>-KESERE<hi rend="bold"
+                >D</hi>ET E<hi rend="bold">M</hi>BERNEK <milestone unit="p"/>K<hi rend="bold"
+                    >I</hi>-KOHO<hi rend="bold">L</hi>T <hi rend="bold">V</hi>ERSE</head>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 72.</fw>
+                <head type="title">A’ KEGYES OLVASÓHOZ</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Három esztendönek és két holnapoknak</l>
+                    <l n="2" xml:id="l.2">El forgása után hoszas rabságomnak,</l>
+                    <l n="3" xml:id="l.3">Isten adván végét nyomorgatásomnak,</l>
+                    <l n="4" xml:id="l.4">Örültem, vigadtam szabadulásomnak.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Gondoltam, hazámnak kivánt csendességét,</l>
+                    <l n="6" xml:id="l.6">Házamnál élhetem kedvelt békességét,</l>
+                    <l n="7" xml:id="l.7">Kiki Királlyához meg tartván hivségét,</l>
+                    <l n="8" xml:id="l.8">Már többé nem látom kurucz ellenségét.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">De megint támadván veszéllye hazámnak,</l>
+                    <l n="10" xml:id="l.10">Kurucz ellensége mindenütt házamnak,</l>
+                    <l n="11" xml:id="l.11">Felkent Királyomnak s-kegyelmes-Uramnak</l>
+                    <l n="12" xml:id="l.12">Táborára menni kelletvén magamnak,</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Hól együtt, hól másut fáradván jártomban,</l>
+                    <l n="14" xml:id="l.14">Buda viz várasát sokáig laktomban,</l>
+                    <l n="15" xml:id="l.15">Hazámnak romlásán lévén bánatomban,</l>
+                    <l n="16" xml:id="l.16">Szerzém ez verseket henyélö voltomban.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

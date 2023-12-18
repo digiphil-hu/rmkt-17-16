@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">8.</title>
+                <title type="main">(Sütve tévé alád sánta szolgád, Balling...)</title>
+                <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                            type="ITIdata">Q60007</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.rd-8</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.rd-8.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Utólag ráragasztott
+                        zöld és sárga papíron, alatta nincs szöveg.</p><p xml:id="crit.1.p.2">Kiad.:
+                                <bibl><hi rend="smallcaps">Szilágyi Sándor</hi>: I. m. 133.</bibl>;
+                                <bibl><hi rend="smallcaps">Perényi József</hi>: I. m. 90.</bibl>;
+                                <bibl><hi rend="smallcaps">Elekes Mihály</hi>: I. m.
+                        101–102.</bibl>; <bibl><hi rend="smallcaps">Dézsi Lajos</hi>: I. m.
+                            248.</bibl> – A vers hőse <persName>Brandenburgi Katalin<idno
+                                type="ITIdata">Q60100</idno></persName>(<date from="1604" to="1649"
+                            >1604–1649</date>),<persName> Bethlen Gábor<idno type="ITIdata"
+                                >Q41495</idno></persName> felesége.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="K1">OSZK Fol. Hung. 91. 105b. </witness>
+                    <witness xml:id="K2"> Tiszáninneni Ref. Egyházkerület Tudományos Gyűjteményei.
+                        Sárospatak. Kézirattár 108. 72.</witness>
+                    <witness xml:id="K3"> OL Forgách cs. lt. (P 1890) Vegyes iratok 1. cs. 6. tétel.
+                        45a.</witness>
+                    <witness xml:id="K4a">Kalocsai Főszékesegyházi Könyvtár. Ms. 350. 90. </witness>
+                    <witness xml:id="K4b"> Esztergomi Főszékesegyházi Könyvtár. Mss. IV. 2.
+                        71a.</witness>
+                    <witness xml:id="K5a"> MTAK Kézirattár Tört. 2-r. 101. 79b.</witness>
+                    <witness xml:id="K6a"> OSZK Fol. Hung. 86. 63a.</witness>
+                    <witness xml:id="K7a"> OL Károlyi cs. lt. (P 1512) Vegyes iratok 3. cs. (1544–
+                        1648) 43b.</witness>
+                    <witness xml:id="K7b"> OSZK Quart. Hung. 1054. 120.</witness>
+                    <witness xml:id="K9a">Esztergomi Főszékesegyházi Könyvtár. Kézirat XVIII. sz.
+                        Tit. III. d. 157. </witness>
+                    <witness xml:id="K10j"> MTAK Kézirattár Tört. 2-r. 150. 70b.</witness>
+                    <witness xml:id="K-I"> MTAK Kézirattár Tört. 4-r. 106. 43b.</witness>
+                    <witness xml:id="K-Ia">Ráday-Gyűjtemény K. 1.8. 198. </witness>
+                    <witness xml:id="K-Ib">OSZK Fol. Hung. 89. 76b. </witness>
+                    <witness xml:id="K-Id">OSZK Fol. Hung. 2214. 47b. </witness>
+                    <witness xml:id="K-II"> OSZK Fol. Hung. 1130. 38b.</witness>
+                    <witness xml:id="K-IIa"> Esztergomi Főszékesegyházi Könyvtár,
+                        Batthyány-gyűjtemény. Sine categoria et titulo 414a. 140.</witness>
+                    <witness xml:id="K-IIc"> Egri Főegyházmegyei Könyvtár Qq. VIII. 14.
+                        54.</witness>
+                    <witness xml:id="K-III"> Szlovák Központi lt. Zayugróci lt. Baloghov elenchus
+                        II. 136. 35a.</witness>
+                    <witness xml:id="K-IIIa"> OSZK Fol. Hung. 90. 27a.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="NASZ">A kritikai kiadásban található jelölés alapján a
+                        szövegforrás nem azonosítható (= hiányos, hibás vagy hiányzó sigla).
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 8.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Sütve tévé alád<note type="critic"
+                                    xml:id="note.1">A szólás értelme nem világos, de a
+                                        <persName>Tótfalusi Kis Miklós<idno type="ITIdata"
+                                            >Q151555</idno></persName> által használt „Sütve tészik
+                                    alám a makkot” valószínűleg ’befűtenek nekem’ jelentést
+                                    hordoz.</note> sánta szolgád, Balling,<note type="critic"
+                                    xml:id="note.2"><persName>Balling János<idno type="ITIdata"
+                                            >Q238768</idno></persName> (†<date when="1645"
+                                        >1645</date>), fogarasi, <persName>Brandenburgi Katalin<idno
+                                            type="ITIdata">Q60100</idno></persName> idejében
+                                    munkácsi kapitány. A fejedelemasszony kívánsága ellenére nem
+                                    bocsátotta be <persName>Csákyt<idno corresp="Csáky István"
+                                            type="ITIdata">Q155785</idno></persName> a munkácsi
+                                    várba.</note></lem>
+                            <rdg wit="#K2" xml:id="rdg.1">tive</rdg>
+                            <rdg wit="#KK" xml:id="rdg.2">tivé</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.3">szólga</rdg>
+                        </app></l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Azt mondák Portán, hogy Csáki<note
+                                    type="critic" xml:id="note.3"><persName>Csáky István<idno
+                                            type="ITIdata">Q155785</idno></persName>, körösszegi,
+                                    gr. (<date from="1603" to="1662">1603–1662</date>),
+                                            <persName>István<idno corresp="Csáky István"
+                                            type="ITIdata">Q250127</idno></persName> erdélyi
+                                    hadvezér és <persName>Wesselényi Anna<idno type="ITIdata"
+                                            >Q60665</idno></persName> fia. <persName>Bethlen
+                                            Gábor<idno type="ITIdata">Q41495</idno></persName> alatt
+                                    Kolozs vármegye főispánja, utóbb <placeName>Szendrő<idno
+                                            type="ITIdata">Q9473</idno></placeName> főkapitánya,
+                                    Szepes vármegye főispánja, <date from="1644">1644-től</date>
+                                    tárnokmester, tanácsos és kamarás. <persName>Brandenburgi
+                                            Katalin<idno type="ITIdata">Q60100</idno></persName>
+                                    kegyenceként a katolikus párt és a Habsburg-orientáció híve.
+                                    Miután sikertelenül próbálta megszerezni a fejedelmi trónt, a
+                                    királyi Magyarországra távozott.</note> a’ farmatring,<note
+                                    type="critic" xml:id="note.4">farmatring - farszíj;
+                                    büntetőeszköz, korbács.</note></lem>
+                            <rdg wit="#K2" xml:id="rdg.4">mongyak</rdg>
+                            <rdg wit="#K6a" xml:id="rdg.5"><del>famatringh</del><add type="corr"
+                                    >farmatringh</add></rdg>
+                            <rdg wit="#K-I" xml:id="rdg.6"><del>El-fogya</del><add type="corr">Azt
+                                    mondák</add>; Portán, Csáki</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.7">portán, Csáki</rdg>
+                            <rdg wit="#K-Ib #K-Id" xml:id="rdg.8">Portán, Csáki</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.9"><del>csáki</del><add type="corr"
+                                    >Csáki</add></rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">El fogya miatta mind fenig, mind
+                                    selling,<note type="critic" xml:id="note.5">pfennig és
+                                    schilling, azaz kis és nagy pénz</note></lem>
+                            <rdg wit="#K1" xml:id="rdg.10">fenig s mind</rdg>
+                            <rdg wit="#K2" xml:id="rdg.11">miattad; fening s mind</rdg>
+                            <rdg wit="#K3" xml:id="rdg.12"><del>miattad</del><add type="corr"
+                                    >miatta</add>; fenig s mind</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.13">Fenning</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.14">El-fogy a miatt; féning</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.15">fening, mind felling</rdg>
+                            <rdg wit="#K-Ib #K-Id" xml:id="rdg.16">fening</rdg>
+                            <rdg wit="#K-III #K-IIIa" xml:id="rdg.17">E fogya; fening</rdg>
+                        </app></l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Gazdais végre lön egy idegen
+                                    czvinczing.<note type="critic" xml:id="note.6">czvinczing - A
+                                    szó azonosítása nem sikerült, értelme bizonyára ’bitang,
+                                    senkiházi’.</note></lem>
+                            <rdg wit="#K1" xml:id="rdg.18">edgy rosz Czvinczig fánczig</rdg>
+                            <rdg wit="#K3" xml:id="rdg.19"><del>vére</del><add instant="true"
+                                    type="corr">végre</add></rdg>
+                            <rdg wit="#K4a" xml:id="rdg.20">csak edgy bitang Czvinczing</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.21">tsak egy bitang czvinczing</rdg>
+                            <rdg wit="#K10j" xml:id="rdg.22">csak egy bitang Czvinczing</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.23">csak egy hitwán Csinczing</rdg>
+                            <rdg wit="#K6a" xml:id="rdg.24">idegeny</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.25">tsak egy bitang czvinczig</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.26">tsák egy bitang Czvintzig</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.27">Gazdagis; tsak égy bitang
+                                Czvinczing</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.28">tsak edj bitang czvintzig</rdg>
+                            <rdg wit="#K-IIa" xml:id="rdg.29">Gazdalis</rdg>
+                            <rdg wit="#K-III #K-IIIa" xml:id="rdg.30">csak egy bitang
+                                czvinczing</rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Fárada melletted Királly Bátyád, Svecus,</l>
+                    <l n="6" xml:id="l.6">Amaz hires vitéz, Gustavus Adolphus,<note type="critic"
+                            xml:id="note.7"><persName>II. Gusztáv Adolf <idno type="VIAF"
+                                    >VIAF:10637323</idno></persName>(<date from="1594" to="1632"
+                                >1594–1632</date>) svéd király.</note></l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Szolla Portán érted, lenne tiéd a’
+                                Jus,</lem>
+                            <rdg wit="#K3" xml:id="rdg.31">é<add type="insert">r</add>ted </rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">De nem nyerheté meg a’ Svecus
+                                    Legatus.<note type="critic" xml:id="note.8">svéd
+                                követ</note></lem>
+                            <rdg wit="#K-II #K-IIa #K-IIc" xml:id="rdg.32"> az Svecus</rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Sogorod, vén Betlen<note type="critic"
+                                    xml:id="note.9"><persName>Bethlen István<idno type="ITIdata"
+                                            >Q239812</idno></persName>, iktári, gr., id. (<date
+                                        from="1587" to="1648">1587–1648</date>),<persName>
+                                            Farkas<idno type="ITIdata">Q171221</idno></persName> és
+                                        szárhegyi<persName> Lázár Druzsiánna</persName> fia,
+                                        <persName>Bethlen Gábor<idno corresp="Bethlen Gábor"
+                                            type="ITIdata">Q41495</idno></persName> fejedelem öccse.
+                                    Máramaros és Hunyad vármegye főispánja. Bátyja magyarországi
+                                    hadjárata idején, majd halála után Erdély kormányzója. <date
+                                        when="1630">1630-ban</date> rövid ideig fejedelem.</note>
+                                sokszor inte téged,</lem>
+                            <rdg wit="#K1" xml:id="rdg.33">[a harmadik strófa hiányzik]</rdg>
+                            <rdg wit="#K2" xml:id="rdg.34"><del>inté</del><add type="corr"
+                                    >inte</add></rdg>
+                            <rdg wit="#K5a #K9a" xml:id="rdg.35"> szokszor</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.36"> Sogorad</rdg>
+                        </app></l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">S Jol lesz vala dolgod, ha szavát bé
+                                végyed,</lem>
+                            <rdg wit="#K2 #K3 #K4a #K4b" xml:id="rdg.37"><note type="critic"
+                                    xml:id="note.10"><hi rend="italic">S</hi> hiányzik</note></rdg>
+                            <rdg wit="#K10j" xml:id="rdg.38"><note type="critic" xml:id="note.11"
+                                        ><hi rend="italic">S</hi> hiányzik</note>; szovát</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.39"><note type="critic" xml:id="note.12"><hi
+                                        rend="italic">S</hi> hiányzik</note>; Jo</rdg>
+                            <rdg wit="#K-I #K-Ia #K-Ib #K-Id #K-II #K-IIa #K-IIc #NASZ"
+                                xml:id="rdg.40"><note type="critic" xml:id="note.13"><hi
+                                        rend="italic">S</hi> hiányzik</note></rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.41"><note type="critic" xml:id="note.14"
+                                        ><hi rend="italic">S</hi> hiányzik</note>; szavád</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">De az oldal tanács<note type="critic"
+                                    xml:id="note.15">oldal tanács - a latere: tanácsadó, bizalmas
+                                    ember</note> addig szura téged,</lem>
+                            <rdg wit="#K2" xml:id="rdg.42">odal</rdg>
+                            <rdg wit="#K-IIIa" xml:id="rdg.43">szurá</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">Mig mindent <corr>ki</corr> csala, s
+                                koldulás lön véged.</lem>
+                            <rdg wit="#K2" xml:id="rdg.44"><del>koldusságh</del><add type="corr"
+                                    >koldusság</add></rdg>
+                            <rdg wit="#K3" xml:id="rdg.45">kodusságh</rdg>
+                            <rdg wit="#K4a" xml:id="rdg.46">el csala, s kuldulás</rdg>
+                            <rdg wit="#K4b" xml:id="rdg.47">eltsala </rdg>
+                            <rdg wit="#K10j" xml:id="rdg.48">el csala</rdg>
+                            <rdg wit="#K5a" xml:id="rdg.49">Még</rdg>
+                            <rdg wit="#K6a" xml:id="rdg.50">kolduslás</rdg>
+                            <rdg wit="#K7a" xml:id="rdg.51">el csala</rdg>
+                            <rdg wit="#K7b" xml:id="rdg.52">el csalá</rdg>
+                            <rdg wit="#K-I" xml:id="rdg.53">el-tsala</rdg>
+                            <rdg wit="#K-Ia" xml:id="rdg.54">el tsala</rdg>
+                            <rdg wit="#K-Ib" xml:id="rdg.55">el csala</rdg>
+                            <rdg wit="#K-Id" xml:id="rdg.56">el tsala</rdg>
+                            <rdg wit="#K-II #K-IIa #K-IIc #K-III #K-IIIa" xml:id="rdg.57">el
+                                csala</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

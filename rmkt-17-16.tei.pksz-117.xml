@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">117.</title>
+                <title type="main">Mas. Melljet szerzet, midőn maga kőzel valo víre miát szenvedet
+                    elviselhetetlen sulyos kereztet</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-117</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-117.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi
+                                rend="bold">MTAK Kézirattár K 97.</hi> 18a–18b.</bibl> Kiad.:
+                                    <bibl><abbr><hi rend="smallcaps">Harsányi–Gulyás</hi></abbr>,
+                            317.</bibl>; <bibl><abbr>Magyar költők. XVII. század.</abbr>
+                            330–332.</bibl>; <bibl><abbr>Magyar költők. 17. század.</abbr>
+                            621–622.</bibl>; <bibl><abbr>A XVII. század költői.</abbr>
+                        305.</bibl></p><p xml:id="crit.1.p.2"> A vers <date when="1690">1690</date>
+                        első hónapjaiban keletkezhetett, l. a <ref target="rmkt-17-16.tei.pksz-111"
+                            >111. sz. vers</ref> jegyzeteit </p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 117.</fw>
+                <head type="title">MAS.</head>
+                <head type="argumentum"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">Melljet szerzet, midőn maga kőzel valo <del
+                                corresp="corrector">vére</del><add corresp="corrector" type="corr"
+                                >víre</add> miát szenvedet elviselhetetlen sulyos kereztet</lem>
+                        <rdg wit="#W1" xml:id="rdg.1"/>
+                    </app></head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Vérembűl szármozot, Jai, halálos mérgem,</l>
+                    <l n="2" xml:id="l.2">Vérem miát Ujul órankint Inségem,</l>
+                    <l n="3" xml:id="l.3">Vérem oka, hogy fogy az én egésséghem,</l>
+                    <l n="4" xml:id="l.4">Mert miátta meg unt, ki vólt reménséghem.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Átkozot órába fogant faitalanság,<note type="critic"
+                            xml:id="note.1">Vö. <persName>Nyéki Vörös Mátyás<idno type="ITIdata"
+                                    >Q159146</idno></persName><title><hi rend="italic"
+                                    >Tintinnabulum</hi></title>ának 280. strófájával: „Átkozott az
+                            Óra, melyben fogantattunk!” (<bibl><abbr>RMKT XVII/2.</abbr> 93. sz.
+                                206.</bibl>) A strófa ugyanolyan sor eleji szóismétlődésen alapuló
+                            gondolatritmust tartalmaz, mint Petrőczy Kata versének 1. strófája. L.
+                            még <persName>Rákóczi Erzsébet<idno type="ITIdata"
+                                >Q48194</idno></persName> e sorát: „Átkozott az óra, mikor erre
+                            jöttem”. (<bibl><abbr>RMKT XVII/11.</abbr> 73. sz. 2. vsz.
+                            202.</bibl>)</note></l>
+                    <l n="6" xml:id="l.6"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Szomorusagomra szűletet gonosság,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">szűl<del corresp="copyist" instant="true"
+                                    >ő</del><add corresp="copyist" type="corr">e</add>tet</rdg>
+                        </app></l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Verével fertezést kivánó oczmányság,</lem>
+                            <rdg wit="#W1" xml:id="rdg.3"><del corresp="corrector"
+                                    >fertezet</del><add corresp="corrector" type="corr"
+                                    >fertezést</add></rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8">Vére veszedelmén tomboló gyilkosság.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Oka kinaimnak, söt halálomnak is,</l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Miatta nöt rajtam ez
+                                fai<corr>d</corr>almas kilis,<note type="critic" xml:id="note.2"
+                                    >kelés</note></lem>
+                            <rdg wit="#W1" xml:id="rdg.4">failalmas</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Óránkint mérget nyel szomoru lelkem
+                                is,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5"><del corresp="corrector">njel</del><add
+                                    corresp="corrector" type="corr">nyel</add></rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12">Mert sérti szivemet ez őldőklő tővis.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Bizony meg kőnyvezne, ki sebeit
+                                latna,</lem>
+                            <rdg wit="#W1" xml:id="rdg.6"><del corresp="corrector">Biszony</del><add
+                                    corresp="copyist" type="corr">Bizony</add></rdg>
+                        </app></l>
+                    <l n="14" xml:id="l.14">Mélto győtrelmimet, mint én, ugy tudhatna,</l>
+                    <l n="15" xml:id="l.15">Tenger gondolatimot által láthatná,</l>
+                    <l n="16" xml:id="l.16"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Sok sóhajtásimot ha meg
+                                szamlálhatná.</lem>
+                            <rdg wit="#W1" xml:id="rdg.7"><del corresp="corrector"
+                                    >sóhaitásimot</del><add corresp="corrector" type="corr"
+                                    >sóhajtásimot</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Reméntelen éltem kétségel határos,</l>
+                    <l n="18" xml:id="l.18">Mind kőltőm, mind fektem nékem mar siralmas,</l>
+                    <l n="19" xml:id="l.19">Mirigyes sebektől szivem oly fajdalmas,</l>
+                    <l n="20" xml:id="l.20">Meg gyogyulhatatlan nyavaljam hálálos.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Akar Űlők, járok, kinyaim nem
+                                szűnnek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">Űlők, <del>akar</del> járok</rdg>
+                        </app><note type="critic" xml:id="note.3">Vö. <persName>Koháry<idno
+                                    type="ITIdata">Q46344</idno></persName> következő sorával: „Vagy
+                            fekszem, vagy ülök, vagy állok, vagy járok […]” (Kötetünkben <ref
+                                target="rmkt-17-16.tei.ki-70">70. sz. 26. vsz.</ref>)</note></l>
+                    <l n="22" xml:id="l.22">Akar mit mivellyek, azok nem kimilnek,</l>
+                    <l n="23" xml:id="l.23">Bánatim tüzei szivembe nem hűlnek,</l>
+                    <l n="24" xml:id="l.24">Szűntelen ostromló gondolatim nőnek.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Sziv vesztő mirigyim óránkint
+                                ujulnak,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9"><del corresp="corrector"
+                                    >mirigjim</del><add corresp="corrector" type="corr"
+                                    >mirigyim</add></rdg>
+                        </app></l>
+                    <l n="26" xml:id="l.26">Sok siralmas okok ujab langot funak</l>
+                    <l n="27" xml:id="l.27">Szomoru szivemre, s épen főldig nyomnak,</l>
+                    <l n="28" xml:id="l.28">Őrőm, sem reménseg bennem nem ujulnak.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Nints már orvossága sebesült szivemnek,</l>
+                    <l n="30" xml:id="l.30">Mert nints csendessége haboru elmémnek,</l>
+                    <l n="31" xml:id="l.31">Nints vigasztalója szomoru éltemnek,</l>
+                    <l n="32" xml:id="l.32">Csak az hálál vethet véget gjőtrelmemnek.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

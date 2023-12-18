@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">78.</title>
+                <title type="main">(Elmémben forgatom elmúlt napjaimot...)</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-78</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-78.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">Somogyi Könyvtár H. e.
+                            772.</hi> B4a–B4b. és hátsó szennylap rektó. Semmilyen módon nincs
+                        elválasztva az előtte másolt <ref target="rmkt-17-16.tei.ki-77">77.
+                            vers</ref>től. Tartalmazza az OSZK Fol. Hung. 1486. is (72a–73a.), de a
+                        másolás a nyomtatott változatról készült, így figyelembevétele nem
+                        szükséges.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">OSZK 816 152.</hi>
+                        all. 3. 3a–4b.</p><p xml:id="crit.1.p.4">A 30. sor szerint a vers írásakor
+                        73 éves, tehát a vers <date when="1722">1722-ben</date>
+                    keletkezett.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">Somogyi Könyvtár H. e. 772. B4a–B4b.</witness>
+                    <witness xml:id="W2">OSZK 816 152. all. 3. 3a–4b.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 78.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Elmémben forgatom elmúlt napjaimot,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">napjajmat</rdg>
+                        </app></l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Azoknak folytában meglett dolgaimot,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">foltában; dolgaimat</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Mostoha sorsomban eltölt óráimot,</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">orajmat</rdg>
+                        </app></l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Szivemet epesztö, bús gondolatimot,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">Szévemet; gondolatimat</rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Ez csalárd világnak tellyes hamisságát,</l>
+                    <l n="6" xml:id="l.6">Mutatot kedvének álhatatlanságát,</l>
+                    <l n="7" xml:id="l.7"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Szinlet javainak enyészö hivságát,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">Szénlet; enyisző</rdg>
+                        </app></l>
+                    <l n="8" xml:id="l.8">Kevés üdö alat elmulandóságát.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Ez elöt vigadtam világon éltemben,</l>
+                    <l n="10" xml:id="l.10"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Forgandó szerencse kerekén ültemben,</lem>
+                            <rdg wit="#W1" xml:id="rdg.6">kerekin űltőmben</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Kedves baratimmal kedvemre létemben,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">Baratimnál; litemben</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12">Most immár bánkodom halandó testemben.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Nem lehet, úgy látom, kévánt
+                                vigasságom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">kivánt</rdg>
+                        </app></l>
+                    <l n="14" xml:id="l.14">Sem egyben, sem másban kedvelt mulatságom.</l>
+                    <l n="15" xml:id="l.15"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Ezernyi sok ezer alkalmatlanságom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">ezerni</rdg>
+                        </app></l>
+                    <l n="16" xml:id="l.16"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">Eppen meg emésztet sok
+                                nyomorúságom.</lem>
+                            <rdg wit="#W1" xml:id="rdg.10">meg emisztet</rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11">Szomoritot régen rabságos inségem,</lem>
+                            <rdg wit="#W1" xml:id="rdg.11">énségem</rdg>
+                        </app></l>
+                    <l n="18" xml:id="l.18">Dolgaimban történt szerencsétlenségem,</l>
+                    <l n="19" xml:id="l.19"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12">Meg csonkúlt kezemen volt
+                                keserüségem,</lem>
+                            <rdg wit="#W1" xml:id="rdg.12">keserűsigem</rdg>
+                        </app></l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.13">
+                            <lem wit="#KK" xml:id="lem.13">Most búmat neveli megaggot
+                                vénségem.</lem>
+                            <rdg wit="#W1" xml:id="rdg.13">nevelli</rdg>
+                        </app></l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Kel tehát szüntelen kopaszúlt fejemet,</l>
+                    <l n="22" xml:id="l.22"><app xml:id="app.14">
+                            <lem wit="#KK" xml:id="lem.14">Békével szenvedve sénlö életemet,</lem>
+                            <rdg wit="#W1" xml:id="rdg.14">sinlődő éltemet</rdg>
+                        </app></l>
+                    <l n="23" xml:id="l.23"><app xml:id="app.15">
+                            <lem wit="#KK" xml:id="lem.15">Mostan ajánlanom törödöt szivemet,</lem>
+                            <rdg wit="#W1" xml:id="rdg.15">ajanlonom; szévemet</rdg>
+                        </app></l>
+                    <l n="24" xml:id="l.24">Isten irgalmában testemet, lelkemet,</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Hogy én halálomat jó készen várhassam,</l>
+                    <l n="26" xml:id="l.26"><app xml:id="app.16">
+                            <lem wit="#KK" xml:id="lem.16">Meg nyugot elmével az Istent
+                                áldhassam,</lem>
+                            <rdg wit="#W1" xml:id="rdg.16">elmivel</rdg>
+                        </app></l>
+                    <l n="27" xml:id="l.27"><app xml:id="app.17">
+                            <lem wit="#KK" xml:id="lem.17">S-nékie lelkemet vigan be
+                                nyúithassam,</lem>
+                            <rdg wit="#W1" xml:id="rdg.17">s-nekie</rdg>
+                        </app></l>
+                    <l n="28" xml:id="l.28"><app xml:id="app.18">
+                            <lem wit="#KK" xml:id="lem.18">Ingyen irgalmábúl szent szinét
+                                láthassam.</lem>
+                            <rdg wit="#W1" xml:id="rdg.18">szinit</rdg>
+                        </app></l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29"><app xml:id="app.19">
+                            <lem wit="#KK" xml:id="lem.19">Világnak hivságát szivembül
+                                kizárom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.19">szévembűl</rdg>
+                        </app></l>
+                    <l n="30" xml:id="l.30">Eltem esztendeje, tudom, hetvenhárom,</l>
+                    <l n="31" xml:id="l.31"><app xml:id="app.20">
+                            <lem wit="#KK" xml:id="lem.20">Végét életemnek már naponként
+                                várom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.20">Vigét</rdg>
+                        </app></l>
+                    <l n="32" xml:id="l.32"><app xml:id="app.21">
+                            <lem wit="#KK" xml:id="lem.21">Hogy ne következzék semminémü
+                                károm.</lem>
+                            <rdg wit="#W1" xml:id="rdg.21">kővetkézzik</rdg>
+                        </app></l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33"><app xml:id="app.22">
+                            <lem wit="#KK" xml:id="lem.22">Mint álom, mint árnyék, életem
+                                folyása,</lem>
+                            <rdg wit="#W1" xml:id="rdg.22">folása</rdg>
+                        </app></l>
+                    <l n="34" xml:id="l.34">Fogy, múlik, enyészik óránként futása,</l>
+                    <l n="35" xml:id="l.35">Lészen halálomhoz egyik nap jutása,</l>
+                    <l n="36" xml:id="l.36"><app xml:id="app.23">
+                            <lem wit="#KK" xml:id="lem.23">Isten kegyelmébül örök nyúgovása.<note
+                                    type="critic" xml:id="note.1">A strófa a <ref
+                                        target="rmkt-17-16.tei.ki-67">67. sz. vers 4.
+                                    strófájá</ref>nak változata.</note></lem>
+                            <rdg wit="#W1" xml:id="rdg.23">Kegyelmibűl</rdg>
+                        </app></l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37"><app xml:id="app.24">
+                            <lem wit="#KK" xml:id="lem.24">Az kegyetlen P á r k á k noha
+                                elkéstenek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.24">el kistenek </rdg>
+                        </app></l>
+                    <l n="38" xml:id="l.38"><app xml:id="app.25">
+                            <lem wit="#KK" xml:id="lem.25">Eletemnek véget még nem vetettenek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.25">viget</rdg>
+                        </app></l>
+                    <l n="39" xml:id="l.39">Tudom, de felölem nem feletkeztenek,</l>
+                    <l n="40" xml:id="l.40"> S-az halál törében bé rekesztettenek.</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41"><app xml:id="app.26">
+                            <lem wit="#KK" xml:id="lem.26">Volt életem kötve C 1 o t h o
+                                gusalyára,</lem>
+                            <rdg wit="#W1" xml:id="rdg.26">Gusallára</rdg>
+                        </app></l>
+                    <l n="42" xml:id="l.42">Fonalát L a c h e s i s fonta orsójára,</l>
+                    <l n="43" xml:id="l.43">Pergetve orsóját nyújtotta hoszára,</l>
+                    <l n="44" xml:id="l.44"><app xml:id="app.27">
+                            <lem wit="#KK" xml:id="lem.27">Eljut At r o p o s n a k meczö
+                                ollójára.</lem>
+                            <rdg wit="#W1" xml:id="rdg.27">Atraposnak; ollajára</rdg>
+                        </app></l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Azok szokták éltét embernek nyujtani,</l>
+                    <l n="46" xml:id="l.46"><app xml:id="app.28">
+                            <lem wit="#KK" xml:id="lem.28">Akarattyok szerint meg hoszabitani,</lem>
+                            <rdg wit="#W1" xml:id="rdg.28">szerént meg hoszszabitanyi</rdg>
+                        </app></l>
+                    <l n="47" xml:id="l.47"><app xml:id="app.29">
+                            <lem wit="#KK" xml:id="lem.29">Midön kedvek tartya, félben
+                                szakasztani,</lem>
+                            <rdg wit="#W1" xml:id="rdg.29">szakajtani</rdg>
+                        </app></l>
+                    <l n="48" xml:id="l.48"><app xml:id="app.30">
+                            <lem wit="#KK" xml:id="lem.30">Halál hálójában béis taszitani.</lem>
+                            <rdg wit="#W1" xml:id="rdg.30">taszéttani</rdg>
+                        </app></l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Nem szünik körülök C h á r o n vigyázása,</l>
+                    <l n="50" xml:id="l.50">L e t h e vizeiben van hajókázása,</l>
+                    <l n="51" xml:id="l.51"><app xml:id="app.31">
+                            <lem wit="#KK" xml:id="lem.31">Ez világbúl másra embert hordozása</lem>
+                            <rdg wit="#W1" xml:id="rdg.31">világrul</rdg>
+                        </app></l>
+                    <l n="52" xml:id="l.52">S-abban szüntelenül sok fáradozása.</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="53" xml:id="l.53">Iár közel hozzája az keserves halál,</l>
+                    <l n="54" xml:id="l.54"><app xml:id="app.32">
+                            <lem wit="#KK" xml:id="lem.32">Felvont kaszájával körülötte sétál,</lem>
+                            <rdg wit="#W1" xml:id="rdg.32">Fől vont</rdg>
+                        </app></l>
+                    <l n="55" xml:id="l.55"><app xml:id="app.33">
+                            <lem wit="#KK" xml:id="lem.33">Iffjat<note type="critic" xml:id="note.2"
+                                        ><hi rend="italic">iffiat</hi>nak, három szótagúnak
+                                    olvasandó</note> és vénet egyárant lekaszál,</lem>
+                            <rdg wit="#W1" xml:id="rdg.33">egyeránt</rdg>
+                        </app></l>
+                    <l n="56" xml:id="l.56">Kaszája fejemre maid nem sokára szál.</l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="57" xml:id="l.57"><app xml:id="app.34">
+                            <lem wit="#KK" xml:id="lem.34">Kiszabadúl lelkem testem
+                                tümlöczébül,</lem>
+                            <rdg wit="#W1" xml:id="rdg.34">tőmloczébűl</rdg>
+                        </app></l>
+                    <l n="58" xml:id="l.58"><app xml:id="app.35">
+                            <lem wit="#KK" xml:id="lem.35">Ez árnyék világnak sürö
+                                veszélyébül,</lem>
+                            <rdg wit="#W1" xml:id="rdg.35">sűrű veszéllébűl</rdg>
+                        </app></l>
+                    <l n="59" xml:id="l.59"><app xml:id="app.36">
+                            <lem wit="#KK" xml:id="lem.36">Vesztemre sokképpen hánt
+                                kelepczejebül,</lem>
+                            <rdg wit="#W1" xml:id="rdg.36">sok képpen halut</rdg>
+                        </app></l>
+                    <l n="60" xml:id="l.60"><app xml:id="app.37">
+                            <lem wit="#KK" xml:id="lem.37">Lészen boldogságom Isten
+                                kegyelmébül.</lem>
+                            <rdg wit="#W1" xml:id="rdg.37">kegyelmibűl</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

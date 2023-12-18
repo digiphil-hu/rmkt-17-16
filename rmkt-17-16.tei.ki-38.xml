@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">38.</title>
+                <title type="main">Húsvét után nem sokára majd elöl vetödik piros Pünkösd
+                    napja</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-38</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-38.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Fol. Hung.
+                            151.</hi> 26b–27a.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">Sok
+                            ohaItás közben […] szerzet Versek.</hi> 44–46.</p><p xml:id="crit.1.p.4"
+                        >A vers akrosztichonja: <hi rend="smallcaps">hvsvét vtán ném sokára majd
+                            élöl vétödik piros pünkösd nápja</hi>.</p><p xml:id="crit.1.p.5">A vers
+                        szövege szerint két éve raboskodik.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Fol. Hung. 151. 26b–27a.</witness>
+                    <witness xml:id="W2"> Sok ohaItás közben Inség VIseLésben éhség szenVeDésben
+                        keserVes rabságban MVnkáCs köVárában szerzet Versek. H. n. é. n.
+                        44–46.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 38.</fw>
+                <head type="title">HÚSVÉT UTÁN NEM SOKÁRA MAJD ELÖL VETÖDIK PIROS PÜNKÖSD
+                    NAPJA</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><hi rend="bold">H</hi>amar elforgása s-hamar el múlása
+                        vagyon az üdönek,</l>
+                    <l n="2" xml:id="l.2"><hi rend="bold">v</hi>an hamar folyása s-hamar el fogyása
+                        ember életének,</l>
+                    <l n="3" xml:id="l.3"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1"><hi rend="bold">s</hi>enki sok üdöket
+                                s-hoszszú esztendöket nem vehet fejének.</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">s-hoszu</rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="4" xml:id="l.4"><hi rend="bold">V</hi>ilágra születve s-gyermekséget érve
+                        fel sördült korára</l>
+                    <l n="5" xml:id="l.5"><hi rend="bold">é</hi>lete változik, s-nagy hamar érkezik
+                        az Iffiúságra,</l>
+                    <l n="6" xml:id="l.6"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2"><hi rend="bold">*t</hi>alál azon közben
+                                tekintvén tükörben ösz hay szálaira.</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">Tanál</rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="7" xml:id="l.7"><hi rend="bold">V</hi>áltozó esztendök s-hamar forgó üdök
+                        hamar változtattyák,</l>
+                    <l n="8" xml:id="l.8"><hi rend="bold">t</hi>élrül kikeletre, az nyárra és öszre
+                        nagy hamar jutattyák,</l>
+                    <l n="9" xml:id="l.9"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3"><hi rend="bold">á</hi> sok változással
+                                s-hamar elforgással hamar el fogyattyák.</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">Az sok</rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="10" xml:id="l.10"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4"><hi rend="bold">*N</hi>agy hamar azomban
+                                ez sok változásban akad bú szivére,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">azonban, és sok</rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5"><hi rend="bold">n</hi>agy hamar s-hirtelen
+                                s-gyakorta véletlen talál veszélyére,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">tanál</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6"><hi rend="bold">é</hi>r de az bánatrúl,
+                                szive búsúltárúl nagy késün örömre.</lem>
+                            <rdg wit="#W1" xml:id="rdg.6">későn</rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="13" xml:id="l.13"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7"><hi rend="bold">*M</hi>ert hamar jövése,
+                                de késü menése vagyon az bánatnak,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">késő</rdg>
+                        </app></l>
+                    <l n="14" xml:id="l.14"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8"><hi rend="bold">s</hi>zállást az hol
+                                nyerhet, s-az hova bé férhet, helyt vér ö magának,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">beférhet</rdg>
+                        </app></l>
+                    <l n="15" xml:id="l.15"><hi rend="bold">o</hi>nnand nem távozik, söt nemis
+                        búcsúzik, tartya quártélyának.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="16" xml:id="l.16"><hi rend="bold">K</hi>étségem nincs ebben, mert jól jut
+                        eszemben, szivemet mint lepte,</l>
+                    <l n="17" xml:id="l.17"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9"><hi rend="bold">á</hi>t hatta, s-el fogta,
+                                magának foglalta, s-quártélyává tette,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">Álthatta</rdg>
+                        </app></l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10"><hi rend="bold">r</hi>eâ talált fészkére
+                                s-nyúgovó helyére, s-kedvemet el üzte.</lem>
+                            <rdg wit="#W1" xml:id="rdg.10">tanált</rdg>
+                        </app></l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="19" xml:id="l.19"><hi rend="bold">*A</hi>z rabságra esve, szabadságom
+                        vesztve el estem kedvemrül,</l>
+                    <l n="20" xml:id="l.20"><hi rend="bold">m</hi>eszire el szállott, s-igen férre
+                        állott az öröm szivemrül,</l>
+                    <l n="21" xml:id="l.21"><hi rend="bold">a</hi>z nagy sanyarúság és sok
+                        nyomorúság nem ál el fejemrül.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="22" xml:id="l.22"><hi rend="bold">J</hi>övésében búmnak vólt én bánatomnak
+                        egy óra ideje,</l>
+                    <l n="23" xml:id="l.23"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11"><hi rend="bold">*d</hi>e rajtam laktának
+                                s-fojtogatásának múlt két esztendeje,</lem>
+                            <rdg wit="#W1" xml:id="rdg.11">laktának, foitogatásának</rdg>
+                        </app></l>
+                    <l n="24" xml:id="l.24"><hi rend="bold">é</hi>lek mert rabságban, s-fejemnek
+                        valóban szárad az veleje.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="25" xml:id="l.25"><hi rend="bold">L</hi>átnom változását s-jómra
+                        fordúlását mostoha ügyemnek,</l>
+                    <l n="26" xml:id="l.26"><hi rend="bold">ö</hi>röm, vigasságát s-kévánt
+                        mulatságát szegény rab fejemnek,</l>
+                    <l n="27" xml:id="l.27"><hi rend="bold">*l</hi>átom, hogy nem lehet, szivem sem
+                        örülhet folyásán éltemnek.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="28" xml:id="l.28"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12"><hi rend="bold">V</hi>allyon de végtére
+                                leheté késüre örömömet látnom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.12">későre</rdg>
+                        </app></l>
+                    <l n="29" xml:id="l.29"><hi rend="bold">é</hi>n szabadságomat és vigasságomat
+                        üdövel elkapnom,</l>
+                    <l n="30" xml:id="l.30"><hi rend="bold">t</hi>ávozot kedvemre s-kévánt életemre
+                        valaha reâ jutnom?</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="31" xml:id="l.31"><hi rend="bold">Ö</hi>römest kévannám, s-igenis akarnám
+                        valósággal tudnom,</l>
+                    <l n="32" xml:id="l.32"><app xml:id="app.13">
+                            <lem wit="#KK" xml:id="lem.13"><hi rend="bold">d</hi>e én szerencsémnek,
+                                folyását éltemnek Istenre kel biznom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.13">folyását s-éltemnek</rdg>
+                        </app></l>
+                    <l n="33" xml:id="l.33"><hi rend="bold">i</hi>ngyen jóvóltábúl s-örök irgalmábúl
+                        lehet még jót várnom.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="34" xml:id="l.34"><hi rend="bold">*K</hi>egyelmét ohajtva s-Fölségét
+                        imádva lehet szabadúlnom,</l>
+                    <l n="35" xml:id="l.35"><app xml:id="app.14">
+                            <lem wit="#KK" xml:id="lem.14"><hi rend="bold"> p</hi>edig hogy jól
+                                tudom, viseli jó gondom, kel mellyért áldanom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.14">viseli jol gondom</rdg>
+                        </app></l>
+                    <l n="36" xml:id="l.36"><hi rend="bold">i</hi>nségét fejemnek s-keservét
+                        szivemnek néki ajánlanom.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="37" xml:id="l.37"><hi rend="bold">R</hi>eménye nem szünik, söt szivemben
+                        tünik ingyen jóvóltának,</l>
+                    <l n="38" xml:id="l.38"><hi rend="bold">o</hi>szlopúl tarthatom, s-kegyelmét
+                        várhatom nagy böv irgalmának,</l>
+                    <l n="39" xml:id="l.39"><app xml:id="app.15">
+                            <lem wit="#KK" xml:id="lem.15"><hi rend="bold">*s</hi>zent akarattyára,
+                                hagyom jóvóltára folyását sorsomnak.</lem>
+                            <rdg wit="#W1" xml:id="rdg.15">hagyom s-jó</rdg>
+                        </app></l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="40" xml:id="l.40"><hi rend="bold">P</hi>iros Pünkösd napja, szép ki nyilt
+                        rósája más töb virágokkal</l>
+                    <l n="41" xml:id="l.41"><app xml:id="app.16">
+                            <lem wit="#KK" xml:id="lem.16"><hi rend="bold">ü</hi>dövel érkezik,
+                                s-majd el következik ez jövö napokkal,</lem>
+                            <rdg wit="#W1" xml:id="rdg.16">è jűvő</rdg>
+                        </app></l>
+                    <l n="42" xml:id="l.42"><hi rend="bold">n</hi>agy sok szép ujjságot, szerez
+                        vidámságot örvendetes jókkal.</l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="43" xml:id="l.43"><app xml:id="app.17">
+                            <lem wit="#KK" xml:id="lem.17"><hi rend="bold">K</hi>ezd az föld újúlni,
+                                az erdö zöldülni pünkösdnek napjával,</lem>
+                            <rdg wit="#W1" xml:id="rdg.17">ujulnyi</rdg>
+                        </app></l>
+                    <l n="44" xml:id="l.44"><hi rend="bold">ö</hi>römmel szökdösni, madáris röpdösni
+                        éneklö nótával,</l>
+                    <l n="45" xml:id="l.45"><hi rend="bold">s</hi>öt még az emberis, ha félig még
+                        hóltis, él annak jovával.</l>
+                </lg>
+                <lg n="16" xml:id="lg.16">
+                    <l n="46" xml:id="l.46"><app xml:id="app.18">
+                            <lem wit="#KK" xml:id="lem.18"><hi rend="bold">*D</hi>e még énis búmban
+                                s-hoszszú bánatomban jó kedvet vehetek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.18">s-hoszú</rdg>
+                        </app></l>
+                    <l n="47" xml:id="l.47"><app xml:id="app.19">
+                            <lem wit="#KK" xml:id="lem.19"><hi rend="bold">n</hi>agy sok keservemrül
+                                s-el epedésemrül örömre érhetek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.19">őrőmet</rdg>
+                        </app></l>
+                    <l n="48" xml:id="l.48"><app xml:id="app.20">
+                            <lem wit="#KK" xml:id="lem.20"><hi rend="bold">á</hi> sok tövis közöt,
+                                kit sorsom reâm füzöt, majd rósát szedhetek.</lem>
+                            <rdg wit="#W1" xml:id="rdg.20">reá fűzőtt</rdg>
+                        </app></l>
+                </lg>
+                <lg n="17" xml:id="lg.17">
+                    <l n="49" xml:id="l.49"><hi rend="bold">P</hi>ünkösdöt Húsvétkor, örömöt
+                        bánatkor elmémben forgatva,</l>
+                    <l n="50" xml:id="l.50"><hi rend="bold">j</hi>ob állapotomat s-elötti sorsomat
+                        szivemben ohajtva,</l>
+                    <l n="51" xml:id="l.51"><app xml:id="app.21">
+                            <lem wit="#KK" xml:id="lem.21"><hi rend="bold">*a</hi>z bánat reám eset,
+                                s-ez ennyihány verset szerzettem sohajtva.</lem>
+                            <rdg wit="#W1" xml:id="rdg.21">ennyehany verset, le irám</rdg>
+                        </app></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

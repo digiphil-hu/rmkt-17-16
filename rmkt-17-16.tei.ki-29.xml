@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">29.</title>
+                <title type="main">(Az ezer hat százban s-nyólczvan harmadikban...)</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-29</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-29.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Fol. Hung.
+                            151.</hi> 18b.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">Sok ohaItás
+                            közben […] szerzet Versek.</hi> 28. Kiad. <bibl><abbr><hi
+                                    rend="smallcaps">Thaly</hi>: Adalékok.</abbr> I. 193.</bibl> (A
+                        vers végi kronosztichonsorokból az első három, de a kronosztichon kiemelése
+                        nélkül.)</p><p xml:id="crit.1.p.4">A kéziratban: <del><hi rend="italic"
+                                >ADgYa az</hi></del><hi rend="italic"> engeD; Légyen.</hi> Mellette
+                        a 2. javító kéz bejegyzése: <date when="1683">1683</date>, s mintha őrszó
+                        lenne, a jobb sarokban: <hi rend="italic">kilentzvenkilentz</hi>. Ez a
+                        szöveg szerepel a <bibl>Quart. Hung. 4159.</bibl> kézirat 194b. lapján a 41.
+                        sz. vers után, pontosan ugyanezekkel a javításokkal. A sarokban: <date
+                            when="1683">1683</date>. Alatta: <hi rend="italic">Hoc Cronographicum
+                            spectat ad folium <del>49</del>28</hi>. A kézirat e része azonban ma az
+                        eredetileg 79-től számozott lapokkal kezdődik (ez ma a 167a.).</p><p
+                        xml:id="crit.1.p.5">A kronosztichon <date when="1681">1681</date>-et ad. A
+                        vers maga <date when="1683-12">1683 karácsony hetében</date>
+                    íródott.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Fol. Hung. 151. 18b.</witness>
+                    <witness xml:id="W2"> Sok ohaItás közben Inség VIseLésben éhség szenVeDésben
+                        keserVes rabságban MVnkáCs köVárában szerzet Versek. H. n. é. n.
+                        28.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 29.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Az ezer hat százban s-nyólczvan harmadikban,</l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">karácsony havában s-hetinek
+                                folytában,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">Karácson</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3">Munkács kö várában s-kemény rabságomban,</l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">hoszszú unalomban, nyomorúságomban</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">hoszu</rdg>
+                        </app></l>
+                    <l n="5" xml:id="l.5">Ezeket gondoltam, elmémben forgattam,</l>
+                    <l n="6" xml:id="l.6">koholtam, faragtam, toldoztam, s-foldoztam,</l>
+                    <l n="7" xml:id="l.7">Nótámra csináltam, s-magamban dúdoltam,</l>
+                    <l n="8" xml:id="l.8">el úntam, s-el hattam, s-Istent sohajtottam.</l>
+                </lg>
+                <p xml:id="p.1">Az rabság terhe könnYebeDésére</p>
+                <p xml:id="p.2">szerzet Verseknek Vége,</p>
+                <p xml:id="p.3">De nInCs az rabságnak Vége,</p>
+                <p xml:id="p.4">EngeD, Vr Isten, LegYen annakIs Ió Vége.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

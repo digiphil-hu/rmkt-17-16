@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">13.</title>
+                <title type="main">[A HOROLOGIUM TURCICUM VERSBETÉTEI]</title>
+                <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                            type="ITIdata">Q60007</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.rd-13</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.rd-13.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi
+                                rend="bold">OSZK Fol. Hung. 937.</hi></bibl></p><p
+                        xml:id="crit.1.p.2">A kéziratot kétféle számozás kíséri, egy gépi, amely az
+                        elözéklapot és a beíratlan leveleket nem számozza, s egy kézi, amely minden
+                        levelet számoz; én ez utóbbit tüntetem föl. Kiad.: <bibl><hi
+                                rend="smallcaps">Dézsi Lajos</hi>, <title>Horologium
+                                turcicum</title>, Bp. 1926</bibl>.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1"><bibl>OSZK Fol. Hung. 937.</bibl></witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <fw type="originalNum">[RMKT XVII/16:] 13.</fw>
+                <head type="title"><supplied>A HOROLOGIUM TURCICUM VERSBETÉTEI</supplied></head>
+                <div xml:id="d.2">
+                    <fw type="originalNum">a.</fw>
+                    <note type="critic" xml:id="note.462">Kézirata: <bibl>OSZK Fol. Hung. 937.
+                            8a.</bibl> Kiad.: <bibl><hi rend="smallcaps">Dézsi Lajos</hi>,
+                                <title>Horologium turcicum</title>, Bp. 1926. 55.</bibl></note>
+                    <lg xml:id="lg.4">
+                        <l n="1" xml:id="l.586">Kivánszé lenni securus<note type="critic"
+                                xml:id="note.463">securus - gondtalan</note>, ne légy felettébb
+                            udvaros,</l>
+                        <l n="2" xml:id="l.587">élettel nem lehet multus<note type="critic"
+                                xml:id="note.464">multus - tetemes, hosszú</note>, valaki masen kap
+                                stultus.<note type="critic" xml:id="note.465">stultus =
+                                ostoba</note></l>
+                    </lg>
+                </div>
+                <div xml:id="d.3">
+                    <fw type="originalNum">b.</fw>
+                    <note type="critic" xml:id="note.466">Kézirata: Uo. 9a. Kiad.: Uo. 56.</note>
+                    <lg xml:id="lg.5">
+                        <l xml:id="l.588">Nagy poltzon ül a' Királyság, de lelkeseb a' jó
+                            Papság,</l>
+                        <l xml:id="l.589">Edgyűtt létek olly ritkaság, mint egy jegyben Nap 's
+                            Holdvilág.</l>
+                    </lg>
+                    <fw type="originalNum">c.</fw>
+                    <note type="critic" xml:id="note.467"> Kézirata: Uo. 9b. Kiad.: Uo. 57. </note>
+                    <lg xml:id="lg.6">
+                        <l xml:id="l.590">Ne intende<note type="critic" xml:id="note.468">Ne
+                                fenyegetőzz!</note> a' vádlokra, vád mert nem vágy igaz szókra,</l>
+                        <l xml:id="l.591">E dőjtőtt halált sokakra, tőb jókra, mint gonoszokra.</l>
+                    </lg>
+                </div>
+                <div xml:id="d.4">
+                    <fw type="originalNum">d.</fw>
+                    <note type="critic" xml:id="note.469">Kézirata: Uo. 10a. Kiad.: Uo. 58.</note>
+                    <l xml:id="l.592">Feletted Umbraculumód<note type="critic" xml:id="note.470"
+                            >Umbraculum – ernyő</note> légyen az Egek Istene,</l>
+                    <l xml:id="l.593">Alattad seremet<note type="critic" xml:id="note.471">serem -
+                            talán török-arab szermed: örökkévaló, tartós</note> lovad a’ meg nem
+                        botló szerentse.</l>
+                </div>
+                <div xml:id="d.5">
+                    <fw type="originalNum">e.</fw>
+                    <note type="critic" xml:id="note.472">Kézirata: Uo. 10b. Kiad.: Uo. 60.</note>
+                    <l xml:id="l.594">Király, tegnap kőltsőn igen sokat adál,</l>
+                    <l xml:id="l.595">Mellyért holnap Isten bővebben readdál.<note type="critic"
+                            xml:id="note.473">readdál - visszatérít</note></l>
+                </div>
+                <div xml:id="d.6">
+                    <fw type="originalNum">f.</fw>
+                    <note type="critic" xml:id="note.474">Kézirata: Uo. 11a. Kiad.: Uo. 60.</note>
+                    <l xml:id="l.596">Csillaggal légyen bár Koronád meg rakva,</l>
+                    <l xml:id="l.597">Ha szelid győngyel nints, rugd őszve, ’s tedd tova.</l>
+                </div>
+                <div xml:id="d.7">
+                    <fw type="originalNum">g.</fw>
+                    <note type="critic" xml:id="note.475">Kézirata: Uo. 12a. Kiad.: Uo. 63.</note>
+                    <l xml:id="l.598">Hamar hally, ’s későn hidgy, mert tőled vár az Igy,</l>
+                    <l xml:id="l.599">Hazug minden irigy ’s meg fojt, mint egy mirigy.</l>
+                </div>
+                <div xml:id="d.8">
+                    <fw type="originalNum">h.</fw>
+                    <note type="critic" xml:id="note.476">Kézirata: Uo. 12a. Kiad.: Uo. 63.</note>
+                    <l xml:id="l.600">Amat sed se ipsum,<note type="critic" xml:id="note.477">De
+                            önmagát szereti.</note> a’ ki fél fülben sug,</l>
+                    <l xml:id="l.601">Ha reá nem vigyázsz, biz a’ sip alá dug.</l>
+                    <l rend="level_3" xml:id="l.602">Homo homini lupus.<note type="critic"
+                            xml:id="note.478">Ember embernek farkasa. (<bibl>Plautus: <hi
+                                    rend="italic">Szamárvásár</hi> 495.</bibl>)</note></l>
+                </div>
+                <div xml:id="d.9">
+                    <fw type="originalNum">i.</fw>
+                    <note type="critic" xml:id="note.479">Kézirata: Uo. 12a. Kiad.: Uo. 63.</note>
+                    <l xml:id="l.603">Csak edgyet szűl az edgyesség,</l>
+                    <l xml:id="l.604">’S Nem is kell tőbb, az a’ jó Vég.</l>
+                    <l rend="level_3" xml:id="l.605">Sceptrum Regni, Virtus amicorum.<note
+                            type="critic" xml:id="note.480">Az ország jogara a barátok
+                            erénye.</note></l>
+                </div>
+                <div xml:id="d.10">
+                    <fw type="originalNum">j.</fw>
+                    <note type="critic" xml:id="note.481">Kézirata: Uo. 12b. Kiad.: Uo. 63.</note>
+                    <l xml:id="l.606">Nem mindenkor kérdik, főtté meg a’ tűdő,</l>
+                    <l xml:id="l.607">Elébb-is fel adgyák, ha rővid az idő.</l>
+                    <l rend="level_3" xml:id="l.608">Vigilandum Medico.<note type="critic"
+                            xml:id="note.482">Ügyelj az orvosra!</note></l>
+                </div>
+                <div xml:id="d.11">
+                    <fw type="originalNum">k.</fw>
+                    <note type="critic" xml:id="note.483">Kézirata: Uo. 12b. Kiad.: Uo. 63.</note>
+                    <l xml:id="l.609">Senki roszszul el lőtt nyila,</l>
+                    <l xml:id="l.610">Nem tér viszsza sopánkodva.</l>
+                    <l rend="level_3" xml:id="l.611">Vitae Sapientia Custos.<note type="critic"
+                            xml:id="note.484">A bölcsesség az élet őre.</note></l>
+                </div>
+                <div xml:id="d.12">
+                    <fw type="originalNum">l.</fw>
+                    <note type="critic" xml:id="note.485">Kézirata: Uo. 12b. Kiad.: Uo. 64.</note>
+                    <l xml:id="l.612">Marsnak van egy fattya, neve hebehurgya,</l>
+                    <l xml:id="l.613">Mind pokolra horgya, ha kiknél van soldgya.</l>
+                    <l rend="level_3" xml:id="l.614">Ratio praesit, appetitus obtemperet.<note
+                            type="critic" xml:id="note.486">Járjon elöl az értelem, az étvágy
+                            kövesse.</note></l>
+                </div>
+                <div xml:id="d.13">
+                    <fw type="originalNum">m.</fw>
+                    <note type="critic" xml:id="note.487">Kézirata: Uo. 12b. Kiad.: Uo. 64.</note>
+                    <l xml:id="l.615">Valamikor sok a’ hostis,<note type="critic" xml:id="note.488"
+                            >hostis - ellenség</note> kőzel ott hozzád a’ pestis,</l>
+                    <l xml:id="l.616">De te ne desperálly<note type="critic" xml:id="note.489"
+                            >desperál – reménytelenségre jut</note> itt is, mert él
+                            Machiavellus<note type="critic" xml:id="note.490">Niccolò Machiavelli
+                            (1469–1527) firenzei államférfi, A fejedelem (Il Principe) írója; az
+                            erős központosított állam érdekében megengedhetőnek tartotta a
+                            ravaszkodást és erőszakot is.</note> is.</l>
+                    <l rend="level_3" xml:id="l.617">Ingenium si intenderis, valet.<note
+                            type="critic" xml:id="note.491">Érvényesül a tehetség, ha
+                            irányítod.</note></l>
+                </div>
+                <div xml:id="d.14">
+                    <fw type="originalNum">n.</fw>
+                    <note type="critic" xml:id="note.492">Kézirata: Uo. 13 a. Kiad.: Uo. 64.</note>
+                    <l xml:id="l.618">Elől vigyorog s’ honorál,<note type="critic" xml:id="note.493"
+                            >honorál - tisztel</note></l>
+                    <l xml:id="l.619">S Hátul hegyzett nyársal trudál.<note type="critic"
+                            xml:id="note.494">trudál - taszigál</note></l>
+                    <l rend="level_3" xml:id="l.620">Ne crede colori.<note type="critic"
+                            xml:id="note.495">Ne higgy a látszatnak.</note></l>
+                </div>
+                <div xml:id="d.15">
+                    <fw type="originalNum">o.</fw>
+                    <note type="critic" xml:id="note.496">Kézirata: Uo. 13a. Kiad.: Uo. 64.</note>
+                    <l xml:id="l.621">Nállad ha hitelt ért, ’s tőlled méltán nyert bért,</l>
+                    <l xml:id="l.622">Szolgád egy ’s két bűnért ne bánts, hogy ha meg tért.</l>
+                    <l rend="level_3" xml:id="l.623">Nemo sine crimine vivit.<note type="critic"
+                            xml:id="note.497">Senki nem él bűn nélkül.</note></l>
+                </div>
+                <div xml:id="d.16">
+                    <fw type="originalNum">p.</fw>
+                    <note type="critic" xml:id="note.498">Kézirata: Uo. 13a. Kiad.: Uo. 65.</note>
+                    <l xml:id="l.624">Eleget használtál, mikor nem ártottál,</l>
+                    <l xml:id="l.625">De tőbbet ártottál, mikor nem használtál.</l>
+                    <l rend="level_3" xml:id="l.626">Inter utrumque tene.<note type="critic"
+                            xml:id="note.499">Tartsd magad a kettő között.</note></l>
+                </div>
+                <div xml:id="d.17">
+                    <fw type="originalNum">q.</fw>
+                    <note type="critic" xml:id="note.500">Kézirata: Uo. 13 a. Kiad.: Uo. 65.</note>
+                    <l xml:id="l.627">Veréb Gerlitze járását</l>
+                    <l xml:id="l.628">Tanullya, ’s veszti ugrását.</l>
+                    <l rend="level_3" xml:id="l.629">Contentum propria vivere dulce fuit.<note
+                            type="critic" xml:id="note.501">Édes volt a sajátjával megelégedve
+                            élni.</note></l>
+                </div>
+                <div xml:id="d.18">
+                    <fw type="originalNum">r.</fw>
+                    <note type="critic" xml:id="note.502">Kézirata: Uo. 13 a. Kiad.: Uo. 65.</note>
+                    <l xml:id="l.630">Vaj ki sokat durál,<note type="critic" xml:id="note.503">durál
+                            - kitart</note> ki sokat tollerál,<note type="critic" xml:id="note.504"
+                            >tolerál, eltűr</note></l>
+                    <l xml:id="l.631">Nem soká floreál,<note type="critic" xml:id="note.505"
+                            >virágzik</note> a ki tsak murmural.<note type="critic"
+                            xml:id="note.506">morog</note></l>
+                    <l rend="level_3" xml:id="l.632">Summa Victoria sui.<note type="critic"
+                            xml:id="note.507">Az önmagunk fölötti győzelem a legnagyobb.</note></l>
+                </div>
+                <div xml:id="d.19">
+                    <fw type="originalNum">s.</fw>
+                    <note type="critic" xml:id="note.508">Kézirata: Uo. 13b. Kiad.: Uo. 65.</note>
+                    <l xml:id="l.633">Udvarod népe ha lator,</l>
+                    <l xml:id="l.634">Incolák<note type="critic" xml:id="note.509">Incola – telepes,
+                            lakos</note> kőzt ne légy bátor.</l>
+                    <l rend="level_3" xml:id="l.635">Fallacia violentia</l>
+                    <l rend="level_3" xml:id="l.636">Violentia nunquam tuta.<note type="critic"
+                            xml:id="note.510">Csalárdság, erőszak; az erőszak sosem véd
+                        meg.</note></l>
+                </div>
+                <div xml:id="d.20">
+                    <fw type="originalNum">t.</fw>
+                    <note type="critic" xml:id="note.511">Kézirata: Uo. 13b. Kiad.: Uo. 65.</note>
+                    <l xml:id="l.637">Virtussával Párdutz lántzon,</l>
+                    <l xml:id="l.638">Dőggel bűdős Borz szabadon.</l>
+                    <l rend="level_3" xml:id="l.639">Virtus gloriae Mater.</l>
+                    <l rend="level_3" xml:id="l.640">Labor Pater.<note type="critic"
+                            xml:id="note.512">Az erény a dicsőség anyja, a munka az apja.</note></l>
+                </div>
+                <div xml:id="d.21">
+                    <fw type="originalNum">u.</fw>
+                    <note type="critic" xml:id="note.513">Kézirata: Uo. 14a. Kiad.: Uo. 66.</note>
+                    <l xml:id="l.641">E nagy kintset nékem ide Sándor rakta,</l>
+                    <l xml:id="l.642">Kit bő marku kezem rátok osztogata,</l>
+                    <l xml:id="l.643">Egy darab hártyával magát contentalta,<note type="critic"
+                            xml:id="note.514">contental – megelégít</note></l>
+                    <l xml:id="l.644">Paraszt vólt, ’s paraszt lesz, valaki sokallya.</l>
+                    <l rend="level_3" xml:id="l.645">Munerum vires.<note type="critic"
+                            xml:id="note.515">Az adomány hatalma.</note></l>
+                </div>
+                <div xml:id="d.22">
+                    <fw type="originalNum">v.</fw>
+                    <note type="critic" xml:id="note.516">Kézirata: Uo. 14b. Kiad.: Uo. 67.</note>
+                    <l xml:id="l.646">A jó rend a’ czélra szem látomást halad,</l>
+                    <l xml:id="l.647">E nélkűl a’ Votum<note type="critic" xml:id="note.517"
+                            >kívánság, óhajtás</note> űszőgében marad.<note type="critic"
+                            xml:id="note.518">kifejletlenül marad (üszög: korcs magzat a
+                            méhben)</note></l>
+                    <l rend="level_3" xml:id="l.648">Mortuo ordine, occubuit res.<note type="critic"
+                            xml:id="note.519">Ha megszűnik a rend, elbukik az ügy.</note></l>
+                </div>
+                <div xml:id="d.23">
+                    <fw type="originalNum">w.</fw>
+                    <note type="critic" xml:id="note.520">Kézirata: Uo. 15a. Kiad.: Uo. 69.</note>
+                    <l xml:id="l.649">Ha a’ szép Cziprusfa változtatná helyét,</l>
+                    <l xml:id="l.650">Nem szenvedné Fűrész importunus<note type="critic"
+                            xml:id="note.521">kíméletlen</note> kezét:</l>
+                    <l rend="level_3" xml:id="l.651">In labore fructus.<note type="critic"
+                            xml:id="note.522">Munkában a haszon.</note></l>
+                </div>
+                <div xml:id="d.24">
+                    <fw type="originalNum">x.</fw>
+                    <note type="critic" xml:id="note.523">Kézirata: Uo. 15b. Kiad.: Uo. 70.</note>
+                    <l xml:id="l.652">Kezet az halállal majd őrőmest fogok,</l>
+                    <l xml:id="l.653">Ha vale<note type="critic" xml:id="note.524">vale - búcsúzás,
+                            Isten veled</note> szót tőlled hallani nem fogok.</l>
+                </div>
+                <div xml:id="d.25">
+                    <fw type="originalNum">y.</fw>
+                    <note type="critic" xml:id="note.525">Kézirata: Uo. 16a. Kiad.: Uo. 71.</note>
+                    <l xml:id="l.654">Félek, és féltemben szivem ’s szárnyam szegett,</l>
+                    <l xml:id="l.655">Mert denegat passum<note type="critic" xml:id="note.526"
+                            >megtiltja a továbbjutást</note> sas, ki fejem felett.</l>
+                    <l rend="level_3" xml:id="l.656">Magnus ubique labor, magnus ubique timor.<note
+                            type="critic" xml:id="note.527">Mindenütt nagy a baj, mindenütt nagy a
+                            félelem.</note></l>
+                </div>
+                <div xml:id="d.26">
+                    <fw type="originalNum">z.</fw>
+                    <note type="critic" xml:id="note.528">Kézirata: Uo. 16b. Kiad.: Uo. 72.</note>
+                    <l xml:id="l.657">Őrdőg hánt tőre e’ világ,</l>
+                    <l xml:id="l.658">Meg fogó mag<note type="critic" xml:id="note.529">csalétek,
+                            lép</note> a’ kivánság.</l>
+                </div>
+                <div xml:id="d.27">
+                    <fw type="originalNum">2a.</fw>
+                    <note type="critic" xml:id="note.530">Kézirata: Uo. 17a. Kiad.: Uo. 73.</note>
+                    <l xml:id="l.659">A zabla állam agyarán, de fékemlőm van más ujján,</l>
+                    <l xml:id="l.660">Ha járhatnék magam kényén, terh nem volna hátam hegyén.</l>
+                    <l rend="level_3" xml:id="l.661">Nullum jus Camelus.<note type="critic"
+                            xml:id="note.531">Semmi joga a tevének.</note></l>
+                </div>
+                <div xml:id="d.28">
+                    <fw type="originalNum">2b.</fw>
+                    <note type="critic" xml:id="note.532">Kézirata: Uo. 18a. Kiad.: Uo. 75.</note>
+                    <l xml:id="l.662">Vagyon olly virág kertemben, kit szinnel tarthatok lesben,</l>
+                    <l xml:id="l.663">De szagos termeszetiben, ’s nem tartathatik rejtekben.</l>
+                </div>
+                <div xml:id="d.29">
+                    <fw type="originalNum">2c.</fw>
+                    <note type="critic" xml:id="note.533">Kézirata: Uo. 18b. Kiad.: Uo. 76.</note>
+                    <l xml:id="l.664">Rakd a’ varju tojást bár a’ Páva alá,</l>
+                    <l xml:id="l.665">Mennyei mannát rakj bár éh nyelve alá,</l>
+                    <l xml:id="l.666">Elő vizet tőlts bár szomju torkán alá,</l>
+                    <l xml:id="l.667">Azon bakot nyuzza,<note type="critic" xml:id="note.534">L.
+                            „Czak azon bakot nyúzza”. <bibl><hi rend="smallcaps">Baranyai Decsi
+                                    János</hi>: Adagiorum. Bártfa 1592. Chil. I. Cent. IV. Dec.
+                                II/8. </bibl>(Reprint: <bibl>Bp. 1978.</bibl>) Értsd: csak azt
+                            hajtogatja,</note> hogy ő korlá korlá.<note type="critic"
+                            xml:id="note.535">korlá korlá - kár, kár</note></l>
+                </div>
+                <div xml:id="d.30">
+                    <fw type="originalNum">2d.</fw>
+                    <note type="critic" xml:id="note.536">Kézirata: Uo. 19b. Kiad.: Uo. 78.</note>
+                    <l xml:id="l.668">Ha meg nem halok ez nyillal, holtig tűrők száraz kostal,<note
+                            type="critic" xml:id="note.537">olv.: koszttal</note></l>
+                    <l xml:id="l.669">Lakjál te a’ szomszéd Urral, meg érem én szűlanyámmal.</l>
+                </div>
+                <div xml:id="d.31">
+                    <fw type="originalNum">2e.</fw>
+                    <note type="critic" xml:id="note.538">Kézirata: Uo. 20b. Kiad.: Uo. 80.</note>
+                    <l xml:id="l.670">A jó tábórozás a’ szivnek tavaszsza,</l>
+                    <l xml:id="l.671">Ott nyilik a’ népnek ki kivánt rosája.</l>
+                </div>
+                <div xml:id="d.32">
+                    <fw type="originalNum">2f.</fw>
+                    <note type="critic" xml:id="note.539">Kézirata: Uo. 22a. Kiad.: Uo. 83.</note>
+                    <l xml:id="l.672">Privatum<note type="critic" xml:id="note.540">személyes
+                            haszon</note> űzéstől elméd ha immunis,<note type="critic"
+                            xml:id="note.541">mentes</note></l>
+                    <l xml:id="l.673">Jó czélod jó vége légyen à Superis.<note type="critic"
+                            xml:id="note.542">az égiektől</note></l>
+                </div>
+                <div xml:id="d.33">
+                    <fw type="originalNum">2g.</fw>
+                    <note type="critic" xml:id="note.543">Kézirata: Uo. 23 a. Kiad.: Uo. 85.</note>
+                    <l xml:id="l.674">Meg előzőtt, ha kerültem,</l>
+                    <l xml:id="l.675">Ha űztem, holtig sem értem.</l>
+                </div>
+                <div xml:id="d.34">
+                    <fw type="originalNum">2h.</fw>
+                    <note type="critic" xml:id="note.544">Kézirata: Uo. 25 a. Kiad.: Uo. 89.</note>
+                    <l xml:id="l.676">Világ fattyai a’ sok pénzt ugy dongják, mint legyek a
+                        mézt.</l>
+                </div>
+                <div xml:id="d.35">
+                    <fw type="originalNum">2i.</fw>
+                    <note type="critic" xml:id="note.545">Kézirata: Uo. 25a. Kiad.: Uo. 90.</note>
+                    <l xml:id="l.677">Őrőld, sűsd, ne szitáld, tsak nyeld ’s edd tésztánkat,</l>
+                    <l xml:id="l.678">Ki tudja, érjüké hólnapi napunkat?</l>
+                </div>
+                <div xml:id="d.36">
+                    <fw type="originalNum">2j.</fw>
+                    <note type="critic" xml:id="note.546">Kézirata: Uo. 25b. Kiad.: Uo. 90.</note>
+                    <l xml:id="l.679">Kapud udvarlói nem jód kivánói,</l>
+                    <l xml:id="l.680">A magok hasznokért károdnak lesői.</l>
+                </div>
+                <div xml:id="d.37">
+                    <fw type="originalNum">2k.</fw>
+                    <note type="critic" xml:id="note.547">Kézirata: Uo. 25b. Kiad.: Uo. 91.</note>
+                    <l xml:id="l.681">A Sinor mértékkel egyenes a’ kőfal,</l>
+                    <l xml:id="l.682">Plusquam perfectummal<note type="critic" xml:id="note.548"
+                            >Plusquam perfectum – régmúlt</note> el kopik az asztal.</l>
+                </div>
+                <div xml:id="d.38">
+                    <fw type="originalNum">2l.</fw>
+                    <note type="critic" xml:id="note.549">Kézirata: Uo. 27a. Kiad.: Uo. 93.</note>
+                    <l xml:id="l.683">A Királyok orrát nem szagoltathattya,</l>
+                    <l xml:id="l.684"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Valamig Liliom vérét ki nem ontya.</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">Vilamig</rdg>
+                        </app></l>
+                </div>
+                <div xml:id="d.39">
+                    <fw type="originalNum">2m.</fw>
+                    <note type="critic" xml:id="note.550">Kézirata: Uo. 27a. Kiad.: Uo. 94.</note>
+                    <l xml:id="l.685">A katona Credot<note type="critic" xml:id="note.551">Credo –
+                            hitvallás</note> két Inas késéri,</l>
+                    <l xml:id="l.686">Rosz lélek, rosz pokol, noha ő nem hiszi.</l>
+                </div>
+                <div xml:id="d.40">
+                    <fw type="originalNum">2n.</fw>
+                    <note type="critic" xml:id="note.552">Kézirata: Uo. 27b. Kiad.: Uo. 94.</note>
+                    <l xml:id="l.687">Martzapántot<note type="critic" xml:id="note.553"
+                            >marcipán</note> sem sűcz, sem eszel fűst nélkűl,</l>
+                    <l xml:id="l.688">Mustot sem ihatol seprő ’s zákány<note type="critic"
+                            xml:id="note.554">üledék</note> nélkűl.</l>
+                </div>
+                <div xml:id="d.41">
+                    <fw type="originalNum">2o.</fw>
+                    <note type="critic" xml:id="note.555">Kézirata: Uo. 28a. Kiad.: Uo. 95.</note>
+                    <l xml:id="l.689">Nem nyitok már érted tőb patikás ládát,</l>
+                    <l xml:id="l.690">Felőlem Kegyelmed tsak libere vadát.<note type="critic"
+                            xml:id="note.556">szabadon járhat</note></l>
+                </div>
+                <div xml:id="d.42">
+                    <fw type="originalNum">2p.</fw>
+                    <note type="critic" xml:id="note.557">Kézirata: Uo. 28a. Kiad.: Uo. 95.</note>
+                    <l xml:id="l.691">Vagy tengerből hozott győngyel gazdagulok,</l>
+                    <l xml:id="l.692">Vagy az, hogy győngy nélkűl ’s Fő nélkűl maradok.</l>
+                </div>
+                <div xml:id="d.43">
+                    <fw type="originalNum">2q.</fw>
+                    <note type="critic" xml:id="note.558">Kézirata: Uo. 28a. Kiad.: Uo. 96.</note>
+                    <l xml:id="l.693">Régi Canonnya<note type="critic" xml:id="note.559">Canon –
+                            törvény</note> világnak, ha határa harmadnapnak</l>
+                    <l xml:id="l.694">Expiral,<note type="critic" xml:id="note.560">kileheli
+                            lelkét</note> javat másoknak, adgya sequens<note type="critic"
+                            xml:id="note.561">következő</note> Fattyainak.</l>
+                </div>
+                <div xml:id="d.44">
+                    <fw type="originalNum">2r.</fw>
+                    <note type="critic" xml:id="note.562">Kézirata: Uo. 28b. Kiad.: Uo. 97.</note>
+                    <l xml:id="l.695">Ne hidgy tsak egyedűl magad felől bőltsűl,</l>
+                    <l xml:id="l.696">Mert fenn áltát hivő lehet néha dőltűl.</l>
+                </div>
+                <div xml:id="d.45">
+                    <fw type="originalNum">2s.</fw>
+                    <note type="critic" xml:id="note.563">Kézirata: Uo. 28b. Kiad.: Uo. 97.</note>
+                    <l xml:id="l.697">Rosz kezdet rosz vége sokszor Istenre vét,</l>
+                    <l xml:id="l.698">De a’ Lélek mást mond, mit? azt, hogy más a’ hét.</l>
+                </div>
+                <div xml:id="d.46">
+                    <fw type="originalNum">2t.</fw>
+                    <note type="critic" xml:id="note.564">Kézirata: Uo. 29a. Kiad.: Uo. 98.</note>
+                    <l xml:id="l.699">Kettőtt tsak el hidgy bár, valaki Udvart jár,</l>
+                    <l xml:id="l.700">Pénzt kőlt, Tetűt talál, egyebet addig vár.</l>
+                </div>
+                <div xml:id="d.47">
+                    <fw type="originalNum">2u.</fw>
+                    <note type="critic" xml:id="note.565">Kézirata: Uo. 29a. Kiad.: Uo. 98.</note>
+                    <l xml:id="l.701">Ne ditsird a’ Virtust, ditsiri ő magát,</l>
+                    <l xml:id="l.702">Rejtett pésma<note type="critic" xml:id="note.566">átható
+                            szagú anyag, illatalapanyag</note> szaga ki furja ő magát.</l>
+                </div>
+                <div xml:id="d.48">
+                    <fw type="originalNum">2v.</fw>
+                    <note type="critic" xml:id="note.567">Kézirata: Uo. 29b. Kiad.: Uo. 99.</note>
+                    <l xml:id="l.703">Fenekén kereshed tengernek győngyődet,</l>
+                    <l xml:id="l.704">De partyán lelhedd meg eleven fejedet.</l>
+                </div>
+                <div xml:id="d.49">
+                    <fw type="originalNum">2w.</fw>
+                    <note type="critic" xml:id="note.568">Kézirata: Uo. 29b. Kiad.: Uo. 99.</note>
+                    <l xml:id="l.705">Mind el nyeli mentém ujja,</l>
+                    <l xml:id="l.706">Mit el ér Virtusom karja.</l>
+                </div>
+                <div xml:id="d.50">
+                    <fw type="originalNum">2x.</fw>
+                    <note type="critic" xml:id="note.569">Kézirata: Uo. 30a. Kiad.: Uo. 99.</note>
+                    <l xml:id="l.707">Szerentséd meg betsűld, Sobrius<note type="critic"
+                            xml:id="note.570">józan</note> légy ’s Cautus,<note type="critic"
+                            xml:id="note.571">elővigyázatos</note></l>
+                    <l xml:id="l.708">Mert ő ha ma certus,<note type="critic" xml:id="note.572"
+                            >bizonyos</note> holnap Innel certus.<note type="critic"
+                            xml:id="note.573">értelme: bizonytalan, meghatározatlan</note></l>
+                </div>
+                <div xml:id="d.51">
+                    <fw type="originalNum">2y.</fw>
+                    <note type="critic" xml:id="note.574">Kézirata: Uo. 30a. Kiad.: Uo. 100.</note>
+                    <l xml:id="l.709">Ha békeség szerző Rosák nem lehetűnk,</l>
+                    <l xml:id="l.710">Háboru Tővissel tűzet gerjeszthetűnk.</l>
+                </div>
+                <div xml:id="d.52">
+                    <fw type="originalNum">2z.</fw>
+                    <note type="critic" xml:id="note.575">Kézirata: Uo. 30b. Kiad.: Uo. 101.</note>
+                    <l xml:id="l.711">Ganéjozz,<note type="critic" xml:id="note.576">trágyáz</note>
+                        szánts méllyen, ’s iteráld,<note type="critic" xml:id="note.577"
+                            >ismétel</note> ha lehet,</l>
+                    <l xml:id="l.712">Sűrű Kalongyádból<note type="critic" xml:id="note.578">A
+                            szálas gabona mezei tárolóegysége és mértéke, 14–44 kévéből álló
+                            gabonakereszt.</note> asztagod is lehet.</l>
+                </div>
+                <div xml:id="d.53">
+                    <fw type="originalNum">3a.</fw>
+                    <note type="critic" xml:id="note.579">Kézirata: Uo. 30b. Kiad.: Uo. 101.</note>
+                    <l xml:id="l.713">Légy, mint a’ fényes Nap, magadtól ragyogó,</l>
+                    <l xml:id="l.714">De a’ vont posta ló tsak kullog ballagó.</l>
+                </div>
+                <div xml:id="d.54">
+                    <fw type="originalNum">3b.</fw>
+                    <note type="critic" xml:id="note.580">Kézirata: Uo. 31 a. Kiad.: Uo. 102.</note>
+                    <l xml:id="l.715">Nem árnyék tartoja Phoenix az Országnak,</l>
+                    <l xml:id="l.716">Melly Pellikán kostyát rendeli Varjunak.</l>
+                </div>
+                <div xml:id="d.55">
+                    <fw type="originalNum">3c.</fw>
+                    <note type="critic" xml:id="note.581"> Kézirata: Uo. 31b. Kiad.: Uo. 102.</note>
+                    <l xml:id="l.717">Bolondság rettegni mindentől, ha nagy is,</l>
+                    <l xml:id="l.718">Magos czégér alatt isznak bűdős bort is.</l>
+                </div>
+                <div xml:id="d.56">
+                    <fw type="originalNum">3d.</fw>
+                    <note type="critic" xml:id="note.582">Kézirata: Uo. 31b. Kiad.: Uo. 103.</note>
+                    <l xml:id="l.719">Az idején morgó kuvasz ugatása</l>
+                    <l xml:id="l.720">Nem merges, nem keres irt ’s Borbélyt marása.</l>
+                </div>
+                <div xml:id="d.57">
+                    <fw type="originalNum">3e.</fw>
+                    <note type="critic" xml:id="note.583">Kézirata: Uo. 32a. Kiad.: Uo. 104.</note>
+                    <l xml:id="l.721">Gonosz indulattal senki felől ne légy.</l>
+                    <l xml:id="l.722">De a’ gonosz ellen soha bátran se légy.</l>
+                </div>
+                <div xml:id="d.58">
+                    <fw type="originalNum">3f.</fw>
+                    <note type="critic" xml:id="note.584">Kézirata: Uo. 32a. Kiad.: Uo. 104.</note>
+                    <l xml:id="l.723">Meg gőrbűlt derékkal az Eg honorállyon,</l>
+                    <l xml:id="l.724">A szerentse Napja rollad oriállyon.<note type="critic"
+                            xml:id="note.585">oriál – keletkezik, származik</note></l>
+                </div>
+                <div xml:id="d.59">
+                    <fw type="originalNum">3g.</fw>
+                    <note type="critic" xml:id="note.586">Kézirata: Uo. 32b. Kiad.: Uo. 105.</note>
+                    <l xml:id="l.725">Néked roszt gondolo soha jót ne lásson,</l>
+                    <l xml:id="l.726">Veszedelmes Feje nyakán ne durállyon.</l>
+                </div>
+                <div xml:id="d.60">
+                    <fw type="originalNum">3h.</fw>
+                    <note type="critic" xml:id="note.587">Kézirata: Uo. 32b. Kiad.: Uo. 105.</note>
+                    <l xml:id="l.727">Honnan jősz, hová mégy,</l>
+                    <l xml:id="l.728">Mond meg, hogy ki ’s mi légy?</l>
+                </div>
+                <div xml:id="d.61">
+                    <fw type="originalNum">3i.</fw>
+                    <note type="critic" xml:id="note.588">Kézirata: Uo. 33 a. Kiad.: Uo. 106.</note>
+                    <l xml:id="l.729">E’ bárdot lábodra magad kezeddel tőd,</l>
+                    <l xml:id="l.730">Varja be sebedet tulajdon Czérnád ’s Tőd.</l>
+                </div>
+                <div xml:id="d.62">
+                    <fw type="originalNum">3j.</fw>
+                    <note type="critic" xml:id="note.589">Kézirata: Uo. 34a. Kiad.: Uo. 109.</note>
+                    <l xml:id="l.731">Az Ugorkát ott kűn ragják,</l>
+                    <l xml:id="l.732">’s Velem a’ savát nyalattyák.</l>
+                </div>
+                <div xml:id="d.63">
+                    <fw type="originalNum">3k.</fw>
+                    <note type="critic" xml:id="note.590">Kézirata: Uo. 34b. Kiad.: Uo. 109.</note>
+                    <l xml:id="l.733">Te, ki mindent tudó, sőtétben jolláto, igyem száno Birám
+                        vagy,</l>
+                    <l xml:id="l.734">Kétséggel kűszkődő, ebűl dőrgőlődő Uram jobbitója vagy,</l>
+                    <l xml:id="l.735">Sebemet gyogyits meg, orromat forraszd meg, e gyano alatt ne
+                        hagy.</l>
+                </div>
+                <div xml:id="d.64">
+                    <fw type="originalNum">3l.</fw>
+                    <note type="critic" xml:id="note.591">Kézirata: Uo. 35a. Kiad.: Uo. 110.</note>
+                    <l xml:id="l.736">Hidban tőrt lovunkért ha meg fizetnek is,</l>
+                    <l xml:id="l.737">Lovunk condolense<note type="critic" xml:id="note.592"
+                            >condolens – vigasztaló</note> de nem lesz senki is.</l>
+                </div>
+                <div xml:id="d.65">
+                    <fw type="originalNum">3m.</fw>
+                    <note type="critic" xml:id="note.593">Kézirata: Uo. 35b. Kiad.: Uo. 111.</note>
+                    <l xml:id="l.738">Ha kesztyűtlen kézzel Rosákat szedegetz,</l>
+                    <l xml:id="l.739">Hegyes szurás ellen hamissan pityeregsz.</l>
+                </div>
+                <div xml:id="d.66">
+                    <fw type="originalNum">3n.</fw>
+                    <note type="critic" xml:id="note.594">Kézirata: Uo. 35b. Kiad.: Uo. 111.</note>
+                    <l xml:id="l.740">Igaz, minden bajba magam miá vagyok,</l>
+                    <l xml:id="l.741">De az orvoslásra tanátsot kivánok.</l>
+                </div>
+                <div xml:id="d.67">
+                    <fw type="originalNum">3o.</fw>
+                    <note type="critic" xml:id="note.595">Kézirata: Uo. 36a. Kiad.: Uo. 113.</note>
+                    <l xml:id="l.742">A bebótlott Vallás ritkán feneklik meg,</l>
+                    <l xml:id="l.743">Feneketlen donga a’ Bort nem tartya meg.</l>
+                </div>
+                <div xml:id="d.68">
+                    <fw type="originalNum">3p.</fw>
+                    <note type="critic" xml:id="note.596">Kézirata: Uo. 36b. Kiad.: Uo. 113.</note>
+                    <l xml:id="l.744">Hamaréb idvezűl a’ későn meg térő,</l>
+                    <l xml:id="l.745">Mint sem elkárhoznék a’ bűnbe heverő.</l>
+                </div>
+                <div xml:id="d.69">
+                    <fw type="originalNum">3q.</fw>
+                    <note type="critic" xml:id="note.597">Kézirata: Uo. 36b. Kiad.: Uo. 114.</note>
+                    <l xml:id="l.746">Holott erejének nállad dézmája sints,</l>
+                    <l xml:id="l.747">Néki baráttya száz, néked pedig egy sints.</l>
+                </div>
+                <div xml:id="d.70">
+                    <fw type="originalNum">3r.</fw>
+                    <note type="critic" xml:id="note.598">Kézirata: Uo. 37a. Kiad.: Uo. 114.</note>
+                    <l xml:id="l.748">Be hunt szemmel járnak, noha nem alusznak,</l>
+                    <l xml:id="l.749">Mikor a’ kevélyek felettébb fenn látnak.</l>
+                </div>
+                <div xml:id="d.71">
+                    <fw type="originalNum">3s.</fw>
+                    <note type="critic" xml:id="note.599">Kézirata: Uo. 37a. Kiad.: Uo. 115.</note>
+                    <l xml:id="l.750">A viz, ha apad is, de meg van a’ Fonsa,<note type="critic"
+                            xml:id="note.600">Fons – forrás</note></l>
+                    <l xml:id="l.751">De meg áll a’ Malom, ha nem lészen Rossa.<note type="critic"
+                            xml:id="note.601">Ross – nedvesség</note></l>
+                </div>
+                <div xml:id="d.72">
+                    <fw type="originalNum">3t.</fw>
+                    <note type="critic" xml:id="note.602">Kézirata: Uo. 37b. Kiad.: Uo. 116.</note>
+                    <l xml:id="l.752">Ha mi élűnk, szaparodunk,</l>
+                    <l xml:id="l.753">Néked is dézmát adhatunk.</l>
+                </div>
+                <div xml:id="d.73">
+                    <fw type="originalNum">3u.</fw>
+                    <note type="critic" xml:id="note.603">Kézirata: Uo. 37b. Kiad.: Uo. 116.</note>
+                    <l xml:id="l.754">Lesz más Karátson is, változik a’ Res-is,<note type="critic"
+                            xml:id="note.604">Res – ügy, dolog</note></l>
+                    <l xml:id="l.755">El vészi jutalmát a’ hamis Béres-is.</l>
+                </div>
+                <div xml:id="d.74">
+                    <fw type="originalNum">3v.</fw>
+                    <note type="critic" xml:id="note.605">Kézirata: Uo. 38a. Kiad.: Uo. 117.</note>
+                    <l xml:id="l.756">Ha triumphálsz,<note type="critic" xml:id="note.606">triumphál
+                            – győzedelmeskedik</note> a’ Czelra érsz,</l>
+                    <l xml:id="l.757">Ha occumbálsz,<note type="critic" xml:id="note.607">occumbál –
+                            aláveti magát</note> magad ment lész.</l>
+                </div>
+                <div xml:id="d.75">
+                    <fw type="originalNum">3w.</fw>
+                    <note type="critic" xml:id="note.608">Kézirata: Uo. 38a. Kiad.: Uo. 117.</note>
+                    <l xml:id="l.758">A Postánk meg fula, mert avidus<note type="critic"
+                            xml:id="note.609">kapzsi</note> vala,</l>
+                    <l xml:id="l.759">A Hal bé sozásba de Fraudus<note type="critic"
+                            xml:id="note.610">csalárd</note> vala.</l>
+                </div>
+                <div xml:id="d.76">
+                    <fw type="originalNum">3x.</fw>
+                    <note type="critic" xml:id="note.611">Kézirata: Uo. 38b. Kiad.: Uo. 118.</note>
+                    <l xml:id="l.760">Leg felsőbb Hercules erővel az hartzon,</l>
+                    <l xml:id="l.761">De héjános eszszel fonalt font gusalyon.<note type="critic"
+                            xml:id="note.612">Héraklész Iphitosz megölése miatt arra kényszerült,
+                            hogy Omphalé lüdiai királynét szolgálja; Omphalé rokkához ültette a
+                            hőst. (<bibl><persName>Apollodorosz</persName>
+                        2,6,1–3.</bibl>)</note></l>
+                </div>
+                <div xml:id="d.77">
+                    <fw type="originalNum">3y.</fw>
+                    <note type="critic" xml:id="note.613">Kézirata: Uo. 38b. Kiad.: Uo. 118.</note>
+                    <l xml:id="l.762">Kemény természetű hartzon forgó vitéz,</l>
+                    <l xml:id="l.763">Mikor a’ praedára vidám ortzával néz,</l>
+                    <l xml:id="l.764">Testén sebre sebet bátor szivel intéz.</l>
+                </div>
+                <div xml:id="d.78">
+                    <fw type="originalNum">3z.</fw>
+                    <note type="critic" xml:id="note.614">Kézirata: Uo. 38b. Kiad.: Uo. 118.</note>
+                    <l xml:id="l.765">Kegyelműnk kapuja azert van ’s áll nyitva,</l>
+                    <l xml:id="l.766">Mert Vádló ’s Mentőnek mind két fűlűnk nyitva.</l>
+                </div>
+                <div xml:id="d.79">
+                    <fw type="originalNum">4a.</fw>
+                    <note type="critic" xml:id="note.615">Kézirata: Uo. 39a. Kiad.: Uo. 119.</note>
+                    <l xml:id="l.767">Ully kűn, mig házamat Farkammal ki seprem,</l>
+                    <l xml:id="l.768">Majd meg vendégellek, van még egy tál eprem.</l>
+                </div>
+                <div xml:id="d.80">
+                    <fw type="originalNum">4b.</fw>
+                    <note type="critic" xml:id="note.616">Kézirata: Uo. 39a. Kiad.: Uo. 119.</note>
+                    <l xml:id="l.769">Csak addig nyujtozzál, meddig a’ Pokrocz ér,</l>
+                    <l xml:id="l.770">Mert továb nyujtozva bizony meg sűt a’ dér.</l>
+                </div>
+                <div xml:id="d.81">
+                    <fw type="originalNum">4c.</fw>
+                    <note type="critic" xml:id="note.617">Kézirata: Uo. 39b. Kiad.: Uo. 120.</note>
+                    <l xml:id="l.771">Póltzrol dőlt szerentse izre porrá tőrik.</l>
+                    <l xml:id="l.772">Az alsó Vásárba még sem igen veszik.</l>
+                </div>
+                <div xml:id="d.82">
+                    <fw type="originalNum">4d.</fw>
+                    <note type="critic" xml:id="note.618">Kézirata: Uo. 40a. Kiad.: Uo. 121.</note>
+                    <l xml:id="l.773">Mikor a’ viszketeg a’ bűszkéket tsipi,</l>
+                    <l xml:id="l.774">Az erőt sem féli, ’s a’ szot sem szégyenli.</l>
+                </div>
+                <div xml:id="d.83">
+                    <fw type="originalNum">4e.</fw>
+                    <note type="critic" xml:id="note.619">Kézirata: Uo. 40b. Kiad.: Uo. 122.</note>
+                    <l xml:id="l.775">A titkolt kőrmőlés<note type="critic" xml:id="note.620"
+                            >karmolás</note> méllyeb sebet tsinál.</l>
+                    <l xml:id="l.776">Poklot ád az Őrdőg, ’s Menyországgal kinál.</l>
+                </div>
+                <div xml:id="d.84">
+                    <fw type="originalNum">4f.</fw>
+                    <note type="critic" xml:id="note.621">Kézirata: Uo. 40b. Kiad.: Uo. 123.</note>
+                    <l xml:id="l.777">Meg vakul haraggal akar melly vitéz is,</l>
+                    <l xml:id="l.778">Meg botlik kőzelről, mikor meszsze néz is.</l>
+                </div>
+                <div xml:id="d.85">
+                    <fw type="originalNum">4g.</fw>
+                    <note type="critic" xml:id="note.622">Kézirata: Uo. 41a. Kiad.: Uo. 123.</note>
+                    <l xml:id="l.779">Arnyék tartó fadnak ne piszkáld a’ tővét,</l>
+                    <l xml:id="l.780">Agyon űt teteje, ha ki téped tővét.</l>
+                </div>
+                <div xml:id="d.86">
+                    <fw type="originalNum">4h.</fw>
+                    <note type="critic" xml:id="note.623">Kézirata: Uo. 41a. Kiad.: Uo. 123.</note>
+                    <l xml:id="l.781">A mint hogy bunknak is okának kell lenni,</l>
+                    <l xml:id="l.782">Igy titkunkat sem kell mindenűtt fetsegni.</l>
+                </div>
+                <div xml:id="d.87">
+                    <fw type="originalNum">4i.</fw>
+                    <note type="critic" xml:id="note.624">Kézirata: Uo. 41a. Kiad.: Uo. 124.</note>
+                    <l xml:id="l.783">Ha Julius<note type="critic" xml:id="note.625"><persName>Iulis
+                                Caesar</persName>; célzás az „Óvakodj március idusától”
+                            figyelmeztetésre.</note> a’ szót meg halgattya vala,</l>
+                    <l xml:id="l.784">Árulók fegyvere le nem vágja vala.</l>
+                </div>
+                <div xml:id="d.88">
+                    <fw type="originalNum">4j.</fw>
+                    <note type="critic" xml:id="note.626">Kézirata: Uo. 41b. Kiad.: Uo. 124.</note>
+                    <l xml:id="l.785">Hideggel a’ vatzkor mind leves ’s mind édes,</l>
+                    <l xml:id="l.786">De a’ sárga Dinnye melegen tul reves.<note type="critic"
+                            xml:id="note.627">pudvás; romlott; visszataszító</note></l>
+                </div>
+                <div xml:id="d.89">
+                    <fw type="originalNum">4k.</fw>
+                    <note type="critic" xml:id="note.628">Kézirata: Uo. 41b. Kiad.: Uo. 124.</note>
+                    <l xml:id="l.787">A’ jókor usuált<note type="critic" xml:id="note.629">usuál –
+                            használ</note> Pilula remenség,</l>
+                    <l xml:id="l.788">Késő Purgatio<note type="critic" xml:id="note.630"
+                            >hashajtás</note> utolsó vendégség.</l>
+                </div>
+                <div xml:id="d.90">
+                    <fw type="originalNum">4l.</fw>
+                    <note type="critic" xml:id="note.631">Kézirata: Uo. 41b. Kiad.: Uo. 125.</note>
+                    <l xml:id="l.789">Lovad fékemlőjét ha más kézre bíztad,</l>
+                    <l xml:id="l.790">Biz a’ nyeregből is magad ki fingottad.</l>
+                </div>
+                <div xml:id="d.91">
+                    <fw type="originalNum">4m.</fw>
+                    <note type="critic" xml:id="note.632">Kézirata: Uo. 42a. Kiad.: Uo. 125.</note>
+                    <l xml:id="l.791">Félve is rá álhatz a’ Kigyo torkára,</l>
+                    <l xml:id="l.792">De bizony gond hágni a’ Sárkány farkára.</l>
+                </div>
+                <div xml:id="d.92">
+                    <fw type="originalNum">4n.</fw>
+                    <note type="critic" xml:id="note.633">Kézirata: Uo. 42b. Kiad.: Uo. 126.</note>
+                    <l xml:id="l.793">Jokor edzett elme meg vetett Tőrt el vág;</l>
+                    <l xml:id="l.794">Szája tátott ember nappal is belé hág.</l>
+                </div>
+                <div xml:id="d.93">
+                    <fw type="originalNum">4o.</fw>
+                    <note type="critic" xml:id="note.634">Kézirata: Uo. 42b. Kiad.: Uo. 126.</note>
+                    <l xml:id="l.795">Kőz elme meg botlik, ’s néha meg is esik,</l>
+                    <l xml:id="l.796">De halálos sebbe nem mindenkor esik.</l>
+                </div>
+                <div xml:id="d.94">
+                    <fw type="originalNum">4p.</fw>
+                    <note type="critic" xml:id="note.635">Kézirata: Uo. 42b. Kiad.: Uo. 126.</note>
+                    <l xml:id="l.797">A’ Doctor nem biztat, hogy holnapig éllyűnk,</l>
+                    <l xml:id="l.798">’s Mégis Szabót kérdjűk, miben innepellyűnk.</l>
+                </div>
+                <div xml:id="d.95">
+                    <fw type="originalNum">4q.</fw>
+                    <note type="critic" xml:id="note.636">Kézirata: Uo. 42b. Kiad.: Uo. 127.</note>
+                    <l xml:id="l.799">Ha poczra teheti a’ Gőg azzal élőt,</l>
+                    <l xml:id="l.800">Alig jut eszébe, ki volt tegnap előtt.</l>
+                </div>
+                <div xml:id="d.96">
+                    <fw type="originalNum">4r.</fw>
+                    <note type="critic" xml:id="note.637">Kézirata: Uo. 43 a. Kiad.: Uo. 127.</note>
+                    <l xml:id="l.801">Ha magos Toronyba hághat fel az Harang,</l>
+                    <l xml:id="l.802">Falus Csengettyűkbe tél túl hallik a’ hang.</l>
+                </div>
+                <div xml:id="d.97">
+                    <fw type="originalNum">4s.</fw>
+                    <note type="critic" xml:id="note.638">Kézirata: Uo. 43 a. Kiad.: Uo. 128.</note>
+                    <l xml:id="l.803">Jó Gyűlőlség nélkűl a’ rendes felelem,</l>
+                    <l xml:id="l.804">Jutalom tőbbűlve fogy a’ Fejedelem.</l>
+                </div>
+                <div xml:id="d.98">
+                    <fw type="originalNum">4t.</fw>
+                    <note type="critic" xml:id="note.639">Kézirata: Uo. 43b. Kiad.: Uo. 128.</note>
+                    <l xml:id="l.805">Ha találsz, mindened hű Barátodért add,</l>
+                    <l xml:id="l.806">De cserébe soha a’ Világért se add.</l>
+                </div>
+                <div xml:id="d.99">
+                    <fw type="originalNum">4u.</fw>
+                    <note type="critic" xml:id="note.640">Kézirata: Uo. 43b. Kiad.: Uo. 128.</note>
+                    <l xml:id="l.807">Hogy marva a’ Kigyo mást meg ől, nem tudgya.</l>
+                    <l xml:id="l.808">De természet mondja, ’s biz el sem mulattya.</l>
+                </div>
+                <div xml:id="d.100">
+                    <fw type="originalNum">4v.</fw>
+                    <note type="critic" xml:id="note.641">Kézirata: Uo. 43b. Kiad.: Uo. 129.</note>
+                    <l xml:id="l.809">A’ Kert alá űlve, ha van szemed ’s eszed,</l>
+                    <l xml:id="l.810">A’ Hajdu Rosmarin<note type="critic" xml:id="note.642"
+                            >csalán</note> nem tsipi meg segged.</l>
+                </div>
+                <div xml:id="d.101">
+                    <fw type="originalNum">4w.</fw>
+                    <note type="critic" xml:id="note.643">Kézirata: Uo. 44a. Kiad.: Uo. 129.</note>
+                    <l xml:id="l.811">Tapodd bár a’ Retket, de ha ki nem tépik,</l>
+                    <l xml:id="l.812">Vagy fel huzalkodik,<note type="critic" xml:id="note.644"
+                            >felnő</note> vagy meg vastagodik.</l>
+                </div>
+                <div xml:id="d.102">
+                    <fw type="originalNum">4x.</fw>
+                    <note type="critic" xml:id="note.645">Kézirata: Uo. 44a. Kiad.: Uo. 129.</note>
+                    <l xml:id="l.813">Jobb, nagy készűlettel kis nyereséget várj,</l>
+                    <l xml:id="l.814">Mint kis készűlettel nagy gyalázattal járj.</l>
+                </div>
+                <div xml:id="d.103">
+                    <fw type="originalNum">4y.</fw>
+                    <note type="critic" xml:id="note.646">Kézirata: Uo. 44a. Kiad.: Uo. 130.</note>
+                    <l xml:id="l.815">Longurio<note type="critic" xml:id="note.647">langaléta</note>
+                        lévén tőrpe házba dombolsz,<note type="critic" xml:id="note.648">dombol –
+                            tombol</note></l>
+                    <l xml:id="l.816">Ha koponyád kotzog, még az Atsra morogsz.</l>
+                </div>
+                <div xml:id="d.104">
+                    <fw type="originalNum">4z.</fw>
+                    <note type="critic" xml:id="note.649">Kézirata: Uo. 44b. Kiad.: Uo. 130.</note>
+                    <l xml:id="l.817">A’ nyargaló patak nem bántya Rápótot,</l>
+                    <l xml:id="l.818">De a’ lassu Maros majd el-nyallya Fótot.</l>
+                </div>
+                <div xml:id="d.105">
+                    <fw type="originalNum">5a.</fw>
+                    <note type="critic" xml:id="note.650">Kézirata: Uo. 44b. Kiad.: Uo. 130.</note>
+                    <l xml:id="l.819">A bé állott lesbe a’ ki sokat tsihol,</l>
+                    <l xml:id="l.820">Vatsorán Nyul czimert<note type="critic" xml:id="note.651"
+                            >czimer – kisállat negyedrésze, főleg combrésze</note> sem eszik, sem
+                        borsol.</l>
+                </div>
+                <div xml:id="d.106">
+                    <fw type="originalNum">5b.</fw>
+                    <note type="critic" xml:id="note.652">Kézirata: Uo. 44b. Kiad.: Uo. 131.</note>
+                    <l xml:id="l.821">Mint a’ dűhős kutya, mindenhez harap ’s kap,</l>
+                    <l xml:id="l.822">Ugy minden eb genus<note type="critic" xml:id="note.653">faj,
+                            fajta</note> ő hozzá is mar ’s tsap.</l>
+                </div>
+                <div xml:id="d.107">
+                    <fw type="originalNum">5c.</fw>
+                    <note type="critic" xml:id="note.654">Kézirata: Uo. 44b. Kiad.: Uo. 131.</note>
+                    <l xml:id="l.823">A magához gyanos árnyéktól is tartos,</l>
+                    <l xml:id="l.824">Vizből ki kapokhoz mind pártos, mind partos.<note
+                            type="critic" xml:id="note.655">Értsd: a gyanakvó ember az árnyéktól is
+                            tart; a menekülőket segíti is, nem is.</note></l>
+                </div>
+                <div xml:id="d.108">
+                    <fw type="originalNum">5d.</fw>
+                    <note type="critic" xml:id="note.656">Kézirata: Uo. 45 a. Kiad.: Uo. 131.</note>
+                    <l xml:id="l.825">Akar mint eskedgyék a’ Pap segillyével,</l>
+                    <l xml:id="l.826">Eb hidgye, ha nem egy Isten igéjével.</l>
+                </div>
+                <div xml:id="d.109">
+                    <fw type="originalNum">5e.</fw>
+                    <note type="critic" xml:id="note.657">Kézirata: Uo. 45a. Kiad.: Uo. 132.</note>
+                    <l xml:id="l.827">Az Udvari levet két szinnel festették,</l>
+                    <l xml:id="l.828">A belé nyalót is annak keresztelték.<note type="critic"
+                            xml:id="note.658">Értsd: az udvari léhűtők kétszínűek.</note></l>
+                </div>
+                <div xml:id="d.110">
+                    <fw type="originalNum">5f.</fw>
+                    <note type="critic" xml:id="note.659">Kézirata: Uo. 45b–46a. Kiad.: Uo.
+                        133.</note>
+                    <l xml:id="l.829">Elhidgyed, hogy bizony fél Egér Matskától</l>
+                    <l xml:id="l.830">De mig oda nem vész, tsak lop a’ szuszékból.</l>
+                </div>
+                <div xml:id="d.111">
+                    <fw type="originalNum">5g.</fw>
+                    <note type="critic" xml:id="note.660">Kézirata: Uo. 46b. Kiad.: Uo. 135.</note>
+                    <l xml:id="l.831">Az Udvari póltzra sok graditson hágsz fel,</l>
+                    <l xml:id="l.832">Egy botlással magad a’ főldről szeded fel.</l>
+                </div>
+                <div xml:id="d.112">
+                    <fw type="originalNum">5h.</fw>
+                    <note type="critic" xml:id="note.661">Kézirata: Uo. 47a. Kiad.: Uo. 135.</note>
+                    <l xml:id="l.833">Utolsobb ’s leg roszszab, tu Sardanapalé,<note type="critic"
+                            xml:id="note.662">te, Sardanapal. A Szardanapálról szóló példázatot a
+                            protestánsok is fölhasználták műveikben. Vö. <bibl><hi rend="smallcaps"
+                                    >Dömötör Ákos</hi>: <title>A magyar protestáns exemplumok
+                                    katalógusa</title>. Folklór Archívum 1992/19.
+                        84.</bibl></note></l>
+                    <l xml:id="l.834">Dispar est ratio tua<note type="critic" xml:id="note.663"
+                            >Különbözik a te elméd.</note> és Szent Pálié.<note type="critic"
+                            xml:id="note.664">Szent Pálé. (A név egybeesése a Szentpáli családéval
+                            valószínűleg véletlen.)</note></l>
+                </div>
+                <div xml:id="d.113">
+                    <fw type="originalNum">5i.</fw>
+                    <note type="critic" xml:id="note.665">Kézirata: Uo. 47b. Kiad.: Uo. 136.</note>
+                    <l xml:id="l.835">Nem sokáig kellett meg maradást hinni,</l>
+                    <l xml:id="l.836">Hol sok a’ siró száj, ’s a’ Fűl restell halni.</l>
+                </div>
+                <div xml:id="d.114">
+                    <fw type="originalNum">5j.</fw>
+                    <note type="critic" xml:id="note.666">Kézirata: Uo. 47b. Kiad.: Uo. 136.</note>
+                    <l xml:id="l.837">Herénél a’ Darás méznek tőbbet mit árt?</l>
+                    <l xml:id="l.838">Szemre főre néztek, ’s nem nézitek a’ kárt.</l>
+                </div>
+                <div xml:id="d.115">
+                    <fw type="originalNum">5k.</fw>
+                    <note type="critic" xml:id="note.667">Kézirata: Uo. 48a. Kiad.: Uo. 137.</note>
+                    <l xml:id="l.839">Nem bánom, szánkázzál fel felé a’ hegyre,</l>
+                    <l xml:id="l.840">De meg kősd kereked meredek lejtőre.</l>
+                </div>
+                <div xml:id="d.116">
+                    <fw type="originalNum">5l.</fw>
+                    <note type="critic" xml:id="note.668">Kézirata: Uo. 48b. Kiad.: Uo. 138.</note>
+                    <l xml:id="l.841">A ki veled pattog, attol ne félly, nem árt,</l>
+                    <l xml:id="l.842">A hizelkedő Nap tsalá meg Boldisárt.</l>
+                </div>
+                <div xml:id="d.117">
+                    <fw type="originalNum">5m.</fw>
+                    <note type="critic" xml:id="note.669">Kézirata: Uo. 48b. Kiad.: Uo. 139.</note>
+                    <l xml:id="l.843">Ha a’ kuvasz kőzt jársz, ne had el a’ Fustélt,<note
+                            type="critic" xml:id="note.670">Fustél – fustély: furkósbot.</note></l>
+                    <l xml:id="l.844">Sok orozva marás tészen Székely fortélyt.</l>
+                </div>
+                <div xml:id="d.118">
+                    <fw type="originalNum">5n.</fw>
+                    <note type="critic" xml:id="note.671">Kézirata: Uo. 48b. Kiad.: Uo. 139.</note>
+                    <l xml:id="l.845">Nem szűkség nagy erő ott a’ ledőlésre,</l>
+                    <l xml:id="l.846">Hol fundamentom nints az emelkedésre.</l>
+                </div>
+                <div xml:id="d.119">
+                    <fw type="originalNum">5o.</fw>
+                    <note type="critic" xml:id="note.672">Kézirata: Uo. 49b. Kiad.: Uo. 141.</note>
+                    <l xml:id="l.847">Egyedűl dőfé meg Páris Lacedemont;<note type="critic"
+                            xml:id="note.673">Lakedaimón, Spárta</note></l>
+                    <l xml:id="l.848">Sok Gőrőg veszté el mind Troját ’s mind Hectort.</l>
+                </div>
+                <div xml:id="d.120">
+                    <fw type="originalNum">5p.</fw>
+                    <note type="critic" xml:id="note.674">Kézirata: Uo. 49b. Kiad.: Uo. 141.</note>
+                    <l xml:id="l.849">Mi nem minden Tanáts halad elé felé,</l>
+                    <l xml:id="l.850">Vont lyuku<note type="critic" xml:id="note.675">jó
+                            puska</note> is néha pőkik a’ Czél mellé.</l>
+                </div>
+                <div xml:id="d.121">
+                    <fw type="originalNum">5q.</fw>
+                    <note type="critic" xml:id="note.676">Kézirata: Uo. 49b. Kiad.: Uo. 141.</note>
+                    <l xml:id="l.851">Irtozás a’ Caput dum est sine Cullo,<note type="critic"
+                            xml:id="note.677">a fej fejfedő (?) nélkül</note></l>
+                    <l xml:id="l.852">De szégyenb a’ segg, ha nints Caput in Collo.<note
+                            type="critic" xml:id="note.678">feje a nyakán, azaz a helyén</note></l>
+                </div>
+                <div xml:id="d.122">
+                    <fw type="originalNum">5r.</fw>
+                    <note type="critic" xml:id="note.679">Kézirata: Uo. 50a. Kiad.: Uo. 142.</note>
+                    <l xml:id="l.853">Nos hárman quid sumus,<note type="critic" xml:id="note.680"
+                            >Nos […] quid sumus – mi mik vagyunk.</note> hanem tsak hirharang,</l>
+                    <l xml:id="l.854">Non querimus nos rem,<note type="critic" xml:id="note.681">nem
+                            siránkozunk a dolgainkon</note> tsak légyen meg az hang.</l>
+                </div>
+                <div xml:id="d.123">
+                    <fw type="originalNum">5s.</fw>
+                    <note type="critic" xml:id="note.682">Kézirata: Uo. 50b. Kiad.: Uo. 143.</note>
+                    <l xml:id="l.855">Mellyik kínra méltób, Kegyetlen Neroé?</l>
+                    <l xml:id="l.856">Vagy őt arra dobló<note type="critic" xml:id="note.683"
+                            >rávevő</note> sok Hohér Herosé?</l>
+                </div>
+                <div xml:id="d.124">
+                    <fw type="originalNum">5t.</fw>
+                    <note type="critic" xml:id="note.684">Kézirata: Uo. 50b. Kiad.: Uo. 143.</note>
+                    <l xml:id="l.857">A kővér falatok le szarják a’ Gatyát,</l>
+                    <l xml:id="l.858">Fellyűl hullo kővek tőrnek sok koponyát.</l>
+                </div>
+                <div xml:id="d.125">
+                    <fw type="originalNum">5u.</fw>
+                    <note type="critic" xml:id="note.685">Kézirata: Uo. 50b. Kiad.: Uo. 143.</note>
+                    <l xml:id="l.859">Nem mi adgyuk, veszik sokszor, a’ mit nyujtunk,</l>
+                    <l xml:id="l.860">Vajha tsak attunkal meg forhatna dolgunk.</l>
+                </div>
+                <div xml:id="d.126">
+                    <fw type="originalNum">5v.</fw>
+                    <note type="critic" xml:id="note.686">Kézirata: Uo. 51a. Kiad.: Uo. 144.</note>
+                    <l xml:id="l.861">Kőtelen tombolni Tenger felett kőnnyű,</l>
+                    <l xml:id="l.862">Kőre hultát ’s holtát tsak nézni is szőrnyű.</l>
+                </div>
+                <div xml:id="d.127">
+                    <fw type="originalNum">5w.</fw>
+                    <note type="critic" xml:id="note.687">Kézirata: Uo. 51a. Kiad.: Uo. 145.</note>
+                    <l xml:id="l.863">Az alkalmatosság, álly meg, ha űz, néki,</l>
+                    <l xml:id="l.864">De ha elől nyargal, ne hidgy soha néki.</l>
+                </div>
+                <div xml:id="d.128">
+                    <fw type="originalNum">5x.</fw>
+                    <note type="critic" xml:id="note.688">Kézirata: Uo. 51b. Kiad.: Uo. 146.</note>
+                    <l xml:id="l.865">Jobb, kullogj tsendesen Botskorba Budara,</l>
+                    <l xml:id="l.866">Mint bokáig patkolt csizmába Prágára.</l>
+                </div>
+                <div xml:id="d.129">
+                    <fw type="originalNum">5y.</fw>
+                    <note type="critic" xml:id="note.689">Kézirata: Uo. 52a. Kiad.: Uo. 146.</note>
+                    <l xml:id="l.867">Incurabilis Mors<note type="critic" xml:id="note.690"
+                            >gyógyíthatatlan halál</note> a’ bolond viszketeg,</l>
+                    <l xml:id="l.868">Megvakult ’s azt mondgya, ő bizony nem beteg.</l>
+                </div>
+                <div xml:id="d.130">
+                    <fw type="originalNum">5z.</fw>
+                    <note type="critic" xml:id="note.691">5z. Kézirata: Uo. 52b. Kiad.: Uo.
+                        147.</note>
+                    <l xml:id="l.869">Nem vétke Pávának, ’s meg sem őlik érte,</l>
+                    <l xml:id="l.870">A rutul nőtt Tollat vetik a’ szemétre.</l>
+                </div>
+                <div xml:id="d.131">
+                    <fw type="originalNum">6a.</fw>
+                    <note type="critic" xml:id="note.692">Kézirata: Uo. 52b. Kiad.: Uo. 148.</note>
+                    <l xml:id="l.871">Eg ugyan a’ Gyertya, ’s fogy is a’ kád alatt,</l>
+                    <l xml:id="l.872">De a’ kőz jó tsőtlik s botlik a’ pad alatt.</l>
+                </div>
+                <div xml:id="d.132">
+                    <fw type="originalNum">6b.</fw>
+                    <note type="critic" xml:id="note.693">Kézirata: Uo. 53b. Kiad.: Uo. 149.</note>
+                    <l xml:id="l.873">Nagyob ellenséged a’ szomszéd hostisnál,<note type="critic"
+                            xml:id="note.694">hostis – ellenség</note></l>
+                    <l xml:id="l.874">A kit fel emeltél, s meg főldhőz sujtottál.</l>
+                </div>
+                <div xml:id="d.133">
+                    <fw type="originalNum">6c.</fw>
+                    <note type="critic" xml:id="note.695">6c. Kézirata: Uo. 53b. Kiad.: Uo.
+                        150.</note>
+                    <l xml:id="l.875">Ha szárnya szegikis, nints abba semmi kár,</l>
+                    <l xml:id="l.876">A ki Pillangoval gyertya világnál jár.</l>
+                </div>
+                <div xml:id="d.134">
+                    <fw type="originalNum">6d.</fw>
+                    <note type="critic" xml:id="note.696">Kézirata: Uo. 54a. Kiad.: Uo. 151.</note>
+                    <l xml:id="l.877">Csak egy ember fingik a’ Táncz kőzbe néha,</l>
+                    <l xml:id="l.878">De szomszédink érzik, mi izű a’ doha.</l>
+                </div>
+                <div xml:id="d.135">
+                    <fw type="originalNum">6e.</fw>
+                    <note type="critic" xml:id="note.697">Kézirata: Uo. 54b. Kiad.: Uo. 151. </note>
+                    <l xml:id="l.879">Negy lábbal hág néha fel Medve vaczkorra</l>
+                    <l xml:id="l.880">Csak egyel firreg<note type="critic" xml:id="note.698">surrog,
+                            süvít</note> le néha főre nyakra.</l>
+                </div>
+                <div xml:id="d.136">
+                    <fw type="originalNum">6f.</fw>
+                    <note type="critic" xml:id="note.699">Kézirata: Uo. 54b. Kiad.: Uo. 152.</note>
+                    <l xml:id="l.881">Gonosz szővevénynek szővője fonoja,</l>
+                    <l xml:id="l.882">Holott irigységgel sokak meg rontója,</l>
+                    <l xml:id="l.883">Tőttidnek gonosz vég gonoszul lesz soldgya,</l>
+                    <l xml:id="l.884">Tetézve térvén meg practikád vékája.</l>
+                </div>
+                <div xml:id="d.137">
+                    <fw type="originalNum">6g.</fw>
+                    <note type="critic" xml:id="note.700">Kézirata: Uo. 54b. Kiad.: Uo. 152.</note>
+                    <l xml:id="l.885">A szerentsét birni terh, szeretni főrtő,</l>
+                    <l xml:id="l.886">Hát a’ ki el veszti? azt tsak vesztő ’s győtrő.</l>
+                </div>
+                <div xml:id="d.138">
+                    <fw type="originalNum">6h.</fw>
+                    <note type="critic" xml:id="note.701">Kézirata: Uo. 55a. Kiad.: Uo. 153.</note>
+                    <l xml:id="l.887">Jó Király, árva űgyődnek légyen az Isten Tutora,<note
+                            type="critic" xml:id="note.702">Tutor – gyám</note></l>
+                    <l xml:id="l.888">Obscuritasidnak<note type="critic" xml:id="note.703"
+                            >Obscuritas – homály, ismeretlenség</note> légyen Lumen<note
+                            type="critic" xml:id="note.704">fény</note> Faklyája, Lámpása.</l>
+                </div>
+                <div xml:id="d.139">
+                    <fw type="originalNum">6i.</fw>
+                    <note type="critic" xml:id="note.705">Kézirata: Uo. 55a. Kiad.: Uo. 154.</note>
+                    <l xml:id="l.889">Csak akkor hidgy a’ Fondornak, mikor alvó komondornak,</l>
+                    <l xml:id="l.890">Véget vét a’ Kolyikásnak Receptája rosz Doctornak.</l>
+                </div>
+                <div xml:id="d.140">
+                    <fw type="originalNum">6j.</fw>
+                    <note type="critic" xml:id="note.706">Kézirata: Uo. 55b. Kiad.: Uo. 154.</note>
+                    <l xml:id="l.891">Milvus Murem solvit,<note type="critic" xml:id="note.707">A
+                            kánya elereszti az egeret.</note> ámbár fel holt beteg,</l>
+                    <l xml:id="l.892">Ha keze űgyibe kőzel Pislen-pityeg.<note type="critic"
+                            xml:id="note.708">Pislen – csirke</note></l>
+                </div>
+                <div xml:id="d.141">
+                    <fw type="originalNum">6k.</fw>
+                    <note type="critic" xml:id="note.709">Kézirata: Uo. 56a. Kiad.: Uo. 155.</note>
+                    <l xml:id="l.893">A ki magánál fellyeb nyul, az a’ természeten tul nyul,</l>
+                    <l xml:id="l.894">Vaj mi artalmas a’ testnek, mikor hoszánál tovább nyul.</l>
+                </div>
+                <div xml:id="d.142">
+                    <fw type="originalNum">6l.</fw>
+                    <note type="critic" xml:id="note.710">Kézirata: Uo. 56a. Kiad.: Uo. 155.</note>
+                    <l xml:id="l.895">Praebendám<note type="critic" xml:id="note.711">Praebenda –
+                            élelem</note> ha nem kővéris, de enyim, ha ősztővéris.</l>
+                    <l xml:id="l.896"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Tuddé, meg mondá a’ Borz is, hogy
+                                    utrumque.<note type="critic" xml:id="note.712">mindkettőt el
+                                    fogod veszteni</note></lem>
+                            <rdg wit="#W1" xml:id="rdg.4">perdut eris</rdg>
+                        </app></l>
+                </div>
+                <div xml:id="d.143">
+                    <fw type="originalNum">6m.</fw>
+                    <note type="critic" xml:id="note.713">Kézirata: Uo. 56b. Kiad.: Uo. 156.</note>
+                    <l xml:id="l.897">Jajdul, igaz, néha kristellyel élő is,</l>
+                    <l xml:id="l.898">De nyeli a’ bűzit a’ kristélyező is.</l>
+                </div>
+                <div xml:id="d.144">
+                    <fw type="originalNum">6n.</fw>
+                    <note type="critic" xml:id="note.714">Kézirata: Uo. 56b. Kiad.: Uo. 156.</note>
+                    <l xml:id="l.899">Mi nem<note type="critic" xml:id="note.715">Mi nem –
+                            egyáltalán nem.</note> a’ segg vétke, hogy kolyikás az has,</l>
+                    <l xml:id="l.900">Mért vészi bé a’ száj, ha nem birja a’ kas.</l>
+                </div>
+                <div xml:id="d.145">
+                    <fw type="originalNum">6o.</fw>
+                    <note type="critic" xml:id="note.716">Kézirata: Uo. 57a. Kiad.: Uo. 157.</note>
+                    <l xml:id="l.901">Vaj ki egésséges a’ főldőn fáradni,</l>
+                    <l xml:id="l.902">Vaj mi veszedelmes vizen hintokázni.</l>
+                </div>
+                <div xml:id="d.146">
+                    <fw type="originalNum">6p.</fw>
+                    <note type="critic" xml:id="note.717">Kézirata: Uo. 57a. Kiad.: Uo. 158.</note>
+                    <l xml:id="l.903">Térd hajtás, kéz fogás ma vétek cum dextris.<note
+                            type="critic" xml:id="note.718">jobbal</note></l>
+                    <l xml:id="l.904">In nostro seculo utere sinistris.<note type="critic"
+                            xml:id="note.719">Századunkban használd a balt.</note></l>
+                </div>
+                <div xml:id="d.147">
+                    <fw type="originalNum">6q.</fw>
+                    <note type="critic" xml:id="note.720">Kézirata: Uo. 57b. Kiad.: Uo. 158.</note>
+                    <l xml:id="l.905">Valamelly bolond Rex<note type="critic" xml:id="note.721"
+                            >király</note> ős jószágát fosztya,</l>
+                    <l xml:id="l.906">Mit obstal<note type="critic" xml:id="note.722"
+                            >megakadályoz</note> ott a’ Lex,<note type="critic" xml:id="note.723"
+                            >törvény</note> ha Regnumát<note type="critic" xml:id="note.724">Regnum
+                            – birodalom</note> nyuzza.</l>
+                </div>
+                <div xml:id="d.148">
+                    <fw type="originalNum">6r.</fw>
+                    <note type="critic" xml:id="note.725">Kézirata: Uo. 57b. Kiad.: Uo. 159.</note>
+                    <l xml:id="l.907">Meg árt a’ vas sulyom<note type="critic" xml:id="note.726"
+                            >lovasroham megakasztására szánt, csillag alakú vastüske</note> ha
+                        laptáznak vélle,</l>
+                    <l xml:id="l.908">Jaj kinek tenere ’s kinek talpa-béle.</l>
+                </div>
+                <div xml:id="d.149">
+                    <fw type="originalNum">6s.</fw>
+                    <note type="critic" xml:id="note.727">Kézirata: Uo. 58a. Kiad.: Uo. 159.</note>
+                    <l xml:id="l.909">Kováts nyilazza meg hőrtsőkős<note type="critic"
+                            xml:id="note.728">hörcsökös: mérges</note> lovunkat,</l>
+                    <l xml:id="l.910">Oldalba de rugják a’ mi Lovászunkat.</l>
+                </div>
+                <div xml:id="d.150">
+                    <fw type="originalNum">6t.</fw>
+                    <note type="critic" xml:id="note.729">Kézirata: Uo. 58a. Kiad.: Uo. 160.</note>
+                    <l xml:id="l.911">Sok bé kaptsolt kőnyvek sok jót parantsolnak,</l>
+                    <l xml:id="l.912">Sok el alutt Bőltsek halgatva tanitnak.</l>
+                </div>
+                <div xml:id="d.151">
+                    <fw type="originalNum">6u.</fw>
+                    <note type="critic" xml:id="note.730">Kézirata: Uo. 58b. Kiad.: Uo. 160.</note>
+                    <l xml:id="l.913">Jobb a’ kolyikás segg a’ fetsegő szájnál,</l>
+                    <l xml:id="l.914">Mert a’ ritkán poszog,<note type="critic" xml:id="note.731"
+                            >pöfög</note> e’ szaporán dajnál.<note type="critic" xml:id="note.732"
+                            >gajdol, kornyikál</note></l>
+                </div>
+                <div xml:id="d.152">
+                    <fw type="originalNum">6v.</fw>
+                    <note type="critic" xml:id="note.733">Kézirata: Uo. 58b. Kiad.: Uo. 161.</note>
+                    <l xml:id="l.915">Melyik jobb, az é, hogy amari à multis,<note type="critic"
+                            xml:id="note.734">sokaktól szerettetni</note></l>
+                    <l xml:id="l.916">Vagy egy miá lenni nec vitae nec Mortis.<note type="critic"
+                            xml:id="note.735">sem élő, sem holt</note></l>
+                </div>
+                <div xml:id="d.153">
+                    <fw type="originalNum">6w.</fw>
+                    <note type="critic" xml:id="note.736">Kézirata: Uo. 59a. Kiad.: Uo. 161.</note>
+                    <l xml:id="l.917">Sobrak<note type="critic" xml:id="note.737">zsobrák:
+                            fösvény</note> szekeresnek nyikorog kereke,</l>
+                    <l xml:id="l.918">A’ meg vágott kőnek jobban jár a’ lisztye.</l>
+                </div>
+                <div xml:id="d.154">
+                    <fw type="originalNum">6x.</fw>
+                    <note type="critic" xml:id="note.738">Kézirata: Uo. 59a. Kiad.: Uo. 162.</note>
+                    <l xml:id="l.919">Jár a’ Medve néha tántzot ’s toborzikot,<note type="critic"
+                            xml:id="note.739">toborzik – toborzó tánc</note></l>
+                    <l xml:id="l.920">Ad néha teneres talpas áfácékot.<note type="critic"
+                            xml:id="note.740">áfácé – A szó azonosítása nem sikerült.</note></l>
+                </div>
+                <div xml:id="d.155">
+                    <fw type="originalNum">6y.</fw>
+                    <note type="critic" xml:id="note.741">Kézirata: Uo. 59b. Kiad.: Uo. 162.</note>
+                    <l xml:id="l.921">Te magad furtad meg fenekét sákodnak,</l>
+                    <l xml:id="l.922">’s rám morgasz, mért nyitva szája tarisnyádnak.</l>
+                </div>
+                <div xml:id="d.156">
+                    <fw type="originalNum">6z.</fw>
+                    <note type="critic" xml:id="note.742">Kézirata: Uo. 59b. Kiad.: Uo. 163.</note>
+                    <l xml:id="l.923">Meg mernéd mondani, Tolvajé vagy Király,</l>
+                    <l xml:id="l.924">A ki tsak nyuz, huz, foszt, ’s nem hadgya, hogy Birály.</l>
+                </div>
+                <div xml:id="d.157">
+                    <fw type="originalNum">7a.</fw>
+                    <note type="critic" xml:id="note.743">Kézirata: Uo. 59b. Kiad.: Uo. 163.</note>
+                    <l xml:id="l.925">Dic Album, fac Nigrum ut voceris Tarka,<note type="critic"
+                            xml:id="note.744">Mondd fehérnek, tedd feketének, hogy tarkának nevezd.
+                        </note></l>
+                    <l xml:id="l.926">Két szinű Toll nállunk nem sas, hanem szarka.</l>
+                </div>
+                <div xml:id="d.158">
+                    <fw type="originalNum">7b.</fw>
+                    <note type="critic" xml:id="note.745">Kézirata: Uo. 60a. Kiad.: Uo. 163.</note>
+                    <l xml:id="l.927">Oltoványid kőzőtt irtogass idején,</l>
+                    <l xml:id="l.928">Nem vonhad rámára a’ horgas fát késén.</l>
+                </div>
+                <div xml:id="d.159">
+                    <fw type="originalNum">7c.</fw>
+                    <note type="critic" xml:id="note.746">Kézirata: Uo. 60a. Kiad.: Uo. 164.</note>
+                    <l xml:id="l.929">Egy néha sokaknak tépi szeme szőrit,</l>
+                    <l xml:id="l.930">Sok is néha egynek meg szedi tiz kőrmit.</l>
+                </div>
+                <div xml:id="d.160">
+                    <fw type="originalNum">7d.</fw>
+                    <note type="critic" xml:id="note.747">Kézirata: Uo. 60b. Kiad.: Uo. 165.</note>
+                    <l xml:id="l.931">A teli szart házba finghatik akarki,</l>
+                    <l xml:id="l.932">Bordélyba nem mondgyák senkinek, vakarj ki.</l>
+                </div>
+                <div xml:id="d.161">
+                    <fw type="originalNum">7e.</fw>
+                    <note type="critic" xml:id="note.748">Kézirata: Uo. 60b. Kiad.: Uo. 165.</note>
+                    <l xml:id="l.933">A’ melly fékemlőbe elsőben nints zabla,</l>
+                    <l xml:id="l.934">Elhány ’s vét, légyen bár egy rosz kantza kabla.</l>
+                </div>
+                <div xml:id="d.162">
+                    <fw type="originalNum">7f.</fw>
+                    <note type="critic" xml:id="note.749">Kézirata: Uo. 61a. Kiad.: Uo. 165.</note>
+                    <l xml:id="l.935">Nem vágy a’ Máléra, a’ ki Mannával él,</l>
+                    <l xml:id="l.936">Azért Bachus részeg, ha tiszta vizzel él.</l>
+                </div>
+                <div xml:id="d.163">
+                    <fw type="originalNum">7g.</fw>
+                    <note type="critic" xml:id="note.750">Kézirata: Uo. 61a. Kiad.: Uo. 166.</note>
+                    <l xml:id="l.937">Tűzzel persel Őtves sok választó vizest,</l>
+                    <l xml:id="l.938">De az is fűstivel veszt ’s vakit sok Őtvest.</l>
+                </div>
+                <div xml:id="d.164">
+                    <fw type="originalNum">7h.</fw>
+                    <note type="critic" xml:id="note.751">Kézirata: Uo. 61b. Kiad.: Uo. 166.</note>
+                    <l xml:id="l.939">Horgas borgas utat lineára<note type="critic"
+                            xml:id="note.752">linea – egyenes</note> venni,</l>
+                    <l xml:id="l.940">Mind egy, ’s a’ sűketnek két Misét mondani.<note type="critic"
+                            xml:id="note.753">Értsd: hiábavalóságot cselekedni, l. <bibl><hi
+                                    rend="smallcaps">Baranyai Decsi János</hi>: I. m. Chil. I. Cent.
+                                III. Dec. VIII/2.</bibl></note></l>
+                </div>
+                <div xml:id="d.165">
+                    <fw type="originalNum">7i.</fw>
+                    <note type="critic" xml:id="note.754">Kézirata: Uo. 61b. Kiad.: Uo. 167.</note>
+                    <l xml:id="l.941">Világra ki ki butt, ki, ki nem látott but?</l>
+                    <l xml:id="l.942">Vagy Király, vagy koldus, plusért sok helyt fel butt.</l>
+                </div>
+                <div xml:id="d.166">
+                    <fw type="originalNum">7j.</fw>
+                    <note type="critic" xml:id="note.755">Kézirata: Uo. 61b. Kiad.: Uo. 167.</note>
+                    <l xml:id="l.943">Szappanyozni holnap habebis Tantalum,<note type="critic"
+                            xml:id="note.756">bírni fogod Tantaloszt</note></l>
+                    <l xml:id="l.944">A ki ma másoknak fuisti scandalum.<note type="critic"
+                            xml:id="note.757">botrány voltál. Értsd: holnap mosakodhatsz, ha ma
+                            botrányosan viselkedtél.</note></l>
+                </div>
+                <div xml:id="d.167">
+                    <fw type="originalNum">7k.</fw>
+                    <note type="critic" xml:id="note.758">Kézirata: Uo. 62a. Kiad.: Uo. 167.</note>
+                    <l xml:id="l.945">Processio járni jeles ut Romára.</l>
+                    <l xml:id="l.946">Tanaison<note type="critic" xml:id="note.759">Tanais –
+                            Don.</note> által kullogj Scythiára.</l>
+                </div>
+                <div xml:id="d.168">
+                    <fw type="originalNum">7l.</fw>
+                    <note type="critic" xml:id="note.760">Kézirata: Uo. 62b. Kiad.: Uo. 169.</note>
+                    <l xml:id="l.947">Nem olly hamar puffan Agyu, mint a’ Pistolly,</l>
+                    <l xml:id="l.948">De a’ hová bé pők, sok falt helyből ki tolly.</l>
+                </div>
+                <div xml:id="d.169">
+                    <fw type="originalNum">7m.</fw>
+                    <note type="critic" xml:id="note.761">Kézirata: Uo. 62b. Kiad.: Uo. 169.</note>
+                    <l xml:id="l.949">Akarván, az Isten, tsak sohajts, ’s meg riaszt,</l>
+                    <l xml:id="l.950">Nolens, tace, non dat,<note type="critic" xml:id="note.762"
+                            >Nem akarva hallgass, nem ad.</note> sok szoval nem fáraszt.</l>
+                </div>
+                <div xml:id="d.170">
+                    <fw type="originalNum">7n.</fw>
+                    <note type="critic" xml:id="note.763">Kézirata: Uo. 62b. Kiad.: Uo. 169.</note>
+                    <l xml:id="l.951">Ragados kezedet mosd meg, sugorits meg,</l>
+                    <l xml:id="l.952">Dat Deus quantum vult,<note type="critic" xml:id="note.764">Ad
+                            az Isten, amennyit akar.</note> tsak senkit ne sérts meg.</l>
+                </div>
+                <div xml:id="d.171">
+                    <fw type="originalNum">7o.</fw>
+                    <note type="critic" xml:id="note.765">Kézirata: Uo. 63a. Kiad.: Uo. 170.</note>
+                    <l xml:id="l.953">Hol a’ Tőrvény meg hólt, beteg a’ Király ott,</l>
+                    <l xml:id="l.954">Az Ország vonagik, meny ki, pestis van ott.</l>
+                </div>
+                <div xml:id="d.172">
+                    <fw type="originalNum">7p.</fw>
+                    <note type="critic" xml:id="note.766">Kézirata: Uo. 63b. Kiad.: Uo. 171.</note>
+                    <l xml:id="l.955">Udvari sajtoba szorult rab igasság,</l>
+                    <l xml:id="l.956">Nem tseppen pénz nélkűl tőlled semmi jóság.</l>
+                </div>
+                <div xml:id="d.173">
+                    <fw type="originalNum">7q.</fw>
+                    <note type="critic" xml:id="note.767">Kézirata: Uo. 63b. Kiad.: Uo. 171.</note>
+                    <l xml:id="l.957">A mi Udvarunkat ebűl describálod,<note type="critic"
+                            xml:id="note.768">describál – leír, illusztrál</note></l>
+                    <l xml:id="l.958">Mert itt lábra nem kapsz, ha Istent szolgálod.</l>
+                </div>
+                <div xml:id="d.174">
+                    <fw type="originalNum">7r.</fw>
+                    <note type="critic" xml:id="note.769">Kézirata: Uo. 64a. Kiad.: Uo. 172.</note>
+                    <l xml:id="l.959">Két végre nő ’s hizik az Erdei vad kan,</l>
+                    <l xml:id="l.960">Hol ől, s hol fűgg néha a’ ház héján horgon.</l>
+                </div>
+                <div xml:id="d.175">
+                    <fw type="originalNum">7s.</fw>
+                    <note type="critic" xml:id="note.770">Kézirata; Uo. 64b. Kiad.: Uo. 173.</note>
+                    <l xml:id="l.961">A magos fák néha árnyékkal ujitnak,</l>
+                    <l xml:id="l.962">Néha ránk dőléssel mind halálig nyomnak.</l>
+                </div>
+                <div xml:id="d.176">
+                    <fw type="originalNum">7t.</fw>
+                    <note type="critic" xml:id="note.771">Kézirata: Uo. 64b. Kiad.: Uo. 173.</note>
+                    <l xml:id="l.963">Nem Juh őrző kuvasz, Farkassal béllett Eb,</l>
+                    <l xml:id="l.964">Ki nem Farkas bőrrel, kos hussal bélletteb.</l>
+                </div>
+                <div xml:id="d.177">
+                    <fw type="originalNum">7u.</fw>
+                    <note type="critic" xml:id="note.772">Kézirata: Uo. 64b. Kiad.: Uo. 173.</note>
+                    <l xml:id="l.965">Disznokkal kevertet kés nélkűl ugy egyél,</l>
+                    <l xml:id="l.966">Hogy szepen is egyél, ’s bé se keveredgyél.</l>
+                </div>
+                <div xml:id="d.178">
+                    <fw type="originalNum">7v.</fw>
+                    <note type="critic" xml:id="note.773">Kézirata: Uo. 65a. Kiad.: Uo. 174.</note>
+                    <l xml:id="l.967">Tam docens in Caula, quam bibens in Aula,<note type="critic"
+                            xml:id="note.774">Ahogy az akolban tanult, úgy iszik az
+                        udvarban.</note></l>
+                    <l xml:id="l.968">E’ bizony nem egyéb, Lupus in Fabula.<note type="critic"
+                            xml:id="note.775">Farkas a mesében, értsd: amiről beszéltünk, jelen van.
+                                (<bibl>Terentius: <hi rend="italic">A testvérek</hi>. IV.
+                                1.21–22.</bibl>)</note></l>
+                </div>
+                <div xml:id="d.179">
+                    <fw type="originalNum">7w.</fw>
+                    <note type="critic" xml:id="note.776">Kézirata: Uo. 65a. Kiad.: Uo. 174.</note>
+                    <l xml:id="l.969">Van egy állat, Leo, disponente Deo,<note type="critic"
+                            xml:id="note.777">oroszlán, Isten igazgatja</note></l>
+                    <l xml:id="l.970">Dicit nunquam reo, miserebor meo.<note type="critic"
+                            xml:id="note.778">Soha nem vádol, [azt mondja,] megszánom az
+                            enyémet.</note></l>
+                </div>
+                <div xml:id="d.180">
+                    <fw type="originalNum">7x.</fw>
+                    <note type="critic" xml:id="note.779">Kézirata: Uo. 65a. Kiad.: Uo. 174.</note>
+                    <l xml:id="l.971">A hizelkedő Tántz dolorral<note type="critic"
+                            xml:id="note.780">dolor – fájdalom</note> tőr fejet,</l>
+                    <l xml:id="l.972">Harczon vitéz kardgya honorral<note type="critic"
+                            xml:id="note.781">honor – becsület</note> széd fejet.</l>
+                </div>
+                <div xml:id="d.181">
+                    <fw type="originalNum">7y.</fw>
+                    <note type="critic" xml:id="note.782">Kézirata: Uo. 65b. Kiad.: Uo. 175.</note>
+                    <l xml:id="l.973">Riaszkodgyék<note type="critic" xml:id="note.783">Riaszkodik –
+                            kiabál</note> bár egy, a’ mint torkán ki fér,</l>
+                    <l xml:id="l.974">De sok edgyel vini bizony bátrabban mér.</l>
+                </div>
+                <div xml:id="d.182">
+                    <fw type="originalNum">7z.</fw>
+                    <note type="critic" xml:id="note.784">Kézirata: Uo. 65b. Kiad.: Uo. 175.</note>
+                    <l xml:id="l.975">Sok el butt Kősziklák Gállyákat sűllyesztnek,</l>
+                    <l xml:id="l.976">Mikor a’ Hajosok láb alá nem néznek.</l>
+                </div>
+                <div xml:id="d.183">
+                    <fw type="originalNum">8a.</fw>
+                    <note type="critic" xml:id="note.785">Kézirata: Uo. 66a. Kiad.: Uo. 176.</note>
+                    <l xml:id="l.977">Justumban<note type="critic" xml:id="note.786">Justum -
+                            jog.</note> az Udvar keresztűl álló gánts,</l>
+                    <l xml:id="l.978">Raptumban<note type="critic" xml:id="note.787">Raptum –
+                            rablás.</note> részt venni kész, nem mondgya, ne bánts.</l>
+                </div>
+                <div xml:id="d.184">
+                    <fw type="originalNum">8b.</fw>
+                    <note type="critic" xml:id="note.788">Kézirata: Uo. 66b. Kiad.: Uo. 177.</note>
+                    <l xml:id="l.979">Ülly bár a’ Tőrvénybe ugy, mint igaz Biró,</l>
+                    <l xml:id="l.980">De bűntetve ne légy, magaddal nem biró.</l>
+                </div>
+                <div xml:id="d.185">
+                    <fw type="originalNum">8c.</fw>
+                    <note type="critic" xml:id="note.789">Kézirata: Uo. 66b. Kiad.: Uo. 177.</note>
+                    <l xml:id="l.981">Roka sem olly ravasz, dum jacet in fossa,<note type="critic"
+                            xml:id="note.790">míg az árokban fekszik</note></l>
+                    <l xml:id="l.982">Farkas sem hapsol ott, adsint quamvis ossa.<note type="critic"
+                            xml:id="note.791">amíg bármi csont van ott</note></l>
+                </div>
+                <div xml:id="d.186">
+                    <fw type="originalNum">8d.</fw>
+                    <note type="critic" xml:id="note.792">Kézirata: Uo. 67a. Kiad.: Uo. 178.</note>
+                    <l xml:id="l.983">A Tőrvénnek orrát, ha taknyos, tőrőld meg,</l>
+                    <l xml:id="l.984">De jobban mivelted, ha nem nátháztad meg.</l>
+                </div>
+                <div xml:id="d.187">
+                    <fw type="originalNum">8e.</fw>
+                    <note type="critic" xml:id="note.793">Kézirata: Uo. 67b. Kiad.: Uo. 179. A vers
+                        bizonyos sorai aláhúzva, ez azonban semmilyen értelmi vagy egyéb kiemelést
+                        nem szolgál.</note>
+                    <l xml:id="l.985">Vig sziv, a’ melly szerelemnek szállása,</l>
+                    <l xml:id="l.986">Minden dolga azzal bóldog, azt tartya.</l>
+                    <l xml:id="l.987">Csűribe sohajtó szelei szornak,</l>
+                    <l xml:id="l.988">Kőnyvei árjával Talléri fogynak.</l>
+                    <l xml:id="l.989">Ennek neha nagy hegy is tsak szalma szál,</l>
+                    <l xml:id="l.990">Néha tsak szalma szál is, mint hegy, ugy áll,</l>
+                    <l xml:id="l.991">Kegyesséről mind addig gondolkodik,</l>
+                    <l xml:id="l.992">Mig esze terhétől meg menekedik.</l>
+                </div>
+                <div xml:id="d.188">
+                    <fw type="originalNum">8f.</fw>
+                    <note type="critic" xml:id="note.794">Kézirata: Uo. 67b. Kiad.: Uo. 179.</note>
+                    <l xml:id="l.993">Eltőrt lábért más láb nem nő, mi nem<note type="critic"
+                            xml:id="note.795">Mi nem – hiszen nem.</note> Rák,</l>
+                    <l xml:id="l.994">Hogy kigyoval bőrből ki bujj, mi nem<note type="critic"
+                            xml:id="note.796">Mi nem – hiszen nem.</note> sák.</l>
+                </div>
+                <div xml:id="d.189">
+                    <fw type="originalNum">8g.</fw>
+                    <note type="critic" xml:id="note.797">Kézirata: Uo. 68a. Kiad.: Uo. 180.</note>
+                    <l xml:id="l.995">Nem minden fal mellett hasznos sugni bugni,</l>
+                    <l xml:id="l.996">Két ajkon tul titok szárnyon szokott járni.</l>
+                </div>
+                <div xml:id="d.190">
+                    <fw type="originalNum">8h.</fw>
+                    <note type="critic" xml:id="note.798">Kézirata: Uo. 68b. Kiad.: Uo. 181.</note>
+                    <l xml:id="l.997">Csuprodat ugy forrald, hogy ki futni ne hadd,</l>
+                    <l xml:id="l.998">Velős kontzod sirját mert ugy szophadd, nyalhadd.</l>
+                </div>
+                <div xml:id="d.191">
+                    <fw type="originalNum">8i.</fw>
+                    <note type="critic" xml:id="note.799">Kézirata: Uo. 68b. Kiad.: Uo. 181.</note>
+                    <l xml:id="l.999">Egy Falu nem lesz ott Gereben, sem Fűsű,</l>
+                    <l xml:id="l.1000">Ki tilolva sem lőtt szősz, hanem tsak tsőpű.</l>
+                </div>
+                <div xml:id="d.192">
+                    <fw type="originalNum">8j.</fw>
+                    <note type="critic" xml:id="note.800">Kézirata: Uo. 69a. Kiad.: Uo. 182.</note>
+                    <l xml:id="l.1001">Ha rákászni indulsz, ’s minden lyukba bényulsz,</l>
+                    <l xml:id="l.1002">Talám olly kigyót husz, hogy koporsoba busz.</l>
+                </div>
+                <div xml:id="d.193">
+                    <fw type="originalNum">8k.</fw>
+                    <note type="critic" xml:id="note.801">Kézirata: Uo. 68a. Kiad.: Uo. 182.</note>
+                    <l xml:id="l.1003">Van mivel a’ rosdát Vasból ki étessűk,</l>
+                    <l xml:id="l.1004">De az irigységet halállal végezzűk.</l>
+                </div>
+                <div xml:id="d.194">
+                    <fw type="originalNum">8l.</fw>
+                    <note type="critic" xml:id="note.802">Kézirata: Uo. 69a. Kiad.: Uo. 182.</note>
+                    <l xml:id="l.1005">Első szűlőttei Őrdőgnek kik, tuddé?</l>
+                    <l xml:id="l.1006">Kevélység ’s Irigység, nevek kurké ’s Purdé.</l>
+                </div>
+                <div xml:id="d.195">
+                    <fw type="originalNum">8m.</fw>
+                    <note type="critic" xml:id="note.803">Kézirata: Uo. 69b. Kiad.: Uo. 183.</note>
+                    <l xml:id="l.1007">A Kedvetlen dolgot nézni is szem fájás,</l>
+                    <l xml:id="l.1008">Hallanunk pediglen kedvetlen fűl vájás.</l>
+                </div>
+                <div xml:id="d.196">
+                    <fw type="originalNum">8n.</fw>
+                    <note type="critic" xml:id="note.804">Kézirata: Uo. 69b. Kiad.: Uo. 183.</note>
+                    <l xml:id="l.1009">Eb nem őrűlhet ugy hét kőlykének, mint ha</l>
+                    <l xml:id="l.1010">Más egy báránykáját fel falhattya néha.</l>
+                </div>
+                <div xml:id="d.197">
+                    <fw type="originalNum">8o.</fw>
+                    <note type="critic" xml:id="note.805">Kézirata: Uo. 69b. Kiad.: Uo. 183.</note>
+                    <l xml:id="l.1011">Lűdértz mennél tőbbet hordott Pitvarodba,</l>
+                    <l xml:id="l.1012">Annál tőbb árud lész Tűzes Sátorodba.</l>
+                </div>
+                <div xml:id="d.198">
+                    <fw type="originalNum">8p.</fw>
+                    <note type="critic" xml:id="note.806">Kézirata: Uo. 70a. Kiad.: Uo. 184.</note>
+                    <l xml:id="l.1013">Haszontalan kéznél kár lenni vagyonnak,</l>
+                    <l xml:id="l.1014">Nintsent kiált, ’s számát nem tudgya vagyonnak.</l>
+                </div>
+                <div xml:id="d.199">
+                    <fw type="originalNum">8q.</fw>
+                    <note type="critic" xml:id="note.807">Kézirata: Uo. 70a. Kiad.: Uo. 184.</note>
+                    <l xml:id="l.1015">Jobb vakon szűletni, ’s hóltig nem hallani,</l>
+                    <l xml:id="l.1016">Mint jót nézni ’s halni, soha sem kivánni.</l>
+                </div>
+                <div xml:id="d.200">
+                    <fw type="originalNum">8r.</fw>
+                    <note type="critic" xml:id="note.808">Kézirata: Uo. 70a. Kiad.: Uo. 184.</note>
+                    <l xml:id="l.1017">Ki vólna, ki vesztét ne lesné ’s ne várná,</l>
+                    <l xml:id="l.1018">A ki maga javát bánnya, nem hogy várná.</l>
+                </div>
+                <div xml:id="d.201">
+                    <fw type="originalNum">8s.</fw>
+                    <note type="critic" xml:id="note.809">Kézirata: Uo. 70b. Kiad.: Uo. 184.</note>
+                    <l xml:id="l.1019">Alamisna nélkűl bé sugorodott kéz,</l>
+                    <l xml:id="l.1020">Meg gyogyulásodra Isten aligha néz.</l>
+                </div>
+                <div xml:id="d.202">
+                    <fw type="originalNum">8t.</fw>
+                    <note type="critic" xml:id="note.810">Kézirata: Uo. 70b. Kiad.: Uo. 185.</note>
+                    <l xml:id="l.1021">AEsopussal lehet alfelűnk Tűkőrőd,</l>
+                    <l xml:id="l.1022">Ha arczul nem nézhet szemed, szemőldőkőd.<note type="critic"
+                            xml:id="note.811">A példázatot nem sikerült megtalálnom.</note></l>
+                </div>
+                <div xml:id="d.203">
+                    <fw type="originalNum">8u.</fw>
+                    <note type="critic" xml:id="note.812">Kézirata: Uo. 70b. Kiad.: Uo. 185.</note>
+                    <l xml:id="l.1023">Fordul orvossággal majd minden nyavalya,</l>
+                    <l xml:id="l.1024">De az Irigységnek tsak Halál orvossa.</l>
+                </div>
+                <div xml:id="d.204">
+                    <fw type="originalNum">8v.</fw>
+                    <note type="critic" xml:id="note.813">Kézirata: Uo. 70b. Kiad.: Uo. 185.</note>
+                    <l xml:id="l.1025">Mi nem minden Agár bontya fel a’ Nyulat,</l>
+                    <l xml:id="l.1026">Meg marja Roka is néha az Agarat.</l>
+                </div>
+                <div xml:id="d.205">
+                    <fw type="originalNum">8w.</fw>
+                    <note type="critic" xml:id="note.814">Kézirata: Uo. 71a. Kiad.: Uo. 186.</note>
+                    <l xml:id="l.1027">Hol találsz ma társat igaz barátsággal?</l>
+                    <l xml:id="l.1028">Csak kettő vólt illyen, David Jonáthással.<note type="critic"
+                            xml:id="note.815">L. 1Sám 19,1–7.</note></l>
+                </div>
+                <div xml:id="d.206">
+                    <fw type="originalNum">8x.</fw>
+                    <note type="critic" xml:id="note.816">Kézirata: Uo. 71b. Kiad.: Uo. 187.</note>
+                    <l xml:id="l.1029">Meg fizet bitangért<note type="critic" xml:id="note.817"
+                            >bitang – zsákmány, gazdátlan (esetleg lopott, rabolt) jószág</note>
+                        mind Pater ’s mind Mater,</l>
+                    <l xml:id="l.1030">Mint egy keszkenőért Samariai Péter.<note type="critic"
+                            xml:id="note.818">Bár ezekben az évtizedekben élt Erdélyben
+                                <persName>Samarjai Péter</persName> (<persName>Keresztúri
+                                Pál</persName> tanítványa, <persName>Bethlen Miklóst<idno
+                                    type="ITIdata"/></persName> tanította írni, l.
+                                    <bibl><title>Kemény János és Bethlen Miklós művei</title>. Kiad.
+                                    <hi rend="smallcaps">V. Windisch Éva</hi>. Bp. 1980. [Magyar
+                                Remekírók] 534.</bibl> ), a betétversek névanyagát, asszociációs
+                            mezőit tekintve valószínűbb, hogy itt egy Samáriai Péter nevéhez fűzött,
+                            a bitangban szerzett jószágról való példázatról van szó.</note></l>
+                </div>
+                <div xml:id="d.207">
+                    <fw type="originalNum">8y.</fw>
+                    <note type="critic" xml:id="note.819">Kézirata: Uo. 71b. Kiad.: Uo. 187.</note>
+                    <l xml:id="l.1031">Egy néhány gaz pénzért ma országot adnak,</l>
+                    <l xml:id="l.1032">Ha fősvény lész, hólnap agyba főbe vágnak.</l>
+                </div>
+                <div xml:id="d.208">
+                    <fw type="originalNum">8z.</fw>
+                    <note type="critic" xml:id="note.820">Kézirata: Uo. 71b. Kiad.: Uo. 187.</note>
+                    <l xml:id="l.1033">Nem minden viszketeg bóldog Juliussal,<note type="critic"
+                            xml:id="note.821">Iulius Caesar</note></l>
+                    <l xml:id="l.1034">Fél utba szakad meg néha Pompejussal.<note type="critic"
+                            xml:id="note.822">Gnaeus Magnus Pompeius (i. e. 106–48), Caesarral
+                            együtt az első triumvirátus tagja, majd Caesar ellenfele.</note></l>
+                </div>
+                <div xml:id="d.209">
+                    <fw type="originalNum">9a.</fw>
+                    <note type="critic" xml:id="note.823">Kézirata: Uo. 72a. Kiad.: Uo. 188.</note>
+                    <l xml:id="l.1035">Uzé Polycratest szerentse sokáig,</l>
+                    <l xml:id="l.1036">Végre ki kiséré az Akasztó fáig.<note type="critic"
+                            xml:id="note.824">Polükratészról l. a 4. sz. vers jegyzeteit.</note></l>
+                </div>
+                <div xml:id="d.210">
+                    <fw type="originalNum">9b.</fw>
+                    <note type="critic" xml:id="note.825">Kézirata: Uo. 72b. Kiad.: Uo. 188.</note>
+                    <l xml:id="l.1037">A ki magát adta Udvari Cséltsaphoz,</l>
+                    <l xml:id="l.1038">Szerentséje ritka az igaz mondáshoz.</l>
+                </div>
+                <div xml:id="d.211">
+                    <fw type="originalNum">9c.</fw>
+                    <note type="critic" xml:id="note.826">Kézirata: Uo. 72b. Kiad.: Uo. 189.</note>
+                    <l xml:id="l.1039">Ha harmintzba Drákuly<note type="critic" xml:id="note.827"
+                            >ördög</note> meg tokmálhat<note type="critic" xml:id="note.828">meg
+                            tokmál – megalkuszik</note> veled,</l>
+                    <l xml:id="l.1040">Akazd fel bár magad, nem áll el mellőled.</l>
+                </div>
+                <div xml:id="d.212">
+                    <fw type="originalNum">9d.</fw>
+                    <note type="critic" xml:id="note.829">Kézirata: Uo. 73a. Kiad.: Uo. 189.</note>
+                    <l xml:id="l.1041">Szivetlen száj zengést a’ ló sohajtása</l>
+                    <l xml:id="l.1042">Meg nyom Isten előtt, ugy hiszem, a’ fontba.<note
+                            type="critic" xml:id="note.830">Meg nyom […] a’ fontba – nagyobb súllyal
+                            esik a latba.</note></l>
+                </div>
+                <div xml:id="d.213">
+                    <fw type="originalNum">9e.</fw>
+                    <note type="critic" xml:id="note.831">Kézirata: Uo. 73a. Kiad.: Uo. 190.</note>
+                    <l xml:id="l.1043">A melly kis Birónak tőrt fazaka<note type="critic"
+                            xml:id="note.832">rossz lelkiismerete</note> vagyon,</l>
+                    <l xml:id="l.1044">Nyár levéltől is fél, hogy ne űsse-agyon.</l>
+                </div>
+                <div xml:id="d.214">
+                    <fw type="originalNum">9f.</fw>
+                    <note type="critic" xml:id="note.833"> Kézirata: Uo. 73b. Kiad.: Uo. 190.</note>
+                    <l xml:id="l.1045">Eleven lelkekkel pokol sem telik meg,</l>
+                    <l xml:id="l.1046">Hólt Bárány nyuzással Farkas sem fárad meg.</l>
+                </div>
+                <div xml:id="d.215">
+                    <fw type="originalNum">9g.</fw>
+                    <note type="critic" xml:id="note.834"> Kézirata: Uo. 73b. Kiad.: Uo. 191.</note>
+                    <l xml:id="l.1047">Világba hitellel gyano nélkűl élni</l>
+                    <l xml:id="l.1048">Jó, de mind kettővel jobb az Istent félni.</l>
+                </div>
+                <div xml:id="d.216">
+                    <fw type="originalNum">9h.</fw>
+                    <note type="critic" xml:id="note.835"> Kézirata: Uo. 73b. Kiad.: Uo. 191.</note>
+                    <l xml:id="l.1049">Mit vagdal az a’ száj másokat mind egyre?</l>
+                    <l xml:id="l.1050">Ki száját honn, lelke pofozza mind egyre.</l>
+                </div>
+                <div xml:id="d.217">
+                    <fw type="originalNum">9i.</fw>
+                    <note type="critic" xml:id="note.836">Kézirata: Uo. 74b. Kiad.: Uo. 192.</note>
+                    <l xml:id="l.1051">Van olly áros, a ki nem tudgya, mit vészen,</l>
+                    <l xml:id="l.1052">Mint a’ ki kantzába bak paripát hiszen.</l>
+                </div>
+                <div xml:id="d.218">
+                    <fw type="originalNum">9j.</fw>
+                    <note type="critic" xml:id="note.837">Kézirata: Uo. 74b. Kiad.: Uo. 192.</note>
+                    <l xml:id="l.1053">Mi nem soknak van ma Finumos ligája,<note type="critic"
+                            xml:id="note.838">Finumos liga – jó szövetség</note></l>
+                    <l xml:id="l.1054">Sok fa ég addig el, mig el fogy salakja.</l>
+                </div>
+                <div xml:id="d.219">
+                    <fw type="originalNum">9k.</fw>
+                    <note type="critic" xml:id="note.839">Kézirata: Uo. 74b. Kiad.: Uo. 193.</note>
+                    <l xml:id="l.1055">Bocskor is ropja ugy, noha ő csak csuszog,</l>
+                    <l xml:id="l.1056">Mint karmasin kaptza, maga ő csikorog.</l>
+                </div>
+                <div xml:id="d.220">
+                    <fw type="originalNum">9l.</fw>
+                    <note type="critic" xml:id="note.840">Kézirata: Uo. 75b. Kiad.: Uo. 194.</note>
+                    <l xml:id="l.1057">Sirathattya méltán szemét, a ki el vesztette fényét,</l>
+                    <l xml:id="l.1058">De inkáb tépheti szivét, ki halva hallya reményét.</l>
+                </div>
+                <div xml:id="d.221">
+                    <fw type="originalNum">9m.</fw>
+                    <note type="critic" xml:id="note.841">Kézirata: Uo. 76a. Kiad.: Uo. 195.</note>
+                    <l xml:id="l.1059">Mi nem pásztort vernek ló dészegségéért,<note type="critic"
+                            xml:id="note.842">dészeg – makacs, büszke</note></l>
+                    <l xml:id="l.1060">Tulkot és nem bérest a’ járom tőrésért.</l>
+                </div>
+                <div xml:id="d.222">
+                    <fw type="originalNum">9n.</fw>
+                    <note type="critic" xml:id="note.843">Kézirata: Uo. 76a. Kiad.: Uo. 195.</note>
+                    <l xml:id="l.1061">Igazán mondani, lássam, meg tudnád é,</l>
+                    <l xml:id="l.1062">A Félbe maratt sziv életé-halál e?</l>
+                </div>
+                <div xml:id="d.223">
+                    <fw type="originalNum">9o.</fw>
+                    <note type="critic" xml:id="note.844">Kézirata: Uo. 76a. Kiad.: Uo. 195.</note>
+                    <l xml:id="l.1063">Még Turpis<note type="critic" xml:id="note.845">rút</note> is
+                        bánnya ha mást mondnak szépnek,</l>
+                    <l xml:id="l.1064">Sőtét a’ Nap soknak, ha fénlik tsak egynek.</l>
+                </div>
+                <div xml:id="d.224">
+                    <fw type="originalNum">9p.</fw>
+                    <note type="critic" xml:id="note.846">Kézirata: Uo. 76a. Kiad.: Uo. 196.</note>
+                    <l xml:id="l.1065">A csontotskát néha csak egy Ebnek vetik,</l>
+                    <l xml:id="l.1066">Interim<note type="critic" xml:id="note.847">eközben</note>
+                        házunkat százan is kerűlik.</l>
+                </div>
+                <div xml:id="d.225">
+                    <fw type="originalNum">9q.</fw>
+                    <note type="critic" xml:id="note.848">Kézirata: Uo. 76b. Kiad.: Uo. 196.</note>
+                    <l xml:id="l.1067">A monyatlan harang<note type="critic" xml:id="note.849">ütő
+                            nélküli harang</note> sem gyűjt Ecclesiát,</l>
+                    <l xml:id="l.1068">Kőszvényes talp sem jár, sem ugrik hophajdát.</l>
+                </div>
+                <div xml:id="d.226">
+                    <fw type="originalNum">9r.</fw>
+                    <note type="critic" xml:id="note.850">Kézirata: Uo. 77a. Kiad.: Uo. 197.</note>
+                    <l xml:id="l.1069">Eperj fa levélből az idő Bársont sző,</l>
+                    <l xml:id="l.1070">Savanyu Egresből idővel must ’s méz nő.</l>
+                </div>
+                <div xml:id="d.227">
+                    <fw type="originalNum">9s.</fw>
+                    <note type="critic" xml:id="note.851">Kézirata: Uo. 77a. Kiad.: Uo. 198.</note>
+                    <l xml:id="l.1071">Ritka a’ gratia az utolsó orán,</l>
+                    <l xml:id="l.1072">Ha vólt a’ Keresztfán, nints az Akasztófán.</l>
+                </div>
+                <div xml:id="d.228">
+                    <fw type="originalNum">9t.</fw>
+                    <note type="critic" xml:id="note.852">Kézirata: Uo. 77b. Kiad.: Uo. 198.</note>
+                    <l xml:id="l.1073">Az Isten rajzoltát corrigáló Dámák</l>
+                    <l xml:id="l.1074">Mit tudgyák, mit tésznek a’ régi szent fámák.</l>
+                </div>
+                <div xml:id="d.229">
+                    <fw type="originalNum">9u.</fw>
+                    <note type="critic" xml:id="note.853">Kézirata: Uo. 78a. Kiad.: Uo. 199.</note>
+                    <l xml:id="l.1075">Az erős száju ló nem nyargal zabolán,</l>
+                    <l xml:id="l.1076">Vakjába addig fut, hőkk huppan homlokán.</l>
+                </div>
+                <div xml:id="d.230">
+                    <fw type="originalNum">9v.</fw>
+                    <note type="critic" xml:id="note.854">Kézirata: Uo. 78b. Kiad.: Uo. 200.</note>
+                    <l xml:id="l.1077">Csipik<note type="critic" xml:id="note.855">hegyes</note>
+                        vállu légy bár ’s akar hebehurgya,</l>
+                    <l xml:id="l.1078">Béred nem Moses lesz, lesz a’ Choré<note type="critic"
+                            xml:id="note.856">Kóré, Korah, Jichár fia, föllázadt Mózes ellen a
+                            pusztai vándorlás során. (2Móz 6,21–24; 4Móz 16,1; 1Krón 6,37)</note>
+                        soldgya.</l>
+                </div>
+                <div xml:id="d.231">
+                    <fw type="originalNum">9w.</fw>
+                    <note type="critic" xml:id="note.857">Kézirata: Uo. 78b. Kiad.: Uo. 200.</note>
+                    <l xml:id="l.1079">Tőbre tőbbet kezdűnk, ’s kevessebbet nyerünk.</l>
+                    <l xml:id="l.1080">Vakot vetett kotzkánk,<note type="critic" xml:id="note.858">A
+                            kocka hat és vak dobása a jó és a rossz szerencsét jelképezte. Így
+                            fordul elő Kohárynál (l. kötetünkben 52. sz. 179–187. strófa; 74. sz.)
+                            Petrőczy Kata Szidóniánál (104. sz. 2. strófa), Kőszeghynél (6. sor) is.
+                            Vö. RMKT XVII/3. 59. sz. 98.</note> nagy kődők csőmőrűnk.</l>
+                </div>
+                <div xml:id="d.232">
+                    <fw type="originalNum">9x.</fw>
+                    <note type="critic" xml:id="note.859">Kézirata: Uo. 79a. Kiad.: Uo. 201.</note>
+                    <l xml:id="l.1081">Venust vak Vitézi későre tágittyák,<note type="critic"
+                            xml:id="note.860">tágit – eltávoztat</note></l>
+                    <l xml:id="l.1082">Némelly elhagyók is néha meg sohajtyák.</l>
+                </div>
+                <div xml:id="d.233">
+                    <fw type="originalNum">9y.</fw>
+                    <note type="critic" xml:id="note.861">Kézirata: Uo. 79a. Kiad.: Uo. 201.</note>
+                    <l xml:id="l.1083">Pap tűzet azért fu, hogy oltat gyujthasson,</l>
+                    <l xml:id="l.1084">Őrdőg is azont fu, hogy gyultat ólthasson.</l>
+                </div>
+                <div xml:id="d.234">
+                    <fw type="originalNum">9z.</fw>
+                    <note type="critic" xml:id="note.862">Kézirata: Uo. 79b. Kiad.: Uo. 202.</note>
+                    <l xml:id="l.1085">Mikor láttad, hogy lineán<note type="critic"
+                            xml:id="note.863">linea – határ</note> kűl hágtam?</l>
+                    <l xml:id="l.1086">Reversalisomat<note type="critic" xml:id="note.864"
+                            >Reversalis – kötelezvény</note> horgason<note type="critic"
+                            xml:id="note.865">horgas – gáncs, csel</note> irtam?</l>
+                </div>
+                <div xml:id="d.235">
+                    <fw type="originalNum">10a.</fw>
+                    <note type="critic" xml:id="note.866">Kézirata: Uo. 80a. Kiad.: Uo. 203.</note>
+                    <l xml:id="l.1087">Fel támadhat ’s árthat a’ meg hólt is néha,</l>
+                    <l xml:id="l.1088">Kivel mit gondolok, Bűszkék mondgyák noha.</l>
+                </div>
+                <div xml:id="d.236">
+                    <fw type="originalNum">10b.</fw>
+                    <note type="critic" xml:id="note.867">Kézirata: Uo. 80a. Kiad.: Uo. 203.</note>
+                    <l xml:id="l.1089">Jóért jót nem fizet Feledség ’s a’ Restség,</l>
+                    <l xml:id="l.1090">Istennél mind kettő egy arányu vétség.</l>
+                </div>
+                <div xml:id="d.237">
+                    <fw type="originalNum">10c.</fw>
+                    <note type="critic" xml:id="note.868">Kézirata: Uo. 80b. Kiad.: Uo. 204.</note>
+                    <l xml:id="l.1091">Van egy kis hatalmad a’ bűn kerűlésre,</l>
+                    <l xml:id="l.1092">Űstőkőn fogva kél bűn a’ bűntetésre.</l>
+                </div>
+                <div xml:id="d.238">
+                    <fw type="originalNum">10d.</fw>
+                    <note type="critic" xml:id="note.869">Kézirata: Uo. 81a. Kiad.: Uo. 204.</note>
+                    <l xml:id="l.1093">A’ versutus,<note type="critic" xml:id="note.870"
+                            >ravasz</note> ne hidd, mert nem boldogul,</l>
+                    <l xml:id="l.1094">Nyaka szakad vagy akasztófán meg fúl.</l>
+                    <l xml:id="l.1095">Jól vetett ágy mind végig nyugodnod hágy,</l>
+                    <l xml:id="l.1096">Az Agy nem lágy, mikor tőbről tőbre vágy.</l>
+                    <l xml:id="l.1097">Urad ’s Országodhoz légy hű ’s légy igaz,</l>
+                    <l xml:id="l.1098">De Hitből félly attól, a’ ki szent ’s Igaz.</l>
+                </div>
+                <div xml:id="d.239">
+                    <fw type="originalNum">10e.</fw>
+                    <note type="critic" xml:id="note.871">Kézirata: Uo. 82b. Kiad.: Uo. 207.</note>
+                    <l xml:id="l.1099">Unita Virtus<note type="critic" xml:id="note.872">ritka
+                            erény</note> az, melly nagy erőt meg győz.</l>
+                    <l xml:id="l.1100">Fél őlfás Főrdőből nem jőn igen nagy gőz.</l>
+                </div>
+                <div xml:id="d.240">
+                    <fw type="originalNum">10f.</fw>
+                    <note type="critic" xml:id="note.873">Kézirata: Uo. 83a. Kiad.: Uo. 208.</note>
+                    <l xml:id="l.1101">Mi nem azért sirok, hogy lovam el huzzák,</l>
+                    <l xml:id="l.1102">Hanem hogy az árrát soha meg nem hozzák.</l>
+                </div>
+                <div xml:id="d.241">
+                    <fw type="originalNum">10g.</fw>
+                    <note type="critic" xml:id="note.874">Kézirata: Uo. 83b. Kiad.: Uo. 209.</note>
+                    <l xml:id="l.1103">Isten subscriptumát<note type="critic" xml:id="note.875"
+                            >subscriptum – aláírás</note></l>
+                    <l xml:id="l.1104">’s annak Czeduláját</l>
+                    <l xml:id="l.1105">Kőnyvűnk sem mossa el,</l>
+                    <l xml:id="l.1106">’s Tűzűnk sem gyujtya fel.</l>
+                </div>
+                <div xml:id="d.242">
+                    <fw type="originalNum">10h.</fw>
+                    <note type="critic" xml:id="note.876">Kézirata: Uo. 84a. Kiad.: Uo. 210.</note>
+                    <l xml:id="l.1107">Vagdalkozunk, ugy van néha, Országunkért,</l>
+                    <l xml:id="l.1108">De hartzon le vágunk mást magunk fejűnkért.</l>
+                </div>
+                <div xml:id="d.243">
+                    <fw type="originalNum">10i.</fw>
+                    <note type="critic" xml:id="note.877">Kézirata: Uo. 84a. Kiad.: Uo. 211.</note>
+                    <l xml:id="l.1109">Sziv orvoslására ne keress bár Doctort,</l>
+                    <l xml:id="l.1110">Heába iszol itt Balsamumos Canfort.</l>
+                </div>
+                <div xml:id="d.244">
+                    <fw type="originalNum">10j.</fw>
+                    <note type="critic" xml:id="note.878">Kézirata: Uo. 84b. Kiad.: Uo. 212.</note>
+                    <l xml:id="l.1111">Szaparits barátod, ha van modod benne,</l>
+                    <l xml:id="l.1112">Mellyikre hol szorulsz, vallyon ’s mit tudsz benne?</l>
+                </div>
+                <div xml:id="d.245">
+                    <fw type="originalNum">10k.</fw>
+                    <note type="critic" xml:id="note.879">Kézirata: Uo. 85a. Kiad.: Uo. 212.</note>
+                    <l xml:id="l.1113">A’ természet ellen heába vonsz kardot,</l>
+                    <l xml:id="l.1114">Valahol hozzá férsz, nem bánom, bár mard ott.</l>
+                </div>
+                <div xml:id="d.246">
+                    <fw type="originalNum">10l.</fw>
+                    <note type="critic" xml:id="note.880">Kézirata: Uo. 85b. Kiad.: Uo. 213.</note>
+                    <l xml:id="l.1115">Sok nyul futna továb, ha meg nem ijedne,</l>
+                    <l xml:id="l.1116">Sok hartzoló élne, ha esze nem veszne.</l>
+                </div>
+                <div xml:id="d.247">
+                    <fw type="originalNum">10m.</fw>
+                    <note type="critic" xml:id="note.881">Kézirata: Uo. 85b. Kiad.: Uo. 214.</note>
+                    <l xml:id="l.1117">Te hánsz előbb lépet nem vétkes Madárnak,</l>
+                    <l xml:id="l.1118">Még is dunnogsz, Tővis mért árt czondorádnak.<note
+                            type="critic" xml:id="note.882">czondora – condra: rongyos, durva
+                            felsőruha</note></l>
+                </div>
+                <div xml:id="d.248">
+                    <fw type="originalNum">10n.</fw>
+                    <note type="critic" xml:id="note.883">Kézirata: Uo. 86b. Kiad.: Uo. 215.</note>
+                    <l xml:id="l.1119">Fal megett alvássál, nap ellen árnyékkal ember feje
+                            saniorb,<note type="critic" xml:id="note.884">egészségesebb</note></l>
+                    <l xml:id="l.1120">Gratiaitoknál, Securálástoknál<note type="critic"
+                            xml:id="note.885">securálás – biztosítás</note> Retractátok<note
+                            type="critic" xml:id="note.886">Retracta – visszavonás</note>
+                            certiorb.<note type="critic" xml:id="note.887">biztosabb</note></l>
+                </div>
+                <div xml:id="d.249">
+                    <fw type="originalNum">10o.</fw>
+                    <note type="critic" xml:id="note.888">Kézirata: Uo. 87a. Kiad.: Uo. 216.</note>
+                    <l xml:id="l.1121">Vakult kivánsággal, bolond buvársággal Győngy kurkászni
+                        eredék,</l>
+                    <l xml:id="l.1122">Eleven halálról ’s hab tsapkodasirol gondolkodni nem
+                        tudék.</l>
+                    <l xml:id="l.1123">Desperalt<note type="critic" xml:id="note.889"
+                            >reményvesztett</note> Hajossal, elhasatt Hajoval, ketté tőrőtt
+                        kormánnyal</l>
+                    <l xml:id="l.1124">Nem mehetz sohová, visznek valahová, ki tudgya, ha amoda.</l>
+                </div>
+                <div xml:id="d.250">
+                    <fw type="originalNum">10p.</fw>
+                    <note type="critic" xml:id="note.890">Kézirata: Uo. 87b. Kiad.: Uo. 217.</note>
+                    <l xml:id="l.1125">Nem ismérem Poklot, de hiszem a’ kint ott,</l>
+                    <l xml:id="l.1126">Ha ki bé hágott ott, sűti a’ makkot ott.<note type="critic"
+                            xml:id="note.891">Értsd: gubbaszt.</note></l>
+                </div>
+                <div xml:id="d.251">
+                    <fw type="originalNum">10q.</fw>
+                    <note type="critic" xml:id="note.892">Kézirata: Uo. 87b. Kiad.: Uo. 218.</note>
+                    <l xml:id="l.1127">Hogy ha szád is hazud, ’s kezed is szorult bé,</l>
+                    <l xml:id="l.1128">Kűn éhező koldust nem tőltesz ám igy bé.</l>
+                </div>
+                <div xml:id="d.252">
+                    <fw type="originalNum">10r.</fw>
+                    <note type="critic" xml:id="note.893">Kézirata: Uo. 88a. Kiad.: Uo. 218.</note>
+                    <l xml:id="l.1129">Pislenke Héjával jáczodni mit tégyen,</l>
+                    <l xml:id="l.1130">Tudgya Farkas fogra kőlt Bárán a’ hegyen.</l>
+                </div>
+                <div xml:id="d.253">
+                    <fw type="originalNum">10s.</fw>
+                    <note type="critic" xml:id="note.894">Kézirata: Uo. 88b. Kiad.: Uo. 219.</note>
+                    <l xml:id="l.1131">Gratias agoval<note type="critic" xml:id="note.895">Gratias
+                            ago – köszönetmondás, hálaima</note> ha minden száj zengne,</l>
+                    <l xml:id="l.1132">Lucifer láb láncza bokankon nem pengne.</l>
+                </div>
+                <div xml:id="d.254">
+                    <fw type="originalNum">10t.</fw>
+                    <note type="critic" xml:id="note.896">Kézirata: Uo. 88b. Kiad.: Uo. 220.</note>
+                    <l xml:id="l.1133">Istenhez fel felé hágni restellettűk,</l>
+                    <l xml:id="l.1134">Edgy ugrással poklot beg könnyen el értűk.</l>
+                </div>
+                <div xml:id="d.255">
+                    <fw type="originalNum">10u.</fw>
+                    <note type="critic" xml:id="note.897">Kézirata: Uo. 89a. Kiad.: Uo. 221.</note>
+                    <l xml:id="l.1135">Szük botskorod bokád fel törte, ’s már piszegsz,</l>
+                    <l xml:id="l.1136">Minéműt nékem is árulni nem szégyenlsz.</l>
+                </div>
+                <div xml:id="d.256">
+                    <fw type="originalNum">10v.</fw>
+                    <note type="critic" xml:id="note.898">Kézirata: Uo. 89a. Kiad.: Uo. 221.</note>
+                    <l xml:id="l.1137">Bárson dolmán nem lop sem fillért, sem batkát,<note
+                            type="critic" xml:id="note.899">batka – fillér</note></l>
+                    <l xml:id="l.1138">De bizony nem biz rád rakás sárga dutkát.<note type="critic"
+                            xml:id="note.900">dutka – négykrajcáros</note></l>
+                </div>
+                <div xml:id="d.257">
+                    <fw type="originalNum">10w.</fw>
+                    <note type="critic" xml:id="note.901">Kézirata: Uo. 88b. Kiad.: Uo. 222.</note>
+                    <l xml:id="l.1139">Meg fedted a’ Házat, ’s kiástad a’ tővét,</l>
+                    <l xml:id="l.1140">Ebűl rakot falnak kihánták a’ kővét.</l>
+                </div>
+                <div xml:id="d.258">
+                    <fw type="originalNum">10x.</fw>
+                    <note type="critic" xml:id="note.902">Kézirata: Uo. 90a. Kiad.: Uo. 223.</note>
+                    <l xml:id="l.1141">Munkával is ritkán mond ember egy igazt,</l>
+                    <l xml:id="l.1142">De kőnnyű hazudni ’s horgast hánni,<note type="critic"
+                            xml:id="note.903">gáncsot vetni</note> mint gazt.</l>
+                </div>
+                <div xml:id="d.259">
+                    <fw type="originalNum">10y.</fw>
+                    <note type="critic" xml:id="note.904">Kézirata: Uo. 90b. Kiad.: Uo. 224.</note>
+                    <l xml:id="l.1143">Legnagyob tetöre szerentse ha ültet,</l>
+                    <l xml:id="l.1144">Készűlly, mert post festum<note type="critic"
+                            xml:id="note.905">ünnep után, később</note> nyakra före vettet.</l>
+                </div>
+                <div xml:id="d.260">
+                    <fw type="originalNum">10z.</fw>
+                    <note type="critic" xml:id="note.906">Kézirata: Uo. 90b. Kiad.: Uo. 225.</note>
+                    <l xml:id="l.1145">Sok vágással juték a’ Fa ledőltéhez,</l>
+                    <l xml:id="l.1146">Imez amaz okkal nem kell nyulni ehez.</l>
+                </div>
+                <div xml:id="d.261">
+                    <fw type="originalNum">11a.</fw>
+                    <note type="critic" xml:id="note.907">Kézirata: Uo. 91a. Kiad.: Uo. 225.</note>
+                    <l xml:id="l.1147">A jokkal őrűlni jó idöben kőnnyű,</l>
+                    <l xml:id="l.1148">De roszszak miá is gyakron veszni szőrnyű.</l>
+                </div>
+                <div xml:id="d.262">
+                    <fw type="originalNum">11b.</fw>
+                    <note type="critic" xml:id="note.908">Kézirata: Uo. 91b. Kiad.: Uo. 226.</note>
+                    <l xml:id="l.1149">Nem minden jó helly jó mindnyájunk fejének.</l>
+                    <l xml:id="l.1150">Ulysses füstit is sohajtya Főldének.</l>
+                </div>
+                <div xml:id="d.263">
+                    <fw type="originalNum">11c.</fw>
+                    <note type="critic" xml:id="note.909">Kézirata: Uo. 92a. Kiad.: Uo. 227.</note>
+                    <l xml:id="l.1151">Az el mult ’s folyt árviz hátul nem tőr gátot,</l>
+                    <l xml:id="l.1152">Ki vetett kárral is sok helyt rakott Rákot.</l>
+                </div>
+                <div xml:id="d.264">
+                    <fw type="originalNum">11d.</fw>
+                    <note type="critic" xml:id="note.910">Kézirata: Uo. 92a. Kiad.: Uo. 228.</note>
+                    <l xml:id="l.1153">Mult buvát felejtse, vőtt jovát jelentse, kit fel vett a’
+                        szerentse,</l>
+                    <l xml:id="l.1154">Meg ne keseritse a’ futo szerentse, mert senkinek nem
+                        Öttse.</l>
+                </div>
+                <div xml:id="d.265">
+                    <fw type="originalNum">11e.</fw>
+                    <note type="critic" xml:id="note.911">Kézirata: Uo. 92b. Kiad.: Uo. 229.</note>
+                    <l xml:id="l.1155">Tsinálta vólt Isten Kameniczt<note type="critic"
+                            xml:id="note.912">l. Rozsnyai életrajzát</note> erőssé,</l>
+                    <l xml:id="l.1156">De rosz Gazdák miá kőnnyen lön Tőrőké.</l>
+                </div>
+                <div xml:id="d.266">
+                    <fw type="originalNum">11f.</fw>
+                    <note type="critic" xml:id="note.913">Kézirata: Uo. 93a. Kiad.: Uo. 230.</note>
+                    <l xml:id="l.1157">Kéretlen adunk mi időt szenvedésre,</l>
+                    <l xml:id="l.1158">Sok sugorgás<note type="critic" xml:id="note.914">tengődés;
+                            kéregetés</note> sem nyér idöt könyőrgésre.</l>
+                </div>
+                <div xml:id="d.267">
+                    <fw type="originalNum">11g.</fw>
+                    <note type="critic" xml:id="note.915">Kézirata: Uo. 94b. Kiad.: Uo. 233.</note>
+                    <l xml:id="l.1159">Ne hánd nemességed, ha nints bővőn pénzed,</l>
+                    <l xml:id="l.1160">Ki sűvegl e’ nélkűl vagy nékem, vagy néked?</l>
+                </div>
+                <div xml:id="d.268">
+                    <fw type="originalNum">11h.</fw>
+                    <note type="critic" xml:id="note.916">Kézirata: Uo. 94b. Kiad.: Uo. 234.</note>
+                    <l xml:id="l.1161">Ki tednap pénzemért vét vala sűveget,</l>
+                    <l xml:id="l.1162">Absque<note type="critic" xml:id="note.917">anélkül</note> ma
+                        nem mozdit sem sapkát, sem segget.</l>
+                </div>
+                <div xml:id="d.269">
+                    <fw type="originalNum">11i.</fw>
+                    <note type="critic" xml:id="note.918">Kézirata: Uo. 95a. Kiad.: Uo. 234.</note>
+                    <l xml:id="l.1163">Marha lopó meg hal a’ gége vágásért,</l>
+                    <l xml:id="l.1164">Nyuzásba segitő nyársba láb tartásért.</l>
+                </div>
+                <div xml:id="d.270">
+                    <fw type="originalNum">11j.</fw>
+                    <note type="critic" xml:id="note.919">Kézirata: Uo. 95b. Kiad.: Uo. 236.</note>
+                    <l xml:id="l.1165">Méltoság fejűnket emeli fel felé,</l>
+                    <l xml:id="l.1166">Irigység vas horga rángat seggűnk felé.</l>
+                </div>
+                <div xml:id="d.271">
+                    <fw type="originalNum">11k.</fw>
+                    <note type="critic" xml:id="note.920">Kézirata: Uo. 96b. Kiad.: Uo. 238.</note>
+                    <l xml:id="l.1167">Achillesnek Troja elég lehet vala,</l>
+                    <l xml:id="l.1168">De tőbre ásitva<note type="critic" xml:id="note.921">ásít –
+                            áhít</note> mérges nyillal hala.</l>
+                </div>
+                <div xml:id="d.272">
+                    <fw type="originalNum">11l.</fw>
+                    <note type="critic" xml:id="note.922">Kézirata: Uo. 97a. Kiad.: Uo. 239.</note>
+                    <l xml:id="l.1169">Valahová a’ Nap fényével béláthat,</l>
+                    <l xml:id="l.1170">Bőltsesség világa oda mind elhathat.</l>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">76.</title>
+                <title type="main">(Ez új esztendöben nézzed ezen képen...)</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-76</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-76.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <hi rend="bold">ELVénÜLt eMbernek bÚsÚLó gonDoLatI VagY hogY Inkáb
+                            éLetének VégérŰL eLMéLkeDésI.</hi> H. n. é. n. 1a. Fölötte a metszeten:
+                        homokóra, koponya kalászokkal, kialvó gyertya, törött kard és papírlap,
+                        rajta: <hi rend="smallcaps">sic vanescimvs</hi>.</p><p xml:id="crit.1.p.2">A
+                        címlap a nyomtatvány 2a. lapján. Kronosztichonjai: <date when="1721"
+                            >1721</date>; <date when="1719">1719</date>.</p><p xml:id="crit.1.p.3"
+                        >Sajátos módon e kiadvány két különböző változatban létezik, amelyek az
+                        első, egystrófás verstől és egy nyomdai záródísztől eltekintve
+                        azonosak.</p><p xml:id="crit.1.p.4">76/I. Nyomtatott kiadása: OSZK M. 816
+                        150–816 152. all. 3. és 201 163. all. 1. Ezt a nyomtatványt tartalmazza a
+                        Quart. Hung. 4159. (OSZK), itt a címlap kronosztichonjai mellett kézzel: <hi
+                            rend="italic">1721</hi>; <hi rend="italic">1721</hi>.</p><p
+                        xml:id="crit.1.p.5">76/II. Kézirata és nyomtatott kiadása:</p><p
+                        xml:id="crit.1.p.6">I. <hi rend="bold">Somogyi Könyvtár H. e. 772.</hi> B4a.
+                        Címe itt: <hi rend="italic">MORS</hi>. Tartalmazza az OSZK Fol. Hung. 1486.
+                        is (71b.), de a másolás a nyomtatott változatról készült a metszet rajzával
+                        együtt, így figyelembevétele nem szükséges.</p><p xml:id="crit.1.p.7">II.
+                            <hi rend="bold">OSZK 816 152.</hi> all. 3.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK M. 816 150–816 152. all. 3.</witness>
+                    <witness xml:id="W2">Somogyi Könyvtár H. e. 772.</witness>
+                    <witness xml:id="W3">OSZK 816 152. all. 3.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="title">E<hi rend="bold">LV</hi>ÉN<hi rend="bold">ÜL</hi>T E<hi rend="bold"
+                    >M</hi>BERNEK B<hi rend="bold">Ú</hi>S<hi rend="bold">ÚL</hi>Ó GON<hi
+                    rend="bold">D</hi>O<hi rend="bold">L</hi>AT<hi rend="bold">I </hi><milestone
+                    unit="p"/><hi rend="bold">V</hi>AG<hi rend="bold">Y</hi> HOG<hi rend="bold"
+                    >Y</hi><hi rend="bold">I</hi>NKÁB É<hi rend="bold">L</hi>ETÉNEK <hi rend="bold"
+                    >V</hi>ÉGÉR<hi rend="bold">ŰL</hi><milestone unit="p"/>E<hi rend="bold"
+                    >LM</hi>É<hi rend="bold">L</hi>KE<hi rend="bold">D</hi>ÉS<hi rend="bold"
+                >I</hi></head>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 76/I.</fw>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Ez új esztendöben nézzed ezen képen,</l>
+                    <l n="2" xml:id="l.2">Meg fösült fejedet irták le miképpen,</l>
+                    <l n="3" xml:id="l.3">S-elhid bizonyára, hogy találták szépen,</l>
+                    <l n="4" xml:id="l.4">Mert halálod után lészen ollyan éppen.</l>
+                </lg>
+            </div>
+            <div type="poem" xml:id="d.2" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 76/II.</fw>
+                <lg n="1" xml:id="lg.2">
+                    <l n="1" xml:id="l.5">Ha ide tekentek, nizzed ezen képpen,</l>
+                    <l n="2" xml:id="l.6">Feiedet, szemedet irtak le miképpen,</l>
+                    <l n="3" xml:id="l.7">S-el hid bizonyára, hogy talatak széppen.</l>
+                    <l n="4" xml:id="l.8">Mert halalod után lészen ollyan éppen.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

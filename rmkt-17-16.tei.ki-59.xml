@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">59.</title>
+                <title type="main">Mária</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-59</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-59.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kéziratai és
+                        nyomtatott kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Fol.
+                            Hung. 151.</hi> 37a.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">OSZK
+                            Quart. Hung. 193.</hi> 20b–21a. Mindkét kéziratban az 58. sz. verssel
+                        közös, IESVS MARIA cím alá vonva.</p><p xml:id="crit.1.p.4">III. <hi
+                            rend="bold">[Némely Istenes könyörgések.]</hi> 6–7.</p><p
+                        xml:id="crit.1.p.5">A vers akrosztichonja: <hi rend="smallcaps"
+                        >maria</hi>.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Fol. Hung. 151. 37a.</witness>
+                    <witness xml:id="W2">OSZK Quart. Hung. 193. 20b–21a.</witness>
+                    <witness xml:id="W3">[Némely Istenes könyörgések.] 6–7.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 59.</fw>
+                <head type="title">MÁRIA</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><hi rend="bold">M</hi>ivel hogy, Mária, te vagy meg
+                        váltonknak,</l>
+                    <l n="2" xml:id="l.2"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">szerelmes, szent Annya à Jésus
+                                Christusnak,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">Jesu</rdg>
+                            <rdg wit="#W2" xml:id="rdg.2">Jesus</rdg>
+                        </app></l>
+                    <l n="3" xml:id="l.3">te vagy szószollóia bünös Fiaidnak</l>
+                    <l n="4" xml:id="l.4">s-kegyes pártfogóia minden nyomorultnak,</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2"><hi rend="bold">A</hi>hoz való képest,
+                                imé, mostanában</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.3">ime</rdg>
+                        </app></l>
+                    <l n="6" xml:id="l.6">búsúlással tellyes nyomoruságomban</l>
+                    <l n="7" xml:id="l.7">aiánlom magamot à te oltalmadban,</l>
+                    <l n="8" xml:id="l.8">könyörögi érettem tehát Menyországban.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><hi rend="bold">R</hi>égenten valamint à te kérésedre,</l>
+                    <l n="10" xml:id="l.10">szerelmes, szent Fiad s-esedezésedre</l>
+                    <l n="11" xml:id="l.11"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">à vizet forditá bornak az izire,</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.4">fordittá</rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.12">s-hamar változtatá ió édességére,</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13"><hi rend="bold">I</hi>gy mostannis vizét hullott
+                        könyveimnek</l>
+                    <l n="14" xml:id="l.14">fordicsa izire szivem örömének</l>
+                    <l n="15" xml:id="l.15">és édességére keserült szivemnek</l>
+                    <l n="16" xml:id="l.16">s-kévánt ió kedvére az én rab feiemnek,</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17"><hi rend="bold">A</hi> melly által terhét súlyos
+                        rabságomnak,</l>
+                    <l n="18" xml:id="l.18"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">viselhessem könnyen súlyátis á búnak</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">kőnnyen sullyátis</rdg>
+                            <rdg wit="#W2" xml:id="rdg.6">kőnnyőn sullyattis</rdg>
+                        </app></l>
+                    <l n="19" xml:id="l.19">s-régtül fogvást való nyomoruságomnak,</l>
+                    <l n="20" xml:id="l.20">s-adgyak fris, jó kedvel hálát szent Fiadnak.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

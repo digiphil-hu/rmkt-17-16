@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">51.</title>
+                <title type="main">A' kegyes olvasóhoz, kinek üdvösséges iókat kévánok, akarám
+                    elsöbenis ez egynehány verset fel tenni</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-51</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-51.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A füzetcím
+                        kronosztichonjai: 1692; 1691.</p><p xml:id="crit.1.p.2">Nyomtatott kiadása:
+                            <hi rend="bold">A’ Meg gYÜkerezett rabságos bánatnak keserVes bVsVLássaL
+                            eLterIeDet ágaIn kI-nött fÜzfaVersek.</hi> A1b–A2b. A lajstromban ez a
+                        füzet magának a versnek (<hi rend="italic">Vasban vert rabnak…
+                        sétálása</hi>) a címét viseli.</p><p xml:id="crit.1.p.3">A verscím
+                        kronosztichonja: <date when="1684">1684</date>.</p><p xml:id="crit.1.p.4"
+                        >Korábbi, elvetett változata: <ref target="rmkt-17-16.tei.ki-97">97.</ref>
+                        és <ref target="rmkt-17-16.tei.ki-98">98. sz. vers</ref>ek.</p><p
+                        xml:id="crit.1.p.5">A <hi rend="italic">fűzfaversek</hi> kifejezés a költő
+                        megfogalmazása szerint is azt jelenti a poézishez képest, mint amit a
+                        fűzfasíp a nemeshangszerekhez képest; a szó értelmét ma a fűzfapoéta
+                        kifejezés őrzi.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">A’ Meg gYÜkerezett rabságos bánatnak keserVes bVsVLássaL
+                        eLterIeDet ágaIn kI-nött fÜzfa Versek. A1b–A2b.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="title"><hi rend="bold">A’</hi><hi rend="bold">M</hi>EG G<hi rend="bold"
+                    >Y</hi><hi rend="bold">Ü</hi>KEREZETT <milestone unit="p"/> RABSÁGOS BÁNATNAK
+                    <milestone unit="p"/>KESER<hi rend="bold">V</hi>ES B<hi rend="bold">V</hi>S<hi
+                    rend="bold">VL</hi>ÁSSA<hi rend="bold">L</hi><milestone unit="p"/> E<hi
+                    rend="bold">L</hi>TER<hi rend="bold">I</hi>E<hi rend="bold">D</hi>ET ÁGA<hi
+                    rend="bold">I</hi>N K<hi rend="bold">I</hi>-NÖTT<milestone unit="p"/> F<hi
+                    rend="bold">Ü</hi>ZFA <hi rend="bold">V</hi>ERSEK</head>
+            <head type="subtitle">MeLLYeket egy ÜgYefogYot rab <milestone unit="p"/>heVertében Vett
+                    renDekben,<milestone unit="p"/> keserVes Inségének VIseLtében,<milestone
+                    unit="p"/> éIIeL nappaL bézárt fogházában,<milestone unit="p"/> bVVaL teLLYes
+                    napIaIban,<milestone unit="p"/> ÚntaLan heVerVe s-henYéLVe,<milestone unit="p"/>
+                fonnYasztó hóLnapIban,<milestone unit="p"/> Igen hoszszV Inségének
+                    keserVében,<milestone unit="p"/> szIvének Ió keDVét elÜzö s-fogYasztó,<milestone
+                    unit="p"/> szÜnteLenÜL foLYó esztenDeIben</head>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 51.</fw>
+                <head type="title">A’ KEGYES OLVASÓHOZ, KINEK <app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">ÜDVÖSSÉGES</lem>
+                        <rdg wit="#W1" xml:id="rdg.1">ÜDÜÖSSÉGES</rdg>
+                    </app> IÓKAT KÉVÁNOK, AKARÁM ELSÖBENIS EZEGYNEHÁNY VERSET FEL TENNI</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">A’ Proféták között midön Sault látták,<note type="critic"
+                            xml:id="note.1">A mondás latin eredetije: <hi rend="italic">Num et Saul
+                                inter Prophetas</hi>, ’Ki hüuné hogy Antalis böytöllyen’. <bibl><hi
+                                    rend="smallcaps">Baranyai Decsi János</hi>:
+                                    <title>Adagiorum</title>. Bártfa 1592. (Reprint Bp. 1978.) Chil.
+                                II. Cent. I. Dec. VI/10.</bibl></note></l>
+                    <l n="2" xml:id="l.2">minthogy Profétának soha sem tartották,</l>
+                    <l n="3" xml:id="l.3">seregekben lenni csudának számláltak,</l>
+                    <l n="4" xml:id="l.4">és példa beszédben sokszor elöl hozták.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">A’ Poëták között engemis ha látnak,</l>
+                    <l n="6" xml:id="l.6">arrúl, tudom, csudát nem könnyen számlálnak,</l>
+                    <l n="7" xml:id="l.7">hanem inkáb hiszem, könnyen meg csúfolnak,</l>
+                    <l n="8" xml:id="l.8">mert harang öntésben nincs módgya hajdúnak.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Nem tud ugyan hajdú harangot önteni,<note type="critic"
+                            xml:id="note.2">Vö. Igen tud Haydu harangot önteni. <bibl><hi
+                                    rend="smallcaps">Baranyai Decsi János</hi>: I. m. Chil. I. Cent.
+                                II. Dec. VII/2.</bibl></note></l>
+                    <l n="10" xml:id="l.10">de magát mulatva jól tudgya kongatni,</l>
+                    <l n="11" xml:id="l.11">énis bár ne tudgyam a’ verset csinálni,</l>
+                    <l n="12" xml:id="l.12">tudom de azt rontva üdömet mulatni.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Senki de az hajdút minthogy meg nem szóllya,</l>
+                    <l n="14" xml:id="l.14">harang kongatását ámbár szintén hallya,</l>
+                    <l n="15" xml:id="l.15">s-hogy harangot nem önt, azért sem csúfollya,</l>
+                    <l n="16" xml:id="l.16">mert az harang öntés nem ö hivatallya,</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Senki hát engemis meg nem szól, gondolom,</l>
+                    <l n="18" xml:id="l.18">füzfa verseimért, mert nem hivatalom</l>
+                    <l n="19" xml:id="l.19">a’ vers csinalása, s-hogy most azt koholom,</l>
+                    <l n="20" xml:id="l.20"> hajtot arra csupán henyélö unalom.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Elszenvedék köztök Sault a’ Proféták,</l>
+                    <l n="22" xml:id="l.22">s-magok seregébül ötet ki nem hajták,</l>
+                    <l n="23" xml:id="l.23">elszenvednek talám engemis Poëták</l>
+                    <l n="24" xml:id="l.24">azok közt, az verset kik rontani szokták.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Ha olvasod azért fel tett verseimet</l>
+                    <l n="26" xml:id="l.26">s-azok csináltában ejtett vétkeimet,</l>
+                    <l n="27" xml:id="l.27">könnyen által látván én csekély elmémet,</l>
+                    <l n="28" xml:id="l.28">meg ne itély, kérlek, aziránt engemet.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Elmémet a’ rabság mert meg tompitotta,</l>
+                    <l n="30" xml:id="l.30">s-mostan vers szerzésre csak à bú hajtotta,</l>
+                    <l n="31" xml:id="l.31">melly magát ez elöt másban fárasztotta,</l>
+                    <l n="32" xml:id="l.32">à verset pediglen soha sem koholta,</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Mellynek jó folyása csendesült elmébül,</l>
+                    <l n="34" xml:id="l.34">vigadva nyugovó embernek szivébül</l>
+                    <l n="35" xml:id="l.35">vehet eredetet s-nagy jó fris kedvébül,</l>
+                    <l n="36" xml:id="l.36">és nem a’ szomorú rabság kút fejébül,</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37">Honnan távúl vagyon Hippocrene kúttya,<note
+                            type="critic" xml:id="note.3">Mesés hírű forrás a Helikonon, a hagyomány
+                            szerint a Pégaszosz patkója nyomán fakadt; a múzsák ihlető forrása.
+                                        (<bibl><persName>Ovidius<idno corresp="Publius Ovidius Naso"
+                                    /></persName>: <title><hi rend="italic"
+                                    >Átváltozások</hi></title> 5, 255–263.</bibl>)</note></l>
+                    <l n="38" xml:id="l.38">Zöldellö Laurussát Apolló sem nyújttya,</l>
+                    <l n="39" xml:id="l.39">Helicon, Parnassus, Musánakis úttya,</l>
+                    <l n="40" xml:id="l.40">rabságnak kút fejét mindenike futtya.</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41">Nem lehet fogházban Apolló szállása,</l>
+                    <l n="42" xml:id="l.42">sétáló járása, Laurusa nyújtása,</l>
+                    <l n="43" xml:id="l.43">Pegasus forrása, Musának lakása,</l>
+                    <l n="44" xml:id="l.44">verse csinálása s-jó renddel folyása.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Itt még Apollóis nem pengetne hárfát,</l>
+                    <l n="46" xml:id="l.46">nem találna itten Borostyán Laurusfát,</l>
+                    <l n="47" xml:id="l.47">hives árnyékában sem Musát, sem Nymphát,</l>
+                    <l n="48" xml:id="l.48">hanem vasat, békót s-gondolna kalafát.<note
+                            type="critic" xml:id="note.4">kalafa – talpbotozáshoz használt
+                            kaloda</note></l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Fogházam Apollót tülem ki rekeszti,</l>
+                    <l n="50" xml:id="l.50">az Musát, Minervát hozzám nem ereszti,</l>
+                    <l n="51" xml:id="l.51">el-hidgyed, rabságom szivemet epeszti,</l>
+                    <l n="52" xml:id="l.52">s-valaki mindenét, elméjétis veszti.</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="53" xml:id="l.53">Üdöm unalmával mit ólykor gondoltam,</l>
+                    <l n="54" xml:id="l.54">minthogy az papirost szüken s-ritkán kaptam,</l>
+                    <l n="55" xml:id="l.55">nem vettem pennára, s-nem mingyárt irhattam,</l>
+                    <l n="56" xml:id="l.56">s-egyszer irt versemet nemis jobbitottam.</l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="57" xml:id="l.57">Más töb mentségimet nem veszem versekre,</l>
+                    <l n="58" xml:id="l.58">s-bezárt fogházambúl nem adom nap fényre,</l>
+                    <l n="59" xml:id="l.59">nemis irok többet magam mentségére</l>
+                    <l n="60" xml:id="l.60">s-paraszt verseimnek meg himezésére,</l>
+                </lg>
+                <lg n="16" xml:id="lg.16">
+                    <l n="61" xml:id="l.61">Mert reâm forró inség szárasztya téntámot,</l>
+                    <l n="62" xml:id="l.62">viselt vasam terhe tompittya pennámot,</l>
+                    <l n="63" xml:id="l.63">s-rabságomnak szennye mind papirosomot</l>
+                    <l n="64" xml:id="l.64">elfogia s-mind pedig vers szerzö vénámot.</l>
+                </lg>
+                <lg n="17" xml:id="lg.17">
+                    <l n="65" xml:id="l.65">De hogy ha helyt nem adcz az én kérésemnek,</l>
+                    <l n="66" xml:id="l.66">s-akarod nevetni verseit elmémnek,</l>
+                    <l n="67" xml:id="l.67">még nem irod jobban mássát verseimnek,</l>
+                    <l n="68" xml:id="l.68">meg ne csúfold addig rosz vóltát ezeknek.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

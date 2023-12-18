@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">128.</title>
+                <title type="main">Más (Múlnak Esztendeim...)</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-128</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-128.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi
+                                rend="bold">MTAK Kézirattár K 97.</hi> 26a–27b.</bibl> Kiad.:
+                                <bibl><hi rend="smallcaps">Thaly Kálmán</hi>: <title>Adalékok a
+                                Thököly- és Rákóczi-kor irodalomtörténetéhez</title>. Pest 1872. II.
+                            194–196.</bibl>; <bibl><abbr><hi rend="smallcaps"
+                                >Harsányi-Gulyás</hi></abbr>, 324–325.</bibl>; <bibl><abbr>Magyar
+                                költők. XVII. század.</abbr> 345–347.</bibl></p><p
+                        xml:id="crit.1.p.2">A nótajelzés eredetijéül szolgáló ének valószínűleg nem
+                        maradt fenn. Az általunk ismert, fennmaradt szövegű, <persName>Kemény
+                                János<idno type="ITIdata">Q153612</idno></persName> nevéhez
+                        kapcsolódó énekek közül egynek a versformája sem egyezik meg Petrőczy Kata e
+                        verséével, sem a valóban <persName>Kemény<idno corresp="Kemény János"
+                            /></persName> által írottaké, sem a halála alkalmából keletkezetteké
+                                (<bibl><hi rend="smallcaps">Jankovics József</hi>:<title> Kemény
+                                János versei és a halálával kapcsolatos alkalmi költemények</title>.
+                                <abbr>ItK</abbr> 1985. 101–115.</bibl>), sem a <title><hi
+                                rend="italic">Kemény János éneke</hi></title> címmel ismerté
+                                (<bibl><abbr>RMKT XVII/9.</abbr> 158. sz. 402– 407.</bibl>), sem
+                        pedig a <hi rend="italic">Kemény János éneké</hi>t nótajelzésként használó,
+                        a Péró-felkelésről szóló éneké (<bibl><hi rend="smallcaps">Kozocsa
+                                Sándor</hi>: <title>Rebellisének a Péró-lázadásról</title>.
+                                <abbr>ItK</abbr> 1929. 470.</bibl>); ezek Balassi-strófában,
+                        4×12-es, ill. 4×6-os versszakokban íródtak. Petrőczy Kata 6+6+12+12 osztású
+                        strófája egy ezektől eltérő ütemezésű vers létezésére utal. </p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 128.</fw>
+                <head type="title">MÁS.</head>
+                <head type="notation"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">Kemény Janos Erdélyi Fejedelem Nótájára</lem>
+                        <rdg wit="#W1" xml:id="rdg.1"><del corresp="corrector">Erdéli</del><add
+                                corresp="corrector" type="corr">Erdélyi</add></rdg>
+                    </app></head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Múlnak Esztendeim,</l>
+                    <l n="2" xml:id="l.2">Keserves napjaim,</l>
+                    <l n="3" xml:id="l.3">Esztendőknek tetsző, búval tőlt óráim,</l>
+                    <l n="4" xml:id="l.4">Es Ujulnak gyógyúlhatatlan sebeim.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Faidalmi szivemnek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2"><del corresp="copyist">Faidalmas</del><add
+                                    corresp="copyist" type="corr">Faidalmi</add></rdg>
+                        </app></l>
+                    <l n="6" xml:id="l.6">Halálos sebemnek</l>
+                    <l n="7" xml:id="l.7">Szüntelenűl nővén, szomoru éltemnek,</l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Kinnját szaporityák bús, árva
+                                fejemnek.</lem>
+                            <rdg wit="#W1" xml:id="rdg.3"><add corresp="corrector" type="insert"
+                                    >bús, árva fejemnek.</add><note type="critic" xml:id="note.1">A
+                                    javító írta be üresen hagyott helyre.</note></rdg>
+                        </app></l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Sok gondólatokkal,</l>
+                    <l n="10" xml:id="l.10">Keserves jai szókkal</l>
+                    <l n="11" xml:id="l.11">Tőltőm én időmet, mulatván azokkal,</l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Epesztvén szivemet sok
+                                sóhajtásokkal.</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">Epe<del corresp="copyist" instant="true"
+                                    >z</del><add corresp="copyist" type="corr">s</add>ztvén; <del
+                                    corresp="corrector">sóhaitásokkal</del><add corresp="corrector"
+                                    type="corr">sóhajtásokkal</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Éltemet fogyatom,</l>
+                    <l n="14" xml:id="l.14">Es végét óhaitom,</l>
+                    <l n="15" xml:id="l.15">Minden nap meg halván mégsem jőn halálom,</l>
+                    <l n="16" xml:id="l.16">Bóldogtalan sorsal élek hóltig, látom.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Kin sok gondolatim,</l>
+                    <l n="18" xml:id="l.18">Emésztő kinjaim,</l>
+                    <l n="19" xml:id="l.19"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Felleg szaporito gjakor sóhajtásim<note
+                                    type="critic" xml:id="note.2">L. a <ref
+                                        target="rmkt-17-16.tei.pksz-120">120. sz. vers 11.
+                                        sorá</ref>t és a rá vonatkozó jegyzetet.</note></lem>
+                            <rdg wit="#W1" xml:id="rdg.5"><del corresp="corrector"
+                                    >sóhaitásim</del><add corresp="corrector" type="corr"
+                                    >sóhajtásim</add></rdg>
+                        </app></l>
+                    <l n="20" xml:id="l.20">Nékem ejiel, nappal mulató társaim.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Még séntsen szánoja,</l>
+                    <l n="22" xml:id="l.22">Nem hogy orvosloja,</l>
+                    <l n="23" xml:id="l.23">Vólna sebeimnek hű ápolgatója</l>
+                    <l n="24" xml:id="l.24"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">S halálos nyavaljámnak meg
+                                gjogyitója.</lem>
+                            <rdg wit="#W1" xml:id="rdg.6"><del corresp="corrector"
+                                    >gjogjitója</del><add corresp="corrector" type="corr"
+                                    >gjogyitója</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">De eztt szerentsémnek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7"><del corresp="copyist(?)">ez a</del><add
+                                    corresp="copyist(?)" type="corr">eztt</add></rdg>
+                        </app></l>
+                    <l n="26" xml:id="l.26"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">A ki oka ennek,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8"><del corresp="copyist(?)">Az ki
+                                    volt</del><add corresp="copyist(?)" type="corr">A ki</add></rdg>
+                        </app></l>
+                    <l n="27" xml:id="l.27"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Tulajdonithatom, mivel győtrelmimnek</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">Tula<del corresp="corrector">i</del><add
+                                    corresp="corrector" type="corr">j</add>donithat<del
+                                    corresp="copyist">van</del><add corresp="copyist" type="corr"
+                                    >om</add></rdg>
+                        </app></l>
+                    <l n="28" xml:id="l.28">Őrűl, és el vonnja irát sebeimnek.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Alhatatlan maga,</l>
+                    <l n="30" xml:id="l.30">S álhatatos dólga,</l>
+                    <l n="31" xml:id="l.31">Kinzásomba fáradhatatlan mivólta,</l>
+                    <l n="32" xml:id="l.32"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">S czak ebben álandó nékem
+                                ártalmomra.</lem>
+                            <rdg wit="#W1" xml:id="rdg.10"><del corresp="corrector"
+                                    >ártalmamra</del><add corresp="corrector" type="corr"
+                                    >ártalmomra</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Az szeléd elméket,</l>
+                    <l n="34" xml:id="l.34">Ő szelédségeket</l>
+                    <l n="35" xml:id="l.35"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11">Magnes kővé teszi, s aczéllja
+                                sziveket,</lem>
+                            <rdg wit="#W1" xml:id="rdg.11"><del corresp="copyist(?)">és</del><add
+                                    corresp="copyist(?)" type="corr">s</add></rdg>
+                        </app></l>
+                    <l n="36" xml:id="l.36">Kegjetlenségre haitya természeteket.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37">Mi hasznom hát nékem,</l>
+                    <l n="38" xml:id="l.38">Hogj győtrődik éltem,</l>
+                    <l n="39" xml:id="l.39">Panaszólnom továb, mert szomoru szivem,<note
+                            type="critic" xml:id="note.3">37–39 Vö. a <hi rend="italic"
+                                >Vásárhelyi-dk.</hi> e kezdőstrófájával: „Keserves panaszim mi
+                            haszna, hogy tészem, / Ha én kenaimban senki nem szán engem, / Mi haszna
+                                <sic>gyödrödnöm</sic> […]” (<bibl><abbr>RMKT XVII/3.</abbr> 150. sz.
+                                260.</bibl>)</note></l>
+                    <l n="40" xml:id="l.40"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12">Nem remélhet gj<corr>o</corr>gyúlást
+                                halálos sebem.</lem>
+                            <rdg wit="#W1" xml:id="rdg.12">gjagyúlást</rdg>
+                        </app></l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41"><app xml:id="app.13">
+                            <lem wit="#KK" xml:id="lem.13">Azért czak sóhajtok</lem>
+                            <rdg wit="#W1" xml:id="rdg.13"><del corresp="corrector"
+                                    >sóhaitok</del><add corresp="corrector" type="corr"
+                                    >sóhajtok</add></rdg>
+                        </app></l>
+                    <l n="42" xml:id="l.42">Magamba, s halgatok,</l>
+                    <l n="43" xml:id="l.43">Nem panaszlom, noha sok kinokat látok,</l>
+                    <l n="44" xml:id="l.44">Mint az gjertya vilag, óránkint czak fogjok.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Talám hóltom után<note type="critic" xml:id="note.4">A
+                            sor után a másoló folytatólag megkezdte a második sort, majd
+                            kitörölte.</note></l>
+                    <l n="46" xml:id="l.46">Egjet sóhait, s meg szán,</l>
+                    <l n="47" xml:id="l.47">En sok gjőtrelmimet azzal meg hálálván,</l>
+                    <l n="48" xml:id="l.48"><app xml:id="app.14">
+                            <lem wit="#KK" xml:id="lem.14">El senjvet szivemnek ezt jutalmul
+                                adván.</lem>
+                            <rdg wit="#W1" xml:id="rdg.14"><del corresp="copyist">senjved</del><add
+                                    corresp="copyist" type="corr">senjvet</add>; <del
+                                    corresp="corrector">ez jutalmat</del><add corresp="corrector"
+                                    type="corr">ezt jutalmul</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Valaha ki tugja,</l>
+                    <l n="50" xml:id="l.50">Mert kinomot látya,</l>
+                    <l n="51" xml:id="l.51"><app xml:id="app.15">
+                            <lem wit="#KK" xml:id="lem.15">Késő szánakodassal Jutalmaztatya,</lem>
+                            <rdg wit="#W1" xml:id="rdg.15"><del corresp="corrector"><gap
+                                        extent="unknown" reason="illegible" unit="char"/></del><add
+                                    corresp="corrector" type="corr">Kés</add>ő</rdg>
+                        </app></l>
+                    <l n="52" xml:id="l.52">Mondvan: immar el múlt szegenjnek bánatja.<note
+                            type="critic" xml:id="note.5">Vö. a <hi rend="italic"
+                                >Vásárhelyi-dk.</hi> e strófájával: „Talám mégh, tudom, él s
+                            könyvben fordult szemmel keserves verseimet / Kezdi tekenteni, magában
+                            igy szólni: Oh Ur Isten, hogy szegent / Mégh nem szántam akkor, mikor
+                            láttam sokszor ertem szenvedni sok kent?” (<bibl><abbr>RMKT
+                                    XVII/3.</abbr> 193. sz. 6. vsz. 313.</bibl>)</note></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

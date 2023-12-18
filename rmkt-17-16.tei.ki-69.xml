@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">69.</title>
+                <title type="main">A' boldogságos szüzhöz</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-69</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-69.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1">Nyomtatott kiadása: <hi rend="bold">Üdő
+                        mulatás közben Szerzett Versek.</hi>)(3a–)(4a.) </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">Üdő mulatás közben Szerzett Versek.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 69.</fw>
+                <head type="title">A’ BOLDOGSÁGOS SZÜZHÖZ</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">IStennek szent Annya, hozzád folyamodom,</l>
+                    <l n="2" xml:id="l.2">az te szent Fiadat örökké imádom,</l>
+                    <l n="3" xml:id="l.3">szent nevedet penig magasztalom, s-áldom,</l>
+                    <l n="4" xml:id="l.4">te bünös szolgádat meg nem veted, tudom.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Bünös Fiaidnak nem vagy mostohája,</l>
+                    <l n="6" xml:id="l.6">söt inkáb mindenkor vóltál pártfogója,</l>
+                    <l n="7" xml:id="l.7">te szent Fiad elött kegyes szószóllója</l>
+                    <l n="8" xml:id="l.8">s-eö nyavolyájoknak kivánt orvoslója.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">Tudod bizonyára nyavalyás ügyemet,</l>
+                    <l n="10" xml:id="l.10">fölötte fáidalmas sebben esetemet,</l>
+                    <l n="11" xml:id="l.11">mellyben tartyaé meg Isten életemet,</l>
+                    <l n="12" xml:id="l.12">most azjránt méltán fárasztom elmémet.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Hogy ha halálomat el rendelte Isten,</l>
+                    <l n="14" xml:id="l.14">ki adom örömmel én Lelkemet menten,</l>
+                    <l n="15" xml:id="l.15">s-továb ez Világon nem Kinlódom itten,</l>
+                    <l n="16" xml:id="l.16">meg kegyelmez nékem az Fölséges Isten,</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17">Melly iránt kétségem nincsen, s-nemis lehet,</l>
+                    <l n="18" xml:id="l.18">mivelhogy irgalma én velem jót tehet,</l>
+                    <l n="19" xml:id="l.19">ingyen jóvóltábúl kegyelmében vehet,</l>
+                    <l n="20" xml:id="l.20">s-eö szent Országában engemet be vihet.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Ha pedig továbis életem vónódik,</l>
+                    <l n="22" xml:id="l.22">az én bünös Lelkem testemben tengödik,</l>
+                    <l n="23" xml:id="l.23">több nyomorúságban kinlódik, s-gyötrödik,</l>
+                    <l n="24" xml:id="l.24">szerelmes szent Anyám, hozzád fóházkodik.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Könyörögi érettem az élö Istennek,</l>
+                    <l n="26" xml:id="l.26">legyek irgalmában eö szent Fölségének,</l>
+                    <l n="27" xml:id="l.27">ne tégyen csonkává fáidalma sebemnek,</l>
+                    <l n="28" xml:id="l.28">s-Vehéssem éltemig hasznát jobb kezemnek.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Te érdemed által, mellyet én reménlek,</l>
+                    <l n="30" xml:id="l.30">hogy könyörgésemet meg vessed, nem félek,</l>
+                    <l n="31" xml:id="l.31">mellyért magasztallak, valamiglen élek,</l>
+                    <l n="32" xml:id="l.32">ez árnyék Világban még bennem az Lélek.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Mellyre való nézve fel tettem magamban,</l>
+                    <l n="34" xml:id="l.34">ha jútok üdövel jó fris állapotban,</l>
+                    <l n="35" xml:id="l.35">el indúllyak, s-mennyek Czelli Templomodban,</l>
+                    <l n="36" xml:id="l.36">hogy méltán ne essem háládatlanságban.</l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37">Hálát Istenemnek az hól leg elsöben,</l>
+                    <l n="38" xml:id="l.38">vagyon szándékomban s-igyekezetemben,</l>
+                    <l n="39" xml:id="l.39">adgyak tiszta szivvel iövö esztendöben,</l>
+                    <l n="40" xml:id="l.40">hogy érdemed által maradtam életben.</l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="41" xml:id="l.41">Akarom azontúl te tisztességedre</l>
+                    <l n="42" xml:id="l.42">képedet el vinnem, s-függesztenem szegre,</l>
+                    <l n="43" xml:id="l.43">azzalis hozhassam világos nap fényre,</l>
+                    <l n="44" xml:id="l.44">könyörgésed által jútottam életre.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="45" xml:id="l.45">Mind ezeket penig hogy véghez vihessem,</l>
+                    <l n="46" xml:id="l.46">s-fel tett szándékomtúl hogy férre ne essem</l>
+                    <l n="47" xml:id="l.47">kérlek továbáis, halgasd könyörgésem,</l>
+                    <l n="48" xml:id="l.48">kegyelmes vóltodbúl meg ne vesd kérésem.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="49" xml:id="l.49">Midön Eger alatt meg lötték Karomat,</l>
+                    <l n="50" xml:id="l.50">s-nem kevesen vélték abban halálomat,</l>
+                    <l n="51" xml:id="l.51">hogy Isten meg adgya fel gyógyúlásomat,</l>
+                    <l n="52" xml:id="l.52">szerzém fáidalmimban ezen Rhitmusimat.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

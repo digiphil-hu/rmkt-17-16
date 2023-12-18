@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">15.</title>
+                <title type="main">Üdönk múlására, búnk távoztatására verseinket kohollyvk </title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-15</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-15.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <hi rend="bold">Sok ohaItás közben Inség VIseLésben éhség szenVeDésben
+                            keserVes rabságban MVnkáCs köVárában szerzet Versek.</hi> H. n. é. n.
+                        A2b.</p><p xml:id="crit.1.p.2">Kiad. <bibl><title>Magyar költők. XVII.
+                                század</title>. Kiad. <hi rend="smallcaps">Jenei Ferenc</hi>. Bp.
+                            1956. (Magyar Könyvtár) 275–276.</bibl>; <bibl><title>Magyar költők. 17.
+                                század. A kuruc kor költészete</title>. Kiad., szöveggond. és jegyz.
+                                <hi rend="smallcaps">Komlovszki Tibor</hi>. Bp. 1990. (Magyar
+                            Remekírók) I. 585–586.</bibl>; <bibl><title>A XVII. század
+                                költői</title>. Kiad. és utószó <hi rend="smallcaps">Komlovszki
+                                Tibor</hi>. Bp. [1995.] (A Magyar Költészet Kincsestára 30.)
+                            312–313.</bibl></p><p xml:id="crit.1.p.3">Az OSZK Fol. Hung. 151.
+                        kéziratában az <hi rend="italic">Üdőnk mulására</hi> cím a ciklus címeként
+                        szerepel, mellette a 2. javító kéz bejegyzése: <date when="1683"
+                        >1683</date>; ez pirossal áthúzva, mellette: <date when="1686">1686</date>.
+                        E verset a kézirat nem tartalmazza, a címet a 16. sz. vers követi. A
+                        cikluscím alatt: Az aLáb kőVetkezenDő szoknak bőtŰIbŰL faragIVk VnaLMas
+                        Verseinket. (Szinte ugyanezen bejegyzést l. <bibl>OSZK Quart. Hung. 4159.
+                            178b.</bibl>) Mellette a 2. javító kéz bejegyzése: <date>1683</date>. A
+                        kronosztichon értéke valóban ennyi. Az 1. füzet élén a nyomtatványban így
+                        nincs cikluscím, de a szerző akarataként kell elfogadnunk a
+                        változtatást.</p><p xml:id="crit.1.p.4">A címlap kronosztichonjai: <date
+                            when="1683">1683</date>; <date when="1718">1718</date>.</p><p
+                        xml:id="crit.1.p.5">A verscím kronosztichonja: <date when="1682"
+                        >1682</date>.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="volume">SOK OHA<hi rend="bold">I</hi>TÁS KÖZBEN,<milestone unit="p"/><hi
+                    rend="bold">I</hi>NSÉG <hi rend="bold">VI</hi>SE<hi rend="bold"
+                    >L</hi>ÉSBEN,<milestone unit="p"/> ÉHSÉG SZEN<hi rend="bold">V</hi>E<hi
+                    rend="bold">D</hi>ÉSBEN,<milestone unit="p"/> KESER<hi rend="bold">V</hi>ES
+                    RABSÁGBAN,<milestone unit="p"/><hi rend="bold">MV</hi>NKÁ<hi rend="bold">C</hi>S
+                    KÖ<hi rend="bold">V</hi>ÁRÁBAN<milestone unit="p"/> SZERZET <hi rend="bold"
+                    >V</hi>ERSEK, </head>
+            <head type="sub"><lg>
+                    <l>Mellyeket szerzöje mulatozására,</l>
+                    <l>Jutván rabságábúl szabadulására,</l>
+                    <l>Most kinyomtattatot olvastatására,</l>
+                    <l>Bánatos szivének vigasztalására</l>
+                </lg></head>
+            <l>Az ezer hét száz hVszaDIk esztenDöben,</l>
+            <l>éLtÜnkeL eL foLYó s-enYészö ÜDöben</l>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 15.</fw>
+                <head type="title"><hi rend="bold">Ü</hi><hi rend="bold">D</hi>ÖNK <hi rend="bold"
+                        >MÚL</hi>ÁSÁRA, B<hi rend="bold">Ú</hi>NK TÁ<hi rend="bold">V</hi>OZTATÁSÁRA
+                        <hi rend="bold">V</hi>ERSE<hi rend="bold">I</hi>NKET KOHO<hi rend="bold"
+                        >LLYV</hi>K</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Untalan sohajtva s-Istenhez ohajtva enyhicsük
+                        sorsunkat,</l>
+                    <l n="2" xml:id="l.2">világot ösmérve s-hivságát gyülölve felejcsük el
+                        búnkat,</l>
+                    <l n="3" xml:id="l.3">verseket koholva s-azokat faragva mulassuk magunkat.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="4" xml:id="l.4">De eszre vehetem, nincsen készületem s-ahoz való
+                        könyvem,</l>
+                    <l n="5" xml:id="l.5">nincsen papirosom, úgy hozta rab sorsom, emésztödgyék
+                        szivem,</l>
+                    <l n="6" xml:id="l.6">se téntám, se pennám, hát hogy folyhat vénám s-vers szerzö
+                        jókedvem.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="7" xml:id="l.7">Ahol nincsen ténta, Szük ott az Poëta az vers
+                        csinálásra,</l>
+                    <l n="8" xml:id="l.8">nincsen azhol penna, még Naso sem irna Verset
+                        papirosra,</l>
+                    <l n="9" xml:id="l.9">nem lehet irása, kinek papirosa nincsen firkalásra.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="10" xml:id="l.10">Ember jó kedvébül, csendesült elmébül Szokot verset
+                        irni,</l>
+                    <l n="11" xml:id="l.11">szive búsúltában, bé zárt fogházában inkáb Szokot
+                        sirni,</l>
+                    <l n="12" xml:id="l.12">az búnak inségét, mérge dühösségét nem könnyü meg
+                        birni.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="13" xml:id="l.13">Ugyan mégis az bút, melly én Szivemre fút, mint lehet,
+                        el üzöm,</l>
+                    <l n="14" xml:id="l.14">az mi jut elmémre, Szóknak bötüire fel jedczem, fel
+                        füzöm,</l>
+                    <l n="15" xml:id="l.15">vers koholásával, sorsom unalmával bánatomat fözöm.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="16" xml:id="l.16">Versem koholása s-ollykor faragása adhat mégis
+                        dolgot,</l>
+                    <l n="17" xml:id="l.17">szokatlan munkámban, hényélö voltomban
+                        foglalatosságot,</l>
+                    <l n="18" xml:id="l.18">üdöm töltésère s-búm felejtésére egy kis mulatságot.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="19" xml:id="l.19">Kezdem hát munkámat, nem hagyom magamat, henyélö nem
+                        lészek,</l>
+                    <l n="20" xml:id="l.20">bal Szerencsém sorsán, lábaimnak vasán könnyebülést
+                        tészek,</l>
+                    <l n="21" xml:id="l.21">isten kegyelmébül s-versem füzésébül meg pihenést
+                        vészek.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

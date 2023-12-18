@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">21.</title>
+                <title type="main">Elméje embernek nem nyugszik, újságra vágyódik, futja világ
+                    határit</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-21</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-21.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Quart. Hung.
+                            151.</hi> 6b–7a.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">Sok
+                            ohaItás közben […] szerzet Versek.</hi> 11–12. Kiad. <bibl><abbr><hi
+                                    rend="smallcaps">Thaly</hi>: Adalékok. I.</abbr>
+                        189–192.</bibl></p><p xml:id="crit.1.p.4">A vers akrosztichonja: <hi
+                            rend="smallcaps">elmeie embernék ném nivgszik visagra úagiodik fvtia
+                            úilag hatarit</hi>. Ennek mintája <persName>Beniczky Péter<idno
+                                type="ITIdata">Q41111</idno></persName><title>Közönséges magyar
+                            példabeszéde</title>inek 5. darabja: „Az elme nem nyugszik, / Újságra
+                        vágyódik, / Futtya világ határit…” (<bibl><abbr>RMKT XVII/12.</abbr>
+                            140.</bibl>)</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Fol. Hung. 151. 6b–7a.</witness>
+                    <witness xml:id="W2"> Sok ohaItás közben Inség VIseLésben éhség szenVeDésben
+                        keserVes rabságban MVnkáCs köVárában szerzet Versek. H. n. é. n.
+                        189–192.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 21.</fw>
+                <head type="title">ELMÉJE EMBERNEK NEM NYUGSZIK, ÚJSÁGRA VÁGYÓDIK, FUTJA VILÁG
+                    HATÁRIT</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><hi rend="bold">E</hi>lmémnek nincs nyugta, henyélést nem
+                        szokta, s-nem akar heverni,</l>
+                    <l n="2" xml:id="l.2"><hi rend="bold">l</hi>átom, nincs megkötve, sem vasban
+                        nincs verve, vágyódnék sétálni,</l>
+                    <l n="3" xml:id="l.3"><hi rend="bold">m</hi>unkács kövárábúl s-bézárt
+                        fogházambúl akarna ki menni.</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="4" xml:id="l.4"><hi rend="bold">E</hi>lme henyélése s-túnya heverése
+                        ördögnek párnája,</l>
+                    <l n="5" xml:id="l.5"><hi rend="bold">i</hi>óban ha nem fárad, gonoszban el
+                        árad, s-roszban van munkája,</l>
+                    <l n="6" xml:id="l.6"><hi rend="bold">*e</hi>zen szovaimnak s-igaz mondásomnak
+                        sok ezer példája.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="7" xml:id="l.7"><hi rend="bold">E</hi>rre nézve tehát szabadon sétálhat,
+                        magát meg nem únnya,</l>
+                    <l n="8" xml:id="l.8"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1"><hi rend="bold">m</hi>agát hogy meg unva
+                                s-gonoszra forditva jótúl elne vonnya,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">el nem</rdg>
+                        </app></l>
+                    <l n="9" xml:id="l.9"><hi rend="bold">b</hi>átor ám sétállyon, s-roszra ne
+                        fordúllyon, utyát meg ne bánnya.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="10" xml:id="l.10"><hi rend="bold">E</hi>lkészült útyára à salvus
+                            Passusra<note type="critic" xml:id="note.1">salvus Passus – menlevél,
+                            oltalomlevél</note><hi rend="bold">n</hi>incs semmi szüksége,</l>
+                    <l n="11" xml:id="l.11"><hi rend="bold">r</hi>eménlem, s-álitom, s-magamban úgy
+                        tartom, nincsen ellensége,</l>
+                    <l n="12" xml:id="l.12"><hi rend="bold">n</hi>em kérdezik tüle, hól úti levele,
+                        lehet békessége.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="13" xml:id="l.13"><hi rend="bold">É</hi>r hogyha az vámra vagy az
+                        harminczadra, tudgya szabadságát,</l>
+                    <l n="14" xml:id="l.14"><hi rend="bold">*k</hi>irálynak, Császárnak, semmi
+                        hatalmasnak nem féli haragát,</l>
+                    <l n="15" xml:id="l.15"><hi rend="bold">n</hi>em féli sem vasnak, bilincsnek
+                        s-békónak terhelö súlyságát.</l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="16" xml:id="l.16"><hi rend="bold">É</hi>les hegyes törtül, kard s-pallos
+                        élétül, sem nyiltùl s-csidátúl,<note type="critic" xml:id="note.2">csida –
+                            dzsida</note></l>
+                    <l n="17" xml:id="l.17"><hi rend="bold">*m</hi>eg töltöt puskátúl, taraczktúl s
+                        áldgyútúl, sem tüzes gránáttúl</l>
+                    <l n="18" xml:id="l.18"><hi rend="bold">n</hi>incs semmi félelme, s-nem lehet
+                        sérelme országos hadaktúl.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="19" xml:id="l.19"><hi rend="bold">I</hi>uthat táborokban, s-járhat
+                        sátorokban, Strása nem szólitya,</l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2"><hi rend="bold">v</hi>áraknak kapuit
+                                s-rakot köfalait könnyen meg hághattya,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">Vraknak</rdg>
+                        </app></l>
+                    <l n="21" xml:id="l.21"><hi rend="bold">g</hi>yors, hamar járását, senki
+                        nyargalását meg nem tartóztattya.</l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="22" xml:id="l.22"><hi rend="bold">S</hi>zabados menése, viszsza is térése,
+                        s-gátlását nem tészik,</l>
+                    <l n="23" xml:id="l.23"><hi rend="bold">z</hi>örgését mentében, jártában
+                        s-költében sohúl fel nem vészik,</l>
+                    <l n="24" xml:id="l.24"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3"><hi rend="bold">i</hi>árását nyomának
+                                s-reitek naplásának<note type="critic" xml:id="note.3">naplás –
+                                    időtöltés</note> hirül el sem viszik.</lem>
+                            <rdg wit="#W1" xml:id="rdg.3">naplásinak</rdg>
+                        </app></l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="25" xml:id="l.25"><hi rend="bold">*K</hi>ezdgye azért útyát, szivemnek
+                        bánattyát járása enyhicse,</l>
+                    <l n="26" xml:id="l.26"><hi rend="bold">v</hi>asamnak súlyságát s-fejemnek
+                        rabságát megis könnyebicse,</l>
+                    <l n="27" xml:id="l.27"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4"><hi rend="bold">i</hi>utván barátimhoz
+                                s-jóakaróimhoz, azokat köszöncse.</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">kőszőnycse</rdg>
+                        </app></l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="28" xml:id="l.28"><hi rend="bold">S</hi>zerelmes Anyámnál, Balassy
+                        Judithnál tülem elmentében,<note type="critic" xml:id="note.4">Anyja,
+                                <persName>Balassi Judit</persName><persName>B. Imre<idno
+                                    corresp="Blassi Imre"/></persName> és <persName>Bosnyák
+                                Judit</persName> lánya (<date from="1630" to="1711">1630
+                                k.–1711</date>).</note></l>
+                    <l n="29" xml:id="l.29"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5"><hi rend="bold">a</hi>karom, hogy
+                                szállyon, s-ottan udvarollyon legis leg elsöben,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5">szállyon, ottan</rdg>
+                        </app></l>
+                    <l n="30" xml:id="l.30"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6"><hi rend="bold">g</hi>yámoltalán sorsom,
+                                légyen koplalásom fèledékenségben.</lem>
+                            <rdg wit="#W1" xml:id="rdg.6">Gyámolatlan; légyen s-koplálásom</rdg>
+                        </app></l>
+                </lg>
+                <lg n="11" xml:id="lg.11">
+                    <l n="31" xml:id="l.31"><hi rend="bold">R</hi>abságom súllyárúl s-lábaim vasárúl
+                        sem kel semmit szólni,</l>
+                    <l n="32" xml:id="l.32"><hi rend="bold">*a</hi>zzal búsúlását s-ö szánakodását
+                        nemkel újjtani,</l>
+                    <l n="33" xml:id="l.33"><hi rend="bold">ú</hi>gy hiszem, rabságot s-az
+                        nyomorúságot tudgya együt járni.</l>
+                </lg>
+                <lg n="12" xml:id="lg.12">
+                    <l n="34" xml:id="l.34"><hi rend="bold">A</hi>nyai mivóltát s-hozzám nagy jó
+                        vóltát Isten füzesse meg,</l>
+                    <l n="35" xml:id="l.35"><hi rend="bold">g</hi>yarló vagyok, s-vóltam, s-hogyha
+                        meg bántottam, vétkem bocsássa meg,</l>
+                    <l n="36" xml:id="l.36"><hi rend="bold">i</hi>stennek ajánlom, s-ohajtva
+                        gondolom, az Isten áldgya meg.</l>
+                </lg>
+                <lg n="13" xml:id="lg.13">
+                    <l n="37" xml:id="l.37"><hi rend="bold">O</hi>nnand ha búcsúzik, s-hogyha el
+                        távozik, térjen Öcséjmhez,</l>
+                    <l n="38" xml:id="l.38"><hi rend="bold">d</hi>unántúl, reménlem, juthat, úgy
+                        itilem, Koháry Imréhez,<note type="critic" xml:id="note.5"
+                                    ><persName>Imre<idno corresp="Koháry Imre"/></persName> öccse
+                                (<date from="1654" to="1685">1654–1685</date>) pályafutásáról nem
+                            maradtak adatok. Talán a török kiűzésében vett részt a Dunántúlon, s ott
+                            vesztette életét.</note></l>
+                    <l n="39" xml:id="l.39"><hi rend="bold">i</hi>gyemet jól tudgya, jò szivel
+                        fogadgya, vonszon mert véréhez.</l>
+                </lg>
+                <lg n="14" xml:id="lg.14">
+                    <l n="40" xml:id="l.40"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7"><hi rend="bold">*K</hi>oháry
+                                    Farkashoz,<note type="critic" xml:id="note.6">Öccse,
+                                            <persName>Farkas<idno corresp="Koháry Farkas"
+                                        /></persName> (<date from="1654" to="1704">1654–1704</date>)
+                                    bátyjával együtt tanult <placeName>Nagyszombatban<idno
+                                            type="ITIdata">Q14207</idno></placeName> és
+                                            <placeName>Bécsben<idno type="ITIdata"
+                                        >Q99</idno></placeName>. <date when="1683">1683-ban</date>
+                                    részt vett <placeName>Bécs</placeName> védelmében. <date
+                                        when="1686">1686-ban</date><placeName>Buda<idno
+                                            type="ITIdata">Q15957</idno></placeName> ostromára ő
+                                    vezette a Nógrád és Hont vármegyei nemességet. Honti főispán.
+                                    Felesége <persName>(Hohen)Rechberg Mária Lujza</persName>. <date
+                                        when="1704">1704-ben</date> a horvátországi zavargások
+                                    lecsendesítésére rendelték; ott,
+                                        <placeName>Dubravában</placeName> halt meg.
+                                            <persName>Gábor<idno corresp="Koháry Gábor"/></persName>
+                                        (<date from="1659">1659–?</date>) ferences szerzetes
+                                    lett.</note> à szerint Gáborhoz térjen bé úttyában,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">be</rdg>
+                        </app></l>
+                    <l n="41" xml:id="l.41"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8"><hi rend="bold">f</hi>el találván öket ha
+                                fogja kezeket, s-látya búsúlásban,</lem>
+                            <rdg wit="#W1" xml:id="rdg.8">Fel tanálván</rdg>
+                        </app></l>
+                    <l n="42" xml:id="l.42"><hi rend="bold">v</hi>igasztallya szómmal, s-az én
+                        rabságommal ne ejcse bánatban.</l>
+                </lg>
+                <lg n="15" xml:id="lg.15">
+                    <l n="43" xml:id="l.43"><hi rend="bold">T</hi>ávúl estem tülök, szakaszta
+                        mellölök szerencse véletlen,</l>
+                    <l n="44" xml:id="l.44"><hi rend="bold">i</hi>ól tudgyák rabságom, s-van
+                        nyomorúságom, sorsom szerencsétlen,</l>
+                    <l n="45" xml:id="l.45"><hi rend="bold">*a</hi>ldása Istennek szállyon
+                        mindeniknek fejére szüntelen.</l>
+                </lg>
+                <lg n="16" xml:id="lg.16">
+                    <l n="46" xml:id="l.46"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9"><hi rend="bold">U</hi>gy hiszem,
+                                tudhattya, s-felis találhattya, hol van Makovicza,</lem>
+                            <rdg wit="#W1" xml:id="rdg.9">tanálhattya</rdg>
+                        </app></l>
+                    <l n="47" xml:id="l.47">iános rab öcsémet,<note type="critic" xml:id="note.7"
+                                    ><persName>János<idno corresp="Koháry János"/></persName> (<date
+                                from="1657" to="1691">1657–1691</date>) bátyjához hasonlóan három
+                            évet töltött Thököly rabságában <placeName>Makovica<idno corresp="Mákos"
+                                /></placeName> (<placeName>Makovice</placeName>,
+                                <placeName>Mákos</placeName>, Sáros vm.) várában. Részt vett Buda
+                            ostromában. Felesége <persName>Jakussith Polixéna</persName>.</note>
+                        érzi ot ügyemet, szómmal vidámitsa,</l>
+                    <l n="48" xml:id="l.48"><hi rend="bold">l</hi>égyen reménségben s-fris jó
+                        egésségben, Isten szabaditsa.</l>
+                </lg>
+                <lg n="17" xml:id="lg.17">
+                    <l n="49" xml:id="l.49"><hi rend="bold">A</hi>z édes Hùgomnak, Koháry
+                            Judithnak<note type="critic" xml:id="note.8">Húga, <persName><idno
+                                    corresp="Koháry Judit"/>Judit</persName> (<date from="1650"
+                                to="1718">1650–1718</date>) <persName>Barkóczy György</persName>
+                            felesége.</note> felölem hirt adgyon,</l>
+                    <l n="50" xml:id="l.50"><hi rend="bold">*g</hi>ondal, búval értem s-héában
+                        mellettem immár ne fáradgyon,</l>
+                    <l n="51" xml:id="l.51"><hi rend="bold">h</hi>ogy nem feletkezet, rólam
+                        emlekezet, ezer áldást mondgyon.</l>
+                </lg>
+                <lg n="18" xml:id="lg.18">
+                    <l n="52" xml:id="l.52"><hi rend="bold">A</hi>z élö Istenre s-nagy böv
+                        kegyelmére bizza rab Fejemet,</l>
+                    <l n="53" xml:id="l.53"><hi rend="bold">t</hi>udgya, szabadságra, kel è
+                        vigasságra jutatni engemet,</l>
+                    <l n="54" xml:id="l.54"><hi rend="bold">a</hi>zért az Istentül várjuk el
+                        s-üdötül, mint adgya ügyemet.</l>
+                </lg>
+                <lg n="19" xml:id="lg.19">
+                    <l n="55" xml:id="l.55"><hi rend="bold">R</hi>övid búcsújával s-látogatásával
+                        sohúl el ne késsen,</l>
+                    <l n="56" xml:id="l.56"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10"><hi rend="bold">i</hi>árjon hamarsággal,
+                                jöjön vigassággal, s-én hozzám siessen,</lem>
+                            <rdg wit="#W1" xml:id="rdg.10">jűjőn</rdg>
+                        </app></l>
+                    <l n="57" xml:id="l.57"><hi rend="bold">*t</hi>érjen fogházamban, s-nékem
+                        rabságomban örömet hirdessen.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

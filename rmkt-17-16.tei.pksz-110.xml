@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">110.</title>
+                <title type="main">Más. (Oh én bóldogtalan es keserves sorsom...)</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-110</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-110.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi
+                                rend="bold">MTAK Kézirattár K 97.</hi> 12a–12b.</bibl> – Végén
+                        valószínűleg csonka.</p><p xml:id="crit.1.p.2">Kiad.:<bibl><abbr><hi
+                                    rend="smallcaps">Thaly</hi></abbr>, 182. </bibl>(3
+                                    vsz.);<bibl><abbr><hi rend="smallcaps"
+                                >Harsányi–Gulyás</hi></abbr>, 311–312.</bibl></p><p
+                        xml:id="crit.1.p.3">Nótajelzése azonosíthatatlan. L. még <bibl><hi
+                                rend="smallcaps">Szabolcsi Bence</hi>: <title>A XVII. század magyar
+                                főúri zenéje.</title> In: <title>A magyar zene évszázadai</title>.
+                            I. Bp. 1959. 235.</bibl></p><p xml:id="crit.1.p.4">A vershelyzet és
+                        szövegezés rokonságáról l. a <ref target="rmkt-17-16.tei.pksz-106">106. sz.
+                            vers</ref> jegyzeteit.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 110.</fw>
+                <head type="title">MÁS.</head>
+                <head type="notation">Haloti Notara, kit szoktak Trambitálni</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Oh én bóldogtalan es keserves
+                                sorsom,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1"><del corresp="corrector">s</del><add
+                                    corresp="corrector" type="corr">es</add></rdg>
+                        </app></l>
+                    <l n="2" xml:id="l.2">Kinek hóltig buba lészen maradásom,</l>
+                    <l n="3" xml:id="l.3">Mint tenger habjain, olljan én forgásom,</l>
+                    <l n="4" xml:id="l.4">Szerencze kerekén nö sok változásom.<note type="critic"
+                            xml:id="note.1"><p xml:id="note.41">E strófa esetében kivételesen
+                                utóéletére, más költőnél való ismertségre utalhatunk.
+                                    <persName>Vayné Zay Anna<idno type="ITIdata"
+                                    >Q247326</idno></persName><title><hi rend="italic"
+                                        >Orvoskönyv</hi></title>ének, ill. <title><hi rend="italic"
+                                        >Nyomorúság oskolája</hi></title> c. imakönyvének egyik
+                                verse, a <title><hi rend="italic">Búban el lankadt szivnek
+                                        jajgatása</hi></title> hasonló sorokkal kezdődik:</p><lg
+                                n="1" xml:id="lg.2">
+                                <l n="1" xml:id="l.5">Bóldogtalan szörnyü keseredet sorsom</l>
+                                <l n="2" xml:id="l.6">Mellyben immár lészen hóltig maradásom</l>
+                                <l n="3" xml:id="l.7">Mint tengernek habja ollyan én forgásom</l>
+                                <l n="4" xml:id="l.8">Szerentse kerekén nő sok változásom.</l>
+                            </lg><lg n="2" xml:id="lg.3">
+                                <l n="5" xml:id="l.9">Óh jaj melly kinosan emésztődik szivem…</l>
+                            </lg><p xml:id="note.42">(<bibl>OSZK Quart. Hung. 3296.
+                            32a.</bibl>)</p></note></l>
+                </lg>
+                <lg n="2" xml:id="lg.4">
+                    <l n="5" xml:id="l.10"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Mert jai, <corr>Titiuskint</corr><note
+                                    type="critic" xml:id="note.2">Titüosz, l. <bibl>Homérosz:
+                                                <title><hi rend="italic">Odüsszeia</hi></title> 11,
+                                        576</bibl>; <bibl>Vergilius: <title><hi rend="italic"
+                                                >Aeneis</hi></title> 6, 595</bibl>; <bibl>Ovidius:
+                                                <title><hi rend="italic">Átváltozások</hi></title>
+                                        4, 457</bibl>.</note> rágattatik szivem,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2">Titius kint</rdg>
+                        </app></l>
+                    <l n="6" xml:id="l.11"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Változo szerentsém miat bágyad
+                                lelkem,</lem>
+                            <rdg wit="#W1" xml:id="rdg.3"><del corresp="copyist"
+                                    >szerentsén</del><add corresp="copyist" type="corr"
+                                    >szerentsém</add> miat <del corresp="corrector">baiad</del><add
+                                    corresp="corrector" type="corr">bágyad</add></rdg>
+                        </app></l>
+                    <l n="7" xml:id="l.12">Földhöz veretetet már minden jó kedvem,</l>
+                    <l n="8" xml:id="l.13">Mert az porba hever virágzó életem.</l>
+                </lg>
+                <lg n="3" xml:id="lg.5">
+                    <l n="9" xml:id="l.14">Naprul napra az bú nevekedik rajtam,</l>
+                    <l n="10" xml:id="l.15"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Véletlen<note type="critic"
+                                    xml:id="note.3">váratlan</note> esetem,<note type="critic"
+                                    xml:id="note.4">eset – esés</note> mert jai, ezt nem
+                                vartam,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4"><del corresp="corrector">eretem</del><add
+                                    corresp="corrector" type="corr">esetem</add>; <del
+                                    corresp="corrector">vartom</del><add corresp="corrector"
+                                    type="corr">vartam</add></rdg>
+                        </app></l>
+                    <l n="11" xml:id="l.16"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Boldogulas heljet, im, mire
+                                jutottam,</lem>
+                            <rdg wit="#W1" xml:id="rdg.5"><del corresp="corrector">en</del><add
+                                    corresp="corrector" type="corr">im</add></rdg>
+                        </app></l>
+                    <l n="12" xml:id="l.17">Gonosz szerentsének tárgjul adatattam.</l>
+                </lg>
+                <lg n="4" xml:id="lg.6">
+                    <l n="13" xml:id="l.18">Mostaha kezei, ime, mely súlyosok,</l>
+                    <l n="14" xml:id="l.19">Czélyokká töttenek az sok változások,</l>
+                    <l n="15" xml:id="l.20"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Áradnak bánatim, mint bö viz
+                                folyások,</lem>
+                            <rdg wit="#W1" xml:id="rdg.6"><del corresp="corrector">visz</del><add
+                                    corresp="corrector" type="corr">viz</add></rdg>
+                        </app></l>
+                    <l n="16" xml:id="l.21"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Mint Tengerbe czöp viz, én fajdalmom oly
+                                sok.</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">Tenger<del corresp="corrector"><gap
+                                        extent="1" reason="illegible" unit="char"/></del><add
+                                    corresp="corrector" type="corr">b</add>e; <del
+                                    corresp="corrector">visz</del><add corresp="corrector"
+                                    type="corr">viz</add>; <del corresp="corrector"
+                                    >faidalmom</del><add corresp="corrector" type="corr"
+                                    >fajdalmom</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="5" xml:id="lg.7">
+                    <l n="17" xml:id="l.22">Ő mérges nyilyai, jai, mint sebesitnek,</l>
+                    <l n="18" xml:id="l.23">Oh, sok változási végre meg emésztnek,</l>
+                    <l n="19" xml:id="l.24">Vége életemnek, mert jai, csak ök lésznek,</l>
+                    <l n="20" xml:id="l.25">Erömet fogyatván maid az sirban tesznek.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

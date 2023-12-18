@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">127.</title>
+                <title type="main">Mas ének (Bánat Tengerébe merült...)</title>
+                <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
+                            type="ITIdata">Q149557</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.pksz-127</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.pksz-127.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: MTAK
+                        Kézirattár K 97. 25a–26a. Kiad.: <bibl><abbr><hi rend="smallcaps"
+                                >Thaly</hi></abbr>, 196.</bibl> (4 vsz.); <bibl><abbr><hi
+                                    rend="smallcaps">Harsányi–Gulyás</hi></abbr>, 324.</bibl>;
+                                <bibl><abbr>Magyar költők. XVII. század.</abbr>
+                        344–345.</bibl></p><p xml:id="crit.1.p.2">Nótajelzése nem azonosítható;
+                        formáját tekintve megegyezik <persName>Balassi<idno type="ITIdata"
+                                >Q2101</idno></persName> két török nótára készült versével, a<hi
+                            rend="italic"> Minap mulatni mentemben</hi> és az <hi rend="italic">Ez
+                            világ sem kell már nekem </hi>kezdetűekkel.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">MTAK Kézirattár K 97.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 127.</fw>
+                <head type="title">MAS ÉNEK.</head>
+                <head type="notation">Egy Tőrők Nótára</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Bánat Tengerébe merűlt,</l>
+                    <l n="2" xml:id="l.2">Szomorúságba torkig dőlt,</l>
+                    <l n="3" xml:id="l.3">Uj sebek miat el réműlt</l>
+                    <l n="4" xml:id="l.4"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Szivem, mert bánatya Ujúlt.<note
+                                    type="critic" xml:id="note.1">Vö. <persName>Dobai István<idno
+                                            type="ITIdata">Q167004</idno></persName> e soraival:
+                                    „Bánotim ujulnak, Siralmim nem mulnak […]” (<bibl><abbr>RMKT
+                                            XVII/14.</abbr> 186. sz.</bibl> 12. vsz.
+                                667.)</note></lem>
+                            <rdg wit="#W1" xml:id="rdg.1"><del corresp="corrector">Uiul</del><add
+                                    corresp="corrector" type="corr">Ujúlt</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Kétségé fordult reménje,</l>
+                    <l n="6" xml:id="l.6">Homályba burult nap fénje,</l>
+                    <l n="7" xml:id="l.7">Mint az tengernek fővenje,</l>
+                    <l n="8" xml:id="l.8">Oly sok s mélj búja őrvénje.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Bagyasztya a sok sóhajtás,</lem>
+                            <rdg wit="#W1" xml:id="rdg.2"><del corresp="copyist" instant="true"
+                                    >j</del><add corresp="copyist" type="corr">g</add><del
+                                    corresp="corrector">j</del><add corresp="corrector" type="corr"
+                                    >y</add>asztya; <del corresp="corrector">sóhaitás</del><add
+                                    corresp="corrector" type="corr">sóhajtás</add></rdg>
+                        </app></l>
+                    <l n="10" xml:id="l.10">Kibűl árad kőnyhullatás,</l>
+                    <l n="11" xml:id="l.11">Meljet kővetvén jaigatás,</l>
+                    <l n="12" xml:id="l.12"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Sebemnek igen fájdalmas.</lem>
+                            <rdg wit="#W1" xml:id="rdg.3"><del corresp="corrector"
+                                    >fáidalmas</del><add corresp="corrector" type="corr"
+                                    >fájdalmas</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Mint sebes szelek Zúgási,</l>
+                    <l n="14" xml:id="l.14">Tenger vize áradási,<note type="critic" xml:id="note.2"
+                            >13–14 <hi rend="smallcaps">Hopp Lajos</hi> (<bibl><title>Mikes Kelemen
+                                    összes művei</title>. I. Törökországi levelek és missilis
+                                levelek. Bp. 1966. 627.</bibl>) e sorokat idézi a
+                                    <persName>Mikes<idno corresp="Mikes Kelemen" type="ITIdata"
+                                    >Q56677</idno></persName> egy fordulatának („egy kevés sirás.
+                            könyveknek forrási”) mintájaként szolgáló, az <title><hi rend="italic"
+                                    >Istenes énekek</hi></title> függelékében található egyik ének
+                            párhuzamaként. („Könyvem forrási Áradási Induljatok!”) Ez az ének megvan
+                            a <hi rend="italic">Kádár-ék.</hi>-ben, a <hi rend="italic">Mihál
+                                Farkas-kódex</hi>ben, az OSZK Oct. Hung. 482. sz. kéziratban is,
+                            valamint a <title><hi rend="italic">Zengedező mennyei kar</hi></title>
+                            első lőcsei kiadásában (<date when="1696">1696</date>). (<bibl><hi
+                                    rend="smallcaps">Stoll Béla</hi>: <title>A magyar kéziratos
+                                    énekeskönyvek és versgyűjtemények bibliográfiája</title>.
+                                1565–1840. Bp. 1963. 74., 103.</bibl>) Szerzője valószínűleg
+                                <persName>Körösi István<idno type="ITIdata"
+                                >Q155898</idno></persName> kisalföldi rektor. <persName>Petrőczy
+                                Kata Szidónia</persName> sorainak hasonlósága azonban meglehetősen
+                            távoli.</note></l>
+                    <l n="15" xml:id="l.15">Olljak, mint vizek foljási,</l>
+                    <l n="16" xml:id="l.16">Bánatimnak újúlási.</l>
+                </lg>
+                <lg n="5" xml:id="lg.5">
+                    <l n="17" xml:id="l.17"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4"> S<corr>z</corr>űntelen egy mást
+                                kővetik,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">Sűntelen; <del corresp="corrector"
+                                    >kővetek</del><add corresp="corrector" type="corr"
+                                >kővetik</add></rdg>
+                        </app></l>
+                    <l n="18" xml:id="l.18">Egy nem múlván más adatik,</l>
+                    <l n="19" xml:id="l.19">Mint sebes njillal lőtetik,</l>
+                    <l n="20" xml:id="l.20"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Bus szivemet sebesitik.</lem>
+                            <rdg wit="#W1" xml:id="rdg.5"><del corresp="copyist"
+                                    >sebesitetik</del><add corresp="copyist" type="corr"
+                                    >sebesitik</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="6" xml:id="lg.6">
+                    <l n="21" xml:id="l.21">Jai nékem, szeginy fejemnek,</l>
+                    <l n="22" xml:id="l.22">Nints segétőie igyemnek,</l>
+                    <l n="23" xml:id="l.23">Sem szánója inségemnek,</l>
+                    <l n="24" xml:id="l.24">Igy kell mulni életemnek.</l>
+                </lg>
+                <lg n="7" xml:id="lg.7">
+                    <l n="25" xml:id="l.25">Sok zokogással óráim<note type="critic" xml:id="note.3"
+                            >Vö. <persName>Beniczky Péter<idno type="ITIdata"
+                                >Q41111</idno></persName><title>A’ szerencsének tündéres mi
+                                vóltárúl</title> c. versének 1. strófájával: „Ohajtással zokogással
+                            folynak oráim.” (<bibl><abbr>RMKT XVII/12.</abbr> 76. sz.
+                            123.</bibl>)</note></l>
+                    <l n="26" xml:id="l.26">Folynak, jai, meg unt napjaim,</l>
+                    <l n="27" xml:id="l.27">Buval telljes esztendeim</l>
+                    <l n="28" xml:id="l.28"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Múlnak, s újúlnak sebeim.</lem>
+                            <rdg wit="#W1" xml:id="rdg.6"><del corresp="copyist">es<add
+                                        corresp="corrector" type="insert">-</add>újúlnak</del><add
+                                    corresp="copyist" type="corr">s újúlnak</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="8" xml:id="lg.8">
+                    <l n="29" xml:id="l.29">Az idők múlásivalis,</l>
+                    <l n="30" xml:id="l.30">Kőnyebségem akar hol is</l>
+                    <l n="31" xml:id="l.31">Nints, s ront, veszt sok bum, jai, mégis,</l>
+                    <l n="32" xml:id="l.32">El fogjot reménségem is.</l>
+                </lg>
+                <lg n="9" xml:id="lg.9">
+                    <l n="33" xml:id="l.33">Békességes tűrés kell hát,</l>
+                    <l n="34" xml:id="l.34">Meljel vigasztallya magát</l>
+                    <l n="35" xml:id="l.35">Bus szivem, szomoruságát,</l>
+                    <l n="36" xml:id="l.36"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Bizza Istenre fájdalmát.</lem>
+                            <rdg wit="#W1" xml:id="rdg.7"><add corresp="corrector" type="insert"
+                                    >fájdalmát</add></rdg>
+                        </app></l>
+                </lg>
+                <lg n="10" xml:id="lg.10">
+                    <l n="37" xml:id="l.37">Véget vetek verseimnek,<note type="critic"
+                            xml:id="note.4">Vö. a <hi rend="italic">Balassa-k.</hi><hi rend="italic"
+                                >Czudalatos nagi banattia sziuemnek</hi> kezdetű énekének 6.
+                            strófájával: „Veget vettek siralmas panaszomnak, (uagi szomnak)”
+                                    (<bibl><abbr>RMKT XVII/3.</abbr> 26. sz.</bibl>), valamint
+                                <persName>Beniczky Péter<idno type="ITIdata"
+                                >Q41111</idno></persName><title><hi rend="italic">Bé-fejezése ez
+                                    verseknek</hi></title> c. versének 1. strófájával: „Veget vetek
+                            immár csekély rithmusimban” (<bibl><abbr>RMKT XVII/12.</abbr> 86. sz.
+                                216.</bibl>).</note></l>
+                    <l n="38" xml:id="l.38">Mert nints bennek bus szivemnek,</l>
+                    <l n="39" xml:id="l.39">Vigasztalása lelkemnek,</l>
+                    <l n="40" xml:id="l.40">Sőt áradása kőnyvemnek.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

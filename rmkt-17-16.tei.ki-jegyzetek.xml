@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Koháry István</title>
+                <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                            type="ITIdata">Q147413</idno></persName><persName><surname>S.
+                            Sárdi</surname><forename>Margit</forename><idno type="ITIdata"
+                            >Q59946</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-jegyzetek</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-jegyzetek.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">KOHÁRY ISTVÁN</head>
+                <div xml:id="d.2">
+                    <head type="title">ÉLETE</head>
+                    <note type="critic" xml:id="note.2">Elhunyt kollégánk és barátunk,
+                            <persName>Komlovszki Tibor<idno type="ITIdata">Q147413</idno></persName>
+                        még meg tudta írni a Koháry-életrajz egy részét. Az általa írt teljes
+                        szöveget beépítettük a jegyzetekbe, s dőlt betűs szedéssel jeleztük.</note>
+                    <note corresp="xml-editor">A digitális kiadásban a <persName>Komlovszki
+                            Tibor</persName> által írt részeket dőlt szedés helyett az adott szakasz
+                        végére helyezett jegyzetben, a szakasz kezdetének megadásával és [K.T.]
+                        rövidítéssel jelöljük.</note>
+                    <p xml:id="p.129"><date when="1649-03-12">1649. március 12-én</date> született
+                                <placeName>Csábrág<idno type="ITIdata">Q18587</idno></placeName>
+                            várában.<note corresp="xml-editor">1649. március... - [K.T.] </note>
+                            (<persName>Toldy Ferenc<idno type="ITIdata">Q151328</idno></persName>,
+                        majd nyomában mások <date when="1649-03-11">március 11-ét</date> jelölték
+                        meg születése napjaként, ez azonban saját feljegyzéséből ismert adat, így
+                        nem vitatható. L. <bibl><hi rend="smallcaps">Thaly Kálmán</hi>: <title>Gr.
+                                Koháry István naptári jegyzeteiből</title>. <abbr>TT</abbr> 1878.
+                            400.</bibl>) Apja báró <persName>K. István<idno
+                                corresp="Koháry (I.) István" type="ITIdata"
+                            >Q155483</idno></persName> honti főispán és <placeName>Fülek<idno
+                                type="ITIdata">Q16717</idno></placeName> várának kapitánya.<note
+                            corresp="xml-editor">Apja báró... - [K.T.] </note> E tiszteket <date
+                            from="1658">1658-tól</date>, illetve <date from="1657">1657-től</date>
+                        töltötte be; <date from="1647">1647-től</date><placeName>szécsényi<idno
+                                corresp="Szécsény" type="ITIdata">Q7338</idno></placeName>
+                        főkapitány. (L. <bibl><hi rend="smallcaps">Illésy János</hi>: <title>Gróf
+                                Koháry István élete és munkái</title>. Karcag 1885. 4.</bibl>) Anyja
+                        báró <persName>Balassa Judit</persName>. Koháry <date when="1712"
+                            >1712</date>. évi naptári jegyzeteiből tudjuk az ő és testvérei
+                        születésének pontos időpontját. A jegyzetek szerint szülei <date
+                            when="1648-01">1648 januárjában</date> kötöttek házasságot, lakodalmukat
+                                <placeName>Biccsén<idno corresp="Biccse" type="ITIdata"
+                            >Q8731</idno></placeName> rendezték. Hat gyermekük született: elsőként
+                                <persName>István<idno corresp="Koháry István"/><idno type="ITIdata"
+                                >Q46344</idno></persName> (<date when="1649">1649</date>), majd
+                                <persName>Judit<idno corresp="Koháry Judit"/></persName> (<date
+                            when="1650">1650</date>), <persName>Imre<idno corresp="Koháry Imre"
+                            /></persName> (<date when="1652">1652</date>), <persName>Farkas<idno
+                                corresp="Koháry Farkas"/></persName> (<date when="1654"
+                        >1654</date>), <persName>János<idno corresp="Koháry János"/></persName>
+                            (<date when="1657">1657</date>) és <persName>Gábor<idno
+                                corresp="Koháry Gábor"/></persName> (<date when="1659">1659</date>).
+                                (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: I. m. <abbr>TT</abbr>
+                            1878. 400.</bibl>)<note corresp="xml-editor">Anyja báró... - [K.T.]
+                        </note> Hogy az idősebb <persName>Koháry Istvánnak<idno
+                                corresp="Koháry (I.) István" type="ITIdata"
+                            >Q155483</idno></persName> lett volna második felesége
+                            <placeName>Újfalussy Judit</placeName> személyében, mint <persName><hi
+                                rend="smallcaps">Nagy Iván</hi><idno type="ITIdata"
+                            >Q249885</idno></persName> (<bibl><title>Magyarország családai.
+                                VI.</title> Bp. 1860. 289., 292.</bibl>) és nyomában mások állítják,
+                        tévedés éppúgy, mint az, hogy anyjának ez nem az első házassága volt. (L.
+                                <bibl><hi rend="smallcaps">Illésy János</hi>: <title>A költő Koháry
+                                szüleiről</title>. <abbr>Figy</abbr> 1887. 319–320.</bibl> L. még a
+                        család genealógiai táblázatát, <bibl>OSZK Quart. Hung. 2056.
+                        228a.</bibl>)</p>
+                    <p xml:id="p.130"><persName>Koháry</persName> a jezsuiták
+                                <placeName>nagyszombati<idno corresp="Nagyszombat" type="ITIdata"
+                                >Q14207</idno></placeName> kollégiumában kezdte tanulmányait. Az
+                        ELTE rektori levéltárában őrzött anyakönyv szerint <date when="1660"
+                            >1660-ban</date> iratkozott be: „Anno Dni 1660., 22. martij sequentes
+                        inseripti sunt: […] Stephanus Koháry L. Baro principista.” (Közölte
+                                <bibl><hi rend="smallcaps">Gálos Rezső</hi>: <title>Adat Koháry
+                                István életrajzához</title>. <abbr>ItK</abbr> 1934.
+                            195.</bibl>)<note corresp="xml-editor">Koháry a jezsuiták... - [K.T.]
+                            </note><persName>Nagy Iván<idno type="ITIdata">Q249885</idno></persName>
+                        szerint <date when="1661-03-22">1661. március 22-én</date>, <persName>Vékony
+                                István<idno type="ITIdata">Q285759</idno></persName> szerint <date
+                            when="1662">1662-ben</date> elnyerte a honti főispánságot. (<bibl><hi
+                                rend="smallcaps">Vékony István</hi>: <title>Koháry István gróf
+                                élete, tekintettel a kecskeméti kegyesrendi társház és gimnázium
+                                alapítására</title>. Kecskemét é. n. 3.</bibl>) Tanulmányait a
+                                <placeName>bécsi<idno corresp="Bécs" type="ITIdata"
+                            >Q99</idno></placeName> egyetemen folytatta: bölcseletet, teológiát
+                        tanult. <date when="1663">1663-ban</date><persName>Zrínyi Miklós<idno
+                                type="ITIdata">Q247373</idno></persName> meglátogatta az egyetemet,
+                        s az intézet nevében az ifjú Koháry köszöntötte. (<bibl><hi rend="smallcaps"
+                                >Komárik István</hi>: <title>Gróf Koháry István élete</title>.
+                            Kalocsa 1891. 6.</bibl>)<note corresp="xml-editor">Tanulmányait a
+                            bécsi... - [K.T.] </note> Mindkét helyen együtt tanult testvéreivel,
+                                <persName>Farkassal<idno corresp="Koháry Farkas"/></persName>,
+                                <persName>Imrével<idno corresp="Koháry Imre"/></persName> és talán
+                                <persName>Jánossal<idno corresp="Koháry János"/></persName>.
+                                (<persName>Imrét<idno corresp="Koháry Imre"
+                                /></persName><placeName>Nagyszombatban<idno corresp="Nagyszombat"
+                            /></placeName>, <persName>Farkast<idno corresp="Koháry Farkas"
+                            /></persName><placeName>Bécsben<idno corresp="Bécs"/></placeName> maga
+                        említi leveleiben, l. <bibl><hi rend="smallcaps">Thaly Kálmán</hi>:
+                                <title>Koháry István tanuló-kori leveleiből</title>.
+                                <abbr>Száz</abbr> 1876. 386., 388.</bibl><persName>Jánost<idno
+                                corresp="Koháry János"/></persName><persName><hi rend="smallcaps"
+                                >Illésy János</hi><idno type="ITIdata">Q160794</idno></persName>
+                        nevezi meg, <bibl>i. m. 9.</bibl>) A tanulás nem kevés költségbe
+                        kerülhetett, annál is inkább, minthogy az ifjú Koháry igencsak ügyelt rá,
+                        hogy ruházatában, fölszereltségében el ne maradjon a vele együtt ott tanuló
+                        főúri ifjaktól. <date when="1664"
+                                >1664-ben</date><placeName>Nagyszombatban<idno corresp="Nagyszombat"
+                            /></placeName> paripákat kért maguknak húsvétra apjuktól, mivel az ott
+                        időző Zichy, Erdődy, Pethő fiúknak is van: „ha Ngod nékünk nem küld: csak
+                        magunknak kell az több úrfiak mellett lokajokká lennünk. […] ha őnekiek
+                        békességes földön (Dunántúl és Kassa táján) neveltetteknek vagyon paripájok:
+                        sokkal illendőbb, hogy nekünk, szegény pusztaiaknak légyen.” Bécsi
+                        disputációjára „szép és böcsületes köntöst” kér édesanyjától: „hogy mind ő
+                        Fölsége s mind több itt lévő nagy grófok s hercegek előtt böcsülettel
+                        compareálhassak, s magamnak böcsületet, mind nevemnek akarván nyerni, ne
+                        essek gyalázatba.” Másutt is igényli a rangos ellátást: „minthogy immár
+                        bizony az gyermeki esztendőkbül kiköltem: többet reám, hogysemmint eddig,
+                        költeni ne nehezteljen”; „Az kardot az lódinggal és szablyát tarsollyal
+                        együtt Ngodnak alázatossan megköszönvén, meg igyekezem szolgálni, és hogy
+                        rólam el nem feledkezvén, négy aranyat is küldött, alázatossan köszönöm
+                        Ngodnak; csakhogy bizony Ngod az négyhez bár még négyet tett volna: mert
+                        bizony mint mégyen itt Bécsben embertül az pénz, csak az tudja, az ki
+                        próbálja s próbálta! […] Ngod azért ennekutánna ne vonja meg magát annyira
+                        tőlem, hanem gyakrabban látogasson, s 20 s 25 tallérocskát méltóztassék
+                        költségünkre küldeni.” (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: I. m.
+                                <abbr>Száz</abbr> 1876. 385., 387.</bibl>) Koháry apja <date
+                            when="1664">1664-ben</date><placeName>Léva<idno type="ITIdata"
+                                >Q16567</idno></placeName> mellett egy törökök ellen indított
+                        (egyébként sikeres) rohamban életét vesztette.<note corresp="xml-editor"
+                            >Koháry apja... - [K.T.] </note> (<date when="1664-07-19">Július
+                            19-én</date>; <bibl><hi rend="smallcaps">Komárik István</hi> i. m.
+                            7.</bibl> szerint ez akkor történt, amikor fia 19 éves volt, ez azonban
+                        tévedés.) Koháry <date when="1713">1713-ban</date> kápolnát emeltetett
+                        apjának mind a sebesülése, mind a megtalálása helyén. (<bibl><hi
+                                rend="smallcaps">Haiczl Kálmán</hi>: <title>A garamszentbenedeki
+                                apátság története</title>. Bp. 1913. 76.</bibl>) Hat nap múlva,
+                            <date when="1664-07-25">1664. július 25-én</date><persName>Lipót<idno
+                                corresp="I. Lipót" type="VIAF">VIAF:54156429</idno></persName> a
+                        tizenöt éves fiút apja helyére kinevezte füleki várkapitánynak; tanulmányai
+                        idejére <persName>Unger Márton</persName> a helyettese. (<bibl><hi
+                                rend="smallcaps">Illésy János</hi>: I. m. 10.</bibl>) Ugyanezen
+                            <date when="1664-10">1664. év októberében</date> húgát,
+                                <persName>Juditot<idno corresp="Koháry Judit"
+                            /></persName><persName>Széchy Mária<idno type="ITIdata"
+                            >Q160372</idno></persName> férjhez adta <persName>Barkóczy
+                                Györgyhöz<idno corresp="Barkóczy György"/></persName>. Bizonyára
+                        ekkortájt Koháry <placeName>Szécsény<idno type="ITIdata"
+                            >Q7338</idno></placeName> kapitányságát is megörökölte apjától, bár erre
+                        vonatkozó adatunk jóval későbbi. (<date when="1690-02-17">1690. február
+                            17-én</date><placeName>Szécsény</placeName> várkapitányaként ír levelet.
+                                [<bibl><hi rend="smallcaps">Kőnig Kelemen</hi>: <title>Hatszázéves
+                                ferences élet Szécsényben. 1332–1932.</title> Vác 1931.
+                        191.</bibl>])</p>
+                    <p xml:id="p.131">Az egyetemi évek alatt több disputációt tartott. Teológiából
+                        megszerezte a licenciátusi fokozatot. Első disputációját személyesen adta át
+                            <persName>I. Lipótnak<idno type="VIAF">VIAF:54156429</idno></persName>.
+                        Erről <date when="1666-08-20">1666. augusztus 20-án</date> anyjának írt
+                        levelében így számolt be: „Az disputatióm pediglen minthogy ma egy hete,
+                        Istennek hála, elég szerencséssel dob- és trombita-szó alatt végben ment:
+                        nem akartam elmúlatni, hogy Ngodnak is emblémámmal ne kedveskedném, ő
+                        Fölségének is magam bevittem s magam praesentáltam, – melyet ő Fölsége tűlem
+                        kedvessen vévén, kiváltképpen való gratiájában hogy meg fog tartani,
+                        megígérte, és ha Ngod gratiájábúl karácsonyra az egész metaphysicát is
+                        defendálhatnám: egy szép aranylánccal bizonyos dolog, hogy megajándékozna; s
+                        így, az mint írtam volt Ngodnak, s mind magam is megmondottam: az reménység
+                        meg nem csalt, mert az mit kévántam, csak Ngod akarja, meglészen. ”
+                                (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: I. m.
+                                <abbr>Száz</abbr> 1876. 390.</bibl>) A második disputáció is
+                        hamarosan elkészült, azt is <persName>Lipótnak<idno corresp="I. Lipót"
+                            /></persName> ajánlotta, s még <date when="1666">1666-ban</date>
+                        megkapta az annyira óhajtott, 200 aranynál is súlyosabb aranyláncot.<note
+                            corresp="xml-editor">Az egyetemi évek alatt... - [K.T.] </note> (A már
+                        idézett levélben így érvelt anyjának: „kévánja-é ezen következendő
+                        tisztességemet és együtt hasznomat is? Mert az minemű aranyláncokat szokott
+                        ő Fölsége azoknak adni, kik néki kétszer offerálnak theseseket: 200 aranynál
+                        is többet nyomnak. Igaz dolog, hogy bizony most is kévánnék Ngodtúl száz
+                        aranyat, mindazonáltal az én gratiámért resolválja Ngod magát, és ha
+                        tisztességemet nagyobbra böcsülli száz aranynál: többet ne írjon választúl
+                        levelemre, hanem hogy: kérésednek eleget teszek.”)</p>
+                    <p xml:id="p.132">Koháry <placeName>Bécsben<idno type="ITIdata"
+                            >Q99</idno></placeName> figyelemmel kísérte az udvari életet, de nem
+                        nézte jó szemmel a külsőségekben bővelkedő szórakozásokat. <persName>I.
+                                Lipót<idno type="VIAF">VIAF:54156429</idno></persName> kedves téli
+                        szánkózásairól így számolt be <date when="1667-01">1667 januárjában</date>
+                        anyjának írt levelében: „[…] itt csak az nagy szánkózásoknak adták magokat,
+                        s ő Fölsége is gyakran szánkózik, hol hetven s hol nyolcvan szebbnél szebb
+                        szánkókkal, s az császárnét, maga személye szerint hajtván az lovakat,
+                        utszárúl utszára hordozza, azonképpen az két húgait mindenkor utána viszik
+                        más, imperiumbeli hercegek, s azok után az udvarbéli fraicimmerek vitetnek
+                        mind az grófok által, kiváltképpen felcifrázott szánkókban; az bizonyos
+                        dolog, hogy méltó nézésre, s kívánnám, hogy Nagyságodnak úgy megírhatnám, az
+                        mint vagyon az dolognak mivolta; de minthogy csak ki se tudnám Nagyságodnak
+                        magyarázni az sok szánka s paripák ékesítő szerszámot: egyebet Nagyságodnak
+                        nem írhatok, hanem hogy csak az sok csörgő hangja miá sem tud ember mire
+                        figyelmezni, s éppen nem tudja: az tollakkal felékesített lovakat nézze-é,
+                        avagy az szánkán levő szép, mesterséges inasokat, avagy az szánkában levő
+                        fraicimmereket, szép köntöseit? Én mindazáltal ezeket immáron éppen az jó
+                        Béccsel együtt megúnván, Nagyságodat kérem alázatossan, várjon maga
+                        szolgálatjára!” (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: I. m.
+                                <abbr>Száz</abbr> 1876. 395.</bibl>)</p>
+                    <note corresp="xml-editor">Koháry Bécsben... - [K.T.] </note>
+                    <p xml:id="p.133"><date when="1667-11">1667 novemberének</date> elején
+                            <persName>Unger Márton</persName> meghalt. Koháry <date when="1667"
+                            >1667-ben</date> befejezte tanulmányait a <placeName>bécsi<idno
+                                corresp="Bécs"/></placeName> egyetemen, s hazatért.
+                                <persName>Lipót<idno corresp="I. Lipót" type="VIAF"
+                                >VIAF:54156429</idno></persName><placeName>Fülek<idno type="ITIdata"
+                                >Q16717</idno></placeName> várának főkapitányává nevezte ki. <date
+                            when="1671">1671-ben</date> a vár megerősítésére a haditanácstól kért
+                        segítséget. A kamara <date when="1672">1672-ben</date> 1500 forintot utalt
+                        ki erre a célra. (<bibl><hi rend="smallcaps">Nagy Iván</hi>: I. m. VI.
+                            291.</bibl>) <placeName>Fülek</placeName> kapitányaként hősi halált halt
+                        apját követve következetesen és sikeresen harcolt a török ellen, bár az
+                        udvar és <persName>Esterházy Pál<idno type="ITIdata"
+                            >Q144463</idno></persName> nádor is mérsékletre intette. A
+                                <placeName>bécsi<idno corresp="Bécs"/></placeName> udvar
+                        elkötelezett híve volt. <persName>Thököly Imre<idno type="ITIdata"
+                                >Q160737</idno></persName><date when="1678">1678-ban</date> több
+                        ízben is hiába igyekezett ügyének megnyerni. <persName>I. Lipót</persName>
+                        ezért <date when="1678-12-13">1678. december 13-án</date> írt levelével s
+                        egy aranyláncon függő arcképével ajándékozta meg. (<bibl><hi
+                                rend="smallcaps">Nagy Iván</hi>: I. m. VI. 291.</bibl>)<note
+                            corresp="xml-editor">1667-ben befejezte... - [K.T.] </note> Ez évben
+                                <persName>Thököly<idno corresp="Thököly Imre" type="ITIdata"
+                                >Q160737</idno></persName> ostrom alá vette <placeName>Füleket<idno
+                                corresp="Fülek"/></placeName> – az ekkor a Felvidék kulcsfontosságú
+                        végvára volt –, de utóbb elvonult. (<bibl><hi rend="smallcaps">Illésy
+                                János</hi>: I. m. 16.</bibl>)</p>
+                    <p xml:id="p.134"><date from="1675" to="1678">1675–1678</date> között elkísérte
+                                <placeName>római<idno corresp="Róma" type="ITIdata"
+                            >Q12590</idno></placeName> útjára <persName>Pongrácz György<idno
+                                type="ITIdata">Q79427</idno></persName><placeName>váci</placeName>
+                        püspököt mint kíséretének (<persName>Pongrácz Imre<idno type="ITIdata"
+                                >Q155178</idno></persName> és <persName>Ferenc<idno
+                                corresp="Pongrácz Ferenc" type="ITIdata">Q288428</idno></persName>,
+                            <persName>Esterházy Károly</persName> és mások) tagja. Az utazásról
+                            <persName>Pongrácz Imre</persName> írt latin nyelvű beszámolót.
+                            (<bibl>Egyetemi Könyvtár G. 179.</bibl> A kéziratot <hi rend="smallcaps"
+                            >Szelestei N. László</hi> ismertette, közölve egy részletét:
+                                <bibl><title>Pongrácz Imre leírása a Vatikánról az 1670-es évek
+                                végén</title>. Vigilia 1985. 623–630.</bibl>) Az úton szerzett
+                        élmények erősen befolyásolták Koháry verseinek képi világát.</p>
+                    <p xml:id="p.135"><date when="1681">1681-ben</date> tanácsos, majd ezredes; a
+                                <placeName>soproni<idno corresp="Sopron" type="ITIdata"
+                            >Q238</idno></placeName> országgyűlés idején kamarási kinevezést kapott.
+                                (<bibl><hi rend="smallcaps">Komárik István</hi>: I. m. 8.</bibl>;
+                                <bibl><hi rend="smallcaps">Vékony István</hi>: I. m. 5.</bibl>) Ezen
+                        az országgyűlésen, ahol <persName>Imre<idno corresp="Koháry Imre"
+                            /></persName> öccsével együtt jelent meg, <placeName>Füleket<idno
+                                type="ITIdata">Q16717</idno></placeName> egy építendő protestáns
+                        templom színhelyéül jelölték ki.</p>
+                    <p xml:id="p.136"><date from="1677">1677-től</date> kezdve próbálta
+                            <placeName>Füleket</placeName> újra erősíteni az erdélyi fejedelmi
+                        csapatok, majd <date from="1682">1682-től</date> a diadalmasan előrenyomuló
+                                <persName>Thököly<idno corresp="Thököly Imre" type="ITIdata"
+                                >Q160737</idno></persName> ellen. A várban tapasztalt
+                        fogyatkozásokra és hadai „füzetetlenségére” azonban több ízben is
+                        panaszkodnia kellett. (Például <date from="1660" to="1669">1660 és 1669
+                            között</date> a füleki katonák mindössze egyszer kaptak zsoldot. L.
+                                <bibl><hi rend="smallcaps">Pálmány Béla</hi>: <title>Végvárak Nógrád
+                                vármegyében a török kiűzése és az újratelepítés korszakában
+                                (1663–1703)</title>. Salgótarján 1986. [A Nógrád megyei múzeumok
+                            évkönyve XII.] 42.</bibl>) Valószínűleg nem sok segítséget kapott;
+                        ráadásul több ízben összeütközésbe került a vár életében érdekelt Heves és
+                        Nógrád vármegyei nemességgel, sorozatosan megsértve azok nemesi jogait.
+                                (<bibl><title>Koháry István levelei Esterházy Pál nádorhoz</title>.
+                            Közli <hi rend="smallcaps">Merényi Lajos</hi>. <abbr>TT</abbr> 1903.
+                            67–82., 232–252.</bibl>; <bibl><hi rend="smallcaps">Pálmány Béla</hi>:
+                            I. m. 43.</bibl>) Feszült volt a viszonya a protestáns nemességgel és
+                        katonasággal is.</p>
+                    <p xml:id="p.137">Az egyesült seregek <date when="1682-09">1682.
+                            szeptember</date> elején kezdték meg az ostromot, miután <date
+                            when="1682-09-02">2-án</date><persName>Apafi<idno
+                                corresp="I. Apafi Mihály"/><idno type="ITIdata"
+                            >Q140180</idno></persName> az erdélyi hadakkal megérkezett. A török
+                        hadakat <persName>Ibrahim</persName> budai pasa vezette. (<bibl><hi
+                                rend="smallcaps">Komárik István</hi> i. m. 9.</bibl> szerint az
+                        ostrom <date when="1682-08">augusztusban</date>, <bibl><hi rend="smallcaps"
+                                >Vékony István</hi> i. m. 8.</bibl> szerint <date when="1682-08-22"
+                            >augusztus 22-én</date> kezdődött.) <placeName>Füleket<idno
+                                type="ITIdata">Q16717</idno></placeName> ekkor négyezer magyar és
+                        német zsoldos védte. <date when="1682-09-04">Szeptember 4-én</date>
+                        háromnapi fegyverszünetet kötöttek; ezt Koháry többször is megsértette.
+                        Koháry anyja és sógornője, <persName>Koháry Farkasné (Hohen)Rechberg Mária
+                            Lujza</persName> igyekeztek rávenni <persName>Strassoldót<idno
+                                corresp="Karl Strassoldo"/></persName>, hogy mentse föl a várat, de
+                        sem ő, sem <persName>Caprara<idno corresp="Aeneas Antonius von Caprara"
+                                type="VIAF">VIAF:20432158</idno></persName> nem mozdult ki
+                            <placeName>Zólyomból</placeName>, az <persName>Esterházy<idno
+                                corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName>
+                        nádor által meghirdetett nemesi fölkelés eredménytelen maradt, s anyja nem
+                        tudta rávenni a saját jobbágyait sem, hogy segítsék meg. A várvédők
+                        hajlottak az egyezkedésre, a vár föladására, s ezt <date when="1682-09-08"
+                            >8-án</date> egy református pap útján megüzenték <persName>Apafinak<idno
+                                corresp="I. Apafi Mihály"/></persName>. <date when="1682-09-10"
+                            >Szeptember 10-én</date> Koháry tudta és akarata nélkül létrejött az
+                        egyezség. Az őrség (még a <persName>Thökölyhez<idno corresp="Thököly Imre"
+                                type="ITIdata">Q160737</idno></persName> nem csatlakozó része is)
+                        szabad elvonulást nyert, s elvihette értékeit, a várat azonban földúlták és
+                        fölrobbantották. <persName>Thököly<idno corresp="Thököly Imre"/></persName>
+                        a török bosszújától megmentette Koháryt azzal, hogy a pisztolyos-karabélyos
+                        főurat a tihája kíséretében maga vezette ki a várból; ám ezzel megkezdődött
+                        Koháry három évig tartó raboskodása. (<bibl><hi rend="smallcaps">Angyal
+                                Dávid</hi>: <title>Késmárki Thököly Imre</title>. Bp. 1888.
+                            272–275.</bibl>)</p>
+                    <p xml:id="p.138">A szakirodalom néhol felcserélte Koháry raboskodása
+                        színhelyeinek sorrendjét. Egyesek szerint <placeName>Fülek<idno
+                                type="ITIdata">Q16717</idno></placeName> eleste,
+                                <persName>Thököly<idno corresp="Thököly Imre"/></persName> kezére
+                        jutása után Koháryt megbilincselve <placeName>Munkács<idno type="ITIdata"
+                                >Q10841</idno></placeName> várába vitték, s később került
+                                <placeName>Regéc<idno type="ITIdata">Q350131</idno></placeName>
+                        várának börtönébe. Raboskodása színhelyeinek sorrendjéről maga Koháry is
+                        beszámolt, amikor szabadulása után, <date when="1685">1685-ben</date>
+                        lefestette magát. A festményt, amely Koháryt a börtönfalra akasztott
+                        rabvasával ábrázolja, a következő képaláírás kíséri: „Infoelici sorte
+                        captivitatis in pane et aquae perpessae in arcibus Regécz, Munkács, Tokaj,
+                        Patak, Ungvár triennio ulterius graviter pressus, non vero supressus,
+                        Stephanus Koháry. ” (Idézi <bibl><hi rend="smallcaps">Thaly Kálmán</hi>:
+                                <title>Adalékok a Thököly- és Rákóczi-kor
+                                irodalomtörténetéhez</title>. Pest 1872. I. 198.</bibl> A festmény a
+                        szentantali kastélyból került a Magyar Nemzeti Múzeumba.) Koháry
+                        raboskodásainak színhelyei kronológiai rendben:
+                        <placeName>Regéc</placeName>, <placeName>Munkács</placeName>,
+                                <placeName>Tokaj<idno type="ITIdata">Q9694</idno></placeName>,
+                                <placeName>Sárospatak<idno type="ITIdata">Q9045</idno></placeName>
+                        és végül <placeName>Ungvár<idno type="ITIdata"
+                        >Q10453</idno></placeName>.</p>
+                    <p xml:id="p.139"><persName>Gyöngyösi István<idno type="ITIdata"
+                            >Q152929</idno></persName><title>Rózsakoszorú</title>ját
+                                (<placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName><date
+                            when="1690">1690</date>) Koháry Istvánnak ajánlotta. Az ajánlólevélben
+                                <persName>Gyöngyösi<idno corresp="Gyöngyösi István"/></persName>
+                        érzékletesen számolt be <placeName>Fülek<idno type="ITIdata"
+                            >Q16717</idno></placeName> várának elestéről, Koháry raboskodásának
+                        körülményeiről: <placeName>Fülek</placeName> vára „az országnak egy erős
+                        bástyája, az vitézség’ és törvényes Tudomány Pállyáját űző Iffiaknak
+                        nevezetes Oskolája; egynéhány nemes vármegyéknek székes helye, sok Uri Fő és
+                        nemes rendeknek kedves hazája vala, és ez, az egyenetlenségnek gonosz férge
+                        miatt, illy véletlenül elvesze, porrá ’s hamuvá léve. Ez aránt lévő
+                        Nagyságod fájdalmas keserűsége ág-bogosodhatott abbúl is, hogy midőn mások,
+                        az Várnak Conditiós fel-adása után békességesen maradnának, Nagyságodnak
+                        annak lobogó üszögét jól meg sem engedék nézni, hanem szomorú szemlélésétül
+                        el-ragadván, elsőben Regécz, az-után Munkáts, Tokaj és Ung-váraiban vivék;
+                        és azokban esztendőknél tovább terjedő holnapok alatt, minden Társaságtúl
+                        magányosan rekesztő; konyhai mosadékra hozatott zavaros vízzel, Lovászok’
+                        praebendájára süttetett száraz kenyérrel sanyargató az mindenek
+                        szolgálattyára teremptetett napfényének világossátúl el-fogó: sovány ebédjét
+                        és tisztuló szükségét egy helyben végesztető: az levegő Égnek tikkanó
+                        reketségébül, az régi szemétnek nedves penyészszébűl származott dohossággal
+                        szédelegtető, és ugyan abból szaporán tenyésző szőke és barna Hangyáknak
+                        gyakor serkengetésekkel nyughatatlanitó, végre majd halálos betegséget
+                        nemző, és másféle sok nyomorúságokkal tellyes Rabságban tarták Nagyságodat.
+                        Az mellyben sok volt ugyan ennyiképpen lévő kesergetésének Tövise; de talám
+                        az sem volt a többinél gyengébben sértő, hogy azon kénos remeteségében az
+                        külső dolgokban, (a’ kiknek folyásátúl függhetet szabadulásának reménsége),
+                        semmit sem lehetet érteni Nagyságodnak.” (<bibl><title>Gyöngyösi István
+                                összes művei</title>. Kiad. <hi rend="smallcaps">Badics Ferenc</hi>.
+                            Bp. 1935. III. 12–13.</bibl>)</p>
+                    <note corresp="xml-editor">A szakirodalom néhol... - [K.T.] </note>
+                    <p xml:id="p.140"><placeName>Fülek<idno type="ITIdata">Q16717</idno></placeName>
+                        után Szitnya és <placeName>Csábrág<idno type="ITIdata"
+                            >Q18587</idno></placeName> is <persName>Thököly<idno
+                                corresp="Thököly Imre"/></persName> kezére került.
+                                <persName>Thököly<idno corresp="Thököly Imre"/></persName>
+                        megpróbálta a maga hűségére téríteni Koháryt, sikertelenül.
+                            <placeName>Regécen</placeName><persName>Szirmay Miklós</persName> volt a
+                        kapitány, s a szakirodalomban hagyományozódó megható leírás szerint
+                        meglehetősen szigorúan bánt vele; maga <persName>Zrínyi Ilona<idno
+                                type="ITIdata">Q61077</idno></persName><date when="1682-09-27">1682.
+                            szeptember 27-i</date> levelében kíméletre és illendő ellátásra
+                        szólította föl <persName>Szirmayt<idno corresp="Szirmay Miklós"
+                        /></persName>. (<bibl><title>Késmárki Thököly Imre naplói,
+                                leveleskönyvei</title>. Közli <hi rend="smallcaps">Thaly
+                            Kálmán</hi>. Bp. 1873. [<abbr>MHH</abbr> II. 24.] 59.</bibl>)</p>
+                    <p xml:id="p.141">Valószínűleg <date when="1683">1683</date> őszén Koháry
+                        rávette őreit, hogy vele együtt szökjenek el; négynapi bolyongás után
+                        azonban egy Thököly-párti faluban újra elfogták őket. Segítőjeként a
+                        szakirodalom <persName>Tokaji Nagy Ferenc</persName> gyaloghadnagyot nevezi
+                        meg, aki később, <date when="1697">1697-ben</date> a felkelés
+                        résztvevőjeként <date when="1697-06-01">június 1-jén</date> csellel
+                        elfoglalta <placeName>Tokajt<idno type="ITIdata">Q9694</idno></placeName> és
+                                <placeName>Sárospatakot<idno type="ITIdata"
+                        >Q9045</idno></placeName>, utóbb azonban fogságba esett, és halálra ítélték;
+                        ekkor <persName>Nagy Ferenc<idno corresp="Tokaji Nagy Ferenc"/></persName>
+                        Koháryhoz fordult segítségért, emlékeztetve őt
+                            <placeName>Regécen</placeName> nyújtott segítségére. A bizonyítékként
+                        használt levélszöveg interpretálása azonban kérdéses. A szóban forgó részlet
+                        így szól: „Jusson az Méltóságos Gróffnak kegyelmessen esziben: a midön Ngod
+                        Regíc várában lévén fogva, én voltam akkor az vár kapuján lévő gyalogságnak
+                        hadnagya, mely Ngodat vigasztaltam, és muzsikáltattam; megszabadulásának is
+                        én voltam oka, mely emberemet küldvén Ngodhoz, hogy Ngod órája már
+                        elérkezvén: szabadon bocsáttattassék le az várbúl. Emlékezzék meg én rólam
+                        is kglmes Úr, és ne felejtkezzék el rólam szegény szolgájáról, végyen
+                        emlékezetben. Ha pediglen valaha miben megbántottam Ngodat: légyen olly
+                        irgalmas és kegyelmes, bocsásson meg! várván én is mindennap az én kegyelmes
+                        császárunk ő Fölsége kegyelmes gratiáját és megszabadulásomnak napját, ki
+                        ennekelőtte is nem lévén ő Fölségének ellensége, sőtt ezután is kész vagyok
+                        életemet halállal megváltoztatnom. Kérem mindenek fölött Ngodat: tekéntsen
+                        szegény fogolyra, mively bizonyomra mondom – kit nem szükség Ngodnak eleiben
+                        terjesztenem – tudja Ngod, mint légyen az szegény rabnak állapotja; legyen
+                        valamel segítséggel – mert szegény vagyok – ezen emberem által […]”
+                                (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: <title>Adalékok
+                                Koháry István fogságának történetéhez</title>. <abbr>Száz</abbr>
+                            1870. 652–653.</bibl>) A szakirodalom ezt úgy magyarázza, hogy
+                            <persName>Tokaji Nagy Ferenc</persName> segített neki megszökni
+                        fogságából, s azzal egészíti ki, hogy valószínűleg Koháry eszközölte ki
+                        számára <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName> a
+                        kegyelmet azzal a feltétellel, hogy katolizál. („S Tokaji Nagy nem is
+                        csalatkozott, Koháry Bécsbe sietett, életét kikönyörögte […]” <bibl><hi
+                                rend="smallcaps">Illésy János</hi>: I. m. 26–27.</bibl>) Ám a szoros
+                        olvasás pusztán ennek a levélnek a szövegéből azt a következtetést sem
+                        engedi levonni, hogy <persName>Nagy Ferenc<idno corresp="Tokaji Nagy Ferenc"
+                            /></persName> segítette volna megszökni Koháryt, azt pedig, hogy az
+                        életéért fordult volna Koháryhoz, egyenesen kizárja. A levél szövege csak
+                        annyit árul el, hogy <persName>Nagy Ferenc<idno corresp="Tokaji Nagy Ferenc"
+                            /></persName>, aki Kohárynak rabságában muzsikával kedveskedett, saját
+                        embere révén értesítette őt a szabadulás bekövetkeztéről. A levél írásakor
+                        azonban a levélíró már várja a királyi kegyelmet, s Koháryhoz szegénysége
+                        miatt fordul „valamel segítségért”.</p>
+                    <p xml:id="p.142">A szökési kísérlet után, <date when="1683-12">1683
+                            decemberében</date> Koháryt átszállították <placeName>Munkácsra<idno
+                                type="ITIdata">Q10841</idno></placeName>. A hagyomány szerint sorsa
+                        ekkor fordult igazán rosszra: <persName>Radics András</persName> kapitány
+                        vasra verette, föld alatti tömlöcben őriztette, egy ideig kenyéren és vízen
+                        tartotta, nem kapott ruhát, nem beszélhetett senkivel, még pappal sem; az
+                        általa annyira kedvelt dohányzást is csak akkor engedélyezte, amikor az
+                        orvos úgy nyilatkozott, hogy annak elvonása megölné a rabot. Csupán
+                            <persName>Zrínyi Ilona<idno type="ITIdata">Q61077</idno></persName>
+                        próbált gondoskodni róla.</p>
+                    <p xml:id="p.143">Anélkül, hogy kisebbíteni akarnánk <persName>Koháry</persName>
+                        kitartásának értékét, lebecsülni átélt szenvedését, a szakirodalmat
+                        tanulmányozva látnunk kell, hogy az e század eleji szakirodalom olyan
+                        legendát formált Koháry élete és rabsága körül, amelynek csak bizonyos
+                        elemeit igazolják az egykorú források. (L. például <persName><hi
+                                rend="smallcaps">Vékony István</hi></persName>, <persName><hi
+                                rend="smallcaps">Komárik István</hi><idno type="ITIdata"
+                                >Q68221</idno></persName>, de főleg <bibl><hi rend="smallcaps">König
+                                Kelemen</hi>: <title>Koháry István (1649–1731)</title>.
+                                <abbr>KatSz</abbr> 1942. 266–271.</bibl> Vö. <bibl><hi
+                                rend="smallcaps">Thaly Kálmán</hi>: <title>Koháry István rabsága
+                                történetéhez</title>. <abbr>Száz</abbr> 1872. 238–259.</bibl>) Ennek
+                        egyik öröklődő eleme a <placeName>regéci<idno corresp="Regéc"/></placeName>
+                        szenvedés, <persName>Szirmay<idno corresp="Szirmay Miklós"/></persName>
+                        kegyetlensége. Koháry azonban <date when="1690-01-12">1690. január
+                            12-én</date> kelt levelében, amelyben fölöttébb udvariasan visszakéri
+                        tőle a fogságban tőle elkobzott 200 aranyát, egy ezüst- és egy rubinkövekkel
+                        ékesített aranyóráját, megjegyzi: százvalahány forintjának a százon felül
+                        eső részét nem kéri vissza, mivel abból Szirmay valamennyit számára
+                        kifizetett; emellett megköszöni „rabságában hozzá mutatott jóakaratját”: „Én
+                        ugyan, megvallom, inkább kívánok szolgálnom, mintsem kegyelmed kezénél
+                        maradott jovaim végett alkalmatlanságot szerzenem kegyelmednek […]”
+                                (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: I. m.
+                                <abbr>Száz</abbr> 1872. 256.</bibl>) Mind <placeName>Regécen<idno
+                                type="ITIdata">Q350131</idno></placeName>, mind utóbb szabad volt
+                        levelet írnia, édesanyjának, bátyjának és másoknak írt levelei, illetve az
+                        azokra küldött válaszlevelek szép számmal fennmaradtak. (<persName><hi
+                                rend="smallcaps">Thaly</hi><idno corresp="Thaly Kálmán"
+                                type="ITIdata">Q49735</idno></persName> e két közleményében a
+                        következő levelek érintik őt magát: <date when="1682-11-02">1682. nov.
+                            2-án</date><persName>Regécről</persName> írt anyjának; <date
+                            when="1684-04-25">1684. ápr. 25-én</date> anyja írt neki; <date
+                            when="1684-04-29">29-én</date><persName>Radics<idno
+                                corresp="Radics András"/></persName> átadta neki anyja levelét, s
+                        megküldte <persName>Thökölynek<idno corresp="Thököly Imre" type="ITIdata"
+                                >Q160737</idno></persName> felülvizsgálatra húgáét és
+                            <persName>Kürtösyét</persName>, valamint Koháry válaszlevelét anyjának s
+                        a sajátját Koháry anyjának; <date when="1685-01-11">1685. jan. 11-én</date>
+                        Koháry írt a kecskemétieknek; <date when="1685-04-04">ápr.
+                            4-én</date><persName>Sándor Gáspár</persName> megküldte, <date
+                            when="1685-04-12">12-én</date><persName>Koháry Farkas</persName>
+                        megkapta bátyja leveleit; <date when="1685-05-11">máj. 11-én</date>
+                        megérkezett <persName>Farkas<idno corresp="Koháry Farkas"/></persName>
+                        levele bátyjának <placeName>Munkácsra<idno type="ITIdata"
+                            >Q10841</idno></placeName>, az válaszolt; <date when="1685-05-13">máj.
+                            13-án</date><placeName>Munkácsról</placeName> Koháry levelet írt
+                        válaszul <persName>Esterházy Zsigmond</persName><date when="1685-02-10"
+                            >febr. 10-i</date> levelére; <date when="1685-06-17">jún. 17-én</date>
+                        és <date when="1685-06-20">20-án</date> ifj. <persName>Zichy István<idno
+                                type="ITIdata">Q50641</idno></persName> írt neki levelet.)
+                        Hasonlóképpen nem igazolható pletyka, hogy <persName>Thököly<idno
+                                corresp="Thököly Imre"/></persName> meg akarta gyilkoltatni. (A
+                                <placeName>regéci<idno corresp="Regéc"/></placeName> bánásmód
+                        valójában emberségesebb jellegére s a költői szerepjátszás imázsformáló
+                        hatására már <persName><hi rend="smallcaps">Varga Imre</hi></persName>
+                        figyelmeztetett: <bibl><title>Megjegyzések Szigeti Csaba „Appendix
+                                Balassiana” c. dolgozatához</title>. <abbr>ItK</abbr> 1986.
+                            96.</bibl>)</p>
+                    <p xml:id="p.144"><persName>Thököly<idno corresp="Thököly Imre"/></persName>
+                        helyzete <date when="1685">1685-ben</date> megnehezült; a szakirodalom
+                        szerint ekkor kisebb enyhítéseket tett Koháry rabsága feltételeiben
+                        (levétette a bilincset, engedélyezte a meleg ételt, a beszélgetést, a
+                        levelezést – mint láttuk, ez utóbbi nem kötődik <date when="1685"
+                            >1685-höz</date>), és hajlandónak mutatkozott szabadon bocsátani is,
+                        cserébe nyolc kuruc fogolyért. <persName>Koháry
+                                Farkas</persName><placeName>Bécsben<idno type="ITIdata"
+                            >Q99</idno></placeName>, <persName>Lipótnál<idno type="VIAF"
+                                >VIAF:54156429</idno></persName> eszközölte ki a fogolycserét. A
+                        fölajánlott szatmári cserefoglyok azonban nem elégítették ki
+                                <persName>Thökölyt<idno corresp="Thököly Imre"/></persName>, a
+                        nagyobb biztonság végett <placeName>Tokajba<idno type="ITIdata"
+                            >Q9694</idno></placeName>, <date when="1685-09">szeptember</date>
+                        közepén <placeName>Sárospatakra<idno type="ITIdata"
+                        >Q9045</idno></placeName>, <date when="1685-10-25">október 25.</date> körül
+                                <placeName>Ungvárra<idno type="ITIdata">Q10453</idno></placeName>
+                        vitette át előkelő foglyát. Ekkor már vendéget is fogadhatott. A
+                            <placeName>váradi</placeName> fogság megrendítette
+                                <persName>Thököly<idno corresp="Thököly Imre"/></persName>
+                        helyzetét, s hívei tömegesen tértek át a császár hűségére. A
+                                <persName>Caprara<idno corresp="Aeneas Antonius von Caprara"
+                                type="VIAF">VIAF:20432158</idno></persName> tábornok által körülzárt
+                            <placeName>Ungvár</placeName> védői nem tartottak ki; maga Koháry
+                        közvetítette a megegyezést <persName>Caprarával<idno
+                                corresp="Aeneas Antonius von Caprara"/></persName> folytatott
+                        levelezésében. <date when="1685-11-06">November 6-án</date> a vár császári
+                        kézre került, és Koháry végre kiszabadult. <persName>János<idno
+                                corresp="Koháry János"/></persName> öccse, aki ugyancsak mintegy
+                        három évet töltött el <persName>Thököly<idno corresp="Thököly Imre"
+                            /></persName> rabságában <placeName>Makovica<idno type="ITIdata"
+                                >Q14695</idno></placeName> (Makovice, Mákos, Sáros vm.) várában
+                                (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: Adalékok. I.
+                            192.</bibl>), a vár <date when="1685-10-13">október 13-i</date>
+                        elfoglalásával szabadult ki. Szabadulásuk emlékét közös festmény örökítette
+                        meg. (<bibl><hi rend="smallcaps">Thaly Kálmán</hi>: <title>Koháry-műemlékek
+                                a szentantali kastélyban</title>. <abbr>Száz</abbr> 1871.
+                        57.</bibl>)</p>
+                    <p xml:id="p.145">Kiszabadulása után Koháry <placeName>Bécsbe<idno
+                                type="ITIdata">Q99</idno></placeName> ment. <persName>Lipót<idno
+                                corresp="I. Lipót"/></persName>, aki <date when="1685-07-15">július
+                            15-én</date> grófi címmel ruházta föl a testvéreket,
+                                <placeName>Fülek<idno type="ITIdata">Q16717</idno></placeName> várát
+                        örökös jogon Kohárynak ajándékozta. <persName>XI. Ince<idno type="VIAF"
+                                >VIAF:54261450</idno></persName> pápa dicsérő levéllel, díszkalappal
+                        és teljes búcsút adományozó brévével méltatta helytállását.</p>
+                    <p xml:id="p.146">Ettől kezdve pályája gyorsan ívelt fölfelé. A dunáninneni
+                        részek és a bányavárosok altábornoka; <placeName>Székesfehérvár<idno
+                                type="ITIdata">Q9555</idno></placeName> mellett sikeresen ütközött
+                        meg a törökkel. <date from="1686-08">1686 augusztusától</date> 2200 fős
+                        csapattal részt vett <placeName>Buda<idno type="ITIdata"
+                            >Q15957</idno></placeName> visszafoglalásában <persName>Lotharingiai
+                                Károly<idno type="VIAF">VIAF:30932910</idno></persName> mellett, s
+                        egy ideig a vár 2000 főnyi magyar őrségének parancsnoka volt (a 4000 főnyi
+                        német őrség parancsnoka <persName>Beck</persName> főőrmester, l. <bibl><hi
+                                rend="smallcaps">Vékony István</hi>: I. m. 20</bibl>; <bibl><hi
+                                rend="smallcaps">Illésy János</hi>: I. m. 38.</bibl>). Az ostromra
+                                <persName>Farkas<idno corresp="Koháry Farkas"/></persName> öccse
+                        vezette a Nógrád és Hont vármegyei nemességet. <date when="1686-11"
+                            >Novemberben</date> részt vett <placeName>Eger<idno type="ITIdata"
+                                >Q277</idno></placeName> ostromában. Itt súlyos sebesülés érte: jobb
+                        karcsontja szétroncsolódott. Sebe rosszul gyógyult, s a
+                                <placeName>bécsi<idno corresp="Bécs"/></placeName> műtét közben az
+                        orvos a mozgató int is átvágta, így jobb karja egész életére megbénult.</p>
+                    <p xml:id="p.147">Katonai pályafutásának vége szakadván egy ideig a gazdálkodás
+                        nyugalmas feladatával foglalkozott; <date when="1690">1690-ben</date>
+                        hozzákezdett a háborúkban elpusztult <placeName>Szécsény<idno type="ITIdata"
+                                >Q7338</idno></placeName>, <placeName>Balassagyarmat<idno
+                                type="ITIdata">Q18295</idno></placeName> és <placeName>Fülek<idno
+                                type="ITIdata">Q16717</idno></placeName> visszatelepítéséhez.
+                                (<bibl><hi rend="smallcaps">Pálmány Béla</hi>: I. m. 71.,
+                        72.</bibl>) <date when="1703">1703-ban</date> a Haditanács újra igénybe
+                        vette tanácsát és szolgálatkészségét: Koháry egy „magyar nemzeti militia”
+                        fölállítását javasolta a Felvidéken gyülekező lázadók ellen. <persName>I.
+                                Lipót<idno type="VIAF">VIAF:54156429</idno></persName> rendelkezése
+                        nyomán a Haditanács <date when="1703-08-06">augusztus 6-án</date> megbízta a
+                        Nógrád, Heves és Hont vármegyei verbuválással. <date when="1703-08-30"
+                            >Augusztus 30-án</date> altábornagyi rangot kapott. Anyagiak hiányában
+                        azonban a toborzás lassan haladt. <date when="1703-10">Október</date>
+                        elejére <placeName>Szécsény</placeName> vára, majd sorra a
+                                <placeName>csábrági<idno type="ITIdata">Q18587</idno></placeName>,
+                        szitnyai, <placeName>füleki<idno corresp="Fülek"/></placeName> uradalmak is
+                        kuruc kézre kerültek. Az összegyűjtött csapatokkal Koháry a Vág környékére
+                        vonult, ám <persName>Forgáchcsal</persName> együtt
+                            <placeName>Zólyom</placeName> mellé szorult, és <date when="1703-11-15"
+                            >november 15-én</date><persName>Bercsényi Miklós<idno type="ITIdata"
+                                >Q142311</idno></persName> és <persName>Károlyi Sándor</persName>
+                        vereséget mértek rájuk. Ettől kezdve nem töltött be nagyobb hadi irányító
+                        szerepet, inkább a békekötésen fáradozott. <date when="1704-10">1704
+                            októberében</date> a <placeName>selmecbányai</placeName> tárgyaláson
+                                <persName>Lipót<idno corresp="I. Lipót"/></persName> biztosa volt
+                            <persName>Széchényi Pál<idno type="ITIdata">Q247492</idno></persName>
+                        kalocsai érsek, <persName>Lamberg Zsigmond</persName>, <persName>Szirmay
+                                István<idno type="ITIdata">Q160974</idno></persName>,
+                            <persName>Okolicsányi Pál<idno type="ITIdata">Q252394</idno></persName>
+                        és <persName>Viza János</persName> mellett. Emellett tetemes összegeket
+                        kölcsönzött a királynak a háború céljára, huszárcsapatot szerelt föl a maga
+                        költségén. A kuruc előretörés érzékeny veszteségeket okozott neki, az <date
+                            when="1707">1707</date>. évi <placeName>ónodi</placeName> országgyűlés
+                        után birtokait szétosztották, <placeName>Csábrág<idno type="ITIdata"
+                                >Q18587</idno></placeName> vára <persName>Bercsényi<idno
+                                corresp="Bercsényi Miklós"/></persName>, <placeName>Fülek<idno
+                                type="ITIdata">Q16717</idno></placeName><persName>Esterházy
+                            Dávid</persName> kezébe került.
+                            (<placeName>Csábrágot</placeName><persName>Pálffy János<idno
+                                type="ITIdata">Q249871</idno></persName> foglalta vissza csellel
+                            <date when="1709">1709-ben</date>.) <date when="1709">1709</date>–<date
+                            when="1710">1710-ben</date><persName>Esterházy Pál<idno type="ITIdata"
+                                >Q144463</idno></persName> javaslatára <placeName>Lékán</placeName>
+                        élt. (<hi rend="smallcaps">Thaly Kálmán</hi>: I. m. TT 1878. 400.) <date
+                            when="1711">1711-ben</date> Hont vármegye örökös főispánja lett, a
+                        Nógrád vármegyei főispánság pedig, amelyet <date from="1665">1665</date> óta
+                        birtokolt, családjában örökletessé vált. A trónra lépő <persName>III.
+                            Károly</persName> szintén sietett kimutatni királyi háláját: <date
+                            when="1712">1712</date> végén – elpusztított birtokaira való tekintettel
+                        – teljes főtábornoki fizetéssel biztosította nyugdíját.</p>
+                    <p xml:id="p.148">A következő éveket a közigazgatásban való részvétellel
+                        töltötte. <date when="1714-10-18">1714. október 18-án</date> a pozsonyi
+                        országgyűlésen titkos tanácsossá, <date when="1714-12-29">december
+                            29-én</date> pedig a nádorságban <persName>Esterházy Pált<idno
+                                type="ITIdata">Q144463</idno></persName> követő <persName>Pálffy
+                                Miklós<idno type="ITIdata">Q155544</idno></persName> helyére
+                        országbíróvá nevezték ki. Minthogy azonban jobb keze bénulása miatt
+                        aláírásával nem tudta hitelesíteni az okiratokat, külön törvénycikk
+                        hatalmazta föl arra, hogy aláírás helyett névbélyegzőt használjon az
+                        okiratokon. (<bibl><hi rend="smallcaps">Czobor Alfréd</hi>: <title>AZ első
+                                hazai hivatalos névbélyegző</title>. <abbr>MKsz</abbr> 1926. 133–
+                            138.</bibl>) <date when="1715">1715-től</date> tagja annak a
+                        bizottságnak, amely a protestáns vallásgyakorlás jogtalan kiterjesztését
+                        ellenőrizte; elnöke annak a Morva vidéki küldöttségnek, mely az ország
+                        határvonalát volt hivatva helyreállítani; részt vett a német katonaság
+                        elleni panaszokat vizsgáló, a politikai, katonai, gazdasági ügyeket intéző
+                        bizottságokban. <date when="1720">1720-ban</date> a Rákóczi-szabadságharc
+                        idején nyújtott kölcsöneiért megvásárolhatta a <placeName>murányi<idno
+                                corresp="Murány" type="ITIdata">Q18222</idno></placeName> várat és
+                        uradalmat. A húszas évektől azonban fokozatosan visszavonult a közügyektől;
+                        művei rendezgetésével, kiadásával foglalkozott, a
+                                <placeName>szentantali<idno corresp="Szentantal" type="ITIdata"
+                                >Q6921</idno></placeName> kastélyt és kápolnát építtette, egyházi
+                        intézményeket pártolt és istápolt; a katolikus egyház (szerzetek, iskolák)
+                        támogatására mintegy 600 000 forintnyi összeget fordított. (<bibl><hi
+                                rend="smallcaps">Vékony István</hi>: I. m. 27–28.</bibl>) Egyebek
+                        közt a <placeName>kecskeméti<idno corresp="Kecskemét" type="ITIdata"
+                                >Q2611</idno></placeName> piarista gimnázium alapítója, a
+                                <placeName>váci<idno corresp="Vác" type="ITIdata"
+                            >Q18239</idno></placeName> ferences kolostor építtetője, a
+                                <placeName>nagyszombati<idno corresp="Nagyszombat" type="ITIdata"
+                                >Q14207</idno></placeName> iskola, a
+                            <placeName>debreceni</placeName> piarista convictus pártfogója.
+                        Adományaiból főként a bencések, a ferencesek és a piaristák részesültek.
+                        Vallásos buzgósága a protestáns felekezetek vallásgyakorlásának korlátozását
+                        is magában foglalta. Az artikuláris helyként megnevezett
+                                <placeName>Füleken<idno type="ITIdata">Q16717</idno></placeName>,
+                        ahol a reformátusok <date when="1693">1693-ban</date> megengedték a
+                        visszaköltöző ferenceseknek, hogy azok az ő, sikerrel megóvott harangjaikkal
+                        harangozzanak, Koháry a ferenceseknek fogta pártját, amikor azok maguknak
+                        követelték e harangokat. A két fél huzavonájának, pereskedésének az vetett
+                        véget, hogy Koháry <date when="1702">1702-ben</date> királyi jóváhagyást
+                        szerzett ahhoz, hogy a harangokat a szerzeteseknek adja; a két protestáns
+                        egyház prédikátorait templomaikból kiűzte. Egyikük, a református
+                            <persName>Veresmarti Miklós</persName><placeName>Budára<idno
+                                corresp="Buda" type="ITIdata">Q15957</idno></placeName> került
+                        fogságba. <placeName>Balassagyarmaton<idno type="ITIdata"
+                            >Q18295</idno></placeName> az evangélikusok <date to="1701"
+                            >1701-ig</date> szabadon gyakorolták vallásukat, s a
+                        Rákóczi-szabadságharc alatt saját adományaikból emeltek maguknak templomot,
+                        azt azonban a két földesúr, Koháry és sógornője, <persName>Jakussith
+                            Kata</persName><date when="1712">1712-ben</date> a katolikusoknak adta.
+                                (<bibl><hi rend="smallcaps">Pálmány Béla</hi>: I. m. 90.,
+                            93–94.</bibl> Hogy Koháry „buzgó katolikus létére türelmes és belátó a
+                        református vallás híveivel szemben”, ahogy <persName><hi rend="smallcaps"
+                                >Vékony István</hi></persName> állította [<bibl>i. m. 31.</bibl>],
+                        éppúgy a legendás aurea része, mint a jobbágyainak atyaian gondját viselő
+                        földesúr patriarkális idillje, amely a Tokaji Nagyepizód interpretálásában
+                        is megmutatkozott.)</p>
+                    <p xml:id="p.149">Utolsó éveit jobbára <placeName>Csábrágban<idno type="ITIdata"
+                                >Q18587</idno></placeName> élte le, öregségével és betegeskedésével
+                        küzdve. Rokonai sorra elhaltak mellőle: <date when="1691"
+                                >1691-ben</date><persName>János<idno corresp="Koháry János"
+                            /></persName>, <date when="1704">1704-ben</date><persName>Farkas<idno
+                                corresp="Koháry Farkas"/></persName> öccse, <date when="1711"
+                            >1711-ben</date> anyja, <date when="1718"
+                                >1718-ban</date><persName>Judit<idno corresp="Koháry Judit"
+                            /></persName> húga. <date when="1716">1716-ban</date>, <date when="1717"
+                            >1717-ben</date> és <date when="1719">1719-ben</date> rendre elesett
+                        vagy meghalt <persName>Farkas<idno corresp="Koháry Farkas"/></persName>
+                        öccsének három fia is. Minthogy <persName>Gábor<idno corresp="Koháry Gábor"
+                            /></persName> öccse ferences szerzetes lett, a Koháry nevet csak
+                                <persName>Farkasnak<idno corresp="Koháry Farkas"
+                                /></persName><persName>András<idno corresp="Koháry András"
+                            /></persName> nevű fia tartotta fenn (<date from="1694" to="1757"
+                            >1694–1757</date>), aki őt a Hont vármegyei főispánságban követte is.
+                        Utolsó heteinek leírását <persName>Judit<idno corresp="Koháry Judit"
+                            /></persName> húga vejének, <persName>Károlyi Sándornak<idno
+                                type="ITIdata">Q51626</idno></persName> köszönhetjük, aki
+                        leveleiben, valamint naplójában beszámolt állapotának romlásáról, a halála
+                        és temetése körül tett intézkedésekről, s végrendeletének végrehajtója is
+                        volt. <date when="1731-03-29">1731. március 29-én</date> jegyezte be
+                        naplójába: „méltóságos Judex Curiae gróf Koháry István délesti egy s két óra
+                        tájban holt meg életének 83. esztendejében.” (<bibl><title>Gróf Károlyi
+                                Sándor önéletírása és naplójegyzetei</title>. Kiad. <hi
+                                rend="smallcaps">Szalay Sándor</hi>. II. Pest 1865. [Magyar
+                            történelmi emlékek 5.] 12–13.</bibl>) A családját rendkívüli módon
+                        szerető és kiválóan összetartó <persName>Károlyi<idno
+                                corresp="Károlyi Sándor"/></persName> megütközve jegyezte meg fiának
+                        írt levelében: „De bizonyára álmélkodásra való, 12 napig agonizálván már, ma
+                        hatod napja, hogy megholt, mai napig is se egy jóakaró, de egy atyafi meg
+                        nem jelent […]. Tegnap az sógor Koháry András is elmene, egy fia s egy
+                        leánya változással lévén, maga sem szintén jól. A testamentum istenes, s
+                        mint szent István királyról mondgyák, jó király vala, csak hogy lelkében
+                        igen pápistás. Ez is csak az, kit notáltam, reá megyen pia fundatiókra, pium
+                        legatumokra egy millióra az dispositio, Familiájára pedig s Attyafiaira alig
+                        megyen 140 ezer forintra.” Gazdálkodására is tesz némi megjegyzést: „az
+                        jószágok iránt is sok homályt tött”; a hagyatékra is: „Koháry András sógor
+                        […] már szabadon mehet bele, s egész üresen nem találja, mert Pipát,
+                        Dohányt, Csizmát, Bocskort, Képet, Könyvet eleget talál benne.” Nincs jó
+                        véleménnyel a végrendeletben említett káptalanról sem: „Az olvasón való
+                        imádságtok legyen kedves Isten előtt, kit is continuállyatok, mert még
+                        relatio sem tétetődött az Cáptalanban s mind eddig sem intimáltatott az
+                        legatariusoknak, hogy imádkozzanak, az penig bizony intimatióra sem
+                        imádkozik, ha csak pénzt nem lát, azt pedig esztendeig nem lát, mert azt az
+                        Capitalissoknak interessét ez esztendőre András sógornak rendelte szegény Úr
+                        és így csak imádkozzatok!” (<bibl><hi rend="smallcaps">Éble Gábor</hi>:
+                                <title>Koháry István gróf végnapjai 1731-ben</title>.
+                                <abbr>ItK</abbr> 1895. 466–468.</bibl>)</p>
+                    <p xml:id="p.150"><date when="1731-04-11">Április
+                                11-én</date><placeName>Garamszentbenedeken<idno type="ITIdata"
+                                >Q23217</idno></placeName> temették el a bencések templomában lévő
+                        sírboltban. A MTAK Kézirattára őrzi egy róla írt latin nyelvű gyászbeszéd
+                        kéziratát. (<title><hi rend="italic">Dictio brevis funebris Honori et laudi
+                                concinnata Excellentissimi ac Illustrissimi Domini Domini Comitis
+                                Stephani Kohari Regiae Regni Ungariae Curiae pie in Domino Defuncti
+                                Supremi Iudicis</hi></title>, Vegyes 2° 19/I. 4° 2 levél.) Sírjáról
+                        képet közöl <hi rend="smallcaps">Haiczl Kálmán</hi> (<bibl>i. m. 34.</bibl>
+                        képmelléklet).</p>
+                </div>
+                <div xml:id="d.3">
+                    <head type="title">MŰVEI </head>
+                    <p xml:id="p.151"><persName>Koháry István<idno type="ITIdata"
+                            >Q46344</idno></persName> valószínűleg a fogságban érett költővé. Miután
+                        raboskodása idején szerzett verseit ciklusokba rendezte és lejegyezte,
+                        illetve leíratta, időről időre írt költeményeket. Ezek egy részét füzetek
+                        formájában kiadatta, más része kéziratban maradt. Számos kisebb verse,
+                        versrészlete őrződött meg egyéb formában (festmény felirataként, szobái
+                        falán bekeretezett bölcsességként stb., l. <bibl><hi rend="smallcaps">Thaly
+                                Kálmán</hi>: I. m. Száz 1871. 58.</bibl>).</p>
+                    <p xml:id="p.152">A <persName>Koháry<idno corresp="Koháry István" type="ITIdata"
+                                >Q46344</idno></persName> élete körül kialakult legendás aurea
+                        elemei közé tartozik, hogy müveit fejben kellett megalkotnia, mivel nem
+                        kapott az íráshoz papírt. Már az is valószínűtlen, hogy ekkora terjedelmű
+                        versszövegeket egy nem szájhagyományozó kultúrában felnőtt ember fejben
+                        tarthat, de maga Koháry egyik versében ezt írja: „minthogy az papirost
+                        szűkén s-ritkán kaptam” (51. sz. vers 14. vsz.); azaz ha szűkén és ritkán
+                        is, de kapott.</p>
+                    <p xml:id="p.153"><persName>Koháry<idno corresp="Koháry István" type="ITIdata"
+                                >Q46344</idno></persName> kijelentéseit nem szabad túlságosan
+                        komolyan vennünk. A versek datálásakor pedig éppenséggel nem. A börtönévek
+                        alatt készült versek tematikája, frazeológiája, képzetkincse, hangvétele,
+                        hangulata elválaszthatatlan a fogság évei „környezeti” hatásaitól. A versek
+                        tematikája is az elszigeteltség által meghatározott. Ezért nemigen
+                        tarthatjuk indokoltnak a börtönéveket idéző versekkel kapcsolatban, hogy
+                        azok keletkezésének idejét a nyomtatásban való megjelenés évéhez kössük.
+                            (<hi rend="smallcaps">Szigeti Csaba</hi> tett erre kísérletet:
+                                <bibl><title>Appendix Balassiana</title>. <abbr>ItK</abbr> 1985.
+                            677–678.</bibl>) A <persName>Thököly<idno corresp="Thököly Imre"
+                                type="ITIdata">Q160737</idno></persName> fogságában töltött időszak
+                        és a versek megjelenése közötti idő negyven év! Negyven éven át emlékezetben
+                        őrizni betű szerinti pontossággal az olykor igen terjedelmes versek
+                        szövegét, nem túlságosan valószínű. Börtönévei alatt (ha nem is a fogság
+                        kezdetén) leveleket írhatott családtagjainak, jobbágyainak, de másoknak is.
+                        A levelek írásához pedig papír és tinta is kellett. <persName>Varga
+                            Imre</persName> véleményét kell osztanunk, aki szerint Koháryt minden
+                        bizonnyal költői szerepjátszása ihlette a papiros és tinta nélkül szerzett
+                        versek elméjében való megőrzésének fikciójára. Nehezen képzelhető el
+                        ugyanis, hogy negyven év távolában, egy teljességgel más élethelyzet
+                        körülményei között írta (vagy diktálta) volna le a nyolcvanas évek
+                        börtönlakójának magányos lelkivilágát oly érzékletesen idéző verseket. A
+                        versek tematikája, jellege, hangulata, sajátos álomvilága az <date
+                            from="1720" to="1729">1720-as években</date> már teljességgel
+                        időszerűtlen, érthetetlen és (főként) értelmetlen lett volna. (L. <bibl><hi
+                                rend="smallcaps">Varga Imre</hi>: I. m. <abbr>ItK</abbr> 1986.
+                            96.</bibl>)</p>
+                    <note corresp="xml-editor">Koháry kijelentéseit... - [K.T.] </note>
+                    <p xml:id="p.154">Művei egy részének kiadásáról maga gondoskodott. A sajtó alá
+                        rendezéskor kéziratos verseit átszerkesztette: megváltoztatta a címet,
+                        kicserélte a cím alá rendelt verset, meglévő versszövegeket kiemelt,
+                        összevont vagy szétválasztott, ajánló verseket írt a kegyes olvasónak.
+                        Sajátos módon a kronosztichonokat kedvelő és fölös számban író költő az
+                        akrosztichon megőrzéséhez nem ragaszkodott.</p>
+                    <p xml:id="p.155">Életében kinyomtatott magyar nyelvű művei a következők:</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.156">1. <hi rend="bold">Sok ohaItás közben Inség VIseLésben éhség
+                            szenVeDésben keserVes rabságban MVnkáCs köVárában szerzet Versek</hi>.
+                        H. n. <date when="1720">1720</date>.</p>
+                    <p xml:id="p.157">A kronosztichon értéke <date when="1683">1683</date>. A címet
+                        záró kétsoros vers szövegében <date when="1720">1720-at</date> ír, de
+                        kronosztichonja <date when="1718">1718-at</date> ad. A nyomtatvány öt
+                        füzetből áll:</p>
+                    <p xml:id="p.158">A. [ÜDönk MÚLására bÚnk táVoztatására VerseInket kohoLLYVk.]
+                        Az első címlevelekkel együtt A4–G4.</p>
+                    <p xml:id="p.159">A kronosztichon értéke <date when="1682">1682</date>. A
+                        nyomtatványban ez a cím az <hi rend="italic">Untalan sohajtva s-Istenhez
+                            ohajtva enyhicsük sorsunkat…</hi> kezdetű vers címének látszik; a
+                        nyomtatvány verseinek lajstroma sem a címet, sem a 0-val jelzett lapon álló
+                        verset nem tartalmazza. A füzet többi verscíme azonban nem alkot
+                        kronosztichont, s azok kurzív betűkkel vannak szedve. Az alább ismertetendő,
+                        a szerzőtől származó, <bibl>OSZK Fol. Hung. 151.</bibl> jelzetű kéziratban
+                        ez a cím a ciklus címeként szerepel, s a kézirat ezt a verset nem is
+                        tartalmazza. Ez megengedi azt a föltételezést, hogy Koháry eredetileg
+                        cikluscímnek (füzetcímnek) szánta a címet, s szándékát a nyomtatvány
+                        előkészítésekor változtatta meg.</p>
+                    <p xml:id="p.160">A füzet 27 verset tartalmaz (kötetünkben: 15–41. sz. versek)
+                        az A2v–G3v (0-tól 50-ig számozott) lapokon. (Egy füzetet alkot az előző
+                        levelekkel a 41. versig bezárólag.)</p>
+                    <p xml:id="p.161">B. Az bÚ enYhöDésére, terhénekIs könnYebeDésére, á VagY, eL
+                        keserÜLt s-eL epeDet szIVnek pIhenésére, szerzet Versek. A2–F2.</p>
+                    <p xml:id="p.162">9 verset tartalmaz (42–50. sz. versek) az A1v–F2a (1-től 21-ig
+                        számozott) lapokon. A lajstrom csak a füzet címét tartalmazza „másodszori
+                        fol. 1.” megjelöléssel. A kronosztichon értéke <date when="1681"
+                        >1681</date>. Az 1. füzethez hasonlóan a Fol. Hung. 151. jelzetű kéziratban
+                        a cím cikluscímként áll, s a nyomtatványt bevezető, <title><hi rend="italic"
+                                >A’ kegyes olvasóhoz</hi></title> című vers nem szerepel benne, az
+                        csak a nyomtatványhoz készülhetett.</p>
+                    <p xml:id="p.163">C. A’ Meg gYÜkerezett rabságos bánatnak keserVes bVsVLássaL
+                        eLterIeDet ágain kI-nött fÜzfa Versek. A4–G4, H2.</p>
+                    <p xml:id="p.164">3 verset tartalmaz (51–53. sz. versek) a [4]+1–54.-ig
+                        számozott lapokon, az ívjelzés folyamatos. Voltaképpen a <hi rend="italic"
+                            >Vasban Vert rabnak […] sétáLásá</hi>t közli egy, a kegyes olvasónak
+                        címzett bevezető verssel, ezt egészíti ki az <title><hi rend="italic">EgYik
+                                része harMInCz ött esztenDöVeL ezeLött Irt fÜzfa
+                            Verseknek</hi></title>. A lajstrom csak a <title><hi rend="italic"
+                                >Vasban vert rabnak versekben vet sétálása</hi></title> címet
+                        tartalmazza „harmadszori fol. 1.” megjelöléssel. A füzetcím
+                        kronosztichonjainak értéke <date when="1684">1684</date>, <date when="1681"
+                            >1681</date>, <date when="1680">1680</date>; a verscímek
+                        kronosztichonjai azonban <date when="1682">1682</date>-t, <date when="1685"
+                            >1685</date>-öt, <date when="1718">1718</date>-at adnak.</p>
+                    <p xml:id="p.165">D. [Némely Istenes könyörgések.] A2–C2.</p>
+                    <p xml:id="p.166">9 verset tartalmaz az 1–11.-ig számozott lapokon (54–62. sz.
+                        versek). A füzetnek a nyomtatványban nincs címe, a fenti címet a lajstrom
+                        tartalmazza „negyedszeri fol. 1.” megjelöléssel.</p>
+                    <p xml:id="p.167">E. KesereDet rabnak bÚban ÚszVa, s-annak terhét hÚzVa ébren
+                        aLVVa Látot áLma. A4–C4.</p>
+                    <p xml:id="p.168">4 verset tartalmaz (63–66. sz. versek) a [4]+1–19.-ig
+                        számozott lapokon, az ívjelzés folyamatos. A kétrészes álmot egy ajánlólevél
+                        és <title><hi rend="italic">A’ kegyes olvasóhoz</hi></title> címzett vers
+                        vezeti be. A lajstrom a rövidített füzetcímet tartalmazza „ötödszöri fol.
+                        1.” megjelöléssel. A kronosztichon értékei <date when="1685">[1]685</date>;
+                            <date when="1682">1682</date>. (Az álom második része, a 66. sz. vers a
+                        kézirathoz képest jelentősen módosult!)</p>
+                    <p xml:id="p.169">E füzet végén következik a tartalomjegyzék <hi rend="italic"
+                                ><title>RÖVID LaIstroMa bÚban ohaItVa, sohaItVa kohoLt s-LeIrt
+                                fÜszfa Verseknek</title></hi> címmel, ennek kronosztichonja <date
+                            when="1685">1685</date>.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.170">2. <hi rend="bold">Üdö mutatás közben Szerzett Versek</hi>. H.
+                        n. é. n. )(4, A4–G4.</p>
+                    <p xml:id="p.171">5 verset tartalmaz [8]+1–57.-ig számozott lapokon (67–71. sz.
+                        versek). A fő közleménynek, a 12 részre osztott elmélkedő sétálásnak nincs
+                        külön címe.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.172">3. <hi rend="bold">Sok féLe kereszteL EL-kesereDet eMbernek
+                            kI-kohoLt Verse</hi>. H. n. é. n. A4–B4.</p>
+                    <p xml:id="p.173">4 verset tartalmaz a [2]+1–12.-ig számozott lapokon (72–75.
+                        sz. versek), az ívjelzés folyamatos.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.174">4. <hi rend="bold">ELVénÜLt eMbernek bÚsÚLó gonDoLatI VagY
+                            hogY Inkáb, éLetének VégérŰL eLMéLkeDésI</hi>. H. n. é. n. [1]+4
+                        levél.</p>
+                    <p xml:id="p.175">4 verset tartalmaz (76–79. sz. versek). A fennmaradt példányok
+                        nyomtatása nem teljesen azonos, a címlapvers is különbözik; a mű két
+                        egymáshoz nagyon hasonló, de mégis eltérő kiadásban jelent meg. (L. a 76.
+                        sz. vers jegyzeteit. A nyomtatványok problémáiról l. <persName>Vizkelety
+                            Andrásné Ecsedy Judit<idno type="ITIdata">Q43242</idno></persName>
+                        közleményét alább.) A nyomtatványról kézírásos másolat is készült, ilyent
+                        tartalmaz az <bibl>OSZK Fol. Hung. 1486.</bibl> jelzetű kolligátum a
+                        71b–73b. lapokon, a metszetek rajzaival együtt.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.176">5. <hi rend="bold">DesCrIptI VersVs eX fragMentIs In otIo
+                            sCrIptIs. HóL egYszer s’-hóL Maszor kI-faragot s’-öszVe szeDet,
+                            rongYabVL Le-Irt fÜz-fa Versek</hi>. H. n. é. n. A4–B2.</p>
+                    <p xml:id="p.177">Csak a <title><hi rend="italic">DeVs VbIqVe ConserVator
+                                proteCtor meVs</hi></title> c. verset tartalmazza (<ref
+                            target="rmkt-17-16.tei.ki-90">90. sz.</ref>).</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.178">Emellett számos kéziratos gyűjtemény tartalmaz több-kevesebb
+                        Koháry-verset, részben a nyomtatványokból ismerteket, részben kiadatlanokat.
+                        A legfontosabbakat e helyütt ismertetjük.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.179">1. <bibl><hi rend="bold">OSZK Fol. Hung. 151.</hi></bibl>
+                        Kohári István’ Fűzfa-Versei <date when="1683">1683</date>. 43 f. 330×205.
+                        Poss.: Koháry-család levéltára, <persName>Jankóvich Miklós<idno
+                                type="ITIdata">Q59830</idno></persName> [<date when="1800"
+                            >1800</date>].</p>
+                    <p xml:id="p.180">A címlapon <persName>Jankovich<idno corresp="Jankovich Miklós"
+                            /></persName> kézírásos bejegyzése:</p>
+                    <p xml:id="p.181">„MMSS. Autographum Non manu Autoris, is enim ad Agriam in
+                        conflictu cum Turcis inito manum amisit, sed manu fr. [egy szó helye üresen
+                        hagyva] Capellani Domestici exeratum. Obtinuit ex Archivo familiae N.
+                        Jankowich de W. 1800.” </p>
+                    <p xml:id="p.182">A kézirat a <title><hi rend="italic">Sok ohaitás
+                            közben…</hi></title> c. nyomtatvány 37 versét tartalmazza, az 1. füzet
+                        verseit más sorrendben, kötetünk versszámozása szerint a következőképp:</p>
+                    <p xml:id="p.183">[1. füzet] 18., 17., 20., 21., 19., 22–27., 40., 28–39., 16.,
+                        41.</p>
+                    <p xml:id="p.184">[2. füzet] 43–50.</p>
+                    <p xml:id="p.185">[4. füzet] 58–59.</p>
+                    <p xml:id="p.186">[5. füzet] 65. (csonkán)</p>
+                    <p xml:id="p.187">A verseknek nemcsak a sorrendje, a tördelése, hanem egy-két
+                        esetben a címe is eltér a nyomtatványétól.</p>
+                    <p xml:id="p.188">A 39b. lap őrszava: <hi rend="italic">Hoszszu</hi>. A 40a–43a.
+                        lapokon azonban <title><hi rend="italic">Az halálnak horgával…</hi></title>
+                        c. vers utolsó kétharmada helyezkedik el. A 18b. lap alján, a 29.
+                        (cikluszáró) vers után is, mintha őrszó volna, a <hi rend="italic"
+                            >kilentzvenkilentz</hi> szó áll. A 19a. lapon azonban a 30. vers
+                        kezdődik.</p>
+                    <p xml:id="p.189">A kézirat két kéz írása, az 1a–37b. az első, a 39a–43a. lapok
+                        a második kézéi, nyelvi-helyesírási szokásaik, betűformáik azonban nem
+                        különböznek lényegesen, csupán abban, hogy a második kéz kurzív írást
+                        használ. A kézirat lapjai végig ceruzával vonalazva; az 1. kéz által írt
+                        részben az akrosztichonok kezdő (mindig verzál) betűi a margón túlra vannak
+                        írva, emiatt az akrosztichon jól látható és olvasható (a nyomtatvány
+                        kisbetűs sorkezdete és sortördelése az akrosztichonokat elmossa). A 28b.
+                        lapig a szóhatárokat számozza, és szaggatott vagy rövid hullámvonallal
+                        jelzi. A második kéz által írt részben csak a strófakezdő betűk kerülnek ki
+                        a margóra. A versek bejegyzése után az 1. javító kéz sötét tintával
+                        átjavítgatta a verseket. Pótolta a hiányzó betűket (fejem→fejemnek, 19b.),
+                        törölte a fölöslegeseket (engemet→engem, 19b.), kijavítgatta a hibás
+                        szavakat (ebben→egyben, tengődgen→tengődgien, végett→véget, hálál→halál,
+                        tálál→talál, 19b.). A diftongusokat következetesen jelzi: réá→rêá,
+                        eleiben→elêiben. A rossz helyre beírt sorokat törölte és javította: a 19b.
+                        lapon a 4. strófa végére a másoló az 5. strófa utolsó sorát írta. Ezt az 1.
+                        javító kéz áthúzta, s beírta a helyeset. Egy piros irónt használó javító
+                        aláhúzta a címeket, csillaggal vagy vonalkával jelezte a margón az
+                        akrosztichon szóhatárait. A fakó tintát használó 2. javító kéz a kéziratot
+                        összehasonlította a nyomtatvánnyal, beírta, melyik vers melyik nyomtatott
+                        lapon áll, s jelezte, ha a nyomtatványban más vers következett. Olykor
+                        bejegyezte, ha a nyomtatványban egy sor más szöveggel olvasható (23a.). A
+                        lapok aljára jegyezte az akrosztichonok megfelelő darabjait. A
+                        kronosztichonok mellé évszámokat írt, ezek azonban nem mindenütt felelnek
+                        meg a betűk összértékének. E javítások származhatnának egy igen értelmes
+                        másolótól, illetve lejegyzőtől, de pl. határozottan szerzői jellegű a 29.
+                        vers végén álló, kronosztichonos szöveg (Az Rabság terhe kőnnYebeDésére…)
+                        javítása: <del>ADgYa az</del>engeD, különösen az <bibl>OSZK Quart. Hung.
+                            4159.</bibl> kézirat 194b. lapjának azonos javítását figyelembe véve.
+                        Emiatt e kéziratot a szerzőtől származónak, a verseket a nyomtatványt
+                        megelőző változatoknak tartjuk, s a nyomtatványtól való eltéréseit
+                        kiadásunkban föltüntetjük, kivéve a helyesírási különbözéseket.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.190">2. <bibl><hi rend="bold">OSZK Quart. Hung. 4159.</hi></bibl>
+                        240+[7] levél.</p>
+                    <p xml:id="p.191">Nyomtatvány több kéztől származó kéziratos részekkel. Az 1a.
+                        lapon későbbi bejegyzés: „Curiculus vitæ Autorum / Laureati Poëtæ Ungari; /
+                        Comitis Stephani condam Koháry / pro Usu Francisci Joichith deserviens, /
+                        propter Styli excellentiam. 1789.” (A Joikits család tudomásom szerint ma
+                        Erdélyben él, s önmagát délszláv területről odaszármazottnak tudja.) </p>
+                    <p xml:id="p.192">Az 1b. lapon kézírással, ceruzával húzott vonalakon a 63.
+                        vers, tehát a <title><hi rend="italic">Keseredet rabnak…</hi></title>
+                        versfüzet ajánlólevele, végén más kézírással: <date when="1685">1685</date>.
+                        A versszöveg teljesen azonos a nyomtatványéval. A 2. levél be van ragasztva.
+                        A 2a., ugyancsak ceruzával vonalazott lapon <persName>Koháry
+                            Andrásnak</persName> szóló ajánlás (82. sz.). Ezt a nyomtatványok
+                        korpusza követi (15–75. versek, itt 3a–133b.), ezt tehát a szerző <hi
+                            rend="italic">egy egységnek és végleges változatnak</hi> szánta. A
+                        címlap és az első nyomtatott vers között, a 6a. lapon ceruzával húzott
+                        vonalakra írva az <hi rend="italic">Est dolor atque labor…</hi> kezdetű
+                        latin vers és egy kronosztichon (értéke <date when="1672">1672</date>),
+                        mellette az <date when="1672">1672</date>. évszám. A füzetcímek, verscímek,
+                        kronosztichonok mellett kézzel, ceruzával írott évszámok, melyek nem
+                        mindenütt egyeznek meg a kronosztichonértékekkel. Ezt harmadik egységként a
+                                <title><hi rend="italic">Salictum Heliconis</hi></title>
+                                (<placeName>Buda<idno type="ITIdata">Q15957</idno></placeName><date
+                            when="1725">1725</date>) c. nyomtatvány követi (134a–166b.). Negyedik
+                        egységként kézírásos rész csatlakozik a nyomtatványokhoz (167a–194b.).
+                        Tartalma: 80., 81., 39., 41. versek; a 29. sz. vers végén álló kronosztichon
+                        (Az Rabság terhe kőnnYebeDésére…, l. a 29. vers jegyzetét). Az ötödik egység
+                        ismét nyomtatványokból áll (196a–228b.). Tartalma: az <hi rend="italic"
+                            >Antidota melancholiae</hi> címlap (vagy mottó) után <title><hi
+                                rend="italic">Quædam Chronographica</hi></title> (<date when="1706"
+                            >1706</date>. a címlap kronosztichonjai mellett kézzel: <date
+                            when="1706">1706</date>), <title><hi rend="italic">Inter CVras
+                                InterCVrrentes MeDItatIones</hi></title> (<date from="1714"
+                            to="1720">1714–1720</date>, a cím mellett kézzel: <date when="1714"
+                            >1714</date>), az <title><hi rend="italic">Elvénült embernek búsúló
+                                gondolati</hi></title> (76–79. sz. versek, <date when="1721"
+                            >1721</date>), a <title><hi rend="italic">DesCrIptI VersVs eX fragMentIs
+                                In otIo sCrIptIs</hi></title> (90. sz. vers, a címlapon kézzel <date
+                            when="1726">1726</date>; <date when="1726">1726</date>). A hatodik és
+                        egyben utolsó egység (229a–240a.) ismét kézírásos, tartalma: <hi
+                            rend="italic">In festivitate sancti Gregorii</hi> (<date when="1728"
+                            >1728</date>), a 83. sz. vers, az <hi rend="italic">In festivitati
+                            sancti Gregorii</hi> 1. és 2. verse (<hi rend="italic">Quidfaciam…</hi>
+                        és <hi rend="italic">Est dolor…</hi>), a 83. sz. vers más kézírással, 84.,
+                        85., 92., 93., 95., 86–88., 94. sz. versek.</p>
+                    <p xml:id="p.193">A <persName>Koháry Andrásnak</persName> szóló beragasztott
+                        ajánlás miatt a kéziratot a szerzőtől származónak kell tekintenünk, noha a
+                        kézírásos 6. egység határozottan töredékes és rendezetlen: a 83. vers, a <hi
+                            rend="italic">Quid faciam…</hi> és az <hi rend="italic">Est dolor…</hi>
+                        kezdetű versek kétszer szerepelnek, a 238b–240a. lapokon a 87., 88., 94. sz.
+                        versek semmilyen módon nincsenek egymástól elválasztva. Több vers esetében
+                        fölmerül a kétség, hogy nem töredékes-e. Talán e helyütt a szerző
+                        „összesöpörte” rendelkezésre álló kisebb kéziratait, de nem rendezte el őket
+                        a szokott módon.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.194">3. <bibl><hi rend="bold">OSZK Quart. Hung. 981.</hi></bibl>
+                        Fragmenta Operis Koháriani Impressi Füzfa versek. 18. sz. 51 f. Különböző
+                        nagyságú kézírásos és nyomtatott részek kolligátuma. Vegyes jellegének
+                        megfelelően több kéz írása. Az 1. levél talán későbbi eredetű, rektóján
+                        prózai írás része (<title><hi rend="italic">Észrevevő
+                        Figyelem</hi></title>), verzóján <title><hi rend="italic">Kohári István
+                                Versei</hi></title> cím alatt egy tartalomjegyzék, benne az
+                            <bibl>OSZK Quart. Hung. 145.</bibl> kézirat címei más sorrendben; a
+                        hozzá tartozó kéziratot eddig nem sikerült megtalálnom. (L. az <bibl>OSZK
+                            Quart. Hung. 145.</bibl> kézirat ismertetését.) A 2. levél szintén
+                        negyedrét, de összehajtva, haránt fekvésben van beillesztve, rektóján a
+                                <title><hi rend="italic">Szigeti veszedelem</hi></title> egy sora
+                        prózai információval, verzóján a sorhoz fűzött háromstrófás parafrázis (88.
+                        sz. vers).</p>
+                    <p xml:id="p.195">A 3a–11a. leveleken a <title><hi rend="italic">Sok féle
+                                keresztel…</hi></title> füzet néhány verse (73–75.), nem pontosan a
+                        nyomtatványban szereplő címekkel. A 11b–12a. üres. Utána a 92. vers (12b.),
+                        majd egy sajátos kéziratrész: a <title><hi rend="italic">Keseredet
+                                rabnak…</hi></title> 4. és 5. részének részlete (121–156. strófák)
+                            <hi rend="italic">fordítva befűzve</hi>, tehát a helyes sorrend:
+                        15b.–15a.–14b.–14a.–13b.–13a.; az őrszavak is így helyesek. A jelenleg
+                        látható három verzó (tehát 15b., 14b., 13b.) tetején a b., c., d. betűk az
+                        eredeti sorrendet jelzik; a 15b. lap első fele ceruzával áthúzva; ez talán
+                        az észlelt hibát jelzi. Ezt a 80. sz. vers követi, utána 3 levél kivágva,
+                        majd a 83. vers (25a–25b.). Ez után áll a 100. vers, amely a jelenlegi 90.
+                        és 78. sz. versek strófáit tartalmazza vegyesen, más sorrendben, néhol kissé
+                        más szövegezésben: a 26a. és 26b. lapok második fele (amelyekből a 78. sz.
+                        vers lett) soronként ceruzával áthúzva. Ez utóbbi verset az elvetett
+                        változatok között közöljük.</p>
+                    <p xml:id="p.196">Ezt nyomtatványok korpusza követi: a <title><hi rend="italic"
+                                >Keseredet rabnak…</hi></title> egy része (63., 64. vers, a 65.
+                        csonkán, az A2–3. leveleken); az <title><hi rend="italic">Üdő mulatás
+                                közben</hi></title> 70. sz. versének egy része (9–16.-ig és
+                        25–48.-ig számozott lapok) <hi rend="italic">korrektúrajelekkel</hi>, utána
+                        ugyanezen nyomtatvány címlapja és <title><hi rend="italic">A kegyes
+                                olvasóhoz</hi></title> c. ajánlás (67. sz. vers); az 1–5. füzetek
+                        lajstroma a nyomtatvány végéről; az <title><hi rend="italic">Üdő mulatós
+                                közben…</hi></title> egy része (68., 69. versek) <hi rend="italic"
+                            >korrektúrajelekkel</hi>.</p>
+                    <p xml:id="p.197">A kolligátumnak ez a része s így maga a kolligátum
+                        mindenképpen a szerzőtől származik, és a korabeli nyomdai munkálatok
+                        szövegformáló technikájára, szokásaira nézve hallatlanul érdekes és értékes
+                        információkat tartalmaz. Ahol e „korrektúrapéldányban” javítás van, azt a
+                        nyomtatvány végleges szövege javított formában tartalmazza, de pl. a
+                        nagybetűs sorkezdet kisbetűsre javítását a korrektúrázó ritkán kérte, a
+                        nyomda azonban módszeresen elvégezte. A szövegek korrektúra előtti állapotát
+                        azonban kiadásunkban fölöslegesnek tartottuk föltüntetni, mivel a szerző
+                        utolsó akarataként éppen az e javításokat érvényesítő nyomtatványt kell
+                        elfogadnunk, az eltérések pedig nem olyan mérvűek, hogy előző, elvetett
+                        változatnak minősíthetnénk.</p>
+                    <p xml:id="p.198">A kéziratos részek gondozása a <bibl>Fol. Hung.
+                        151.</bibl>-hez hasonló: a versek sötét tintával javítva, a diftongusokat
+                        jel jelöli (rêá). Nyelvjárása a kézírásban fennmaradt versszövegekével
+                        egyezik meg (tanálom, póc stb.).</p>
+                    <p xml:id="p.199">Általában is azt tapasztaltam, hogy a másolói munka kisebb
+                        eltérései ellenére a szerző környezetéből fennmaradt kézírásos szövegek
+                        alapvetően azonos nyelvjárásra, minden bizonnyal Koháry nyelvhasználatára
+                        engednek következtetni (tanál, reménl, tanítanyi); a nyomda ezt a
+                        nyelvjárást egy másikra, a mai köznyelvhez közelebb állóra írta át, noha a
+                        transscriptio természetesen nem tökéletes.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.200">4. <hi rend="bold">OSZK Quart. Hung. 193.</hi> Gróf Kohári
+                        István Füzfa versei. 102 f. Poss.: <persName>Jankovich Miklós<idno
+                                type="ITIdata">Q59830</idno></persName>, <date when="1830"
+                            >1830</date>.</p>
+                    <p xml:id="p.201">A cím a kézirat elé kötött máspdik üres levél rektóján.
+                        Alatta: MSS Synchronum.</p>
+                    <p xml:id="p.202">Tartalma: <title><hi rend="italic">A meg gyükerezett rabságos
+                                bánatnak…</hi></title> nagyon töredékes, kézzel írt címlapja (1a.),
+                        ezt azonban a 2. füzet, <title><hi rend="italic">Az bú
+                            enyhödésére…</hi></title> versei követik (43–50. sz. versek). Ezután a
+                                [<title><hi rend="italic">Némely Istenes könyörgések</hi></title>]
+                        füzet versei következnek (54–62. sz. versek, az 58–59. számúak közös
+                                <title><hi rend="italic">Jesus Maria</hi></title> cím alatt,
+                        egyvégtében). A 62. sz. vers után az a kronosztichon áll, amely a
+                        nyomtatványban a 41. verset követi (<title><hi rend="italic">Olykor űdőt
+                                nyerve…</hi></title>). Az üresen hagyott 25b. lap utáni rész nem
+                        egyezik meg pontosan a kiadott nyomtatványok verseinek rendjével,
+                        szövegével, bár alapvetően az 5. füzettel rokon. A 26a. lapon a füzetcím
+                                (<title><hi rend="italic">Egy kesergő [k]eseregve […] ébren aluva
+                                látott álma</hi></title>) a nyomtatvány füzetcímétől eltér, csak a
+                        cím magja, az <hi rend="italic">ébren aluva látott álma</hi> közös. Ezt
+                        követi a 63. sz. vers, amelynek záró kronosztichonszövege a nyomtatványétól
+                        különbözik (27a.; l. a versek jegyzeteit). Ezt <title><hi rend="italic">A
+                                kegyes olvasóhoz […]</hi></title>, tehát a nyomtatványétól eltérő
+                        cím alatt az 51. sz. vers második feléből származó kétszer három strófa
+                        követi (27b.; 85. sz. vers). Utána <title><hi rend="italic">Akaram továbbá
+                                […]</hi></title> cím alatt az 51. vers első 6 strófája (28a.; 86.
+                        sz. vers). Ezután a 64. sz. vers (<title><hi rend="italic">Okats-fel tet
+                                czéllyat […]</hi></title> cím alatt, 29a–29b.); a nyomtatványban ez
+                        viseli <title><hi rend="italic">A’ kegyes olvasóhoz</hi></title> címet),
+                        majd a 65. sz. vers, a nyomtatványtól kissé eltérő cím alatt (29b–42a.). Az
+                        ezt követő vers sajátos konglomerátum. Első 4 strófája a 66. versének
+                        változata; utolsó soraiban az eltérés egyre nagyobb. Ezután 4, ott nem
+                        szereplő strófa következik, utána pedig az 52. vers 3. strófájától
+                        folytatódik. A verskonglomerátum a 66. vers címe alatt szerepel (42a–83b.;
+                        közlésünkben 87. sz. vers). </p>
+                    <p xml:id="p.203">A kéziratot a <title><hi rend="italic">Quædam
+                                chronographica</hi></title> (85a–101b.) és a 89. sz. vers zárja
+                        (102a.).</p>
+                    <p xml:id="p.204">A kézirat <persName>Jankovich Miklós<idno type="ITIdata"
+                                >Q59830</idno></persName> megállapításának megfelelően valószínűleg
+                        egykorú, és a költő környezetéből származik. Ezt a szöveget tehát a
+                        szerzőtől származó, a nyomtatványt megelőző, ill. elvetett vagy átdolgozott
+                        változatnak tekintjük. Ahol az eltérés nem nagy, a megfelelő vers jegyzetei
+                        tartalmazzák az eltéréseket, a többi változatot az elvetett versek között
+                        közöljük (97., 98., 99. sz.).</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.205">5. <hi rend="bold">OSZK Quart. Hung. 2056.</hi> 234 f.,
+                        különböző nagyságú levelek. Poss.: <persName>Thaly Kálmán<idno
+                                type="ITIdata">Q49735</idno></persName>.</p>
+                    <p xml:id="p.206">Koháry István vegyes iratai <persName>Thaly<idno
+                                corresp="Thaly Kálmán"/></persName> gyűjtéséből. A kézirat
+                        legnagyobb részét egy számadási könyv teszi ki (<date from="1703" to="1711"
+                            >1703–1711</date>; 1– 224.). Ehhez egy levél, egy családfa, egy leltár
+                        és a balogi domínium számadása járul egy-két leveles íveken. Az iratcsomó
+                        egy latin (<bibl><hi rend="italic">Pertransierunt Dies mei</hi>, <date
+                                when="1697">1697</date>, 226a.</bibl>) és egy magyar (86. sz.)
+                        verset tartalmaz. Az iratcsomó származása miatt a vers szövegét a szerzőtől
+                        származónak kell tekintenünk; kiadásunkban ezért ezt tekintettük
+                        főváltozatnak.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.207">6. A <hi rend="bold">Somogyi Könyvtár H. e. 772.</hi> jelzetű
+                        Koháry-kolligátumának (<title><hi rend="italic">Sok ohaitás
+                            közben…</hi></title>) utolsó, B4. levelére és a hátsó szennylapra
+                        ismeretlen kéz bemásolta az <title><hi rend="italic">Elvénült embernek
+                                búsuló gondolati</hi></title> c. nyomtatványban szereplő verseket
+                        (76–79. sz). A másolat eredete ismeretlen; a szöveg nem a nyomtatványról
+                        készült. Helyesírási eltéréseit, az adott címeket tekintve nem lehetetlen,
+                        hogy a költő környezetéből származik. (A versek fénymásolatáért, egyéb
+                        adataiért Csúri Károlynénak, a Somogyi Könyvtár gyűjteményi
+                        osztályvezetőjének tartozom köszönettel.) A kézirat létezéséről <hi
+                            rend="smallcaps">Szigeti Csaba</hi> számolt be (<bibl><title>A
+                                Balassi-vers dekomponálásának költészettörténeti folyamata a
+                                XVII–XVIII. században</title>. Kand. dissz. 10.</bibl>) Ő hívta föl
+                        a figyelmet a kötetünkben 67. és 77. számmal szereplő versek egy-egy
+                        strófájának egyezésére; arról, hogy a kézirat az <title><hi rend="italic"
+                                >Elvénült embernek búsúló gondolati </hi></title> másolata, nem tett
+                        említést.</p>
+                    <milestone unit="emptyLine"/>
+                    <p xml:id="p.208">A további kéziratos szövegek figyelembe vétele nem látszik
+                        szükségesnek, mert vagy a nyomtatványok szövegéről (<bibl>OSZK Fol. Hung.
+                            1486.</bibl>, <bibl>Quart. Hung. 194.</bibl>, <bibl>Quart. Hung.
+                            195.</bibl>, <bibl>Quart. Hung. 196.</bibl>, <bibl>Oct. Hung.
+                            280.</bibl>), vagy másik másolatról készültek (a <bibl>Quart. Hung.
+                            792.</bibl> az <bibl>Oct. Hung. 280.</bibl>-ról).</p>
+                    <p xml:id="p.209">Az <bibl>OSZK Quart. Hung. 145.</bibl> kézirat <title><hi
+                                rend="italic">Kohári István Versei</hi></title> cím alatt sajátos
+                        kivonatokat közöl Koháry verseiből, s a versek bizonyos részeit külön
+                        címekkel látja el:</p>
+                    <p xml:id="p.210"><hi rend="italic">Tündér Lakozás</hi> – a 23. vers 1–42.
+                        strófái</p>
+                    <p xml:id="p.211"><hi rend="italic">Kártyázás</hi> – az 52. vers 349–368.
+                        strófái</p>
+                    <p xml:id="p.212"><hi rend="italic">Példás Vadkert</hi> – az 52. vers 78–91.
+                        strófái</p>
+                    <p xml:id="p.213"><hi rend="italic">Türedelem</hi> – 26. vers</p>
+                    <p xml:id="p.214"><hi rend="italic">Mesterséges Forrás</hi> – az 52. vers
+                        92–117. strófái</p>
+                    <p xml:id="p.215"><hi rend="italic">Szerencse</hi> – a 16. vers 1–9. strófái</p>
+                    <p xml:id="p.216">A kéziratot a kézirattáros bejegyzése szerint valószínűleg
+                            <persName>Jankovich Miklós<idno type="ITIdata">Q59830</idno></persName>
+                        számára másolták Kékkőn, mivel a neki ugyanott másolt Balassi-verskézirathoz
+                        volt mellékelve, s ugyanazon kéz készítette. Ez azonban több mint valószínű:
+                        ugyanezen címekkel írta le <persName>Toldy Ferenc<idno type="ITIdata"
+                                >Q151328</idno></persName><persName>Jankovich<idno
+                                corresp="Jankovich Miklós"/></persName> egy kéziratát (<bibl>MTAK
+                            Kézirattára Tört. 4° 24/IV</bibl>), nyilvánvalóan ugyanezt. Ezek a címek
+                        kezdő és utolsó sorokkal szerepelnek az <bibl>OSZK Quart. Hung. 981.
+                            1b.</bibl> lapján, de más sorrendben, későbbi bejegyzésként, tehát
+                        valószínűleg volt még egy, más verssorrendű másolata. Minthogy azonban e
+                        kéziratváltozat legföljebb Koháry utóéletéről szolgáltatna valamelyes
+                        adatokat, földerítésére és tisztázására nem tettem erőfeszítéseket. Itt
+                        jegyzem meg, csupán az érdekesség kedvéért, hogy <persName>Jankovich
+                            Miklós</persName> gyűjteményében megőrződött Koháry István kéziratos
+                        imakönyve, amelyet a bécsi domonkosok Rosarium-imáiból fordítottak magyarra
+                            (<bibl>OSZK Duod. Hung. 17.</bibl> [2]+33+[3]). Koháry válogatott
+                        verseinek latin fordítását <persName><hi rend="smallcaps">Sztrakos
+                                Albert</hi></persName> nógrádi plébános készítette el és tette közzé
+                                <title><hi rend="italic">Salictum Heliconis</hi></title>
+                                (<placeName>Buda<idno type="ITIdata">Q15957</idno></placeName><date
+                            when="1725">1725</date>) címmel.</p>
+                    <p xml:id="p.217">Koháry számos latin nyelvű művet is írt; ezek egy részét
+                        ugyancsak kinyomtatta. E kiadások a következők:</p>
+                    <p xml:id="p.218">1. QVæDaM ChronographICa * BVDæ Læto Labore CoMposIta * sIne
+                        otIo, In teMporIs tædIo ConCInnata * FVrente BeLLonæ Marte DesCrIpta * In
+                        honoreM patronI, SAN<hi rend="bold">C</hi>T<hi rend="bold">I</hi> STEPHAN<hi
+                            rend="bold">I</hi> REG<hi rend="bold">I</hi>S DICata. H. n. é. n.
+                                [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName><date
+                            when="1722">1722</date>. Royer, l. Petrik 7. 270.] A2–F2.</p>
+                    <p xml:id="p.219">Az OSZK példányában a cím mellett ceruzával: <date when="1706"
+                            >1706</date>. Az <bibl>OSZK Quart. Hung. 4159.</bibl> jelzetű
+                        kéziratban, amely e nyomtatványt is tartalmazza (196a–209b.), számos helyen
+                        kézzel beírva ugyanez a dátum. Valamennyi kronosztichonérték ennyi. Itt egy
+                        metszet (az Úr, Jézus egy halandót támogatva, egy angyal létrás kereszttel,
+                        felirata: <hi rend="smallcaps">ERIT DEVS IPSE CORONA</hi>) és az <hi
+                            rend="italic">Antidota melancholiæ</hi> mottó áll az elején; a címlapon
+                        minden kronosztichon mellett, tehát öt ízben kézzel: <date when="1706"
+                            >1706</date>. Az <hi rend="italic">Antidota melancholiæ</hi>
+                        kronosztichonjai mellett kézzel: <date when="1722">1722</date>; <date
+                            when="1722">1722</date>.</p>
+                    <p xml:id="p.220">Kézirata: <bibl>OSZK Quart. Hung. 193. 85a–101b.</bibl>, a cím
+                        kronosztichonjai mellett hasonlóképp öt ízben ceruzával: <date when="1706"
+                            >1706</date>.</p>
+                    <p xml:id="p.221">2. Inter CVras InterCVrrentes MeDItatIones. H. n. é. n.
+                        A4–B4.</p>
+                    <p xml:id="p.222">Az OSZK példányában a cím mellett ceruzával: <date when="1714"
+                            >1714</date>. A cím kronosztichonértéke ennyi. A záró kronosztichon
+                        értékei: <date when="1721">1721</date>; <date when="1721">1721</date>. Az
+                            <bibl>OSZK Quart. Hung. 4159.</bibl> jelzetű kézirat is tartalmazza a
+                        nyomtatványt, itt az utolsó kronosztichon mellett kézzel szintén: <date
+                            when="1721">1721</date>.</p>
+                    <p xml:id="p.223">Kézirata: <bibl>OSZK Fol. Hung. 1486. 66a–71a.</bibl></p>
+                    <p xml:id="p.224">3. VoLat fortVna VarIabILIs VeLVtI LVna VoLVbILIs LVbrICa
+                        InConstans neC oMnIbVs Vna. [<placeName>Nagyszombat<idno type="ITIdata"
+                                >Q14207</idno></placeName><date>1712</date>. Akad.]</p>
+                    <p xml:id="p.225">A <title><hi rend="italic">Pótlások Petrik Géza Magyarország
+                                bibliographiája</hi></title> c. művéhez (<bibl>Bp. 1989.
+                        VII.</bibl>) még h. n. é. n. megjelölést közöl. 1 ívrét levél. (Horváth
+                        József, Bp.) A kronosztichon <date when="1714">1714</date>-et ad.</p>
+                    <p xml:id="p.226">Latin nyelvű kéziratos művei:</p>
+                    <p xml:id="p.227">1. Est dolor atque labor vitam me ducere mortis (<date
+                            when="1672">1672</date>). <bibl>OSZK Quart. Hung. 4159. 6a.</bibl></p>
+                    <p xml:id="p.228">2. Pertransierunt Dies mei quasi Naves Poma portantes. Jobi
+                        Cap. 9. v. 26. (<date when="1697">1697</date>). <bibl>OSZK Quart. Hung.
+                            2056. 226a.</bibl></p>
+                    <p xml:id="p.229">3. In festivitate sancti Gregorii (<date when="1728"
+                            >1728</date>). <bibl>OSZK Quart. Hung. 4159. 229a–232b.</bibl> Első
+                        verse (Quid faciam…) a 235a.-n is, második verse (Est dolor atque labor
+                        misero mihi vita superstes) a 235b.-n is.</p>
+                    <p xml:id="p.230">4. Quid faciam senio […] Amisi dextram, nilque sinistra valet,
+                        az előző műben említettel csak első sorában egyező verset közöl
+                                <persName><hi rend="smallcaps">Kőnig Kelemen</hi><idno
+                                type="ITIdata">Q147105</idno></persName> (<bibl><title>Hatszázéves
+                                ferences élet Szécsényben</title>. I. m. 391.</bibl>) a váci
+                        kolostor ebédlőjének Koháryt ábrázoló festményéről. Ennek kronosztichonja
+                            <date when="1745"><sic>1745</sic>-öt</date> ad.</p>
+                    <p xml:id="p.231">Számos latin nyelvű kronosztichont és verset őriznek Koháry
+                        naptárai; közöttük lappanghatnak Koháry-alkotások. <persName><hi
+                                rend="smallcaps">Thaly Kálmán</hi><idno type="ITIdata"
+                            >Q49735</idno></persName> a <persName>Bezerédy Imre</persName> halálára
+                        írt sírversben gyanította Koháry művét. (<bibl>I. m. <abbr>TT</abbr> 1878.
+                            399.</bibl>) Annak ellenére, hogy a bibliográfiák egy <hi rend="italic"
+                            >Antidota Melancholiae</hi> c., hely és év nélküli (<date when="1722"
+                            >1722</date>; 4°, 3 levél és 20 lap. <bibl><hi rend="smallcaps">Petrik
+                                Géza</hi>: <title>Magyarország bibliográphiája. 1712–1860</title>.
+                            Bp. 1888–1892. 424.</bibl>) művet is tulajdonítanak neki, ilyen című
+                        alkotása nem volt. Az ANT<hi rend="bold">ID</hi>OTA <hi rend="bold"
+                            >M</hi>E<hi rend="bold">L</hi>AN<hi rend="bold">C</hi>HO<hi rend="bold"
+                            >LI</hi>Æ ABSQ<hi rend="bold">V</hi>E NA<hi rend="bold">V</hi>SEA E<hi
+                            rend="bold">X</hi>OPERATA * A<hi rend="bold">C</hi><hi rend="bold"
+                            >DIV</hi>ERS<hi rend="bold">I</hi>S <hi rend="bold">VICI</hi>B<hi
+                            rend="bold">V</hi>S S<hi rend="bold">I</hi>NE TÆ<hi rend="bold">DI</hi>O
+                            A<hi rend="bold">D</hi>H<hi rend="bold">I</hi>B<hi rend="bold">I</hi>TA
+                        mindössze egy különböző művei elé beragasztott előzéklap, amely talán
+                        mottóként funkcionált. Kronosztichonja <date when="1722">1722</date>-t ad.
+                        Ez ideig a következő helyeken találtam meg:</p>
+                    <p xml:id="p.232">Az <bibl>OSZK 195.113.</bibl> jelzetű nyomtatvány a <title><hi
+                                rend="italic">Sok ohaitás közben…</hi></title> c. mű előtt két
+                        beragasztott levelet tartalmaz, az elsőn a pecsétnyomójának képét ábrázoló,
+                        másutt is előforduló metszet (kétfejű sas, korona, Madonna, kisded Jézus <hi
+                            rend="smallcaps">svb his avspiciis</hi> felirattal), a másikon: <hi
+                            rend="smallcaps">antidota melancholiæ</hi> […].</p>
+                    <p xml:id="p.233">Az <bibl>OSZK 237.114.</bibl> jelzetű nyomtatvány a <title><hi
+                                rend="italic">Keseredet rabnak […] álma</hi></title> c. mű előtt
+                        tartalmazza címlap gyanánt beragasztva.</p>
+                    <p xml:id="p.234">Az <bibl>OSZK 816.150.</bibl> jelzetű nyomtatvány a <title><hi
+                                rend="italic">Quædam Chronographica</hi></title> c. nyomtatvány
+                        előtt tartalmazza beragasztott levélen. így szerepel a <bibl>Quart. Hung.
+                            4159.</bibl> kéziratban is, amelyben Koháry-nyomtatványok találhatók
+                        kézírásos részekkel vegyesen (197a.). Itt az <hi rend="smallcaps">erit devs
+                            ipse corona</hi> feliratú metszet után áll.</p>
+                    <p xml:id="p.235">Ilyen, mottóként funkcionáló levél az <hi rend="italic"
+                            >ADVerte qVæso, sIC eVanesCImVs * aDeoQVepræsentIs annI DeCVrsV, HOC
+                            Debes obserVare</hi> is az <hi rend="italic">Elvénült embernek […]</hi>
+                        egyik kiadása előtt beragasztott levélen (<bibl>OSZK 816. 150.</bibl>;
+                        mellette ceruzával: <date when="1722">1722</date>, a kronosztichonok értéke
+                        valóban ennyi).</p>
+                    <p xml:id="p.236"><persName>Vizkelety Andrásné Ecsedy Judit<idno type="ITIdata"
+                                >Q43242</idno></persName> (aki az <hi rend="italic">Adverte
+                            quæso</hi> hasonló jellegére fölhívta a figyelmemet) a következőket
+                        állapította meg a Koháry-nyomtatványokról:</p>
+                    <p xml:id="p.237">Kohárynak minden ma ismeretes nyomtatványa saját nevének
+                        feltüntetése és kiadási hely, év, nyomda jelzése nélkül jelent meg.
+                        Nyomtatási helyük meghatározásánál csak a kiadványok tipográfiai jellemzőire
+                        lehetett hagyatkozni, datálásuknál pedig az évszámot elrejtő
+                        kronosztichonokra, ez utóbbiak azonban többször különféle értéket adnak
+                        ki.</p>
+                    <p xml:id="p.238">A tipográfiai jellemzők alapján a következők állapíthatók
+                        meg:</p>
+                    <p xml:id="p.239"><placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>,
+                            <persName>Ignaz Dominik Voigt<idno type="VIAF"
+                            >VIAF:135370794</idno></persName> egyetemi könyvnyomtatónál jelent
+                        meg:</p>
+                    <p xml:id="p.240">– Sok ohaitás közben, inség viselésben […], A–E. füzetek</p>
+                    <p xml:id="p.241">– Üdö mulatás közben szerzett versek</p>
+                    <p xml:id="p.242">– Sok féle keresztel el-keseredet embernek ki-koholt verse</p>
+                    <p xml:id="p.243"><persName>I. D. Voigt<idno corresp="Ignaz Dominik Voigt"
+                            /></persName><date from="1711" to="1723">1711–1723 között</date> vezette
+                        a Voigt-mühelyt, ebből az időből származó nyomtatványaikat összevetettem
+                        Koháry említett műveinek nyomdai jellemzőivel; teljesen azonosak a 13×13
+                        mm-es iniciálék, a záródíszek közül a 68×85 mm-es barokk virágváza, a 15×43
+                        mm-es hurkolt záródísz és az ugyancsak hurkolt, de nagyobb méretű, 23×42
+                        mm-es záródísz. A Koháry-művek betűi is pontosan megfelelnek a
+                        Voigt-nyomdában használtaknak.</p>
+                    <p xml:id="p.244">A pozsonyi Royer-nyomdában jelent meg:</p>
+                    <p xml:id="p.245">– az Elvénült embernek búsúló gondolati mindkét változata
+                        (tehát mind a <hi rend="italic">Ha ide tekintesz</hi>, mind az <hi
+                            rend="italic">Ez új esztendőben</hi> előzéklapú)</p>
+                    <p xml:id="p.246">– Quædam chronographica</p>
+                    <p xml:id="p.247">– Antidota melancholiæ</p>
+                    <p xml:id="p.248">– Adverte quæso</p>
+                    <p xml:id="p.249">A nyomtatványokban előforduló betűk és a díszek a pozsonyi
+                        Royer-nyomda korai kiadványaira vallanak (<date from="1718">1718-tól</date>
+                        működött).</p>
+                    <p xml:id="p.250">A <date>nagyszombati</date> Akadémiai nyomdában készült:</p>
+                    <p xml:id="p.251">– Volat fortuna (<bibl>Petrik [VII. 270]</bibl> még ismeretlen
+                        kiadási helyűnek tartotta).</p>
+                </div>
+                <div xml:id="d.4">
+                    <head type="title">JEGYZETEK A VERSEKHEZ </head>
+                    <p xml:id="p.252">A leghitelesebb szöveg kiválasztása ezúttal különlegesen nehéz
+                        feladat volt, mivel autográf kéziratra a <persName>Koháry<idno
+                                corresp="Koháry István" type="ITIdata">Q46344</idno></persName>
+                        sebesülése utáni időből nem számíthatunk. (Bár nem tudni, nem Koháryé volt-e
+                        az a fakó tinta, a „2. javító kéz”, amely a legtöbb kéziratban
+                        közreműködött, idő jártával öregesen reszketeg írást produkálva. Koháryval
+                        kapcsolatban oly sok volt az irodalomtörténeti babona: hátha azért egy
+                        javító bejegyzésre futotta a képességeiből?)</p>
+                    <p xml:id="p.253">A kérdést két kéziratot és nyomtatványt vegyesen tartalmazó,
+                        kétségtelenül Kohárytól származó kolligátum döntötte el. Az <bibl>OSZK
+                            Quart. Hung. 981.</bibl> jelzetű kézirat, amelynek kéziratos része az
+                        egyik versfüzet verseinek első változatait, valamint átdolgozott és elvetett
+                        versváltozatokat tartalmaz, nyomtatott része pedig a végleges nyomtatás
+                        előtti „korrektúrapéldány”, kétségtelenül Kohárytól származik, s azt
+                        bizonyítja, hogy a nyomtatványok szövege a költő szerzői akaratát tükrözi.
+                        Az <bibl>OSZK Quart. Hung. 4159.</bibl> jelzetű kézirat-nyomtatvány
+                        kolligátum pedig, amely beragasztott levélen tartalmazza a költő kézírásos
+                        ajánlását egyetlen még élő közeli rokonának, <persName>Koháry
+                            Andrásnak</persName>, bizonyitja, hogy az ott egy tömbben helyet foglaló
+                        nyomtatványokat (15–75. versek) a szerző <hi rend="italic">egy egységnek és
+                            végleges változatnak tekintette</hi>. Ezeket a verseket tehát mi is
+                        megszakítatlan sorban közöltük. A költő kikövetkeztethető logikáját követve
+                        ez után helyeztük el a hasonló módon sajtó alá rendezett <hi rend="italic"
+                            >Elvénült embernek búsúló gondolati</hi> négy versét, majd a kéziratban
+                        maradt, de önállóan megkomponált verseket; ezt követi a minden bizonnyal
+                        utolsóként keletkezett, <date when="1723">1723</date> és <date when="1726"
+                            >1726</date> között folytatólag írt 90. sz. vers, amely még nyomtatásban
+                        is megjelent (<hi rend="italic">Descripti versus ex fragmentis […] füz-fa
+                            versek</hi>). Ez után foglalnak helyet a nagyobb kompozícióból kiemelt
+                        strófákból képzett versek és a töredékek (91–96. sz.), majd az átdolgozott
+                        és elvetett változatok (97–100. sz.).</p>
+                    <p xml:id="p.254">Szövegközlésünk alapját a nyomtatványok képezik, azok szövegét
+                        csak ott javítottuk a kéziratok alapján, ahol az értelem ezt megkívánta. A
+                        kéziratban fennmaradt versek esetében, ha több változat is rendelkezésre
+                        állt, a szerzőhöz legközelebb álló kézirat szövegét tekintettük
+                        főváltozatnak.</p>
+                    <p xml:id="p.255">Minthogy e szövegek egyike sem autográf, a javításokat és
+                        rövidítéseket általában nem jeleztük, csupán érvényesítettük, illetve
+                        föloldottuk (pl. forgá<del>d</del>sát, athatta→átjárta, tábor→zápor, l.
+                            <bibl>OSZK Quart. Hung. 193. 56a., 55b.</bibl>, vagy pl. an[n]ak→annak).
+                        A javítás tényére csak olyankor hívjuk fel a figyelmet, ha ennek az értelem
+                        szempontjából szerepe van. A nyelvi jellegzetességek megőrzése mellett nem
+                        tartottuk meg az egykori központozást, amely (különösen a nyomtatványokban)
+                        nem a nyelvi, hanem a verstani tagolást szolgálja, ponttal a strófákat,
+                        vesszővel a periódusokat különítve el. Megőriztük azonban a mellékjeles
+                        betűket, amelyeknek láthatóan jelentőségük volt: az <hi rend="italic">à</hi>
+                        betűt, amely többnyire az <hi rend="italic">a’</hi> névelőt jelzi, s emiatt
+                        az <hi rend="italic">è</hi> és <hi rend="italic">ù</hi> betűket is, habár
+                        ezek valószínűleg csak a korlátozott betűkészlet miatt kerültek használatba,
+                        fonémaértékük és az <hi rend="italic">à=a’</hi> azonossághoz hasonló
+                        szerepük nincs. Természetesen megőriztük azokat a sorkezdő csillagokat,
+                        amelyek a nyomtatványok némelyikében az akrosztichon szóhatárait jelzik.</p>
+                    <p xml:id="p.256">A kéziratokban nagy következetességgel diakritikus jel jelöli,
+                        ha a magyar szavakban két egymás mellett álló magánhangzót egy szótagos
+                        diftongusként kell értelmezni, pl. rêám, mîért. A nyomtatványok ezt kevésbé
+                        következetesen vették át, ezekben gyakrabban fordul elő, hogy a jel elmarad
+                        a diftongus fölül, vagy ellenkezőleg, oda kerül, ahol valójában nem
+                        diftongus, hanem két külön szótagot alkotó magánhangzó olvasandó. A
+                        következetlenség ellenére a jelet a szöveghez híven megőriztük. (A latin
+                        szavakban alkalmanként előforduló diftongusokat, pl. <hi rend="italic"
+                            >laurus</hi> két szótagként, nem jelzi jel.)</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

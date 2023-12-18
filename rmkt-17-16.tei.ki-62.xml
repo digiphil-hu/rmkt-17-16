@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">62.</title>
+                <title type="main">Örzö szent angyalomnak kevánt segicségére igen nagy szivessen
+                    vágyódván irt versek</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-62</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-62.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata és nyomtatott
+                        kiadása:</p><p xml:id="crit.1.p.2">I. <hi rend="bold">OSZK Quart. Hung.
+                            193.</hi> 24b.</p><p xml:id="crit.1.p.3">II. <hi rend="bold">[Némely
+                            Istenes könyörgések.]</hi> 10–11.</p><p xml:id="crit.1.p.4">A verscím
+                        kronosztichonja: <date when="1694">1694</date>.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Quart. Hung. 193. 24b.</witness>
+                    <witness xml:id="W2">[Némely Istenes könyörgések.] 10–11.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 62.</fw>
+                <head type="title">ÖRZÖ SZENT ANG<hi rend="bold">Y</hi>A<hi rend="bold">L</hi>O<hi
+                        rend="bold">M</hi>NAK KE<hi rend="bold">V</hi>ÁNT SEG<hi rend="bold"
+                        >I</hi><hi rend="bold">C</hi>SÉGÉRE <hi rend="bold">I</hi>GEN NAG<hi
+                        rend="bold">Y</hi> SZ<hi rend="bold">I</hi><hi rend="bold">V</hi>ESSEN <hi
+                        rend="bold">V</hi>ÁG<hi rend="bold">Y</hi>Ó<hi rend="bold">DV</hi>ÁN <hi
+                        rend="bold">I</hi>RT <hi rend="bold">V</hi>ERSEK</head>
+                <lg n="1" xml:id="lg.1">
+                    <l n="1" xml:id="l.1">Istennek Angyala, kit én örzésemre</l>
+                    <l n="2" xml:id="l.2">rendelt szent Fölsége s-gondviselésemre,</l>
+                    <l n="3" xml:id="l.3">hogy én hanyat homlok ne fussak à bünre,</l>
+                    <l n="4" xml:id="l.4">s-bün által ne jussak lelkem veszélyére,</l>
+                </lg>
+                <lg n="2" xml:id="lg.2">
+                    <l n="5" xml:id="l.5">Öriz, és óltalmaz engemet éltemben,</l>
+                    <l n="6" xml:id="l.6">jártomban, költömben, ültemben s-fektemben,</l>
+                    <l n="7" xml:id="l.7">el-alúvásomban s-fel-ébredésemben,</l>
+                    <l n="8" xml:id="l.8">cselekedetimben mindenüt s-mindenben.</l>
+                </lg>
+                <lg n="3" xml:id="lg.3">
+                    <l n="9" xml:id="l.9">A’testnek úttyára ne bocsásd lelkemet,</l>
+                    <l n="10" xml:id="l.10">gonosz kévánságra el-faiúlt szivemet,</l>
+                    <l n="11" xml:id="l.11">hivalkodó s-trágar beszédre nyelvemet,</l>
+                    <l n="12" xml:id="l.12">se rosz gondolatra hivságos elmémet.</l>
+                </lg>
+                <lg n="4" xml:id="lg.4">
+                    <l n="13" xml:id="l.13">Ne bocsás egy szóval világ hivságára,</l>
+                    <l n="14" xml:id="l.14">fordits el à roszrúl, ösztönöz az ióra,</l>
+                    <l n="15" xml:id="l.15">úntalan vezérely menyország úttyára,</l>
+                    <l n="16" xml:id="l.16">s-vigy bé az Istennek szine látására.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

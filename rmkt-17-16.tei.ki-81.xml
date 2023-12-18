@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">81.</title>
+                <title type="main">Az fűzfa verseknek faragasára nezve hitessvk el magvnkal ez egy
+                    orában előbeny szabados sorsvnkat, es ez kővetkezendő leirt szoknak bőtűibűl
+                    faragivk ki vnalmas verseinkett</title>
+                <author><persName><surname>Koháry</surname><forename>István</forename><idno
+                            type="ITIdata">Q46344</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-16.tei.ki-81</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-81.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <hi
+                            rend="bold">OSZK Quart. Hung. 4159.</hi> 178b–193a. Mindkét címfél
+                        mellett 1685. Az első kronosztichon <date when="1691">1691</date>-et ad, a
+                        második kronosztichon értéke valóban <date when="1685">1685</date>.</p><p
+                        xml:id="crit.1.p.2">A Fol. Hung. 151. kézirat 2a. lapján az Üdőnk múlására
+                        cikluscím és az elsőként közölt <ref target="rmkt-17-16.tei.ki-18">18. sz.
+                            vers</ref> között csaknem ugyanez a második kronosztichon áll, l. a <ref
+                            target="rmkt-17-16.tei.ki-15">15. sz. vers</ref> jegyzeteit. Megjegyzem,
+                        hogy ezt a kéziratban maradt verset már <persName><hi rend="smallcaps"
+                                >Mátyás Flórián</hi><idno type="ITIdata">Q148360</idno></persName>
+                        fölhasználta a bonta szó adatolásakor. (<bibl><title>Nyelvtörténeti
+                                Szótárkísérlet.</title> Bp. 1868–1871.</bibl>)</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">16.</title><title type="sub">Rozsnyai Dávid, Koháry István,
+                        Petrőczy Kata Szidónia és Kőszeghy Pál
+                                versei</title><author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
+                                type="ITIdata"
+                                >Q60007</idno></persName></author><author><persName><surname>Koháry</surname><forename>István</forename><idno
+                                type="ITIdata"
+                                >Q46344</idno></persName></author><author><persName><surname>Petrőczy</surname><forename>Kata
+                                Szidónia</forename><idno type="ITIdata"
+                        >Q149557</idno></persName></author><author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
+                                type="ITIdata">Q54288</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
+                                type="ITIdata">Q147413</idno></persName>
+                        <persName><surname>S. Sárdi</surname><forename>Margit</forename><idno
+                                type="ITIdata">Q59946</idno></persName>
+                    </respStmt><date when="2000"
+                        >2000</date><pubPlace>Budapest</pubPlace><publisher>Balassi
+                        Kiadó</publisher><idno type="ITIdata">Q350140</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-16" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10397262</idno></bibl>
+                <listWit>
+                    <witness xml:id="W1">OSZK Quart. Hung. 4159. 178b–193a.</witness>
+                    <witness xml:id="KK">A kritikai kiadás szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/16:] 81.</fw>
+                <head type="title">AZ F<hi rend="bold">Ű</hi>ZFA <hi rend="bold">V</hi>ERSEKNEK
+                    FARAGASÁRA NEZ<hi rend="bold">V</hi>E HITESS<hi rend="bold">V</hi>K E<hi
+                        rend="bold">L</hi><hi rend="bold">M</hi>AG<hi rend="bold">V</hi>NKA<hi
+                        rend="bold">L</hi> EZ EG<hi rend="bold">Y</hi> ORÁBAN E<hi rend="bold"
+                        >L</hi>ŐBEN<hi rend="bold">Y</hi> SZABA<hi rend="bold">D</hi>OS SORS<hi
+                        rend="bold">V</hi>NKAT, ES EZ KŐ<hi rend="bold">V</hi>ETKEZEN<hi rend="bold"
+                        >D</hi>Ő <hi rend="bold">L</hi>E<hi rend="bold">I</hi>RT SZOKNAK BŐT<hi
+                        rend="bold">ŰI</hi>B<hi rend="bold">Ű</hi><hi rend="bold">L</hi> FARAG<hi
+                        rend="bold">IV</hi>K K<hi rend="bold">I</hi><hi rend="bold">V</hi>NA<hi
+                        rend="bold">LM</hi>AS <hi rend="bold">V</hi>ERSE<hi rend="bold"
+                    >I</hi>NKETT</head>
+                <head type="argumentum"><l n="1" xml:id="l.1">Vadaszny keszűliunk, mert mostan
+                        vagyon annak legjob ideie,</l><l n="2" xml:id="l.2">Vadasz Companiat gyűtve
+                        s-vadakatis lőve lehet fris eget, jo egésséget</l><l n="3" xml:id="l.3"
+                        >kapnunk, henyelést és tunya restséget elkerűlve magunkat mulassuk.</l><l
+                        n="4" xml:id="l.4">Mindenkor hallottam, lenny jo Companiaban tisztességes,
+                        magunkat kepesint</l><l n="5" xml:id="l.5">farasztany egéséges, henyélést
+                        kerűlny űdvősséges, tehat vallyon</l><l n="6" xml:id="l.6">ki nem fogja
+                        fris, mulatságos, jo vadaszatunknak e’ mostani feltett és fel vet</l><l
+                        n="7" xml:id="l.7">szandékunk szerint való el kővetését jovallany és helyben
+                        hadny; mivel hogy</l><l n="8" xml:id="l.8">minden embernek maga egéssége és
+                        tisztessége el nyeresében és</l><l n="9" xml:id="l.9">meg tartásában nagy
+                        méltán illik faradny, lelke űdvőssegét tekintve pediglen</l><l n="10"
+                        xml:id="l.10">az restségnek es henyélésnek mindennémű alkalmatosságát
+                        szűkséges kerűlny.</l></head>
+                <l n="1" xml:id="l.11"><hi rend="bold">U</hi>ntig vala dolgunk, nagy sok faratságunk
+                    ez elmult napokban,</l>
+                <l n="2" xml:id="l.12"><hi rend="bold">A</hi>ratva, kaszalva, vetve, boronálva
+                    izattunk valóban,</l>
+                <l n="3" xml:id="l.13"><hi rend="bold">D</hi>e még a’ szűretkor jobban, mint
+                    egyébkor, valank nagy munkában.</l>
+                <l n="4" xml:id="l.14"><hi rend="bold">A</hi>zt mind végbe vittűk, és elis
+                    végesztűk, már hát mihez kezgyűnk,</l>
+                <l n="5" xml:id="l.15"><hi rend="bold">S</hi>ok dolgaink utan s-faradtsagink fottán
+                    mulatságot vegyűnk,</l>
+                <l n="6" xml:id="l.16"><hi rend="bold">Z</hi>arjuk ki magunktúl az gondot ezentúl,
+                    henyelest ne tegyűnk.</l>
+                <l n="7" xml:id="l.17"><hi rend="bold">N</hi>em kevés mulatság s-győnyőrű faratság
+                    erdőket vadászny,</l>
+                <l n="8" xml:id="l.18"><hi rend="bold">I</hi>deieis annak, mostani napoknak folytán
+                    szokot lenny,</l>
+                <l n="9" xml:id="l.19"><hi rend="bold">K</hi>ezgyűnk azért ahoz, neis fogiunk
+                    máshoz, készűljűnk vadászny,</l>
+                <l n="10" xml:id="l.20"><hi rend="bold">E</hi>lmúlt nyár melege, s-nincs még tél
+                    hidege, jarhatunk kedvűnkre,</l>
+                <l n="11" xml:id="l.21"><hi rend="bold">S</hi>zele fuiván ősznek, levele erdőknek
+                    húlton húl az főldre,</l>
+                <l n="12" xml:id="l.22"><hi rend="bold">Z</hi>őrőg már az haraszt, el hattuk az
+                    tavaszt, jutottunk az őszre.</l>
+                <l n="13" xml:id="l.23"><hi rend="bold">Ű</hi>lyűnk bár az lesben szép nagy
+                    csendességben, de ha az vad indúl,</l>
+                <l n="14" xml:id="l.24"><hi rend="bold">L</hi>egottan meg hallyuk, s-kőnnyenis
+                    visgallyuk, merre felé fordúl,</l>
+                <l n="15" xml:id="l.25"><hi rend="bold">I</hi>dein lathattyuk, s-jo keszen
+                    várhattyuk, még előnkben lódúl.</l>
+                <l n="16" xml:id="l.26"><hi rend="bold">Ű</hi>dőmet mulátva, kezdem hát vadászva
+                    tőlteny kedvemre,</l>
+                <l n="17" xml:id="l.27"><hi rend="bold">N</hi>em kel az nyúlászat, van mikor
+                    vadaszat űdőm tőltésere,</l>
+                <l n="18" xml:id="l.28"><hi rend="bold">K</hi>edvesseb előttem az vad, mellyet
+                    lőttem, s-tanaltam meszire.</l>
+                <l n="19" xml:id="l.29"><hi rend="bold">M</hi>ár hát vadaszokat s-az jo puskasokat
+                    kel egybe gyűteny,</l>
+                <l n="20" xml:id="l.30"><hi rend="bold">E</hi>lsőben de merre s-micsoda helyekre
+                    kellessék indulny,</l>
+                <l n="21" xml:id="l.31"><hi rend="bold">R</hi>eggelre virradva s-arrúl gondolkodva
+                    meg fogom mondany.</l>
+                <l n="22" xml:id="l.32"><hi rend="bold">T</hi>atrára, Fatrára, nem kel az Matrára
+                    minekűnk készűlny,</l>
+                <l n="23" xml:id="l.33"><hi rend="bold">M</hi>ennyunk az Rátkára vagy az hargicsára
+                    elsőben vadaszny,<note type="critic" xml:id="note.1"><p xml:id="note.261">Rátka,
+                            Hargicsa stb. – A hegyek és erdők azonosítására nem vállakozhattunk, a
+                            vers megértéséhez azonban ez az információ nem sokat adott volna hozzá.
+                            Az azonosítható helynevek megoszlása a következő:</p><p
+                            xml:id="note.262">Gömör-Kishont vm. Feledi járás:
+                                <placeName>Balogfalva</placeName>, <placeName>Béna<idno
+                                    type="ITIdata">Q7700</idno></placeName>,
+                                    <placeName>Csomatelke<idno type="ITIdata"
+                                >Q18835</idno></placeName>, <placeName>Guszona<idno type="ITIdata"
+                                    >Q16791</idno></placeName>, <placeName>Sőreg<idno type="ITIdata"
+                                    >Q10819</idno></placeName></p><p xml:id="note.263">Gömör-Kishont
+                            vm. Putnoki járás: <placeName>Kánó<idno type="ITIdata"
+                                >Q350365</idno></placeName></p><p xml:id="note.264">Gömör-Kishont
+                            vm. Rimaszombati járás: <placeName>Klenóc<idno type="ITIdata"
+                                    >Q8440</idno></placeName>, <placeName>Osgyán<idno type="ITIdata"
+                                    >Q18354</idno></placeName>, <placeName>Rimaráhó<idno
+                                    type="ITIdata">Q21365</idno></placeName>,
+                                    <placeName>Tiszolc<idno type="ITIdata"
+                            >Q23644</idno></placeName></p><p xml:id="note.265">Borsod vm. Edelényi
+                            járás: <placeName>Hegymeg<idno type="ITIdata"
+                            >Q8281</idno></placeName></p><p xml:id="note.266">Sáros vm. Héthársi
+                            járás: <placeName>Daróc<idno type="ITIdata"
+                            >Q8570</idno></placeName></p><p xml:id="note.267">Nógrád vm.
+                            Balassagyarmati járás: <placeName>Szele<idno type="ITIdata"
+                                    >Q350364</idno></placeName> (Erdőszele)</p><p xml:id="note.268"
+                            >Nógrád vm. Sziráki járás: <placeName>Garáb<idno type="ITIdata"
+                                    >Q10210</idno></placeName></p><p xml:id="note.269">Nógrád vm.
+                            Füleki járás: <placeName>Füleksávoly<idno type="ITIdata"
+                                >Q7534</idno></placeName>, <placeName>Bozita<idno type="ITIdata"
+                                    >Q350362</idno></placeName></p><p xml:id="note.2610">Nógrád vm.
+                            Losonci járás: <placeName>Bolyk<idno type="ITIdata"
+                                >Q17475</idno></placeName>, <placeName>Pinc<idno type="ITIdata"
+                                    >Q14686</idno></placeName>, <placeName>Poltár<idno
+                                    type="ITIdata">Q12186</idno></placeName>,
+                                    <placeName>Terbeled<idno type="ITIdata"
+                                >Q22371</idno></placeName>, <placeName>Uhorszka<idno type="ITIdata"
+                                    >Q21084</idno></placeName> (Ipolymagyári),
+                                    <placeName>Videfalva<idno type="ITIdata"
+                                >Q19775</idno></placeName>.</p></note></l>
+                <l n="24" xml:id="l.34"><hi rend="bold">O</hi>nnánd az Gortvára s-vadak hatarára
+                    kőnnyű el fordulny.</l>
+                <l n="25" xml:id="l.35"><hi rend="bold">S</hi>árkány csapasára s-az nyarsok allyára
+                    réa érűnk mindenkor,</l>
+                <l n="26" xml:id="l.36"><hi rend="bold">T</hi>erbeledi, Gabsi, Bozitai, Pesti
+                    harasztrais máskor,</l>
+                <l n="27" xml:id="l.37"><hi rend="bold">A</hi> sydi erdőkre s-az Bénnai kőre most
+                    érűnk leg job kor,</l>
+                <l n="28" xml:id="l.38"><hi rend="bold">N</hi>ytrai és Bolyki, Ragyvezi s-Pűspőki
+                    erdőt meg vadaszták,</l>
+                <l n="29" xml:id="l.39"><hi rend="bold">V</hi>ida falusiak s-Apat falusiak
+                    Szalatnyát haitották,</l>
+                <l n="30" xml:id="l.40"><hi rend="bold">A</hi>z Uhorszkaiak és Cseh Brezoiak keresz
+                    Urt meg járták.</l>
+                <l n="31" xml:id="l.41"><hi rend="bold">G</hi>yanakszom, Kollátnal, Sőregnél s
+                    Csománal sincs most mit vadásznunk,</l>
+                <l n="32" xml:id="l.42"><hi rend="bold">J</hi>ob az Balog falvi vagy az Czővek falvi
+                    pusztakat haitanunk,</l>
+                <l n="33" xml:id="l.43"><hi rend="bold">O</hi>sgyany, hisany es az Balusány
+                    oldalokat járnunk,</l>
+                <l n="34" xml:id="l.44"><hi rend="bold">N</hi>em kel de az Pinczi, Kánoi s-daróczi
+                    erdokét elhadny,</l>
+                <l n="35" xml:id="l.45"><hi rend="bold">A</hi> sávolyi Vőlgyet s-az hegymegi hegyet
+                    mind meg kel haitany,</l>
+                <l n="36" xml:id="l.46"><hi rend="bold">N</hi>yúlat, őzet, rokat, farkast és vad
+                    macskat lehet ottan lőny.</l>
+                <l n="37" xml:id="l.47"><hi rend="bold">N</hi>em mesze Garábhoz, Poltárhoz s-Ráhóhoz
+                    sok szarvast lattanak,</l>
+                <l n="38" xml:id="l.48"><hi rend="bold">A</hi> szelczi határon, mellyek e’ mult
+                    nyáron sereggel jártanak,</l>
+                <l n="39" xml:id="l.49"><hi rend="bold">K</hi>lenoczi hegyekben s-Tiszoczi
+                    fenyvesben medvétis mondanak.</l>
+                <l n="40" xml:id="l.50"><hi rend="bold">L</hi>eszen hogy ha kedvűnk s-a’hoz való
+                    szivűnk, mehetűnk medvézny,</l>
+                <l n="41" xml:id="l.51"><hi rend="bold">E</hi>rdei kanokat, nyestet s heuzokat ott
+                    bőven kaphatny,</l>
+                <l n="42" xml:id="l.52"><hi rend="bold">G</hi>ondolom de jobnak, s tartom
+                    tanacsosnak azt maszorra hadny.</l>
+                <l n="43" xml:id="l.53"><hi rend="bold">J</hi>ob magunk járásan s-bérczeink hajlásan
+                    minékűnk mulatnunk,</l>
+                <l n="44" xml:id="l.54"><hi rend="bold">O</hi>ly mesze vadaszva s-nagy hegyeket
+                    hágva mintsem hogy faradnunk,</l>
+                <l n="45" xml:id="l.55"><hi rend="bold">B</hi>ógáromtúl fogva Guszonara tartva az
+                    Bucsont haitatnunk.</l>
+                <l n="46" xml:id="l.56"><hi rend="bold">I</hi>ndullyunk hainalban, de én maid
+                    azomban puskámot tisztitom,</l>
+                <l n="47" xml:id="l.57"><hi rend="bold">D</hi>erék porom vagyon, még sem pattog
+                    nagyon, aztis meg szárasztom,</l>
+                <l n="48" xml:id="l.58"><hi rend="bold">E</hi>lét valaskámnak<note type="critic"
+                        xml:id="note.2">valaska – vadásztőr</note> s-mértékét puskámnak helyre
+                    igazitom.</l>
+                <l n="49" xml:id="l.59"><hi rend="bold">I</hi>nasom de menten kezgyen ugyan itten
+                        flastrom<note type="critic" xml:id="note.3">itt: fojtás</note>
+                    csinaláshoz,</l>
+                <l n="50" xml:id="l.60"><hi rend="bold">E</hi>rczetis készitek, s-golyobist őntetek
+                    mindenik puskámhoz,</l>
+                <l n="51" xml:id="l.61"><hi rend="bold">V</hi>adasz palaczkomat s-puska piszkálómat
+                    tészem stuczaimhoz.<note type="critic" xml:id="note.4">stucz – rövid
+                        puska</note></l>
+                <l n="52" xml:id="l.62"><hi rend="bold">A</hi>z álatt el hijuk, hogy soká ne váriuk,
+                    kurinczi komankott,</l>
+                <l n="53" xml:id="l.63"><hi rend="bold">D</hi>udas sogorunkal és kovács Batyankal
+                    Marczi paitasunkott,</l>
+                <l n="54" xml:id="l.64"><hi rend="bold">A</hi>z Jakab gazdaval s-Pál gazda tarsával
+                    Molnar szomszédunkott.</l>
+                <l n="55" xml:id="l.65"><hi rend="bold">S</hi>emmin se busullyunk, nagy vigan
+                    induljunk, már szépen hainallik,</l>
+                <l n="56" xml:id="l.66"><hi rend="bold">Z</hi>ibait ne indicsunk, se neis kiálcsunk,
+                    mert meszire hallik,</l>
+                <l n="57" xml:id="l.67"><hi rend="bold">C</hi>sillapjaban<note type="critic"
+                        xml:id="note.5">csöndesen</note> iariunk, ió szerencsét variunk, dolgunk
+                    iora válik.</l>
+                <l n="58" xml:id="l.68"><hi rend="bold">O</hi>sztroluczky, Basty,<note type="critic"
+                        xml:id="note.6"> A családnév kiolvasása bizonytalan, különböző helyeken való
+                        előfordulásaiban olvasható Barsy, Bassy is, de előfordul Bazty (150.) és
+                        Barci (392.) is. Basi előnevü Basy család létezett Zemplén vármegyében; az
+                        ó- és egyházas-básthi Básthy család Gömör vármegyében honos. Ez a család
+                        azonban a <date>17. század</date> végén, a <date>18. század</date> elején a
+                        nemesi ellenállásnak volt részese, s tagjai közül csupán László tért át a
+                        császár hűségére <date when="1710">1710-ben</date>, nem bizonyos tehát, hogy
+                        Koháry vadászott-e együtt bármelyikükkel. A különböző szóelőfordulásokat
+                        ennek ellenére a leggyakrabban előforduló Basty formában
+                        egységesítettük.</note> Gyűrky Pál s-Litasy Bossany Miklossal,</l>
+                <l n="59" xml:id="l.69"><hi rend="bold">M</hi>elczer, Baratnaky, Ebeczky
+                    s-Csemniczky Sallay Jánossal,</l>
+                <l n="60" xml:id="l.70"><hi rend="bold">P</hi>oros és Szűr Basi, Palko s-Pászthi
+                    Basi Károlyi Thamással</l>
+                <l n="61" xml:id="l.71"><hi rend="bold">A</hi>llyon fel az bérczre és az hegy tetőre
+                    igen szép rendessen,</l>
+                <l n="62" xml:id="l.72"><hi rend="bold">N</hi>agy szép csillapjában és nagy
+                    halgatásban legyenek csendessen,</l>
+                <l n="63" xml:id="l.73"><hi rend="bold">J</hi>o hoszan állyanak, s-nagy rendet
+                    fogianak, vannak, lám, felessen.</l>
+                <l n="64" xml:id="l.74"><hi rend="bold">A</hi>z erdő allyára s-másik oldalára már
+                    Vay Uramnak</l>
+                <l n="65" xml:id="l.75"><hi rend="bold">T</hi>alam Múr Lőrinczel vagy Csorgály
+                    Ferenczel és Batik Jánosnak</l>
+                <l n="66" xml:id="l.76"><hi rend="bold">G</hi>yorsan el allany s-velek bévonyodny
+                    kel Esze Miklosnak.</l>
+                <l n="67" xml:id="l.77"><hi rend="bold">J</hi>oannes Baptista srétesét el hoszta,
+                    mennyen Kis Jánossal,</l>
+                <l n="68" xml:id="l.78"><hi rend="bold">Ű</hi>lő helyét tudgya, Kovacs Batyank
+                    mondgya, az Csonka Jánossal,</l>
+                <l n="69" xml:id="l.79"><hi rend="bold">T</hi>alám szerencsére ők tanálnak őzre
+                    Michalek Miklossal.</l>
+                <l n="70" xml:id="l.80"><hi rend="bold">V</hi>allyon Berczelinek és Kakuk Gergelynek
+                    Patay Gyurkával</l>
+                <l n="71" xml:id="l.81"><hi rend="bold">E</hi>l kellé allany, vagy helyben maradny
+                    csuport hajdujával,</l>
+                <l n="72" xml:id="l.82"><hi rend="bold">S</hi>zabad ide gyűnny, másnakis itt járny
+                    maga csuportyával?</l>
+                <l n="73" xml:id="l.83"><hi rend="bold">U</hi>gy vélem, iob lészén, legyenek jo
+                    készen, s-csak it maradgyanak,</l>
+                <l n="74" xml:id="l.84"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1"><hi rend="bold">A</hi>m bar tűzet rakva
+                            s-itten dohanyozva őkis mulassanak,</lem>
+                        <rdg wit="#W1" xml:id="rdg.1">tobakolva</rdg>
+                    </app></l>
+                <l n="75" xml:id="l.85"><hi rend="bold">D</hi>e nagy halgatásban legyenek azomban,
+                    s-meg ide várjanak.</l>
+                <l n="76" xml:id="l.86"><hi rend="bold">A</hi>z berek farkára<note type="critic"
+                        xml:id="note.7">Berek farka – berek vége, alja</note> s-magam allására
+                    kezdek énis menny,</l>
+                <l n="77" xml:id="l.87"><hi rend="bold">K</hi>űrtősy Istvánnak, kedves Baratomnak
+                    mellém kel allany,</l>
+                <l n="78" xml:id="l.88"><hi rend="bold">A</hi>z ő két fiának, Istoknak s-Palkónak
+                    sem kel el maradny.</l>
+                <l n="79" xml:id="l.89">Tisztitot puskámott, ió czélos stuczomott maidam
+                    pattogtatom,</l>
+                <l n="80" xml:id="l.90"><hi rend="bold">I</hi>gen igen bizok, az mitt meg
+                        iranzok,<note type="critic" xml:id="note.8">célzok</note> meg lőtnek
+                    tarthatom,</l>
+                <l n="81" xml:id="l.91"><hi rend="bold">S</hi>zép lassan ballagva s-állásomban jutva
+                    az haitast halgatom.</l>
+                <l n="82" xml:id="l.92"><hi rend="bold">L</hi>ővének már edgyet, kettőtt, harmat,
+                    négyet az első puskások</l>
+                <l n="83" xml:id="l.93"><hi rend="bold">Ő</hi>zhez vagy rokához a’vagy hogy
+                    farkashoz, nagy az kiáltások,</l>
+                <l n="84" xml:id="l.94"><hi rend="bold">V</hi>jobbanis vannak, s-újulton uiulnak
+                    puska ropogások.</l>
+                <l n="85" xml:id="l.95"><hi rend="bold">E</hi>nis roppajt hallok, arra felé hailok,
+                    ahun, amot futnak,</l>
+                <l n="86" xml:id="l.96"><hi rend="bold">L</hi>átom, bokrosával<note type="critic"
+                        xml:id="note.9">párosával</note> s-talam harmasaval az őzek vágtatnak,</l>
+                <l n="87" xml:id="l.97"><hi rend="bold">E</hi>rre fordulának, ime, felém tartnak,
+                    s-maid előmben jutnak.</l>
+                <l n="88" xml:id="l.98"><hi rend="bold">H</hi>ó, hó, mégis futnak, ho, ho, most már
+                    álnak, el sűtem stuczomat,</l>
+                <l n="89" xml:id="l.99"><hi rend="bold">E</hi>ggyike azontúl el válék tarsátul,
+                    tanaltam czélomat,</l>
+                <l n="90" xml:id="l.100"><hi rend="bold">T</hi>őb vadatis várok, Vadas ez az árok,
+                    meg tőltőm puskamat.</l>
+                <l n="91" xml:id="l.101"><hi rend="bold">F</hi>alastrom, golyobis van kezemben,
+                    mégis aszt kezdem keresny,</l>
+                <l n="92" xml:id="l.102"><hi rend="bold">R</hi>oppait hogy hallék, s-valami
+                    csillamlék, vad fog azis lenny,</l>
+                <l n="93" xml:id="l.103"><hi rend="bold">I</hi>hon jűn sebessen, s-áll imár
+                    csendessen, kezde fűlelgetny.</l>
+                <l n="94" xml:id="l.104"><hi rend="bold">S</hi>űlt mostis iol puskám, ám ot hever
+                    rókam, menne, ha lehetne,</l>
+                <l n="95" xml:id="l.105"><hi rend="bold">E</hi>léb, eléb mászik, s-odéb, odéb
+                    csúszik, valoban sietne,</l>
+                <l n="96" xml:id="l.106"><hi rend="bold">G</hi>ődőrben, omlásban s-az maga lyukában
+                    őrőmest bé menne.</l>
+                <l n="97" xml:id="l.107"><hi rend="bold">E</hi>zt immár jo tova, csuszkalva,
+                    maszkálva, de még el érhetem,</l>
+                <l n="98" xml:id="l.108"><hi rend="bold">T</hi>őltőm mostanaban puskamot uiobban,
+                    s-menten el készétem,</l>
+                <l n="99" xml:id="l.109"><hi rend="bold">I</hi>ndulok utánna, bánnam, ha el futna,
+                    továb sem eresztem.</l>
+                <l n="100" xml:id="l.110"><hi rend="bold">O</hi>rran, orrán mászkál, be igen
+                    botorkal, maid meg űtőm főben,</l>
+                <l n="101" xml:id="l.111"><hi rend="bold">E</hi>l nem hatta mágat, koczogattya
+                    fogat, van de szédűlésben,</l>
+                <l n="102" xml:id="l.112"><hi rend="bold">G</hi>yakorta fűrkészet, itten egerészet,
+                    s-jutot már kezemben.</l>
+                <l n="103" xml:id="l.113"><hi rend="bold">E</hi>zennel keresny, őzemet nyomozny kel
+                    immár kezdenem,</l>
+                <l n="104" xml:id="l.114"><hi rend="bold">S</hi>zintén itten állot, hogy az puskám
+                    szóllot, kőnnyű meg ősmérnem,</l>
+                <l n="105" xml:id="l.115"><hi rend="bold">E</hi>lég szőrét látom, vérétis kaphatom,
+                    iob de magat néznem,</l>
+                <l n="106" xml:id="l.116"><hi rend="bold">G</hi>yalazatom esnék, ha reá nem
+                    tanalnék, noha iol meg lőttem.</l>
+                <l n="107" xml:id="l.117"><hi rend="bold">E</hi>lmegyek mind addig, vérét valameddig
+                    éppen el nem vesztem,</l>
+                <l n="108" xml:id="l.118"><hi rend="bold">T</hi>alam ez mezgyében vagy az torok
+                    főben maid fel kereshetem.</l>
+                <l n="109" xml:id="l.119"><hi rend="bold">K</hi>étfelé vigyáznom s-csak az nyomán
+                    iarnom szűkségesnek tartom,</l>
+                <l n="110" xml:id="l.120"><hi rend="bold">A</hi>hun van, ott fekszik, tőbbet nemis
+                    eszik, már meg holt, ugy látom,</l>
+                <l n="111" xml:id="l.121"><hi rend="bold">P</hi>ariatis, el hittem, még ma meg
+                    lőhetem, s-melléje vonyhatom,</l>
+                <l n="112" xml:id="l.122"><hi rend="bold">N</hi>em mesze az haitók, maid egyet
+                    kiáltók, hogy legyen mellettem,</l>
+                <l n="113" xml:id="l.123"><hi rend="bold">V</hi>egye palczaiára, őzemet vallára,
+                    s-vigye én előttem,</l>
+                <l n="114" xml:id="l.124"><hi rend="bold">N</hi>em nehéz az roka, noha nagy az
+                    farka, azt magam vihetem,</l>
+                <l n="115" xml:id="l.125"><hi rend="bold">K</hi>eresztűl harapta, s-foga kőzé falta,
+                    ugy látom, az nyelvét,</l>
+                <l n="116" xml:id="l.126"><hi rend="bold">H</hi>ihető, mentemben szerencse előmben
+                    még más vadatis vét,</l>
+                <l n="117" xml:id="l.127"><hi rend="bold">E</hi>llővőm én annak, haitany ha fognak,
+                    maid éppen a’ szivét.</l>
+                <l n="118" xml:id="l.128"><hi rend="bold">N</hi>yul bogdacsolását s-amoda ugrasat,
+                    ugy teczik, hallottam,</l>
+                <l n="119" xml:id="l.129"><hi rend="bold">I</hi>tilem, meg fekűt, mint hogy killyeb
+                    nem jut, mert sohul sem láttam,</l>
+                <l n="120" xml:id="l.130"><hi rend="bold">E</hi>l megyek nyomára s-amaz két omlásra,
+                    még el nem faradtam,</l>
+                <l n="121" xml:id="l.131"><hi rend="bold">L</hi>átom fekésében az omlás végében,
+                    hogy magat meg vonta,</l>
+                <l n="122" xml:id="l.132"><hi rend="bold">E</hi>zennel iranzom, iol megis czélozom,
+                    mert meg nem saidita,</l>
+                <l n="123" xml:id="l.133"><hi rend="bold">S</hi>zive kőzepére, nem csak gyűkerére
+                    golyobisom juta.</l>
+                <l n="124" xml:id="l.134"><hi rend="bold">T</hi>analtam valóban, nem lőttem heában,
+                    lehetek őrőmben,</l>
+                <l n="125" xml:id="l.135"><hi rend="bold">E</hi>z tőbbet nem koczant, éppen meg sem
+                    moczant, marada helyében,</l>
+                <l n="126" xml:id="l.136"><hi rend="bold">S</hi>zintén kedvem telék, s-ugyan meg
+                    újúlék ez jo lővésemben,</l>
+                <l n="127" xml:id="l.137"><hi rend="bold">T</hi>eszem az Rókához, de már az
+                    puskámhoz kel ennékem látnom,</l>
+                <l n="128" xml:id="l.138"><hi rend="bold">V</hi>érével rokának, mind őznek s-mind
+                    nyulnak jo azt tisztitanom,</l>
+                <l n="129" xml:id="l.139"><hi rend="bold">N</hi>agy szépen tisztitva s-jol meg
+                    vonyogatva kel most mulatoznom.</l>
+                <l n="130" xml:id="l.140"><hi rend="bold">J</hi>o tiszta, ugy tartom,
+                        farsatoiát<note type="critic" xml:id="note.10">farsató –
+                        puskaalkatrész</note> látom, nem kel tovab késnem,</l>
+                <l n="131" xml:id="l.141"><hi rend="bold">A</hi>z tőb puskasokhoz, vadasz társaimhoz
+                    el kel immár mennem,</l>
+                <l n="132" xml:id="l.142"><hi rend="bold">R</hi>égen edgyűt vannak, s-csak engemet
+                    várnak, szűkség hát sietnem.</l>
+                <l n="133" xml:id="l.143"><hi rend="bold">E</hi>nis vadaimmal, őz vivő haitommal
+                    értem hogy kőzikben,</l>
+                <l n="134" xml:id="l.144"><hi rend="bold">S</hi>zép szarvas őzemet s-raita lővésemet
+                    nézik őrőmőkben,</l>
+                <l n="135" xml:id="l.145"><hi rend="bold">T</hi>őbben de nyulamot, szép veres
+                    rokamot forgatták kezekben.</l>
+                <l n="136" xml:id="l.146"><hi rend="bold">S</hi>uta két őzecskét, ők harom
+                        evetkét<note type="critic" xml:id="note.11">evetke – mókuska</note> és niegy
+                    nyulat lőttek,</l>
+                <l n="137" xml:id="l.147"><hi rend="bold">E</hi>gy nagy vad macskával, két farkast
+                    rokával melléjek fektettek,</l>
+                <l n="138" xml:id="l.148"><hi rend="bold">G</hi>erént két harkallyal, borzot négy
+                    bagollyal főlikben vetettek.</l>
+                <l n="139" xml:id="l.149"><hi rend="bold">E</hi>stve felé lévén s elég iárast tévén
+                    mennyunk qvartelyunkban,</l>
+                <l n="140" xml:id="l.150"><hi rend="bold">T</hi>udom, készen várnak, jo szivelis
+                    látnak a’ szomszéd falúban,</l>
+                <l n="141" xml:id="l.151"><hi rend="bold">E</hi>lnézik prædánkat s-meg lőtt
+                    vadainkat, s-iol tartnak azonban.</l>
+                <l n="142" xml:id="l.152"><hi rend="bold">L</hi>eszűnk hogyha helyben, tűznél
+                    hevertűnkben mulatva magunkat,</l>
+                <l n="143" xml:id="l.153"><hi rend="bold">K</hi>icsodák tanalták, s-kicsodak
+                    hébászták az haitot vadakat,</l>
+                <l n="144" xml:id="l.154"><hi rend="bold">E</hi>l fogom kerdezny, s-meg fogom
+                    visgalny mind az puskasokat.</l>
+                <l n="145" xml:id="l.155"><hi rend="bold">R</hi>endelt qvartelyunkra, kész ió
+                    szallásunkra immár eljutottunk,</l>
+                <l n="146" xml:id="l.156"><hi rend="bold">Ű</hi>llyűnk le, pihennyűnk, s-maidan enny
+                    mennyűnk, eleget koplaltunk,</l>
+                <l n="147" xml:id="l.157"><hi rend="bold">L</hi>egyűnk jo lakasban, jo Companiankban
+                    bizvást mulathatunk,</l>
+                <l n="148" xml:id="l.158"><hi rend="bold">V</hi>iganis lakhatunk, heában nem
+                    iartunk, de vallyon ki mitt lőtt?</l>
+                <l n="149" xml:id="l.159"><hi rend="bold">E</hi>gy őzet s-vad macskát, egy farkast
+                    s-egy rokát Kűrtősy Istvan lőtt,</l>
+                <l n="150" xml:id="l.160"><hi rend="bold">M</hi>ás őzet farkassal, nyulatis egy
+                    borzal s-egy harkalyt Bazty lőtt,</l>
+                <l n="151" xml:id="l.161"><hi rend="bold">A</hi>z kovacs molnarral, Csemnyczky
+                    Gasparral három evetkét lőtt,</l>
+                <l n="152" xml:id="l.162"><hi rend="bold">G</hi>erént harkályostúl, két baglyot
+                    nyulastúl Bossány Miklos lőtt,</l>
+                <l n="153" xml:id="l.163"><hi rend="bold">U</hi>gyan Baglyot kettőt, de nyulatis
+                    kettőt Dudas sogorunk lőtt.</l>
+                <l n="154" xml:id="l.164"><hi rend="bold">N</hi>égy őzet Ebeczky, kettőt Baratnaky
+                    meg nem tanaltanak,</l>
+                <l n="155" xml:id="l.165"><hi rend="bold">K</hi>aroly Tamassal, Poros Litasival
+                    rokát hibasztanak,</l>
+                <l n="156" xml:id="l.166"><hi rend="bold">A</hi>z Baptista János, Michalek s-kis
+                    János lőny sem tudanak.</l>
+                <l n="157" xml:id="l.167"><hi rend="bold">T</hi>őbbekre s-masokra, sem Vay Uramra ez
+                    mai háitásban</l>
+                <l n="158" xml:id="l.168"><hi rend="bold">M</hi>ivelhogy vad nem ment, nagy méltán
+                    lehet ment egyszer mostanaban,</l>
+                <l n="159" xml:id="l.169"><hi rend="bold">V</hi>ad szalasztoinkat, de az hibazokat
+                    vegyék birságlásban.</l>
+                <l n="160" xml:id="l.170"><hi rend="bold">L</hi>égyen már tovabra gondgya az
+                    haitokra falu Biraianak,</l>
+                <l n="161" xml:id="l.171"><hi rend="bold">A</hi>z főlőstőkőmre s-holnapi ebédre
+                    Komjaty Davidnak,</l>
+                <l n="162" xml:id="l.172"><hi rend="bold">S</hi>traza allitásra s-az jo vigyazásra
+                    kakuk Hadnagyomnak.</l>
+                <l n="163" xml:id="l.173"><hi rend="bold">S</hi>tuczom tőrlésére s-kenyegetésére
+                    Pecsinek s-Csimának,</l>
+                <l n="164" xml:id="l.174"><hi rend="bold">V</hi>etkősztetésemre s-ágyam vetésére
+                    Arvay Matyásnak,</l>
+                <l n="165" xml:id="l.175"><hi rend="bold">K</hi>észűlő fuásra és az indulásra
+                    Trombitas Farkasnak.</l>
+                <l n="166" xml:id="l.176"><hi rend="bold">M</hi>ost immár nyugodgyunk, s-virátig
+                    aludgyunk, az eczaka hoszu,</l>
+                <l n="167" xml:id="l.177"><hi rend="bold">J</hi>o tűzűnk gerjedgyen, s-azon bőven
+                    legyen szarasz fa s-jo aszu,</l>
+                <l n="168" xml:id="l.178"><hi rend="bold">N</hi>egy oraig nyugszom, s-éfelég
+                    aluszom, mert ma nem ért boszu.</l>
+                <l n="169" xml:id="l.179"><hi rend="bold">D</hi>e az alúvasnak és az nyugovásnak
+                    immár vége légyen,</l>
+                <l n="170" xml:id="l.180"><hi rend="bold">E</hi>dgyűt az haitokkal s-paraszt
+                    puskasokkal már az kovács megyen,</l>
+                <l n="171" xml:id="l.181"><hi rend="bold">N</hi>agy hamar agyatúl s-maga gazdajátúl
+                    ki ki búcsút vegyen.</l>
+                <l n="172" xml:id="l.182"><hi rend="bold">K</hi>észen vagyunk, látom, maid mingyárt
+                    haitatom amaz szép hegyeket,</l>
+                <l n="173" xml:id="l.183"><hi rend="bold">O</hi>ldalait hágva s-vőlgyeit elálva
+                    iariuk az mezgyéket,</l>
+                <l n="174" xml:id="l.184"><hi rend="bold">R</hi>endessen azonban haicsák hamarjaban
+                    ezt az sűrű berket.</l>
+                <l n="175" xml:id="l.185"><hi rend="bold">H</hi>a az haitó iol hait, lészen itt
+                    sűket fait, Csaszar madaraval,</l>
+                <l n="176" xml:id="l.186"><hi rend="bold">A</hi> sok fogoly madár, nem csak húros
+                        madár<note type="critic" xml:id="note.12">húros madár – rigóféle</note> iár
+                    it csuportyaval,</l>
+                <l n="177" xml:id="l.187"><hi rend="bold">L</hi>őhetűnk szaikokat, sarga, szép
+                    rigokat fekete zolnaval,<note type="critic" xml:id="note.13">zsolna: harkály. A
+                            <abbr>TESZ</abbr> első adata <date when="1759">1759</date>-ből
+                        való.</note></l>
+                <l n="178" xml:id="l.188"><hi rend="bold">L</hi>őhetűnk nyúlatis s-talam még
+                    farkastis ily sűrű beregben,</l>
+                <l n="179" xml:id="l.189"><hi rend="bold">O</hi>débra vadaszva s-haitasinkban iutva
+                    az derék erdőkben</l>
+                <l n="180" xml:id="l.190"><hi rend="bold">T</hi>analhatunk őzet, nem egyet, sem
+                    tizet amaz hegy tetőben.</l>
+                <l n="181" xml:id="l.191"><hi rend="bold">T</hi>ehát már mennyűnk el, nagy hamar
+                    allyunk el, s-verjűnk helt magunknak,</l>
+                <l n="182" xml:id="l.192"><hi rend="bold">A</hi>z haitók egy másra, mentekben
+                    puskásra igen vigyazzanak,</l>
+                <l n="183" xml:id="l.193"><hi rend="bold">M</hi>agok jo rendiben allyanak szeltiben,
+                    s-nagy halkan haicsanak.</l>
+                <l n="184" xml:id="l.194"><hi rend="bold">L</hi>e vészem hátamrúl, az puskat
+                    vallamrúl, s-mingyart fel tekerem,</l>
+                <l n="185" xml:id="l.195"><hi rend="bold">E</hi>zennel porozom, s-az sarkant reá
+                    vonszom, maidan vadhoz mérem,</l>
+                <l n="186" xml:id="l.196"><hi rend="bold">N</hi>agy csendessen állok, vadhoz nem
+                    hibalok, hogy ha kőzel érem.</l>
+                <l n="187" xml:id="l.197"><hi rend="bold">N</hi>agy sok ropogásat, dobogo futásat
+                    hallom valaminek,</l>
+                <l n="188" xml:id="l.198"><hi rend="bold">I</hi>ar, latom, parostúl egy Farkas
+                    fiastúl allyán az bereknek,</l>
+                <l n="189" xml:id="l.199"><hi rend="bold">I</hi>hon fút lohogva s-fogát koczogatva
+                    ennek a’ sűrűnek.</l>
+                <l n="190" xml:id="l.200"><hi rend="bold">O</hi>rczamtúl nem egyszer, elkellet már
+                    kétszer az Puskamot vennem,</l>
+                <l n="191" xml:id="l.201"><hi rend="bold">C</hi>sak alig láthatom, iol nem
+                    czélozhatom, s-killyeb nem ió lépnem,</l>
+                <l n="192" xml:id="l.202"><hi rend="bold">O</hi>ldalat, sem nyakát, csak fűlet és
+                    farkát lehet el képzenem.</l>
+                <l n="193" xml:id="l.203"><hi rend="bold">M</hi>égis meg probálom, talam még
+                    tanalom, fűltővőn iranzom,</l>
+                <l n="194" xml:id="l.204"><hi rend="bold">P</hi>uskám iarasához, io Czélos voltahoz
+                    minthogy igen bizom,</l>
+                <l n="195" xml:id="l.205"><hi rend="bold">A</hi>z vadat futtában, nem csak állásában
+                    sokszor nem hibazom.</l>
+                <l n="196" xml:id="l.206"><hi rend="bold">N</hi>agy hamar pattana, nagyotis durana
+                    puskam elsűltében,</l>
+                <l n="197" xml:id="l.207"><hi rend="bold">I</hi>gen nagy erőssen farkas is sebessen
+                    dobog az beregben,</l>
+                <l n="198" xml:id="l.208"><hi rend="bold">A</hi>z bereknek allyat, faknakis az
+                    gallyat teperi mentében.</l>
+                <l n="199" xml:id="l.209"><hi rend="bold">B</hi>allagva nyomára, s-jutvan állásara
+                    látom fűle sőrét,</l>
+                <l n="200" xml:id="l.210"><hi rend="bold">A</hi>z fiatalokon<note type="critic"
+                        xml:id="note.14">fiatal – sarjadék, fiatal fa</note> s-le tepert gallyakon
+                    ki locsant sok vérét,</l>
+                <l n="201" xml:id="l.211"><hi rend="bold">N</hi>em ha megyen mesze, maid el vész az
+                    esze, el nyertem az bőrét.</l>
+                <l n="202" xml:id="l.212"><hi rend="bold">T</hi>ovab nem kel mennem, nemis kel
+                    keresnem, mert már el nyujtózot,</l>
+                <l n="203" xml:id="l.213"><hi rend="bold">J</hi>obbik óldalára s-amaz nagy cser fárá
+                    halva bocsatkozot,</l>
+                <l n="204" xml:id="l.214"><hi rend="bold">S</hi>zeginy az társátul, mind pedig
+                    fiatúl hamar el búcsúzot.</l>
+                <l n="205" xml:id="l.215"><hi rend="bold">Z</hi>olnát laték amot, mingyarast
+                    puskamot ki sűtem hozzája,</l>
+                <l n="206" xml:id="l.216"><hi rend="bold">T</hi>analtam hibazny, meg fogot bomlany
+                    puskám iránzoja,</l>
+                <l n="207" xml:id="l.217"><hi rend="bold">E</hi>l repűlt, el szállot, csak tolla sem
+                    hullot, nincsen nyavolyáia.</l>
+                <l n="208" xml:id="l.218"><hi rend="bold">S</hi>zégyen vallás ére, lőtt farkasom
+                    bőre de ezt bé fedheti,</l>
+                <l n="209" xml:id="l.219"><hi rend="bold">E</hi>gy kis fiatalka s-egy kicsiny
+                    gallyacska golyobist elűti,</l>
+                <l n="210" xml:id="l.220"><hi rend="bold">G</hi>yors repűlésében s-igenyes mentében
+                    férre teritheti.</l>
+                <l n="211" xml:id="l.221"><hi rend="bold">E</hi>l véltem magamban, dolgom mostanaban
+                    ugy tőrtent, s-át láttam,</l>
+                <l n="212" xml:id="l.222"><hi rend="bold">S</hi>tuczomnak hibaiát s-bomlot iranzoiát
+                    mert fel nem tanáltam,</l>
+                <l n="213" xml:id="l.223"><hi rend="bold">M</hi>it kel szépiteny, himezny hámozny,
+                    csak ugyan hibásztam.</l>
+                <l n="214" xml:id="l.224"><hi rend="bold">A</hi>z igaz, hibasztam, de hogy én
+                    hibasztam, láczik nagy csudának,</l>
+                <l n="215" xml:id="l.225"><hi rend="bold">G</hi>alyra s-iránzora, mint sem hogy
+                    magamra meg tőrtént hibámnak</l>
+                <l n="216" xml:id="l.226"><hi rend="bold">V</hi>étkét kenném, fennem, s-magamot
+                    menteném, de nincs haszna a’nnak.</l>
+                <l n="217" xml:id="l.227"><hi rend="bold">N</hi>em kel készűletlen, de tovab
+                    tőltetlen puskámot hordozny,</l>
+                <l n="218" xml:id="l.228"><hi rend="bold">K</hi>el bőcsűletemet s-hibás lővésemet
+                    mindgyárt helyre hozny,</l>
+                <l n="219" xml:id="l.229"><hi rend="bold">A</hi>z farkast azonban vonszom
+                    állásomban, s-meg kezdek pihenny.</l>
+                <l n="220" xml:id="l.230"><hi rend="bold">T</hi>eli van az hasa, be kővér az húsa,
+                    magat iol tartotta,</l>
+                <l n="221" xml:id="l.231"><hi rend="bold">K</hi>ét kézzel kel fognom, ugyis nehéz
+                    vonnom, éppen el fárászta,</l>
+                <l n="222" xml:id="l.232"><hi rend="bold">E</hi>lég nagy az bőre, lompos is az
+                    szőre, szép tarka és bonta.<note type="critic" xml:id="note.15">bonta – két
+                        színnel foltos</note></l>
+                <l n="223" xml:id="l.233"><hi rend="bold">P</hi>attog, megint pattog, s-ugyan sokat
+                    pattog az puska mostanság,</l>
+                <l n="224" xml:id="l.234"><hi rend="bold">E</hi>n de hogy hibásztam, és szégyent
+                    vallottam, nem kevés boszúság,</l>
+                <l n="225" xml:id="l.235"><hi rend="bold">S</hi>ainalom, meg vallom, sem el nem
+                    titkolom, kelletlen ez uyság.</l>
+                <l n="226" xml:id="l.236"><hi rend="bold">I</hi>m, szállott előmben az fa teteiében
+                    egy nagy fűles bagoly,</l>
+                <l n="227" xml:id="l.237"><hi rend="bold">N</hi>oha ki ki tudgya, igazanis mondgya,
+                    az bagoly nem fogoly,</l>
+                <l n="228" xml:id="l.238"><hi rend="bold">T</hi>ollát nem viselik, husát nem
+                    kedvellik, mert csak fűles bagoly,</l>
+                <l n="229" xml:id="l.239"><hi rend="bold">F</hi>el vettem de mégis czélomnak őtetis,
+                    s-puskámot ki lőttem,</l>
+                <l n="230" xml:id="l.240"><hi rend="bold">A</hi>zonnal le esék, s-maid fejemre esék,
+                    ugyan eliettem,</l>
+                <l n="231" xml:id="l.241"><hi rend="bold">R</hi>útul huhogatva s-orrát pattogatva
+                    dudolgat előttem.</l>
+                <l n="232" xml:id="l.242"><hi rend="bold">A</hi>z bagolynak háiát s-az Farkasnak
+                    máiát mondgyák orvosságnak,</l>
+                <l n="233" xml:id="l.243"><hi rend="bold">S</hi>ok féle hasznárul s-hasznos
+                    mivoltárul sokan sokat szólnak,</l>
+                <l n="234" xml:id="l.244"><app xml:id="app.2">
+                        <lem wit="#KK" xml:id="lem.2"><hi rend="bold">Z</hi>olnanak fadgyával
+                            senkit, se tollával de nem gyogyithatnak.</lem>
+                        <rdg wit="#W1" xml:id="rdg.2">gyogyit atnak</rdg>
+                    </app></l>
+                <l n="235" xml:id="l.245"><hi rend="bold">T</hi>őbbet ért egy kakas, egy bagoly
+                    s-egy farkas hát egy rosz zolnánál,</l>
+                <l n="236" xml:id="l.246"><hi rend="bold">A</hi>z bagoly odóban, biró barlangjában
+                    nem kér szállást másnál,</l>
+                <l n="237" xml:id="l.247"><hi rend="bold">N</hi>agy kedves az Farkas, iol sűtve az
+                    kakas haidu katonánál.</l>
+                <l n="238" xml:id="l.248"><hi rend="bold">I</hi>hun, felém rőpűl, szivem ugyan őrűl,
+                    két Csaszár madára,</l>
+                <l n="239" xml:id="l.249"><hi rend="bold">E</hi>lőmben szallának, s-az főldőn
+                    futkosnak, van ezeknek árá,</l>
+                <l n="240" xml:id="l.250"><hi rend="bold">G</hi>yorsan lővésemben s-puskám sűtésében
+                    nem késtem sokára,</l>
+                <l n="241" xml:id="l.251"><hi rend="bold">E</hi>gynek lőttem farkát, nem éri tőb
+                    nyarat, nem kőlt fel szarnyára,</l>
+                <l n="242" xml:id="l.252"><hi rend="bold">S</hi>zallot az masika, iol laczot az
+                    nyaka, egy magos bik fára,</l>
+                <l n="243" xml:id="l.253"><hi rend="bold">E</hi>nnek feiét lőttem, s-immar felis
+                    vettem, s-vetettem Páriára.</l>
+                <l n="244" xml:id="l.254"><hi rend="bold">G</hi>yunnek már az haitok, rőpűlnek az
+                    faitok, s-nagy sebessen mennek,</l>
+                <l n="245" xml:id="l.255"><hi rend="bold">E</hi>zeket kerűlnőm, nem lehet meg lőnem,
+                    már mesze rőpűlnek,</l>
+                <l n="246" xml:id="l.256"><hi rend="bold">S</hi>zemem sem láthattya, s-nemis
+                    visgalhattya, hova ereszkednek.</l>
+                <l n="247" xml:id="l.257"><hi rend="bold">H</hi>aitok puskásokkal s-puskasok
+                    haitokkal gyűlnek már csuportra,</l>
+                <l n="248" xml:id="l.258"><hi rend="bold">E</hi>nis inasomnak, az farkast Csimának
+                    adom az hátára,</l>
+                <l n="249" xml:id="l.259"><hi rend="bold">N</hi>agy fűles baglyomat s-Csaszár
+                    madarimat felveszem puskámra.</l>
+                <l n="250" xml:id="l.260"><hi rend="bold">I</hi>ndulok feléiek, s-érek ha kőzéiek,
+                    maid sok ui hirt hallok,</l>
+                <l n="251" xml:id="l.261"><hi rend="bold">E</hi>l rőpűlt Zolnámrul s-hozzá tet
+                    hibámrul én ugyan nem szóllok,</l>
+                <l n="252" xml:id="l.262"><hi rend="bold">L</hi>égyen bár szó arrúl, szollok de én
+                    másrúl, vagy hogy eléb állok.</l>
+                <l n="253" xml:id="l.263"><hi rend="bold">E</hi>l végre meg vallom, el sem
+                    palastolom, nem ió el titkolnom,</l>
+                <l n="254" xml:id="l.264"><hi rend="bold">S</hi>em hazugságokkal s-puskás fogasokkal
+                    hibamot toldanom,</l>
+                <l n="255" xml:id="l.265"><hi rend="bold">T</hi>udom, az birságot s-az puska
+                    valtságot meg kel nékem adnom.</l>
+                <l n="256" xml:id="l.266"><hi rend="bold">K</hi>el de meg visgalnom, s-nekemis meg
+                    tudnom, őkis mihez lőttek,</l>
+                <l n="257" xml:id="l.267"><hi rend="bold">E</hi>l tet lővésekben s-magok mencségében
+                    hogy birságban estek,</l>
+                <l n="258" xml:id="l.268"><hi rend="bold">R</hi>eménlem, nem egyszer, még ők is
+                    elégszer nagy hibakot tettek.</l>
+                <l n="259" xml:id="l.269"><hi rend="bold">Ű</hi>ltenek az tűznél s-az meg lőtt
+                    őzeknél, hogy kőzikben értem,</l>
+                <l n="260" xml:id="l.270"><hi rend="bold">L</hi>abainal fogva az farkast hurczolva
+                    melléiek vetettem,</l>
+                <l n="261" xml:id="l.271"><hi rend="bold">N</hi>agy fűles baglyommal s-Csaszár
+                    madarimmal kőzikbenis űltem.</l>
+                <l n="262" xml:id="l.272"><hi rend="bold">I</hi>gen hamar kérdem, s-visgalni is
+                    kezdém rendét lővéseknek,</l>
+                <l n="263" xml:id="l.273"><hi rend="bold">Ű</hi>vőltő, őuőltő, szemeit meresztő
+                    baglyomon nevetnek,</l>
+                <l n="264" xml:id="l.274"><hi rend="bold">D</hi>e én masodszoris kérdezém
+                    s-tőbszőris rendit lővéseknek.</l>
+                <l n="265" xml:id="l.275"><hi rend="bold">V</hi>ay Uram mondgya, hogy ő nem
+                    tagadgya, hibazot egy rokat,</l>
+                <l n="266" xml:id="l.276"><hi rend="bold">Ő</hi>tt ézben, őtt versben hibazot
+                    lőttében Melczer egy mokuskat,</l>
+                <l n="267" xml:id="l.277"><hi rend="bold">S</hi>zerentsére mégis, lővén hatodszoris,
+                    tanalt egy nyulacskát.</l>
+                <l n="268" xml:id="l.278"><hi rend="bold">S</hi>zarvas őzet egyszer, sutat pedig
+                    kétszer hibalt Baratnaky,</l>
+                <l n="269" xml:id="l.279"><hi rend="bold">E</hi>gy őzet futtában és mást allasaban
+                    Múr Lőrincz, Csemnyczky,</l>
+                <l n="270" xml:id="l.280"><hi rend="bold">G</hi>yurki Pál egy nyulhoz, Esze
+                    masikahoz s-rokahoz Ebeczky.</l>
+                <l n="271" xml:id="l.281"><hi rend="bold">E</hi>zek mind hibásztak, semmit sem
+                    tanaltak, fel vannak jegyezve,</l>
+                <l n="272" xml:id="l.282"><hi rend="bold">S</hi>zallasunkra iutva s-az birsagrúl
+                    szolva nem lesznek feleitve,</l>
+                <l n="273" xml:id="l.283"><hi rend="bold">T</hi>avozzam bár tűlők, nem lészek
+                    kőzűlők énis ki rekesztve.</l>
+                <l n="274" xml:id="l.284"><hi rend="bold">E</hi>rteny kévánnám, s-midőn tudakoznam,
+                    kik mitt tanaltanak,</l>
+                <l n="275" xml:id="l.285"><hi rend="bold">H</hi>allom, hogy homlokát, tanalta
+                    derekat Marczi egy par nyulnak,</l>
+                <l n="276" xml:id="l.286"><hi rend="bold">A</hi>z mariat<note type="critic"
+                        xml:id="note.16">marja – az állat két lapockájának köze</note>
+                        s-hamariat<note type="critic" xml:id="note.17">hamarja – a nyúl lábának
+                        csuklócsontja</note> s-első lapoczkaiat lőtte az más parnak.</l>
+                <l n="277" xml:id="l.287"><hi rend="bold">T</hi>analta az farát s-egyik laba szárát
+                    Dudas egy rokának,</l>
+                <l n="278" xml:id="l.288"><hi rend="bold">U</hi>tollyat, hatulyat s-mind az egész
+                    malyát lőtte masikának,</l>
+                <l n="279" xml:id="l.289"><hi rend="bold">A</hi>z nagy hoszu farkát és az gyúito
+                    Lyukát lőtte harmadiknak.</l>
+                <l n="280" xml:id="l.290"><hi rend="bold">L</hi>őtte az két szemét s-nem az laba
+                    kőrmét Basty egy macskának,</l>
+                <l n="281" xml:id="l.291"><hi rend="bold">L</hi>őtte éppen feiét s-az agya veleiét
+                    egy Csaszar madarnak,</l>
+                <l n="282" xml:id="l.292"><hi rend="bold">I</hi>gen gyenge nyakat, gégéiét és torkát
+                    ő nyőstény társának.</l>
+                <l n="283" xml:id="l.293"><hi rend="bold">O</hi>rrát, fogat, szaiat, két őznek az
+                    maiát ugyan Basty János,</l>
+                <l n="284" xml:id="l.294"><hi rend="bold">N</hi>adj sasnak szárnyat s-egy nyulnak
+                    vékonyat lőtte Batik Janos,</l>
+                <l n="285" xml:id="l.295"><hi rend="bold">K</hi>i lőtte tűdeiét s-azzal az vesseiét
+                    másnak Csonka Janos.</l>
+                <l n="286" xml:id="l.296"><hi rend="bold">I</hi>gen szerencsére egy őzet kőzelre
+                    Bossany Miklos lőtt,</l>
+                <l n="287" xml:id="l.297"><hi rend="bold">N</hi>em kisseb czudával az maga stuczaual
+                    más őzet Csorgaly lőtt,</l>
+                <l n="288" xml:id="l.298"><hi rend="bold">E</hi>gy nyulat fektében éppen ugyan
+                    szűgyben kurinczi komank lőtt.</l>
+                <l n="289" xml:id="l.299"><hi rend="bold">M</hi>ind nyulat bokrostul, mind őzet
+                    párostúl Jakab gazda lőve,</l>
+                <l n="290" xml:id="l.300"><hi rend="bold">F</hi>aitot egy bagollyal és egy par
+                    fogolyal Pászthi Basi lőve,</l>
+                <l n="291" xml:id="l.301"><hi rend="bold">O</hi>dalban egy nyestet, mely nem volt
+                    meg festet, kovács batyank lőve.</l>
+                <l n="292" xml:id="l.302"><hi rend="bold">G</hi>yorsan futasaban lőtt forgo
+                    csontyaban Palkó egy rokának,</l>
+                <l n="293" xml:id="l.303"><hi rend="bold">J</hi>ob felől az hasát s-horpaszon az
+                    húsát lőtte masikanak,</l>
+                <l n="294" xml:id="l.304"><hi rend="bold">A</hi>z feie fél felét és a’ iobbik fűlét
+                    lőtte egy Vidrának,</l>
+                <l n="295" xml:id="l.305"><hi rend="bold">F</hi>űstős puskaiaval s-kedves
+                        polyhakiával<note type="critic" xml:id="note.18">polyhak – rövid csövű
+                        lengyel puska</note> porosis egy hodott,</l>
+                <l n="296" xml:id="l.306"><hi rend="bold">R</hi>itka szerencsére ugy lőtt io
+                    meszére, mingyárt ott maradott,</l>
+                <l n="297" xml:id="l.307"><hi rend="bold">I</hi>me az bokorban igen hamariában
+                    s-kőnnyen reá akadott.</l>
+                <l n="298" xml:id="l.308"><hi rend="bold">S</hi>allay mutattya, s-igen fitogattya
+                    szőrét egy rokának,</l>
+                <l n="299" xml:id="l.309"><hi rend="bold">M</hi>ondgya, hogy Litasy Marczival
+                        kereti,<note type="critic" xml:id="note.19">értsd: keréti, keríti</note>
+                    s-mind az nyomán iárnak,</l>
+                <l n="300" xml:id="l.310"><hi rend="bold">V</hi>ai ki nagy heában iárnak mostanában
+                    s-kordelyra fáradnak.</l>
+                <l n="301" xml:id="l.311"><hi rend="bold">L</hi>épik fris ió kedvel, hoszu
+                    sretesével Joannes Baptista,</l>
+                <l n="302" xml:id="l.312"><hi rend="bold">A</hi>z vak egyszer patkot, tanalt őis
+                    szaikot, de meg nem foghatta,</l>
+                <l n="303" xml:id="l.313"><hi rend="bold">T</hi>ővises sűrűben, mondgya, őrőmében
+                    hogy bé szalasztotta.</l>
+                <l n="304" xml:id="l.314"><hi rend="bold">S</hi>zintén valoiaban, látom, vigasságban
+                    kezde mostan lenny,</l>
+                <l n="305" xml:id="l.315"><hi rend="bold">A</hi>z maga srétesét s-nem mások lővését
+                    tudgya csak dicsirny,</l>
+                <l n="306" xml:id="l.316"><hi rend="bold">G</hi>ondollya, medvének, szivét szaruas
+                    Gimnek tanalta meg lőny.</l>
+                <l n="307" xml:id="l.317"><hi rend="bold">O</hi>ly vadat kőzűlűnk, az kik itten
+                    űlűnk, nem tuda meg lőny</l>
+                <l n="308" xml:id="l.318"><hi rend="bold">S</hi>enki ekkoraigh, iártunk bár sokaig
+                    erdőket vadaszny,</l>
+                <l n="309" xml:id="l.319"><hi rend="bold">I</hi>gen igen mondgya, hogy ő aszt iol
+                    tudgya, s-nem lehet tagadny.</l>
+                <l n="310" xml:id="l.320"><hi rend="bold">O</hi>lom golyobisa es tisztito vasa Pál
+                    gazdának rontá</l>
+                <l n="311" xml:id="l.321"><hi rend="bold">V</hi>gyan fulig s-torkig s-hata
+                    gerenczeiék éppen mind eljárta</l>
+                <l n="312" xml:id="l.322"><hi rend="bold">A</hi>z csontyat egy őznek és egy
+                    evetkének, s-mind ősze szagatá.</l>
+                <l n="313" xml:id="l.323"><hi rend="bold">D</hi>e Kűrtősy István, ki ki tudgya
+                    nyilvan, harom lővésével</l>
+                <l n="314" xml:id="l.324"><hi rend="bold">A</hi>z őzet tarsával, nyőstényet bakiával
+                    s-bakiat nyőstényével,</l>
+                <l n="315" xml:id="l.325"><hi rend="bold">S</hi>zivét a’ rokának ellőtte s-egy
+                    nyulnak nagy mesterségével.</l>
+                <l n="316" xml:id="l.326"><hi rend="bold">Z</hi>olnam ha meg volna, szivem nem
+                    vágyhatna tőbre mostanában,</l>
+                <l n="317" xml:id="l.327"><hi rend="bold">A</hi>nnak de eb helye, nemis io az mellye
+                    minthogy pastetomban,</l>
+                <l n="318" xml:id="l.328"><hi rend="bold">T</hi>őbszer nem emlétem, s-immar el
+                    feleitem az jo vadaszatban.</l>
+                <l n="319" xml:id="l.329"><hi rend="bold">V</hi>an már estve felé, mennyűnk Hegymeg
+                    felé, ot lészen hálásunk,</l>
+                <l n="320" xml:id="l.330"><hi rend="bold">N</hi>agy hamar elérűnk, ha it nem
+                    heverűnk, s-job, hogy ot mulassunk,</l>
+                <l n="321" xml:id="l.331"><hi rend="bold">K</hi>ezgyűnk hat utunkhoz, érűnk io
+                    gazdankhoz, készen van szállásunk.</l>
+                <l n="322" xml:id="l.332"><hi rend="bold">N</hi>oha nem siettűnk, nagy hamar
+                    elertűnk, s-eliutank Hegymegre,</l>
+                <l n="323" xml:id="l.333"><hi rend="bold">A</hi>z meglőtt vadakat s-ugy az madarakat
+                    tegyék el hivesre,</l>
+                <l n="324" xml:id="l.334"><hi rend="bold">K</hi>eszicsék az étket, s-az őz
+                        czimereket<note type="critic" xml:id="note.20">czimer – kisebb állat
+                        negyedrésze, combrésze</note> hozzák el előre.</l>
+                <l n="325" xml:id="l.335"><hi rend="bold">E</hi>gyűnk mingyárt, s-igyunk, azutan
+                    nyugodgyunk, már sokat fárattunk,</l>
+                <l n="326" xml:id="l.336"><hi rend="bold">M</hi>aj szerencsénkrűl s-eltet lővesékrűl
+                    holnapis szolhatunk,</l>
+                <l n="327" xml:id="l.337"><hi rend="bold">O</hi>deb vadasztunkrul s-minden
+                    haitasinkrul rendetis szabhatunk.</l>
+                <l n="328" xml:id="l.338"><hi rend="bold">S</hi>zeműnknek aluvást s-testűnknek
+                    nyugovast már tehat engedgyűnk,</l>
+                <l n="329" xml:id="l.339"><hi rend="bold">T</hi>őbrűl nemis szolva s-egy mástúl
+                    bucsúzva jo éczakat vegyunk.</l>
+                <l n="330" xml:id="l.340"><hi rend="bold"> A</hi>zomban hajnalkor, mint ma és
+                    egyébkor, megint készen legyűnk.</l>
+                <l n="331" xml:id="l.341"><hi rend="bold">N</hi>agy sokat áluvánk, s-eleget
+                    nyugovank, továb ne heverjűnk,</l>
+                <l n="332" xml:id="l.342"><hi rend="bold">J</hi>ókor az erdőre, hogy az hegy tetőre
+                    viratig el ériűnk,</l>
+                <l n="333" xml:id="l.343"><hi rend="bold">F</hi>el kel immár kelnűnk, s-nem kel
+                    továb késnűnk, szűkség űdőt nyernűnk,</l>
+                <l n="334" xml:id="l.344"><hi rend="bold">E</hi>zennel készűllyűnk, s-továb ne
+                    henyélyűnk, nem ió már alunny,</l>
+                <l n="335" xml:id="l.345"><hi rend="bold">L</hi>ankasztato álom s-bagyaszto unalom
+                    szokot arrul iűnny,</l>
+                <l n="336" xml:id="l.346"><hi rend="bold">T</hi>udgyuk iol hogy fekve nem lehet
+                    s-heverve az vadat meg lőny.</l>
+                <l n="337" xml:id="l.347"><hi rend="bold">E</hi>l vetem leplemet, s-meg tőrlőm
+                    szememet, s-az álmot ki űtőm,</l>
+                <l n="338" xml:id="l.348"><hi rend="bold">T</hi>űznél sem fűtőzőm, s-nagy hamar
+                    őltőzőm, már ővemet kőtőm,</l>
+                <l n="339" xml:id="l.349"><hi rend="bold">E</hi>s maid szép rendessen puskamot
+                    s-nagy frissen mingyár megis tőltőm.</l>
+                <l n="340" xml:id="l.350"><hi rend="bold">S</hi>zolnak az kakasok, kukoricolasok
+                    igen igen hallik,</l>
+                <l n="341" xml:id="l.351"><hi rend="bold">F</hi>uiák az készűlőt vagy hogy az fel
+                    űlőt, már talám hainallik,</l>
+                <l n="342" xml:id="l.352"><hi rend="bold">E</hi>l kel már indulnunk, mi haszna
+                    mulatnunk, az űdő mind mulik.</l>
+                <l n="343" xml:id="l.353"><hi rend="bold">L</hi>ovamot hozzák ki, neis késsék senki,
+                    régen fel készűltem,</l>
+                <l n="344" xml:id="l.354"><hi rend="bold">V</hi>ad ronto stuczomot s-meg tőltőt
+                    puskámot vállámra fel vettem,</l>
+                <l n="345" xml:id="l.355"><hi rend="bold">É</hi>n kedves Gazdamtúl és gazdam
+                    Aszontúl bucsumatis vettem.</l>
+                <l n="346" xml:id="l.356"><hi rend="bold">T</hi>anala de rosz hir, kin szivem csak
+                    nem sir, nem lehet el mennem,</l>
+                <l n="347" xml:id="l.357"><hi rend="bold">S</hi>ebes eső esik, s-igen igen esik,
+                    csak vesztég kel lennem,</l>
+                <l n="348" xml:id="l.358"><hi rend="bold">Z</hi>apor eső vagyon, s-ugyan szakad
+                    nagyon, mit kel már mivelnem.</l>
+                <l n="349" xml:id="l.359"><hi rend="bold">A</hi>z űdőt hogy tőlcsem, s-búmat mint
+                    feleicsem, tanacsra bocsátom,</l>
+                <l n="350" xml:id="l.360"><hi rend="bold">N</hi>em csak baratimnak
+                    s-vadasztarsaimnak uoxát meg halgatom,</l>
+                <l n="351" xml:id="l.361"><hi rend="bold">D</hi>e még masoknakis s-kovács
+                    batyanknakis, mi teczik, meg látom.</l>
+                <l n="352" xml:id="l.362"><hi rend="bold">E</hi>gy része az voxnak, kit parasztok
+                    mondnak, heverést iovallya,</l>
+                <l n="353" xml:id="l.363"><hi rend="bold">K</hi>i fekest, ki űlest, s-ki ki az
+                    henyelést igen commendallya,</l>
+                <l n="354" xml:id="l.364"><hi rend="bold">V</hi>agy hogy az koczkazast a’ vagy az
+                    kartyazast főlőtte aianlya.</l>
+                <l n="355" xml:id="l.365"><hi rend="bold">N</hi>agyon kűlőmbezik, s-evvel nem
+                    edgyezik más része az voxnak,</l>
+                <l n="356" xml:id="l.366"><hi rend="bold">K</hi>it Bossany Uram és Kűrtősy Uram
+                    s-tőbbenis voxolnak,</l>
+                <l n="357" xml:id="l.367"><hi rend="bold">S</hi>em fekés, sem űlés, mongyak, sem
+                    henyélés nem jo az puskásnak,</l>
+                <l n="358" xml:id="l.368"><hi rend="bold">Z</hi>apor nagy esőben ha most az erdőkben
+                    nem lehet vadászny,</l>
+                <l n="359" xml:id="l.369"><hi rend="bold">E</hi>gy tiz polturashoz vagy kettős
+                    garashoz mostanis lőhetny,</l>
+                <l n="360" xml:id="l.370"><hi rend="bold">R</hi>oppogjon az puska, nem kel it az
+                    koczka, s-othon kel kartyázny.</l>
+                <l n="361" xml:id="l.371"><hi rend="bold">J</hi>o ezt helyben hadny, s-elis kel
+                    kővetny ez rút nagy záporban,</l>
+                <l n="362" xml:id="l.372"><hi rend="bold">N</hi>agy szép finyes garast, de csak
+                    edgyes garast mingyárt mostanában</l>
+                <l n="363" xml:id="l.373"><app xml:id="app.3">
+                        <lem wit="#KK" xml:id="lem.3"><hi rend="bold">T</hi>árgyúnknak <note
+                                type="critic" xml:id="note.21">Tárgy – cél</note> tegyűnk fel,
+                            s-kőzepét lőjűk el igen hamarjában.</lem>
+                        <rdg wit="#W1" xml:id="rdg.3">Tárgyűnknak</rdg>
+                    </app></l>
+                <l n="364" xml:id="l.374"><hi rend="bold">V</hi>an de az kovácsnak s-Dudas
+                    sogorunknak szova mind ezekhez,</l>
+                <l n="365" xml:id="l.375"><hi rend="bold">A</hi>zt mongyak, ők pórok, kevésis az
+                    porok, nem lőnek az Czélhez,</l>
+                <l n="366" xml:id="l.376"><hi rend="bold">L</hi>észen iob elmenny, nekiek sietny ki
+                    tet borczégerhez.</l>
+                <l n="367" xml:id="l.377"><hi rend="bold">O</hi>tt ők ősze gyűlnek, és egyűvé
+                    gyűlnek, nincs most gondgyok másra,</l>
+                <l n="368" xml:id="l.378"><hi rend="bold">E</hi>gyűt maidan isznak, s-napestig
+                    mulatnak azok rovására,</l>
+                <l n="369" xml:id="l.379"><hi rend="bold">L</hi>őttőkben hibázva s-vadakat
+                    szalasztva kik estek birságra.</l>
+                <l n="370" xml:id="l.380"><hi rend="bold">K</hi>el eztis bévenny, nemis jo meg
+                    vetny, mélto helyben hadnunk,</l>
+                <l n="371" xml:id="l.381"><hi rend="bold">Ő</hi>nekik Czégérre s-minékűnk az Czélre
+                    kel tehat czéloznunk,</l>
+                <l n="372" xml:id="l.382"><hi rend="bold">U</hi>gy hiszem, ekképpen lehet igen
+                    szépen űdűnket mulatnunk.</l>
+                <l n="373" xml:id="l.383"><hi rend="bold">E</hi>lsőbenis azért lőjűnk egy aranyért,
+                    mellyet én fel tészek,</l>
+                <l n="374" xml:id="l.384"><hi rend="bold">T</hi>űzőtt erszenykémbűl s-az magam
+                    zebembűl, ime, kiis vészek,</l>
+                <l n="375" xml:id="l.385"><hi rend="bold">E</hi>lső az lővesben, puskam sűtésében
+                    ugyan magam lészek.</l>
+                <l n="376" xml:id="l.386"><hi rend="bold">S</hi>ainalnam azonban, az tárgy
+                    tanalásban ha utolsó lennék,</l>
+                <l n="377" xml:id="l.387"><hi rend="bold">E</hi>s ha gyalazatra minnyajunk láttára
+                    az tárgyhoz hibaznek,</l>
+                <l n="378" xml:id="l.388"><hi rend="bold">T</hi>árgyunknak szélére s-nem az kőzepére
+                    ha valahogy lőnék.</l>
+                <l n="379" xml:id="l.389"><hi rend="bold">J</hi>ó de meg érteny, s-ugyan meg kel
+                    tudny aztis mindeneknek,</l>
+                <l n="380" xml:id="l.390"><hi rend="bold">O</hi>llyak, kik hibáznak, birsaggál
+                    tartoznak Kovács seregének,</l>
+                <l n="381" xml:id="l.391"><hi rend="bold">V</hi>agyha reteszt vetne,<note
+                        type="critic" xml:id="note.22">reteszt vet – csütörtököt mond</note>
+                    s-puskajok nem sűlne, duplumat fuzetnek.</l>
+                <l n="382" xml:id="l.392"><hi rend="bold">A</hi>z Contradictio, sem az exceptio nem
+                    használ ez ellen.</l>
+                <l n="383" xml:id="l.393"><hi rend="bold">L</hi>őttűnkben az tárgyhoz, hibazny
+                    czélunkhoz mert igen disztelen,</l>
+                <l n="384" xml:id="l.394"><hi rend="bold">L</hi>e csapont puskanknak s-nem csak mi
+                    magunknak hazudny képtelen.</l>
+                <l n="385" xml:id="l.395"><hi rend="bold">A</hi>zonban elválik, hogyha maidan hallik
+                    szollása puskámnak,</l>
+                <l n="386" xml:id="l.396"><hi rend="bold">N</hi>em kellé elsőben s-első lővésemben
+                    fűzetny magamnak,</l>
+                <l n="387" xml:id="l.397"><hi rend="bold">I</hi>mé, puskam szollot, s-pendűlése
+                    hallot az ellőtt garasnak,</l>
+                <l n="388" xml:id="l.398"><hi rend="bold">E</hi>llőttem az felét, és nem csak a’
+                    szelit, lőjenek már mások,</l>
+                <l n="389" xml:id="l.399"><hi rend="bold">S</hi>zélit vagy kőzepit, meg várom ugyan
+                    itt, más tőb jo puskások</l>
+                <l n="390" xml:id="l.400">390 <hi rend="bold">H</hi>ogy ha tanállyáké, s-mind ugy
+                    lőhetteké, az mint megyen hasok.</l>
+                <l n="391" xml:id="l.401"><hi rend="bold">E</hi>dgyenként mind lőttek, nagy sok
+                    hibak éstek, de meg kel vallany,</l>
+                <l n="392" xml:id="l.402"><app xml:id="app.4">
+                        <lem wit="#KK" xml:id="lem.4"><hi rend="bold">L</hi>eg jobban s-maid éppen
+                            tanalta kőzépen az Czelt Basti lőnny,</lem>
+                        <rdg wit="#W1" xml:id="rdg.4">Barci</rdg>
+                    </app></l>
+                <l n="393" xml:id="l.403"><hi rend="bold">I</hi>gaz ugyan azis, Kűrtősy Istvanis
+                    tanalta meg érny.</l>
+                <l n="394" xml:id="l.404"><hi rend="bold">B</hi>irságot azoknak, az kik hibaztanak,
+                    kel de már fűzetny,</l>
+                <l n="395" xml:id="l.405"><hi rend="bold">E</hi>dgyűt mind azokkal, kik ő
+                    puskaiokkal tanaltak hazudny,</l>
+                <l n="396" xml:id="l.406"><hi rend="bold">N</hi>em lehet senkinek tett végezésűnknek
+                    ellene kedvezny.</l>
+                <l n="397" xml:id="l.407"><hi rend="bold">H</hi>amar meg szerzették, s-már őszeis
+                    szettek, kik mivel tartosztak,</l>
+                <l n="398" xml:id="l.408"><hi rend="bold">A</hi>zzal az Kovácsnak s-tőb ő tarsainak
+                    nagy io kedvet hoztak,</l>
+                <l n="399" xml:id="l.409"><hi rend="bold">D</hi>e az egy aranynak zebében Bastinak
+                    helytis hamar attak.</l>
+                <l n="400" xml:id="l.410"><hi rend="bold">N</hi>em mesze van délhez, űllyűnk az
+                    ebédhez, ugy teczik, éhezem,</l>
+                <l n="401" xml:id="l.411"><hi rend="bold">I</hi>deie már ennűnk, s-az ebedhez
+                    űlnűnk, magamban jol érzem,</l>
+                <l n="402" xml:id="l.412"><hi rend="bold">M</hi>aid lakiunk kedvűnkre, vané gondunk
+                    tőbre, azt most nem kerdezem.</l>
+                <l n="403" xml:id="l.413"><hi rend="bold">I</hi>gyúk áldomását, hogy lőhessűk mássát
+                    az meg lőtt vadaknak,</l>
+                <l n="404" xml:id="l.414"><hi rend="bold">V</hi>adasz puskasokért s-igaz vadaszokért
+                    s-éltekért azoknak,</l>
+                <l n="405" xml:id="l.415"><hi rend="bold">E</hi>l kel leg elsőben kerűlni rendűnkben
+                    az első pohárnak.</l>
+                <l n="406" xml:id="l.416"><hi rend="bold">L</hi>eszen io tovabra kőszőnnűnk egy
+                    másra igaz baratinkért,</l>
+                <l n="407" xml:id="l.417"><hi rend="bold">H</hi>armadszor pediglen nemis lesz
+                    disztelen kévánt io űdőkért,</l>
+                <l n="408" xml:id="l.418"><hi rend="bold">O</hi>haitva sohaitot, sokszoris ohaitot
+                    mi io szerencsénkért,</l>
+                <l n="409" xml:id="l.419"><hi rend="bold">G</hi>arast ellővőkért s-jó Companiankért
+                    az utan kel innunk,</l>
+                <l n="410" xml:id="l.420"><hi rend="bold">I</hi>ly jo kőszőnetek ha mind el
+                    kerűltek, kőnnyű reá tanalnuk,</l>
+                <l n="411" xml:id="l.421"><hi rend="bold">M</hi>ás tőb titulusra s-jok kévanságára
+                    azon kőzben kapnunk.</l>
+                <l n="412" xml:id="l.422"><hi rend="bold">I</hi>gy hogy egy ideig s-maid ugyan
+                    estvélig az midőn mulatnank,</l>
+                <l n="413" xml:id="l.423"><hi rend="bold">N</hi>agy frissen vigadva, semmin sém
+                    búsúlva edgyűt ennénk s-innánk,</l>
+                <l n="414" xml:id="l.424"><hi rend="bold">D</hi>icsirvén a’ jokat, kik lőttek
+                    vadakat, igen magasztalnank.</l>
+                <l n="415" xml:id="l.425"><hi rend="bold">E</hi>llenben azokrúl s-az oly
+                    vadaszokrúl, puskaiok az kiknek</l>
+                <l n="416" xml:id="l.426"><hi rend="bold">N</hi>em szokot el sűlny, vagy golyobist
+                    vetny odalaban őznek,</l>
+                <l n="417" xml:id="l.427"><hi rend="bold">E</hi>nnyihany formában némellyek
+                    szóltokban sok tőrvént tennének.</l>
+                <l n="418" xml:id="l.428"><hi rend="bold">M</hi>ongyak, Paszti Balint masokat arra
+                    int Kovács seregében,</l>
+                <l n="419" xml:id="l.429"><hi rend="bold">B</hi>ar ne egy garashoz, de pintes
+                    fazékhoz indult jo kedvekben</l>
+                <l n="420" xml:id="l.430"><hi rend="bold">E</hi>gyszer vagy tőbszeris lőjenek még
+                    őkis mingyar hevenyében.</l>
+                <l n="421" xml:id="l.431"><hi rend="bold">R</hi>eáis allottanak, s-nem csak
+                    hailottanak intő beszédére,</l>
+                <l n="422" xml:id="l.432"><hi rend="bold">N</hi>agyon iranyozzak, az pintet
+                    czélozzak, lőnekis nagy bűzre,</l>
+                <l n="423" xml:id="l.433"><hi rend="bold">E</hi>lis lőtték fűlét, alsó s-főlső
+                    szélét s-kőzepét el végre.</l>
+                <l n="424" xml:id="l.434"><hi rend="bold">K</hi>ezgyűnk példáiokra miis s-boszúiokra
+                    lőny meg úiobban,</l>
+                <l n="425" xml:id="l.435"><hi rend="bold">M</hi>ár de bé sététűlt, az nap-is férre
+                    űlt, estve az faluban,</l>
+                <l n="426" xml:id="l.436"><hi rend="bold">A</hi>z Czélt nem lathattyuk, s-nem
+                    iranyozhattyuk setét etczakában.</l>
+                <l n="427" xml:id="l.437"><hi rend="bold">G</hi>yertyának lángjahoz vagy inkáb
+                    hanvához de mostis lőhetny,</l>
+                <l n="428" xml:id="l.438"><app xml:id="app.5">
+                        <lem wit="#KK" xml:id="lem.5"><hi rend="bold">A</hi>nnak vilagánál s-meg
+                            gyútot faklyánál eleget láthatny,</lem>
+                        <rdg wit="#W1" xml:id="rdg.5">s-meg gyűtot</rdg>
+                    </app></l>
+                <l n="429" xml:id="l.439"><hi rend="bold">E</hi>zt pedig probálva s-ekképpen
+                    puskázva szép lészen mulatny.</l>
+                <l n="430" xml:id="l.440"><hi rend="bold">G</hi>yútva van az gyertya, hanvát ki ki
+                    láttya, lojűnk tehat a’ hoz,</l>
+                <l n="431" xml:id="l.441"><hi rend="bold">E</hi>nnékem ugy laczik, minnyajunknak
+                    teczik, mennyűnk puskainkhoz,</l>
+                <l n="432" xml:id="l.442"><hi rend="bold">S</hi>zűkség de azonban, tegyék a’
+                    szobaban az gyertyat az falhoz.</l>
+                <l n="433" xml:id="l.443"><hi rend="bold">E</hi>ppen az pitvarbul vagy az kamarábul
+                    kel de ahoz lőny,</l>
+                <l n="434" xml:id="l.444"><hi rend="bold">G</hi>yertyának faggyúiát s-az gyertya
+                    tartóját nem kel meg tanálny,</l>
+                <l n="435" xml:id="l.445"><hi rend="bold">E</hi>s igy az gyertyának s-az égő
+                    hanvának végét kel czélozny.</l>
+                <l n="436" xml:id="l.446"><hi rend="bold">E</hi>nnek modgyát vette, nem egyszer
+                    kővette, s-nagy kőnnyűnek tartya,</l>
+                <l n="437" xml:id="l.447"><hi rend="bold">S</hi>ok izben probálta, s-ugyan ki
+                    tanúlta, semmibenis haitya,</l>
+                <l n="438" xml:id="l.448"><hi rend="bold">T</hi>udom, Basty János, s-hogy szóm nem
+                        héanos,<note type="critic" xml:id="note.23"> Vö. <persName><hi
+                                rend="smallcaps">Mérei Mihály</hi><idno type="ITIdata"
+                            >Q75307</idno></persName><title><hi rend="italic">Nepomuczeni Szent
+                                Jánosnak élete, halála, tisztelete […]</hi></title>
+                                (<placeName>Nagyszombat<idno type="ITIdata"
+                            >Q14207</idno></placeName><date when="1716">1716</date>) c. imakönyvének
+                        első sorával: „Óh, Szent János, én, héjános bűnös hozzád fordulok […]”
+                        Ugyanilyen kezdősorral <persName>Amadé László<idno type="ITIdata"
+                                >Q237929</idno></persName> is írt verset Szent Jánoshoz
+                                (<bibl><title>Várkonyi Amadé László versei.</title> Kiad., bev. és
+                            jegyz. <hi rend="smallcaps">Négyesy László</hi>. Bp. 1892. [Olcsó
+                            Könyvtár 821–830.] 411. és 415.</bibl> A szerzőség kérdéséről: <bibl><hi
+                                rend="smallcaps">A<supplied>lszeghy</supplied>
+                                    Zs<supplied>olt</supplied></hi>: <title>Egy állítólagos
+                                Amadé-versről.</title><abbr>It</abbr> 1942. 49–50.</bibl></note>
+                    maid meg bizonyittya.</l>
+                <l n="439" xml:id="l.449"><hi rend="bold">J</hi>űjőn tehat elől, s-ő lőjen leg elől
+                    mi fel tet czélunknak</l>
+                <l n="440" xml:id="l.450"><hi rend="bold">S</hi>zintén az lángjában s-lobogo
+                    hanvában az égő gyertyának,</l>
+                <l n="441" xml:id="l.451"><hi rend="bold">Z</hi>ebében teheti, hogy ha el nyerheti
+                    tarsát aranyamnak,</l>
+                <l n="442" xml:id="l.452"><hi rend="bold">T</hi>ettem fel úiobban mellyet mostanában
+                    az leg iob lővőnek,</l>
+                <l n="443" xml:id="l.453"><hi rend="bold">E</hi>l látván magamban, hogy sokan heában
+                    nem őrőmest lőnek,</l>
+                <l n="444" xml:id="l.454"><hi rend="bold">S</hi>ainállyák romlását és el koptatasát
+                    az magok érczének.</l>
+                <l n="445" xml:id="l.455"><hi rend="bold">S</hi>zollot szovaimra, s-fel tet
+                    aranyamra igen vigyaz Basty,</l>
+                <l n="446" xml:id="l.456"><hi rend="bold">E</hi>s én aranyamnak, mint az magáénak,
+                    már helyit keresi.</l>
+                <l n="447" xml:id="l.457"><hi rend="bold">G</hi>ondollya magában, hogy mostis heában
+                    ő asztat nem lesi.</l>
+                <l n="448" xml:id="l.458"><hi rend="bold">E</hi>l sűté puskáiát, nagy hirű
+                        Drómóját,<note type="critic" xml:id="note.24">Drómó – ördögnév; itt a puska
+                        neve</note> s-az Czélt nem hébázta,</l>
+                <l n="449" xml:id="l.459"><hi rend="bold">E</hi>l tet lővésével edgyűt Kűrtősivel
+                    iol megis tanálta,</l>
+                <l n="450" xml:id="l.460"><hi rend="bold">L</hi>angját az gyertyának s-lobogo
+                    hanvának szépen el óltotta.</l>
+                <l n="451" xml:id="l.461"><hi rend="bold">N</hi>ehéz de meg tudnunk, és el
+                    arányoznunk, mellyik lőve jobban,</l>
+                <l n="452" xml:id="l.462"><hi rend="bold">J</hi>ol fel nem vehettyűk, meg sem
+                    ősmérhettyűk, nézzűk csak heában,</l>
+                <l n="453" xml:id="l.463"><hi rend="bold">E</hi>ppen egy modúan, lőttek hasómlóan,
+                    sőt ugyan egy nyomban.</l>
+                <l n="454" xml:id="l.464"><hi rend="bold">R</hi>égen mind készűlők, hogy énis őtűlők
+                    ne lőjek meszére,</l>
+                <l n="455" xml:id="l.465"><hi rend="bold">É</hi>rve az pitvarban s-annak mostanában
+                    hágva kőzőpére,</l>
+                <l n="456" xml:id="l.466"><hi rend="bold">S</hi>tuczomat fel veszem, orczámhozis
+                    tészem, s-maid lővek kedvemre.</l>
+                <l n="457" xml:id="l.467"><hi rend="bold">E</hi>l alut az gyertya, ki ki nyilvan
+                    láttya, azt én el óltottam,</l>
+                <l n="458" xml:id="l.468"><hi rend="bold">B</hi>asti lővésére és Kűrtősiére igen réa
+                    akattam,</l>
+                <l n="459" xml:id="l.469"><hi rend="bold">E</hi>gy áránt s-egy nyomban ővelek
+                    valóban az czélt jol tanáltam.</l>
+                <l n="460" xml:id="l.470"><hi rend="bold">N</hi>agy hamar másokis, lővének tőbbenis,
+                    s-az gyertyát el ólták,</l>
+                <l n="461" xml:id="l.471"><hi rend="bold">E</hi>llenkező képpen sokan ugyan éppen
+                    meszere hibaszták,</l>
+                <l n="462" xml:id="l.472"><hi rend="bold">S</hi>zégyent nagyot valva s-nagy rutúl
+                    hibázva magokat gyaláztak.</l>
+                <l n="463" xml:id="l.473"><hi rend="bold">M</hi>ár tehát azoknak mint slékt<note
+                        type="critic" xml:id="note.25">sleht, selejt</note> puskásoknak az kudarcz
+                    valláshoz</l>
+                <l n="464" xml:id="l.474"><hi rend="bold">E</hi>lég részek lévén, s-kőzőket
+                    elvesztvén fel tett aranyamhoz,</l>
+                <l n="465" xml:id="l.475"><hi rend="bold">G</hi>olyobisok árát s-el lőtt porok kárat
+                    kel vetnyi egy máshoz.</l>
+                <l n="466" xml:id="l.476"><hi rend="bold">T</hi>őbszőr de azonban mi pedig uiobban
+                    hogy ne vetekedgyűnk,</l>
+                <l n="467" xml:id="l.477"><hi rend="bold">A</hi>z leg job lővésrűl s-el intezésérűl
+                    neis kételkedgyűnk,</l>
+                <l n="468" xml:id="l.478"><hi rend="bold">R</hi>endesseb és kisseb, sőt
+                    mesterségesseb s-ujab czelet tegyűnk.</l>
+                <l n="469" xml:id="l.479"><hi rend="bold">T</hi>alam kés éléhez, hai szalhoz, mák
+                    szemhez rendes lészen lőny,</l>
+                <l n="470" xml:id="l.480"><hi rend="bold">A</hi>z gyertyát tanulók, ugy vélem,
+                    hibalók fognak maidan lenny,</l>
+                <l n="471" xml:id="l.481"><hi rend="bold">S</hi>okanis ezentúl az fel tet aranytúl
+                    el fognak bucsuzny.</l>
+                <l n="472" xml:id="l.482"><hi rend="bold">A</hi>z késhez lőttűnkben hibáztak elsőben
+                    sokan annak élét,</l>
+                <l n="473" xml:id="l.483"><hi rend="bold">B</hi>atik Janos s-mégis s-Bossány
+                    Miklosis meg tanalta nyélét.</l>
+                <l n="474" xml:id="l.484"><hi rend="bold">A</hi>zután Csemniczky lőtte
+                    s-Osztroluczky nyelének egy szélét,</l>
+                <l n="475" xml:id="l.485"><hi rend="bold">N</hi>em nyelit, sem hegyitt, de kőzőpe
+                    élét Kűrtősy Bastival,</l>
+                <l n="476" xml:id="l.486"><hi rend="bold">N</hi>agy széppen ellőtte, s-ugyan ki
+                    kereste czélyos jo stuczával,</l>
+                <l n="477" xml:id="l.487"><hi rend="bold">A</hi>zon szerint énis, tudom, hogy
+                    mostanis lőttem jo modgyavál.</l>
+                <l n="478" xml:id="l.488"><hi rend="bold">G</hi>yenge czérna szállal mériűk Gyűrky
+                    Pállal, mellyikűnk lőt jobban,</l>
+                <l n="479" xml:id="l.489"><hi rend="bold">I</hi>gen kőnnyű látnunk, nemis kel
+                    vitaznunk, lővénk egy formában,</l>
+                <l n="480" xml:id="l.490"><hi rend="bold">M</hi>ár tehát harmadszor, lőjűnk
+                    legutolszor mi harman ujobban,</l>
+                <l n="481" xml:id="l.491"><hi rend="bold">E</hi>gy gyenge haiszálhoz, és nem az
+                    gyertyához proballyuk magunkat,</l>
+                <l n="482" xml:id="l.492"><hi rend="bold">L</hi>őjűnk egy mák szemhez, s-ne az kés
+                    éléhez, sűssuk stuczainkat,</l>
+                <l n="483" xml:id="l.493"><hi rend="bold">T</hi>egyűk az haiszálra, kőzepe táiára
+                    eljedzet tárgyunkat.</l>
+                <l n="484" xml:id="l.494"><hi rend="bold">A</hi>z hai szalat Basti s-a’ szerint
+                    Kűrtősy mostan sem hibászta,</l>
+                <l n="485" xml:id="l.495"><hi rend="bold">N</hi>em mesze kőzéphez s-kőzel az mák
+                    szemhez elis szakasztotta,</l>
+                <l n="486" xml:id="l.496"><hi rend="bold">J</hi>eles fő czelűnkett, fel tett mák
+                    szeműnket de mégsem tanálta.</l>
+                <l n="487" xml:id="l.497"><hi rend="bold">L</hi>ővék szerencsére, stuczomat el végre
+                    énis ki sűtőttem,</l>
+                <l n="488" xml:id="l.498"><hi rend="bold">L</hi>őttem az hai szálat s-mák szemet az
+                    alat eppen porrá tettem,</l>
+                <l n="489" xml:id="l.499"><hi rend="bold">I</hi>gen nyilván látny, megis kel
+                    engedny, leg jobban én lőttem,</l>
+                <l n="490" xml:id="l.500">490 <hi rend="bold">K</hi>évánt szerencsémet s-én fris jo
+                    kedvemet mostanság elnyertem,</l>
+                <l n="491" xml:id="l.501"><hi rend="bold">F</hi>eltet aranyamat, mulatva magamat,
+                    magamévá tettem,</l>
+                <l n="492" xml:id="l.502"><hi rend="bold">A</hi>zt de az Kovácsnak s-ő tőb társainak
+                    már az borra kűltem,</l>
+                <l n="493" xml:id="l.503"><hi rend="bold">R</hi>endes lővésemet, mellyel az mák
+                    szemet tettem éppen porrá,</l>
+                <l n="494" xml:id="l.504"><hi rend="bold">A</hi>z meglőt hai szálnál, sőt anny
+                    aranynál bőcsűlőm nagyobra.</l>
+                <l n="495" xml:id="l.505"><hi rend="bold">D</hi>e minthogy már untig lőttűnk és
+                    faradtig, mennyunk szallasunkra,</l>
+                <l n="496" xml:id="l.506"><hi rend="bold">N</hi>ekűnk az Vocsora, mert már tiz az
+                    óra, ugy látom, hogy nem kel,</l>
+                <l n="497" xml:id="l.507"><hi rend="bold">J</hi>o fris vocsoránkat s-őzpastetominkat
+                    hoszu ebédűnkkel</l>
+                <l n="498" xml:id="l.508"><hi rend="bold">L</hi>eggyakortab vesztyűk, és csak kárban
+                    ejtyűk nagy sok lövésinkel.</l>
+                <l n="499" xml:id="l.509"><hi rend="bold">E</hi>gyébárant reggel nagyob serénséggel
+                    az főlőstőkőmre</l>
+                <l n="500" xml:id="l.510"><hi rend="bold">L</hi>ehet egybe gyűlnűnk, s-kőnnyeb most
+                    elmennűnk nyugovo helyűnkre,</l>
+                <l n="501" xml:id="l.511"><hi rend="bold">K</hi>el tehat io álmot, csendes
+                    nyugodalmot kévannunk el végre.</l>
+                <l n="502" xml:id="l.512"><hi rend="bold">E</hi>gymástúl elmenve s-io éczakát véve
+                    akadánk Dudásra,</l>
+                <l n="503" xml:id="l.513"><hi rend="bold">Ű</hi>res az palaczkja, s-még bomlot
+                    puskaia, nincsen pora s-bora,</l>
+                <l n="504" xml:id="l.514"><hi rend="bold">D</hi>e ő galibaiat s-minden nyavolyaját
+                    bizzuk az Kovácsra.</l>
+                <l n="505" xml:id="l.515"><hi rend="bold">V</hi>endégellye tarsát s-vadaszó paitasát
+                    Kusinczky komankal,</l>
+                <l n="506" xml:id="l.516"><hi rend="bold">Ő</hi>ket őszve gyűtve s-egyűvé űltetve az
+                    tőb puskasokkal,</l>
+                <l n="507" xml:id="l.517"><hi rend="bold">S</hi>zollyon haitasinkrúl és
+                    vadaszatunkrúl Pál s-Jakab gazdákkal.</l>
+                <l n="508" xml:id="l.518"><hi rend="bold">S</hi>zovokat meg értve s-teczéseket véve
+                    io rendelést tehet,</l>
+                <l n="509" xml:id="l.519"><hi rend="bold">E</hi>s minket hainalban, legyűnk bár az
+                    ágyban, szabadon fel kőlthet,</l>
+                <l n="510" xml:id="l.520"><hi rend="bold">G</hi>yűtheti seregre haitokat reggelre,
+                    s-nagy jo készen lehet.</l>
+                <l n="511" xml:id="l.521"><hi rend="bold">E</hi>zt mind elrendelve s-leis vetkőződve
+                    lefekszem ágyamra,</l>
+                <l n="512" xml:id="l.522"><hi rend="bold">T</hi>udom, van Pécsinek és Oláh
+                    Ferencznek gondgya stuczaimra,</l>
+                <l n="513" xml:id="l.523"><hi rend="bold">T</hi>iszticsa meg még ma azokat az Csima,
+                    s-ne hagya holnapra.</l>
+                <l n="514" xml:id="l.524"><hi rend="bold">E</hi>n már veszem eszre, jűt álom
+                    szememre, majd el kel alunnom,</l>
+                <l n="515" xml:id="l.525"><hi rend="bold">K</hi>őnnyeb de melegben, mintsemhogy
+                    hidegben ennékem nyugodnom,</l>
+                <l n="516" xml:id="l.526"><hi rend="bold">J</hi>o kőpőnyegemet s-Deczember mentémet
+                    hát magamra vonnom.</l>
+                <l n="517" xml:id="l.527"><hi rend="bold">N</hi>em félek az dértűl s-fagylaló
+                    hidegtűl December mentémmel,</l>
+                <l n="518" xml:id="l.528"><hi rend="bold">T</hi>űznél mert melegeb, legyen bár
+                    hidegeb a’ fagyon az jegnél,</l>
+                <l n="519" xml:id="l.529"><hi rend="bold">V</hi>an sokszor hiremmel, vagyok mert
+                    mentémmel hol jégnél s-hol tűznél.</l>
+                <l n="520" xml:id="l.530"><hi rend="bold">E</hi>lhagyom már szómat, és áluvasomat
+                    fogom el kezdeny,</l>
+                <l n="521" xml:id="l.531"><hi rend="bold">P</hi>islogo szememet nyugtatva testemet
+                    beis kesztem hunny,</l>
+                <l n="522" xml:id="l.532"><hi rend="bold">E</hi>ppen mind hainalig vagy ugyan
+                    virrattig fogok maid alunny.</l>
+                <l n="523" xml:id="l.533"><hi rend="bold">D</hi>e el jűt az Kovács, talam az
+                    kalapacs akadot kezében,</l>
+                <l n="524" xml:id="l.534"><hi rend="bold">J</hi>ó idein zőrgett, s-engemis serkenget
+                    aito zőrgésében,</l>
+                <l n="525" xml:id="l.535"><hi rend="bold">G</hi>oromba zőrgése s-dőrőmbőlőzése ugyan
+                    cseng fűlemben.</l>
+                <l n="526" xml:id="l.536"><hi rend="bold">L</hi>átom, hogy most másra, sem az
+                    trombitásra nem akarta bizny</l>
+                <l n="527" xml:id="l.537"><hi rend="bold">E</hi>n fel kőltésemet, serkentvén engemet
+                    végben keszte vinny,</l>
+                <l n="528" xml:id="l.538"><hi rend="bold">N</hi>em lehet miatta, minthogy nincsen
+                    nyugta, már tovab alunny.</l>
+                <l n="529" xml:id="l.539"><hi rend="bold">A</hi>lmombúl serkente, s-agyambul fel
+                    kőlte, kesztem már őltőzny,</l>
+                <l n="530" xml:id="l.540"><hi rend="bold">Z</hi>ubbonyomat véve s-dolmanyom fel
+                    őltve bé fogom gombolny,</l>
+                <l n="531" xml:id="l.541"><hi rend="bold">R</hi>estséget se másban, se pedig
+                    magamban nem szoktam kedvelny.</l>
+                <l n="532" xml:id="l.542"><hi rend="bold">E</hi>zennel kel tehát, mert az óra már
+                    hat, sietnem vadaszny,</l>
+                <l n="533" xml:id="l.543"><hi rend="bold">S</hi>zűkség de azonban, mentem hamariaban
+                    főlőstőkőmőzny,</l>
+                <l n="534" xml:id="l.544"><hi rend="bold">T</hi>egnap minthogy estve vocsorat nem
+                    éve kezdettem éhezny.</l>
+                <l n="535" xml:id="l.545"><app xml:id="app.6">
+                        <lem wit="#KK" xml:id="lem.6"><hi rend="bold">S</hi>nelleré<note
+                                type="critic" xml:id="note.26">Sneller – puskaalkatrész</note>
+                            stuczomnak s-rantoja puskamnak de még leg elsőben</lem>
+                        <rdg wit="#W1" xml:id="rdg.6">s-rantoját</rdg>
+                    </app></l>
+                <l n="536" xml:id="l.546"><hi rend="bold">E</hi>gy kis igazitást és meg
+                    tartosztatást kéván itten helyben,</l>
+                <l n="537" xml:id="l.547"><hi rend="bold">G</hi>yors csapontasával és pattanasával
+                    ne hozzon szégyemben.</l>
+                <l n="538" xml:id="l.548"><hi rend="bold">N</hi>em kel az hai szálhoz, hanem az
+                    vadakhoz lőnem vadaszatban,</l>
+                <l n="539" xml:id="l.549"><hi rend="bold">E</hi>l fuihato sneller semmi iót nemis
+                    nyer hamar csapontában,</l>
+                <l n="540" xml:id="l.550"><hi rend="bold">K</hi>őnnyű de járását, venny gyors
+                    ugrasát meg tartosztátásban.</l>
+                <l n="541" xml:id="l.551"><hi rend="bold">E</hi>rczetis ujobban kel tennem
+                    puskámban, mely jo tűzet adgyon,</l>
+                <l n="542" xml:id="l.552"><hi rend="bold">S</hi>űlt tegnap mák szemhez, de ma vad
+                    szivéhez sűllyőn, s-ne hazudgyon,</l>
+                <l n="543" xml:id="l.553"><hi rend="bold">H</hi>etfőn Csőtőrtőkőt, napokat
+                    s-űdőkőtt, se Reteszt ne mondgyon.</l>
+                <l n="544" xml:id="l.554"><hi rend="bold">E</hi>gyűnk, s-falatozzunk, és ne
+                    múlatozzunk, mennyűnk maid csuportra,</l>
+                <l n="545" xml:id="l.555"><hi rend="bold">N</hi>em kétlem, Csorgalynak s-jobban Kis
+                    Janosnak van az Csobolyokra</l>
+                <l n="546" xml:id="l.556"><hi rend="bold">I</hi>gen nagy jo gondgya, mivelhogy jol
+                    tudgya, lesz szűkség azokra.</l>
+                <l n="547" xml:id="l.557"><hi rend="bold">E</hi>l indulasunkban Múr Lőrincz azonban
+                    keszte jelenteny,</l>
+                <l n="548" xml:id="l.558"><hi rend="bold">L</hi>abai az hegyre és meredek bérczre
+                    nem akarnak hágny,</l>
+                <l n="549" xml:id="l.559"><hi rend="bold">E</hi>ppen eliedet, már beis rekedet, maid
+                    el fogh állany.</l>
+                <l n="550" xml:id="l.560"><hi rend="bold">S</hi>tuczais meg bomlot, s-az láncza
+                    elromlot, egy lővést sem tehet,</l>
+                <l n="551" xml:id="l.561"><hi rend="bold">N</hi>agy horút van raita, az hideg át
+                    járta, kőhegve kárt tehet,</l>
+                <l n="552" xml:id="l.562"><hi rend="bold">E</hi>rre valo nézve szabadtsagot nyerve
+                    talam haza mehet,</l>
+                <l n="553" xml:id="l.563"><hi rend="bold">K</hi>ész jo vocsorával s-meleg, jo
+                    szobaval fog bennűnkőt várny,</l>
+                <l n="554" xml:id="l.564"><hi rend="bold">M</hi>agára valallya, kedvűnket tanallya,
+                    s-jolis fog tartany,</l>
+                <l n="555" xml:id="l.565"><hi rend="bold">J</hi>obis az konyhára és az vocsorára
+                    nekie vigyázny.</l>
+                <l n="556" xml:id="l.566"><hi rend="bold">N</hi>agy sok mentségerűl, se kőhegésérűl
+                    semmit nem szolottam,</l>
+                <l n="557" xml:id="l.567"><hi rend="bold">D</hi>e igen jo szivel s-io nagy őrőmével
+                    gazdamnak vallottam,</l>
+                <l n="558" xml:id="l.568"><hi rend="bold">E</hi>s ugyan oly moddal Komjati Daviddal
+                    haza bocsatottam.</l>
+                <l n="559" xml:id="l.569"><hi rend="bold">N</hi>ehez hágojára s-nagy magos partyára
+                    az hegynek feljutánk,</l>
+                <l n="560" xml:id="l.570"><hi rend="bold">N</hi>agy kőnnyen Losonczot, Szikszot és
+                    Miskoczot onnand mind el látánk,</l>
+                <l n="561" xml:id="l.571"><hi rend="bold">E</hi>l néztűk az Dobrát s-az fekete
+                    Mátrát, s-magunkat nyugtátánk.</l>
+                <l n="562" xml:id="l.572"><hi rend="bold">M</hi>ég pihenésűnkrűl és az hegy tetőrűl
+                    mentúnk altasunkban,</l>
+                <l n="563" xml:id="l.573"><hi rend="bold">Ű</hi>gető futását, meszére jarasát hállám
+                    haitasunkban</l>
+                <l n="564" xml:id="l.574"><hi rend="bold">A</hi>z haitot vadaknak, és hogy réam nem
+                    futnak, vém észre magamban.</l>
+                <l n="565" xml:id="l.575"><hi rend="bold">L</hi>áttamis az alatt s-tavúlrul egy
+                    nyúlat itten igen futny,</l>
+                <l n="566" xml:id="l.576"><hi rend="bold">K</hi>űrtősy Istvánra és Istok fiára nagy
+                    sebessen menny,</l>
+                <l n="567" xml:id="l.577"><hi rend="bold">A</hi>zt Istok hibászta, de István tanálta
+                    futtaban meg lőny.</l>
+                <l n="568" xml:id="l.578"><app xml:id="app.7">
+                        <lem wit="#KK" xml:id="lem.7"><hi rend="bold">L</hi>őve őzet főben őreája
+                            mentében az másik haitásban,</lem>
+                        <rdg wit="#W1" xml:id="rdg.7">Lőve egy őzetis főben</rdg>
+                    </app></l>
+                <l n="569" xml:id="l.579"><hi rend="bold">M</hi>ást pediglen nyakon, vagy hogy inkab
+                    torkon lőve futasában,</l>
+                <l n="570" xml:id="l.580"><hi rend="bold">A</hi>z mely vad ő reá fut, én konyhámra
+                    reá jút, mert nem lő hiaban.</l>
+                <l n="571" xml:id="l.581"><hi rend="bold">T</hi>analt fel ugrani, hamar meg fekűnni
+                    egy nyúl azon kőzben,</l>
+                <l n="572" xml:id="l.582"><hi rend="bold">O</hi>sztroluczky látta, de Basty tanalta
+                    lőny fekésében,</l>
+                <l n="573" xml:id="l.583"><hi rend="bold">S</hi>űlt minthogy Bastinak hamaréb, mint
+                    annak puskaja kezében.</l>
+                <l n="574" xml:id="l.584"><hi rend="bold">S</hi>zintén az bérczen ál nagy fent
+                    Kűrtősy Pál, s-egy szép rókat lőve,</l>
+                <l n="575" xml:id="l.585"><hi rend="bold">A</hi>z én szerencsémet, talam hogy mák
+                    szemet lőttem tegnap estve,</l>
+                <l n="576" xml:id="l.586"><hi rend="bold">G</hi>yanakszom, ellőttem, s-igen
+                    eleitettem magamtúl el vesztve.</l>
+                <l n="577" xml:id="l.587"><hi rend="bold">A</hi>vagy szerencsének és az meg lőtt
+                    késnek éle el meczette,</l>
+                <l n="578" xml:id="l.588"><hi rend="bold">T</hi>artya vagy továbra, s-csupan egy hai
+                    szálra tette s-fűggesztette,</l>
+                <l n="579" xml:id="l.589"><hi rend="bold">S</hi>ok űdőtűl fogva vagy eppen el rontva
+                    már semmise tette.</l>
+                <l n="580" xml:id="l.590"><hi rend="bold">Z</hi>ur zavar ujobban minthogy valojaban
+                    nagy rútúl tamadá,</l>
+                <l n="581" xml:id="l.591"><hi rend="bold">Ű</hi>dőm mulatcsága s-kedvem vigassága
+                    tűlem el maradá,</l>
+                <l n="582" xml:id="l.592"><hi rend="bold">K</hi>alauz vezérem s-jó vadász Mesterem
+                    veszélyben akadá.</l>
+                <l n="583" xml:id="l.593"><hi rend="bold">S</hi>zaporán sietnék háza felé, s-mennék,
+                    hogy ha el mehetnék,</l>
+                <l n="584" xml:id="l.594"><hi rend="bold">E</hi>n de már házámra s-előtti sorsomra
+                    reá sem tanálhatnék,</l>
+                <l n="585" xml:id="l.595"><hi rend="bold">G</hi>ondolom, hogy ottan vadon erdőt
+                    mostan s-fel nyőtt kórót látnék.</l>
+                <l n="586" xml:id="l.596"><hi rend="bold">E</hi>l tőlt az egy óra, mert már Munkács
+                    Vára tűnek az elmémben,</l>
+                <l n="587" xml:id="l.597"><hi rend="bold">S</hi>zokot vadaszátom hiaban ohaitom
+                    Bereg Vármegyében,</l>
+                <l n="588" xml:id="l.598"><hi rend="bold">K</hi>őrűl vet az inség, és az keserűség
+                    vadasz én szivemben.</l>
+                <l n="589" xml:id="l.599"><hi rend="bold">E</hi>l hittem, de ittis lehet még
+                    mostanis, mint vadon erdőben,</l>
+                <l n="590" xml:id="l.600"><hi rend="bold">R</hi>abságos űgyemben s-annak ő
+                    szennyében, mint sűrű tővisben,</l>
+                <l n="591" xml:id="l.601"><hi rend="bold">Ű</hi>dvőssegessebben, sokkalis kőnnyebben
+                    tűrö szenvedésben</l>
+                <l n="592" xml:id="l.602"><hi rend="bold">L</hi>elkem isméretit s-az magam eletit
+                    vadasznom, s-visgálnom,</l>
+                <l n="593" xml:id="l.603"><hi rend="bold">N</hi>agy jo reménségben s-lelki
+                    csendességben űdőmet múlatnom,</l>
+                <l n="594" xml:id="l.604"><hi rend="bold">J</hi>ob de bizony nékem keseregve vétkem
+                    az Istent imadnom.</l>
+            </div>
+        </body>
+    </text>
+</TEI>
