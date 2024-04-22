@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">ROZSNYAI DÁVID</title>
+                <title type="main" key="supplement" n="2">ROZSNYAI DÁVID</title>
                 <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
                             type="ITIdata">Q147413</idno></persName><persName><surname>S.
                             Sárdi</surname><forename>Margit</forename><idno type="ITIdata"

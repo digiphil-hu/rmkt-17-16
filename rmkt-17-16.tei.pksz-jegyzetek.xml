@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Petrőczy Kata Szidónia</title>
+                <title type="main" key="supplement" n="4">Petrőczy Kata Szidónia</title>
                 <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
                             type="ITIdata">Q147413</idno></persName><persName><surname>S.
                             Sárdi</surname><forename>Margit</forename><idno type="ITIdata"

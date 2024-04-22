@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Előszó</title>
+                <title type="main" key="introduction" n="1">Előszó</title>
                 <author><persName><surname>Komlovszki</surname><forename>Tibor</forename><idno
                             type="ITIdata">Q147413</idno></persName><persName><surname>S.
                             Sárdi</surname><forename>Margit</forename><idno type="ITIdata"
