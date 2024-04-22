@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">88.</title>
-                <title type="main">Minékünk meg halnunk kel ebben az helyben</title>
+                <title key="body" n="88" type="main">Minékünk meg halnunk kel ebben az
+                    helyben</title>
                 <author><persName><surname>Koháry</surname><forename>István</forename><idno
                             type="ITIdata">Q46344</idno></persName></author>
             </titleStmt>

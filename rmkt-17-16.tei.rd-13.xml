@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">13.</title>
-                <title type="main">[A HOROLOGIUM TURCICUM VERSBETÉTEI]</title>
+                <title key="body" n="13" type="main">[A HOROLOGIUM TURCICUM VERSBETÉTEI]</title>
                 <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
                             type="ITIdata">Q60007</idno></persName></author>
             </titleStmt>

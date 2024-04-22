@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">29.</title>
-                <title type="main">(Az ezer hat százban s-nyólczvan harmadikban...)</title>
+                <title key="body" n="29" type="main">(Az ezer hat százban s-nyólczvan
+                    harmadikban...)</title>
                 <author><persName><surname>Koháry</surname><forename>István</forename><idno
                             type="ITIdata">Q46344</idno></persName></author>
             </titleStmt>

@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">50.</title>
-                <title type="main">(A’ldgyon, magasztallyon, szentséges háromság...)</title>
+                <title key="body" n="50" type="main">(A’ldgyon, magasztallyon, szentséges
+                    háromság...)</title>
                 <author><persName><surname>Koháry</surname><forename>István</forename><idno
                             type="ITIdata">Q46344</idno></persName></author>
             </titleStmt>

@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">146.</title>
-                <title type="main">Harmadik könyv</title>
+                <title key="body" n="146" type="main">Harmadik könyv</title>
                 <author><persName><surname>Kőszeghy</surname><forename>Pál</forename><idno
                             type="ITIdata">Q54288</idno></persName></author>
             </titleStmt>

@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">123.</title>
-                <title type="main">Más ének (Gondolatim árja bus Fejemre áradot...)</title>
+                <title key="body" n="123" type="main">Más ének (Gondolatim árja bus Fejemre
+                    áradot...)</title>
                 <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
                             type="ITIdata">Q149557</idno></persName></author>
             </titleStmt>

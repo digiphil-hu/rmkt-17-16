@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">14.</title>
-                <title type="main">[A TESTAMENTUM VERSBETÉTEI]</title>
+                <title key="body" n="14" type="main">[A TESTAMENTUM VERSBETÉTEI]</title>
                 <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
                             type="ITIdata">Q60007</idno></persName></author>
             </titleStmt>

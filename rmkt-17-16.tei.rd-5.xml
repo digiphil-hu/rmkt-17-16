@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">5.</title>
-                <title type="main">(Vajha Szent Istvannak Bocskai Istvánnya...)</title>
+                <title key="body" n="5" type="main">(Vajha Szent Istvannak Bocskai
+                    Istvánnya...)</title>
                 <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
                             type="ITIdata">Q60007</idno></persName></author>
             </titleStmt>

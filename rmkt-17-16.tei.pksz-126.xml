@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">126.</title>
-                <title type="main">Mas (Mi lehet világba már annál nagyob kin...)</title>
+                <title key="body" n="126" type="main">Mas (Mi lehet világba már annál nagyob
+                    kin...)</title>
                 <author><persName><surname>Petrőczy</surname><forename>Kata Szidónia</forename><idno
                             type="ITIdata">Q149557</idno></persName></author>
             </titleStmt>
@@ -184,12 +185,11 @@
                             <lem wit="#KK" xml:id="lem.9">És hogy meg nem szánnja senki
                                 panaszimot,</lem>
                             <rdg wit="#W1" xml:id="rdg.9"><del corresp="copyist">hogy ő</del><add
-                                    corresp="copyist" type="corr">hogy </add>
-                                <add corresp="copyist" type="insert">meg</add><note type="critic"
-                                    xml:id="note.1">A másoló előbb <hi rend="italic">ő .ő.</hi>
-                                    betűket írt le, majd az <hi rend="italic">ő</hi>-t törölte, a
-                                        <hi rend="italic">meg</hi>-et a többi betű helyére
-                                    írta.</note></rdg>
+                                    corresp="copyist" type="corr">hogy </add><add corresp="copyist"
+                                    type="insert">meg</add><note type="critic" xml:id="note.1">A
+                                    másoló előbb <hi rend="italic">ő .ő.</hi> betűket írt le, majd
+                                    az <hi rend="italic">ő</hi>-t törölte, a <hi rend="italic"
+                                        >meg</hi>-et a többi betű helyére írta.</note></rdg>
                         </app></l>
                     <l n="32" rend="level_2" xml:id="l.32">Jai, fái szomoru szivem,</l>
                     <l n="33" xml:id="l.33">Csak néked, Ur Isten, szőrnyű faidalmimot</l>

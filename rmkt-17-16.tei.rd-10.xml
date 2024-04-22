@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">10.</title>
-                <title type="main">(Hired vala nagyobb Világon, mint eröd...)</title>
+                <title key="body" n="10" type="main">(Hired vala nagyobb Világon, mint
+                    eröd...)</title>
                 <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
                             type="ITIdata">Q60007</idno></persName></author>
             </titleStmt>
@@ -394,9 +395,8 @@
                     <l n="14" xml:id="l.14"><app xml:id="app.14">
                             <lem wit="#KK" xml:id="lem.14">S A’ Pataki tanács Barkoczi
                                 Lászlonál,</lem>
-                            <rdg wit="#K6aI #K-II #K-IIa #K-IIc" xml:id="rdg.66">
-                                <note type="critic" xml:id="note.10"><hi rend="italic">S
-                                    </hi>hiányzik</note></rdg>
+                            <rdg wit="#K6aI #K-II #K-IIa #K-IIc" xml:id="rdg.66"><note type="critic"
+                                    xml:id="note.10"><hi rend="italic">S </hi>hiányzik</note></rdg>
                         </app></l>
                     <l n="15" xml:id="l.15"><app xml:id="app.15">
                             <lem wit="#KK" xml:id="lem.15">Kész veled elmenni, életével kinál,</lem>

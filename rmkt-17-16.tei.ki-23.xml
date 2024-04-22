@@ -4,10 +4,10 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">23.</title>
-                <title type="main">Embernek ételében mértékletesnek kel lenni, nemis jó magunkat
-                    terhelni, tobzódva dösölnünk, mivel egésségünknek, lelkünknekis olykor
-                    sérelmével vagyon leg gyakortáb, majdan inkáb mindenkor nagy vig lakásunknak
-                    vége</title>
+                <title key="body" n="23" type="main">Embernek ételében mértékletesnek kel lenni,
+                    nemis jó magunkat terhelni, tobzódva dösölnünk, mivel egésségünknek,
+                    lelkünknekis olykor sérelmével vagyon leg gyakortáb, majdan inkáb mindenkor nagy
+                    vig lakásunknak vége</title>
                 <author><persName><surname>Koháry</surname><forename>István</forename><idno
                             type="ITIdata">Q46344</idno></persName></author>
             </titleStmt>

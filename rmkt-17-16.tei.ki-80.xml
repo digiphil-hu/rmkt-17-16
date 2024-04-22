@@ -4,9 +4,10 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">80.</title>
-                <title type="main">Az halálnak horgával s-hálóiával, nylával, kézyával s-kaszáiával
-                    szivünket bágyasztva, keseritve s-foitogatva, igen keservessen epesztő, sétáló
-                    iárásarúl ez aláb megirt szóknak bőtüire szerzet versek</title>
+                <title key="body" n="80" type="main">Az halálnak horgával s-hálóiával, nylával,
+                    kézyával s-kaszáiával szivünket bágyasztva, keseritve s-foitogatva, igen
+                    keservessen epesztő, sétáló iárásarúl ez aláb megirt szóknak bőtüire szerzet
+                    versek</title>
                 <author><persName><surname>Koháry</surname><forename>István</forename><idno
                             type="ITIdata">Q46344</idno></persName></author>
             </titleStmt>

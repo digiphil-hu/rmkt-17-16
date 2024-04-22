@@ -4,7 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">11.</title>
-                <title type="main">(Rex, rege cum Lege, hogy légy Rex igazán...)</title>
+                <title key="body" n="11" type="main">(Rex, rege cum Lege, hogy légy Rex
+                    igazán...)</title>
                 <author><persName><surname>Rozsnyai</surname><forename>Dávid</forename><idno
                             type="ITIdata">Q60007</idno></persName></author>
             </titleStmt>
